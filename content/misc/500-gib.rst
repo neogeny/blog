@@ -1,0 +1,117 @@
+500 GiB
+=======
+
+:date: 2010-11-28
+:slug: 500-gib
+:author: Apalala
+
+.. :tags:
+.. :category:
+.. :summary:
+
+
+Los discos duros de un
+`terabyte <http://es.wikipedia.org/wiki/Terabyte>`__ (1000
+`gigabytes <http://es.wikipedia.org/wiki/Gigabyte>`__) están aquí. Su
+mayor capacidad, mayor velocidad, y su relación precio/densidad de
+información hacen tentador el usarlos para resolver el perenne problema
+de falta de espacio en este universo digital cada vez más multimedios.
+
+Pero... los discos duros son los componentes menos duraderos en un
+computador. El desgaste en sus partes mecánicas y la fatiga que la
+constante realineación magnética produce en sus sustratos metálicos
+hacen que, a diferencia de los componentes cien por ciento electrónicos,
+la vida de los discos duros esté contada en días o en número de lecturas
+y escrituras.
+
+El riesgo de falla única al que nos exponemos con un disco duro es
+proporcional a la densidad de información que alberga, ya que a mayor
+densidad la pérdida de información ante una falla pequeña es
+potencialmente mayor.
+
+Los discos duros de altísimas densidades son muy útiles en
+aplicaciones que requieren altos volúmenes de datos y que pueden
+asumir que los discos son descartables a corto plazo, como es el caso de
+las *granjas de servidores* requeridas para alojar servicios como
+`YouTube. <http://www.youtube.com>`__
+
+Para un usuario convencional, es mejor resolver el problema de fatla
+de espacio con una estrategia más convencional: **más discos duros**.
+Cada disco duro que ponemos en uso aumenta la vida total de los demás
+discos al liberarlos de trabajo, y sirve de resguardo contra fallas si
+mantenemos copias de la misma información en más de un disco. Hoy en día
+es posible conseguir a muy buen precio discos internos y externos (para
+las laptos) de capacidades entre 320 y 500
+`GB <http://es.wikipedia.org/wiki/Gigabyte>`__.
+
+¿Cuándo adquirir un nuevo disco duro?
+-------------------------------------
+
+Es hora de adquirir un nuevo disco duro cuando uno se encuentra
+moviendo carpetas entre discos lógicos (particiones) porque ninguno de
+ellos tiene suficiente espacio para lo que uno desea hacer en el
+momento. También es bueno comenzar a pensar en un nuevo disco si el
+actual está por cumplir los dos años de uso.
+
+¿Cómo configurar el disco nuevo?
+--------------------------------
+
+La estrategia que sugiero para incorporar un nuevo disco duro es una
+que ha funcionado muy bien por casi dos décadas. De partida se asume que
+el nuevo disco duro tiene mayor capacidad que el disco actual.
+
+#. Instalar el nuevo disco como disco principal y pasar el disco viejo a
+   secundario. En el caso de laptops, usar un adaptador para conectar el
+   disco viejo de forma externa.
+#. Instalar el sistema operativo preferido (Windows, Linux, OSX, etc.)
+   en el nuevo disco permitiéndole al instalador decidir cómo
+   particionarlo.
+#. Realizar la configuración inicial e instalar los programas y
+   utilidades deseados. Con frecuencia encontramos en este momento que
+   no tenemos todos los instaladores necesarios. Es el momento de
+   corregir esa situación asumiéndola como *limpieza general bianual*.
+#. Copiar el contenido completo del disco viejo a una carpeta
+   **/Archivo** en el disco nuevo. Es un respaldo total bastante rápido
+   aunque no instantáneo.
+#. Mover archivos y carpetas seleccionados desde \ **/Archivo** al lugar
+   deseado en el disco nuevo.
+#. Eliminar los ejecutables (sistema operativo y programas)
+   de \ **/Archivo**.
+
+Con esos pasos iniciales se debe sentir que se tiene una versión
+*mejorada* de la configuración que se tenía antes. Una vez que todo esté
+en su lugar y el disco nuevo haya tenido tiempo de demostrar su
+confiabilidad (no menos que unas cuantas semanas), se puede comenzar a
+optimizar la distribución de archivos en los discos.
+
+#. Borrar todo lo reemplazable de \ **/Archivo**. No se consideran
+   reemplazables nada que sea irrepetible, como las fotografías, ni nada
+   que haya tomado tiempo seleccionar u ordenar, como la selección de
+   música.
+#. Eliminar rastros dejados por los programas como archivos de
+   configuración, respaldos, y caches.
+
+Eso debería dejar más que suficiente espacio de trabajo en el nuevo
+disco duro.
+
+En adelante
+-----------
+
+A partir de este momento, a manera de hábito compulsivo, deben
+copiarse los nuevos proyectos de trabajo y personales desde el disco
+nuevo a un lugar razonable en el disco viejo (un buen momento para
+hacerlo es cada vez que se termina una sesión ante el computador).
+
+Hay que siempre usar el disco nuevo como espacio de trabajo,
+experimentación, y juego. Si comienza a necesitarse más espacio en el
+disco nuevo, pueden borrarse algunas cosas de \ **/Archivo**, pero si
+eso se comienza a hacer recurrente lo mejor es comenzar a pensar en
+adquirir todavía otro disco duro (posiblemente pasando el disco más
+viejo de todos a otro uso no-crítico,  como experimentación).
+
+Estos pasos  permiten obtener espacio de trabajo y conveniencia, y
+reducen la probabilidad de perder información o tiempo valioso
+escarbando en los respaldos, pero son sólo una parte de lo que se
+requiere en una estrategia de contingencia basada en mitigación de
+riesgos. En otra oportunidad escribiré sobre qué es exactamente un *buen
+sistema de respaldos*.

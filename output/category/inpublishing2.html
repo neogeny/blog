@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>Neogeny - inpublishing</title>
+<link href="../theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+
+  <!--[if IE]>
+  <style type="text/css">
+  .twoColFixRtHdr #mainContent { zoom: 1; }
+  </style>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<div id="container">
+
+  <div id="header">
+      <img align=left src="../theme/images/header.gif">
+  <h1><a href="../index.html">Neogeny</h1>
+<h2>Thinking things over</h2>
+  </div><!-- end #header -->
+
+  <div id="topMenu">
+
+    <ul>
+    	<li><a href="../index.html">Home</a></li>
+        <li>&ndash;</li>
+        <li><a href="../archives.html">Archives</a></li>
+
+    </ul>
+
+  </div><!-- end #topMenu -->
+
+  <div id="sidebar">
+    <ul>
+	<li>
+            <h3>categories</h3>
+            <ul>
+		     <li ><a href="../category/aisthetikos.html">aisthetikos</a></li>
+		     <li ><a href="../category/caudex.html">caudex</a></li>
+		     <li ><a href="../category/dolcevita.html">dolcevita</a></li>
+		     <li ><a href="../category/ehoy.html">ehoy</a></li>
+		     <li ><a href="../category/ethikos.html">ethikos</a></li>
+		     <li ><a href="../category/grako.html">grako</a></li>
+		     <li class="active"><a href="../category/inpublishing.html">inpublishing</a></li>
+		     <li ><a href="../category/mens.html">mens</a></li>
+		     <li ><a href="../category/misc.html">misc</a></li>
+		     <li ><a href="../category/parole.html">parole</a></li>
+		     <li ><a href="../category/penguins.html">penguins</a></li>
+		     <li ><a href="../category/politikos.html">politikos</a></li>
+		     <li ><a href="../category/snakes.html">snakes</a></li>
+	    </ul>
+	</li>
+    </ul>
+  </div><!-- end #sidebar -->
+
+  <div id="mainContent">
+
+
+    <div class="blogItem">
+
+      <h2><a href="../snake-charming.html">Snake&nbsp;charming</a></h2>
+      <h3>Mon 19 June 2000</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Like the reptile it&#8217;s named after, Python squishes problems little by&nbsp;little.</em></p>
+<p>Today I spent the whole afternoon with a snake. I&#8217;ve known Python for
+several years now &#8212; the oldest version of Python on my hard drive is v.
+1.3, dated March 1996 &#8212; and I&#8217;ve studied and played with the language
+several times. But it wasn&#8217;t until today that I actually tried to do
+something useful with&nbsp;it.</p>
+<p>The task at hand? I wanted to lay out the articles I&#8217;ve written during
+the last couple of months in an <span class="caps">HTML</span> format that is consistent with that
+of the rest of my Web site. My site is a modest one, and producing the
+few pages of <span class="caps">HTML</span> in it is fairly easy, even by hand. But doing the same
+formatting for a dozen or so articles (and the many more to come), even
+with a <span class="caps">WISIWYG</span> editor, is the kind of task that makes us lazy
+programmers start thinking about a better way: writing a&nbsp;program.</p>
+<p>Figuring out that the formatting of the articles had to be automated
+was the easy part. Deciding on how to automate the process was more
+difficult. It&#8217;s not that I lacked a tool to do the job, but rather that
+I didn&#8217;t know the right tool to use. One of the mantras of programming
+is &quot;When in doubt, start hacking,&quot; so I did. After some experimenting
+with Perl, <span class="caps">SED</span>, and <span class="caps">AWK</span>, I remembered Python, a programming language
+often touted as capable of accomplishing everything easily. I hacked my
+way out of this problem with Python, and I wasn&#8217;t&nbsp;disappointed.</p>
+<div class="section" id="a-breed-apart">
+<h2>A breed&nbsp;apart</h2>
+<p>Python is an interpreted, interactive, object-oriented programming
+language that offers advanced features like modules, exception handling,
+and classes. Python&#8217;s syntax is simple, yet the native support for
+first-order functions (functions you can assign to variables or pass as
+parameters), lists, tuples, and maps (associative arrays) make it quite
+powerful. The compiler/interpreter and libraries are extensible, very
+portable, and open source. The language has been ported to the most
+diverse platforms, including several brands of Unix, Linux, MacOS,
+<span class="caps">MS</span>-<span class="caps">DOS</span>, Windows, and <span class="caps">OS</span>/2. Python libraries support everything from
+string handling to system calls to concurrency to Internet programming
+&#8212; including sockets, <span class="caps">HTTP</span> servers and clients, and <span class="caps">HTML</span> and <span class="caps">XML</span> parsing
+and&nbsp;formatting.</p>
+<p>The greatest strength of Python is that it lets you think big, yet
+start small. Using Python, you can expand a four- line procedural or
+functional program into a full- blown web of concurrently interacting
+objects. Like the snake, Python can squish a problem, little by&nbsp;little.</p>
+</div>
+<div class="section" id="getting-the-snake-out-of-the-basket">
+<h2>Getting the snake out of the&nbsp;basket</h2>
+<p>The simplest automated scheme I could think of was to strip the
+original articles of everything but the basic <span class="caps">HTML</span> and embed them into a
+pre-formatted template, much like is done with server-side includes. I
+wrote the template and placed the tag right in the middle of it. I
+launched a browser with the Python <span class="caps">HTML</span> documentation, opened a console
+window, and started&nbsp;hacking.</p>
+<p>To begin, I needed to open the template and target files. Python is an
+eclectic language; it borrows concepts from procedural, functional, and
+object-oriented programming languages. Whatever seems to work well,
+Python does. According to the Python documentation, to open a file I
+just needed to call the open&nbsp;function:</p>
+<pre class="literal-block">
+template = open(&quot;template.html&quot;)
+target = open(article.html')
+</pre>
+<p>You don&#8217;t have to declare variables in Python and you can enclose
+strings in either single or double quotation&nbsp;marks.</p>
+<p>Reading the files came next. Python provides an assortment of file
+reading functions, the simplest of which was precisely what I needed. In
+Python, the result from a call to open is an object of File type.
+Calling read on the object returns the complete contents of the file as
+a&nbsp;string:</p>
+<pre class="literal-block">
+template_text = template.read()
+</pre>
+<p>I finally opted for the more&nbsp;straightforward:</p>
+<pre class="literal-block">
+template = open(&quot;template.html&quot;).read()
+target = open('article.html').read()
+</pre>
+<p>To embed the article in the template I needed a text substitution
+function, the simplest of which was to be found in the string module. As
+in many other languages, Python modules are used to hold related stuff
+together. Module string holds a set of useful string manipulation
+functions. The one I needed was the replace method. To use a module, you
+have to import it like&nbsp;this:</p>
+<pre class="literal-block">
+import string
+</pre>
+<p>After importing the module, I just had to call replace to do the&nbsp;substitution:</p>
+<pre class="literal-block">
+result = string.replace(template, &quot;&quot;, target)
+</pre>
+<p>So far, the complete Python program I had written looked like&nbsp;this:</p>
+<pre class="literal-block">
+import string
+template = open(&quot;template.html&quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &quot;&quot;, target)
+print result
+</pre>
+<p>I saved the program to a file, then made a couple of adjustments to
+make it more generic. For example, I made the program work on any file
+passed as a command-line parameter by using the functions available in
+the sys module. Here was the program after the&nbsp;changes:</p>
+<pre class="literal-block">
+import string
+template = open(&quot;template.html&quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &quot;&quot;, target)
+print result
+</pre>
+<p>Now I could call the program up on any of my articles from the command
+line, like&nbsp;this:</p>
+<pre class="literal-block">
+python format.py article.html &gt; formatted_article.html
+</pre>
+</div>
+<div class="section" id="try-try-again">
+<h2>Try, try&nbsp;again</h2>
+<p>Alas, my initial attempt at automating the formatting of the articles
+wasn&#8217;t good enough. For starters, it didn&#8217;t cope with important <span class="caps">HTML</span>
+meta-information such as the
+tag, which should be included in every <span class="caps">HTML</span> file. Nor did it deal with
+the specific placement and formatting I wanted to give to the article&#8217;s
+abstract or the author&#8217;s name (mine). But Python was still up to the
+task. First I edited the articles and added the relevant
+meta-information on the very few lines of each file. Then I told Python
+to read the files as a list of lines instead of as a string, like&nbsp;this:</p>
+<pre class="literal-block">
+raw = open(filename).readlines()
+</pre>
+<p>Then I retrieved the information items by indexing the already read&nbsp;list:</p>
+<pre class="literal-block">
+title = raw[0]
+author = raw[1]
+text = string.join(raw[2:])
+</pre>
+<p>To convert the non-field article text from a list of lines back into a
+string, I used the string module&#8217;s join function, which does exactly
+what you&#8217;d expect. The expression raw[2:] retrieves the items from
+position 2 onward, as a new&nbsp;list.</p>
+<p>I added a couple of special tags ( and ) as to the template to embed
+the new information at the right places. After adding the replacements
+for the new tags, the code looked like&nbsp;this:</p>
+<pre class="literal-block">
+import string
+template = open(&quot;template.html&quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &quot;&quot;, target)
+result = string.replace(template, &quot;&quot;, title)
+result = string.replace(template, &quot;&quot;, author)
+print result
+</pre>
+<p>That was it for version 1.0: a seven-line program. The current version
+of the program (which you can
+<a class="reference external" href="http://www.suigeneris.org/%7Ejuanca/writings/format.py">download</a>
+from my Web site) is 48 lines long and handles the article abstracts,
+parses the article&#8217;s date and formats it in two different ways, and
+manages the hyperlink to the article&#8217;s original publication <span class="caps">URL</span>. Had I
+been inclined to do so, I could have parsed the original <span class="caps">HTML</span> files to
+retrieve the chunks of information using Python&#8217;s <span class="caps">XML</span> and <span class="caps">HTML</span> parsing
+libraries. I could have also used the built-in dictionary (map) type to
+make the text substitutions more generic, and the regular expressions
+library to get really fancy. I didn&#8217;t, though, because my 48-line
+program already did what I needed. I&#8217;m fond of the <span class="caps">KISS</span> principle,
+especially in Extreme Programming. My philosophy: Do the simplest thing
+that could possibly&nbsp;work.</p>
+<div class="line-block">
+<div class="line">Originally written for <em>In Publishing <span class="caps">LLC</span></em></div>
+<div class="line">Copyright © 1999 Inprise Corp.</div>
+</div>
+</div>
+
+
+     <!--
+      <h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+
+    </div><!-- end #blogItem -->
+        <div class="blogItem">
+                <h2>Other articles</h2>
+        </div>
+    <div class="blogItem">
+
+      <h2><a href="../xtreme-testing-for-delphi-programs.html">Xtreme testing for Delphi&nbsp;programs</a></h2>
+      <h3>Sun 28 November 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>A standard testing framework for Delphi has been long overdue. Now
+there is one and it&#8217;s even open&nbsp;source.</em></p>
+<p>In my <a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html">article</a> on
+Xtreme testing, I talked about how it could improve the quality of
+programs as well as the speed and confidence with which they were
+developed. For ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../xtreme-testing-for-delphi-programs.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../the-monopoly-monster.html">The monopoly&nbsp;monster</a></h2>
+      <h3>Sun 21 November 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>So Microsoft is a monopolistic monster. What are you going to do,
+gather the whole village to assault the castle with hoes and pitchforks?
+Burn it down with torches? Get&nbsp;real.</em></p>
+<p>James Whales&#8217; 1931 movie of Mary Shelley&#8217;s
+<a class="reference external" href="http://www.filmsite.org/fran.html">Frankenstein</a> has become an
+icon of horror cinematography. Fulfilling his personal ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../the-monopoly-monster.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../java-biking.html">Java&nbsp;biking</a></h2>
+      <h3>Sun 14 November 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Launching a full-blown <span class="caps">IDE</span> for a brief Java programming excursion can
+be like driving the car to a nearby shopping mall. If you have ever
+imagined the equivalent of a Java bicycle, your fantasy may have come
+true with BeanShell v.&nbsp;1.0.</em></p>
+<p>I&#8217;d just moved to Davis, California ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../java-biking.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../y2k-the-beginning-of-the-end.html"><span class="caps">Y2K</span>: the beginning of the&nbsp;end?</a></h2>
+      <h3>Sun 07 November 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Will open source software development be smothered by the patents
+avalanche or help to end&nbsp;it?</em></p>
+<p>As <em>Developer News</em> correspondent Constance Petersen discussed in her
+<a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20002,00.html">article</a>
+last week, 5 Nov. was Burn All GIFs Day. The protest was organized by a
+group of open-source developers and Webmasters opposed to the ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../y2k-the-beginning-of-the-end.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../programmers-or-entrepreneurs.html">Programmers or&nbsp;entrepreneurs?</a></h2>
+      <h3>Sun 31 October 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>When royalties are out of the question, programmers find innovative
+ways of earning profits, such as providing value-added services. New
+ways of making business out of open source are being invented every&nbsp;day.</em></p>
+<p>&quot;Amateurs!&quot; That&#8217;s what critics call open-source programmers. And
+sometimes they really mean &quot;hackers&quot;: those who lack ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../programmers-or-entrepreneurs.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../the-lesson-of-agincourt.html">The lesson of&nbsp;Agincourt</a></h2>
+      <h3>Sun 24 October 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Open source programming underdogs may have more advantages than their
+critics imagine. But whether they win or lose in the end, it&#8217;s their
+story that&nbsp;inspires.</em></p>
+<p>Giving away software is a &quot;strategy of the weak.&quot; At least most
+business analysts consider it so when comparing the strategy against the ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../the-lesson-of-agincourt.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../xtreme-testing.html">Xtreme&nbsp;testing</a></h2>
+      <h3>Sun 17 October 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Extreme programmers brave the open source&nbsp;slopes.</em></p>
+<p>You can&#8217;t do it. You can&#8217;t add the feature. It&#8217;s too risky. You&#8217;d have
+to change a core part of the program, and who knows what kind of subtle
+bugs might creep in doing that! You got hold of ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../xtreme-testing.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../start-the-revolution-without-me.html">Start the revolution without&nbsp;me</a></h2>
+      <h3>Sun 10 October 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Confused by the ruckus over open-source software? Bobby McFerrin had
+it right: Don&#8217;t worry, keep&nbsp;hacking.</em></p>
+<p>Everybody&#8217;s talking about the &quot;open software revolution.&quot; From geek
+forums like SlashDot to academic journals like <em>Communications of the
+<span class="caps">ACM</span>,</em> from the <em>New York Times</em> to <em>The Wall Street Journal,</em> everyone
+is ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../start-the-revolution-without-me.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../the-true-meaning-behind-open-source-licenses.html">The true meaning behind open source&nbsp;licenses</a></h2>
+      <h3>Sun 03 October 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>What does all this licensing stuff really&nbsp;mean?</em></p>
+<p>I develop software for a living, so my position regarding third-party
+software has always been pragmatic: consider the cost and evaluate how
+well each solution meets your requirements. Most open source software is
+licensed free of charge. But does software that is ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../the-true-meaning-behind-open-source-licenses.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+    <div class="blogItem">
+
+      <h2><a href="../a-true-story.html">A true&nbsp;story</a></h2>
+      <h3>Sun 26 September 1999</h3>
+
+      <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>What &quot;revolution&quot;? A long-term open source enthusiast describes his&nbsp;conversion.</em></p>
+<p>Source code has been available for decades, long before the so-called
+&quot;open source revolution&quot; started. I have found value in using and
+writing open source software since I first began experimenting with open
+source solutions to critical business problems. It ...</p></!--></!--></!-->
+      <!--
+<h3 class="blogMeta">By <a href="#">Apalala</a>, Category: <a href="../category/inpublishing.html">inpublishing</a></h3>
+    -->
+	<a href="../a-true-story.html">Continue reading …</a>
+
+
+
+
+    </div><!-- end #blogItem -->
+
+  </div><!-- end #mainContent -->
+
+<div class="clearfloat"></div>
+
+  <div id="footer">
+
+      <!--
+    <p><a href="http://css4free.com/" title="free CSS web site designs">Free CSS Gallery</a></p>
+    <p>Proudly powered by <a href="http://getpelican.com">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+        -->
+  </div><!-- end #footer -->
+
+</div><!-- end #container -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37745872-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

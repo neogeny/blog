@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Brown Stone
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100928
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Xtreme testing</title>
+<link href="/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="xtreme-testing.html">Xtreme testing</a></h2>
+						<p class="meta"><span class="date">Sun 17 October 1999 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | : <a href="/category/inpublishing.html">inpublishing</a></span></p>
+					<p class="meta">Tags : </p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p><em>Extreme programmers brave the open source slopes.</em></p>
+<p>You can't do it. You can't add the feature. It's too risky. You'd have
+to change a core part of the program, and who knows what kind of subtle
+bugs might creep in doing that! You got hold of the source code and made
+sure that the license allows you to modify it, but it's too dangerous.
+Isn't it?</p>
+<p>Well, the proponents of <a class="reference external" href="http://www.xprogramming.com/">Extreme Programming</a>
+say not only that you can,
+but that you should!</p>
+<p>Extreme programmers aim for code that's small, lean, mean, and
+functional. To achieve the lean and mean, x-programmers always <a class="reference external" href="http://www.xprogramming.com/Practices/PracSimplest.html">do the
+simplest thing that could possibly
+work</a>. They
+resist the temptation to implement stuff that may be useful later,
+because they assume they're <a class="reference external" href="http://www.xprogramming.com/Practices/PracNotNeed.html">not going to need
+it</a>.
+X-programmers are fearless about modifying the code, so their software
+is always functional. They will edit, refactor, or reimplement even
+large sections when they need to add a new feature.</p>
+<p>But what about the risks? What about the bugs? The extreme
+programmers' answer: extreme testing. They write a test case for every
+feature they implement, even before they start coding the feature. Need
+to add new functionality? Write a test case. Found a bug? Write a test
+case. Have doubts about how something really works? Write a test case.
+The set of test cases thus produced serves to guarantee that the system
+keeps doing what it should even after important modifications.
+X-programmers run the whole battery of tests after each change, and they
+never release the code until all the test cases run flawlessly.
+| Extreme testing produces a large number of test cases, and the process
+of running all the tests and evaluating the results could get unwieldy.
+X-programmers use automation to keep extreme testing under their
+control. They have written testing frameworks for Java, C++, and several
+different flavors of Smalltalk. The frameworks are all freely available
+from the <a class="reference external" href="http://www.xprogramming.com/software.htm">XProgramming software
+page</a>. The Java testing
+framework provides one example of how extreme testing can be used.</p>
+<div class="section" id="junit">
+<h2>JUnit</h2>
+<p>JUnit is a small testing framework written in Java by Kent Beck and
+Erich Gamma. Beck and Gamma are well-known as two of the founders of the
+<a class="reference external" href="http://c2.com/cgi/wiki?PatternIndex">Software Patterns</a> movement,
+and this shows in the design simplicity of JUnit. Using JUnit to test
+Java programs is very easy. You start by writing a descendant of
+junit.framework.TestCase. This is an example from my Java Diff package:</p>
+<blockquote>
+<tt class="docutils literal">import <span class="pre">junit.framework.*;public</span> class DiffTest extends TestCase {public DiffTest(String testName) <span class="pre">{super(testName);}</span></tt>
+`` <tt class="docutils literal">\ `` public void testDeleteAll() {Revision revision =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diff.diff(original, <span class="pre">empty);assertEquals(revision.size(),</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">1);assertEquals(revision.getDelta(0).getClass(),</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">DeleteDelta.class);assert(Diff.compare(revision.patch(original),</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">empty));}//...</span></tt></blockquote>
+<p>Each method in a test case exercises a different aspect of the tested
+software. The aim, as is customary in software testing, is not to show
+that your program works fine, but to show that it doesn't. Interaction
+with the JUnit framework is achieved through assertions, which are
+method calls that check (assert) that given conditions hold at specified
+points in the test execution.</p>
+<p>JUnit allows for several ways to run the different tests, either
+individually or in batches, but the simplest one by far is to let the
+TestSuite collect the tests using Java introspection:</p>
+<pre class="literal-block">
+public TestSuite suite() {         return new TestSuite(DiffTest.class);     }     //...     TestResult result = DiffTest.suite().run();
+</pre>
+<p>When a class is passed to the constructor of a new instance of
+TestSuite, the instance uses Java introspection to find all the methods
+in the class with names that start with &quot;test.&quot; A subsequent call to
+TestSuite's run method executes all the tests and returns the results as
+an instance of TestResult. TestSuite also allows the creation of, well,
+suites, which include any combination of test cases.</p>
+<p>For maximum convenience, JUnit provides both text-based and GUI
+(Swing) user interfaces that facilitate the execution of test suites.
+Both user interfaces can be run as standalone programs by passing the
+class name of the test suite to run as the first command-line argument.</p>
+<p><img alt="image0" src="/images/junit_gui.gif" /></p>
+<p><em>JUnit's GUI interface reports progress and results as the tests are executed.</em></p>
+<p>You can also run the tests from within your favorite integrated
+development environment (IDE), and have the debugger stop as soon as a
+problem is found. Your static main method would look something like
+this:</p>
+<pre class="literal-block">
+public static void main(String args[]) {     junit.textui.TestRunner.run(DiffTest.suite()); }
+</pre>
+</div>
+<div class="section" id="open-tests">
+<h2>Open tests</h2>
+<p>Proponents of extreme programming qualify their approach as a
+&quot;<a class="reference external" href="http://www.extremeprogramming.org/light1.html">lightweight methodology</a>,&quot; to
+contrast it with the heavyweight
+<a class="reference external" href="http://c2.com/cgi/wiki?CategoryMethodology">methodologies</a> that
+became popular during the 80s, and that few software projects continue
+to follow. XP establishes only a <a class="reference external" href="http://www.xprogramming.com/Practices/xpractices.htm">small set of common sense rules and
+practices</a>, and
+the documentation generated is no more than the minimum required to keep
+things flowing smoothly. Almost all software development projects,
+including open source ones, could benefit from some amount of XP.</p>
+<p>Why talk about testing and methodologies in an open source column?
+Much open source discourse is devoted to the &quot;freedom&quot; programmers enjoy
+to modify open source code at will. The truth is that this supposed
+freedom is only partial. Most of the open source software one can get
+hold of lacks the testing infrastructure required to make sure that
+adding features to the code doesn't also break it. As things stand, open
+source programmers must devise their own ways to verify the software
+they change, resulting in an incalculable amount of duplicated -- and
+mostly wasted -- effort.</p>
+<p>Open source projects greatly benefit when they adopt testing policies
+and a testing framework from the start. Most open source projects do
+perform formal testing. All such projects would be improved if the
+numerous test cases produced could be collected and officially
+distributed. Adopting the test frameworks provided by the XP people is
+one approach, but almost any other test framework would do.</p>
+<p>Extreme testing needs to become an integral part of open source
+practice. Only then will we truly experience the freedom of working to
+improve a piece of code without the fear of breaking it.</p>
+<div class="line-block">
+<div class="line">Originally written for <em>In Publishing LLC</em></div>
+<div class="line">Copyright © 1999 Inprise Corp.</div>
+</div>
+</div>
+
+						</div>
+					</div>
+
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="">Neogeny</h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li class="current_page_item"><a href="">Home</a></li>
+							<li><a href="/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								 <li ><a href="/category/aisthetikos.html">aisthetikos</a></li>
+								 <li ><a href="/category/caudex.html">caudex</a></li>
+								 <li ><a href="/category/dolcevita.html">dolcevita</a></li>
+								 <li ><a href="/category/drafts.html">drafts</a></li>
+								 <li ><a href="/category/ehoy.html">ehoy</a></li>
+								 <li ><a href="/category/ethikos.html">ethikos</a></li>
+								 <li ><a href="/category/grako.html">grako</a></li>
+								 <li class="active"><a href="/category/inpublishing.html">inpublishing</a></li>
+								 <li ><a href="/category/mens.html">mens</a></li>
+								 <li ><a href="/category/misc.html">misc</a></li>
+								 <li ><a href="/category/parole.html">parole</a></li>
+								 <li ><a href="/category/penguins.html">penguins</a></li>
+								 <li ><a href="/category/politikos.html">politikos</a></li>
+								 <li ><a href="/category/snakes.html">snakes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                            <li><a href="http://python.org/">Python.org</a></li>
+                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                            <li><a href="#">You can modify those links in your config file</a></li>
+							</ul>
+						</li>
+                                                <li>
+                                                        <h2>Social</h2>
+                                                        <ul>
+                                                            <li><a href="/" rel="alternate">Flux Atom</a></li>
+                                                            <li><a href="#">You can add links in your config file</a></li>
+                                                            <li><a href="#">Another social link</a></li>
+                                                        </ul>
+                                                </li><!-- /.social -->
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+						        </ul>
+						</li>
+
+
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+
+<div id="footer">
+	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.</p>
+	<p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

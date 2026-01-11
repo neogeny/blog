@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Brown Stone
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100928
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>BsF2</title>
+<link href="/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="bsf2.html">BsF2</a></h2>
+						<p class="meta"><span class="date">Sat 22 September 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | : <a href="/category/politikos.html">politikos</a></span></p>
+					<p class="meta">Tags : </p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p>En una <a class="reference external" href="http://blog.neogeny.org/2007/09/bsf.html">nota</a> anterior
+expliqué las razones por las cuales es conveniente considerar una
+reconversión monetaria como la introducción de una nueva moneda, y
+adaptar los sistemas informáticos para el manejo de múltiples monedas.</p>
+<p>¿Cómo se hace eso?</p>
+<p>En un sistema que maneja múltiples monedas, un monto aislado carece de
+significado mientras no se sepa en qué moneda está expresado. Por eso
+los montos deben pasar de ser solo cifras a pares ordenados:</p>
+<blockquote>
+[monto, moneda]</blockquote>
+<p>Con eso las capas superiores de una aplicación pueden solicitar
+valores en una moneda en particular, delegando en librerías
+especializadas el llevar cuenta de los tipos de cambio, su conversión,
+su aritmética, y su presentación.</p>
+<p>Usando orientación a objetos la interfaz para dichas librerías resulta
+bastante simple. Las librerías para manejo de <a class="reference external" href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">fechas localizadas en
+Java</a>
+son un buen ejemplo de como lograr ese tipo de abstracción. Uno de los
+primeros tutoriales para la librería de pruebas
+<a class="reference external" href="http://www.junit.org/">JUnit</a> trata precisamente sobre un programa
+que <a class="reference external" href="http://junit.sourceforge.net/doc/testinfected/testing.htm">maneja múltiples
+monedas</a>.
+Otra ventaja es que una librería de manejo de múltiples monedas puede
+escribirse una vez, y se reutilizada indefinidamente, más si la misma es
+expuesta como servicio Web.</p>
+<p>Manejando los montos como pares, las bases de datos antiguas y de
+solo-lectura pueden quedarse como están, ya que la transformación a
+pares puede llevarse a cabo solo en las interfases que lo requieran. Así
+muchas de las interfases entre sistemas &quot;legacy&quot; pueden permanecer
+inalteradas.</p>
+<p>Para bases de datos activas es necesario agregar una columna paralela
+que indique la moneda para cada columna que contenga un monto; una tarea
+fácil, rápida, e inocua si es realizada antes de la fecha de la
+reconversión, y la cual evita los riesgos de discrepancia con
+contrapartes en físico (en papel) y las inconsistencias con sistemas que
+no deben ser modificados. Para los sistemas sujetos a actualización, las
+consultas a bases de datos específicas en las capas de persistencia de
+una aplicación deben extraer el par completo (ambos valores), y dejar lo
+demás a las librerías correspondientes.</p>
+<p>Manejar los montos en las transacciones como pares [monto, moneda] es
+suficiente para atender los requerimientos de la introducción del
+Bolívar Fuerte inmediatos y para siempre, ya que la tasa de conversión
+de Bs. 1000/Bs.F. jamás va a cambiar.</p>
+<p>Para hacer que un sistema maneje múltiples monedas internacionales
+hace falta agregar una dimensión temporal a los montos debido a que las
+tasas de cambio varían constantemente. Ese será el tema de otro
+artículo.</p>
+
+						</div>
+					</div>
+
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="">Neogeny</h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li class="current_page_item"><a href="">Home</a></li>
+							<li><a href="/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								 <li ><a href="/category/aisthetikos.html">aisthetikos</a></li>
+								 <li ><a href="/category/caudex.html">caudex</a></li>
+								 <li ><a href="/category/dolcevita.html">dolcevita</a></li>
+								 <li ><a href="/category/drafts.html">drafts</a></li>
+								 <li ><a href="/category/ehoy.html">ehoy</a></li>
+								 <li ><a href="/category/ethikos.html">ethikos</a></li>
+								 <li ><a href="/category/grako.html">grako</a></li>
+								 <li ><a href="/category/inpublishing.html">inpublishing</a></li>
+								 <li ><a href="/category/mens.html">mens</a></li>
+								 <li ><a href="/category/misc.html">misc</a></li>
+								 <li ><a href="/category/parole.html">parole</a></li>
+								 <li ><a href="/category/penguins.html">penguins</a></li>
+								 <li class="active"><a href="/category/politikos.html">politikos</a></li>
+								 <li ><a href="/category/snakes.html">snakes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                            <li><a href="http://python.org/">Python.org</a></li>
+                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                            <li><a href="#">You can modify those links in your config file</a></li>
+							</ul>
+						</li>
+                                                <li>
+                                                        <h2>Social</h2>
+                                                        <ul>
+                                                            <li><a href="/" rel="alternate">Flux Atom</a></li>
+                                                            <li><a href="#">You can add links in your config file</a></li>
+                                                            <li><a href="#">Another social link</a></li>
+                                                        </ul>
+                                                </li><!-- /.social -->
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+						        </ul>
+						</li>
+
+
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+
+<div id="footer">
+	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.</p>
+	<p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

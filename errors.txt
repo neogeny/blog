@@ -1,0 +1,213 @@
+/art/neogeny/pelican/content/penguins/update-to-off-xp-and-into-ubuntu.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/pulseaudio-sucks.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/pulseaudio-sucks.rst:30: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/quien-va-arriba.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/quien-va-arriba.rst:46: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/still-on-xp.rst:13: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/penguins/still-on-xp.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/still-on-xp.rst:42: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/still-on-xp.rst:56: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/penguins/off-xp-and-into-ubuntu.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:38: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:46: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:54: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:62: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:70: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:78: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:86: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:94: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/para-carlos-bastidas.rst:102: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/politikos/enmienda-y-abstension.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/bsf2.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/bsf2.rst:25: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/los-profetas-chimbos.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/la-raya.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/los-7500.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/camino-al-4-30.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/devaluacion-en-venezuela.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/bsf.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:13: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:14: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:22: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:31: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:45: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/devaluacion.rst:51: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/carta-a-emeterio-el-mercado.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/la-bolsa-no-es-el-mercado.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/el-enemigo.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/monstruosa-unidad.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/monstruosa-unidad.rst:22: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/chomsky-es-1.rst:18: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/los-200-millardos-de-la-fed.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/contra-la-inamovilidad-y-en-favor-del-empleo.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/politikos/rumores-de-devaluacion.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napolitano.rst:17: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napolitano.rst:18: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napolitano.rst:97: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napolitano.rst:142: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napolitano.rst:153: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/tequenos-en-wok.rst:18: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/tequenos-en-wok.rst:46: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:85: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:85: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:87: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:87: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:90: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:90: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:96: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:96: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:99: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:99: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:104: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:104: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:123: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/pasticcio-napoletano-en.rst:166: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/salsa-amatrichina.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/sanduche-capresa.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/sanduche-capresa.rst:31: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/salmon-ceviche.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:33: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:41: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:59: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:91: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:103: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:112: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:126: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:135: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:144: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:156: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:167: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/dolcevita/black-beans.rst:178: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/mens/18.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/mens/18.rst:23: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/mens/zen.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/disculpas.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/neogeny.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/neogeny.rst:19: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/ethikos/signos.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/signos.rst:23: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/signos.rst:31: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/signos.rst:56: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/razon-fe-y-religion.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/ser-mejor.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/la-vida.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/the-origin-of-wealth.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ethikos/the-origin-of-wealth.rst:24: (WARNING/2) Block quote ends without a blank line; unexpected unindent.
+/art/neogeny/pelican/content/ethikos/the-origin-of-wealth.rst:25: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/grako/grako-1-4-0-peg-packrat-parser-generator-for-python.rst:33: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/ehoy/olvidar-para-siempre.rst:57: (WARNING/2) Inline strong start-string without end-string.
+/art/neogeny/pelican/content/ehoy/permuta.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/ehoy/por-favor-sr-cartero.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/scanning-35mm-film.rst:20: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/scanning-35mm-film.rst:32: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/scanning-35mm-film.rst:41: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/panchromatic-pixels-in-sensor-arrays.rst:13: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/aisthetikos/panchromatic-pixels-in-sensor-arrays.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/raw-mode.rst:21: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/aisthetikos/raw-mode.rst:58: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:40: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:61: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:78: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:98: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:110: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:125: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:135: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:148: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:153: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:167: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/snake-charming.rst:180: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:48: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:72: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:104: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:124: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:141: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:160: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-true-meaning-behind-open-source-licenses.rst:190: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/y2k-the-beginning-of-the-end.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/y2k-the-beginning-of-the-end.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/y2k-the-beginning-of-the-end.rst:44: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/y2k-the-beginning-of-the-end.rst:87: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/y2k-the-beginning-of-the-end.rst:120: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/a-true-story.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/a-true-story.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:52: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:81: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:100: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:114: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:123: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:131: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:139: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:154: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:167: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:183: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing-for-delphi-programs.rst:197: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing.rst:54: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing.rst:65: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing.rst:80: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/xtreme-testing.rst:108: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:38: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:87: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:156: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/programmers-or-entrepreneurs.rst:212: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/java-biking.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/java-biking.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/java-biking.rst:54: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:36: (WARNING/2) Inline substitution_reference start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:36: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:75: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:106: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:106: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:120: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:132: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:143: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-monopoly-monster.rst:158: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/start-the-revolution-without-me.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/start-the-revolution-without-me.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/start-the-revolution-without-me.rst:34: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:28: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:27: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:57: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:80: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:121: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/inpublishing/the-lesson-of-agincourt.rst:121: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/caudex/the-exagon.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/caudex/why-not-python.rst:13: (WARNING/2) Inline emphasis start-string without end-string.
+/art/neogeny/pelican/content/caudex/why-not-python.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/parole/semana-santa.rst:13: (WARNING/2) Inline substitution_reference start-string without end-string.
+/art/neogeny/pelican/content/parole/gregorio-el-ogro.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/ipcalipsis.rst:14: (WARNING/2) Inline interpreted text or phrase reference start-string without end-string.
+/art/neogeny/pelican/content/misc/ipcalipsis.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/nuevo-huso-horario-para-venezuela.rst:19: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/nuevo-huso-horario-para-venezuela.rst:53: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/respaldar-gmail.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/respaldar-gmail.rst:50: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/huso-horario-venezolano-en-ubuntu.rst:16: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/huso-horario-venezolano-en-ubuntu.rst:28: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/la-tecnologia-en-contra-del-arte.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:47: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:57: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:80: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:94: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/500-gib.rst:101: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/wikipedia-en-espanol.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/sobre-la-revision-por-pares.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/sobre-la-revision-por-pares.rst:41: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/sobre-la-revision-por-pares.rst:73: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/privacidad-en-internet.rst:14: (WARNING/2) Line block ends without a blank line.
+/art/neogeny/pelican/content/misc/privacidad-en-internet.rst:30: (WARNING/2) Line block ends without a blank line.

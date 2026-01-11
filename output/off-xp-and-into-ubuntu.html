@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Brown Stone
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100928
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Off XP and into Ubuntu</title>
+<link href="/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="off-xp-and-into-ubuntu.html">Off XP and into Ubuntu</a></h2>
+						<p class="meta"><span class="date">Sun 11 October 2009 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | : <a href="/category/penguins.html">penguins</a></span></p>
+					<p class="meta">Tags : </p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p>This weekend I managed to take care of the
+problems that
+have kept me from transitioning my main workstation from XP to Ubuntu.</p>
+<p>The details follow.</p>
+<div class="section" id="os-version">
+<h2>OS Version</h2>
+<p>I downgraded to the 32-bit version of Ubuntu 9.04 (Jaunty). I found no
+advantages in running at 64bit, and plenty of hoops to jump through to
+to get some stuff to run. My opinion is that 64bit Linux is not yet
+mature enough for a desktop.</p>
+</div>
+<div class="section" id="work">
+<h2>Work</h2>
+<p>I still have projects that require Windows, and WinXP virtualized with
+<a class="reference external" href="http://www.virtualbox.org/">VirtualBox</a> runs great,
+indistinguishable from native (of course, the virtualized XP is
+pristine, and doesn't have all the crap of the original, three-year-old
+installation). VirtualBox complains that I assigned too much memory to
+XP, but Ubuntu keeps running well when the virtual machine is up, which
+only happens when I need to be in Windows mode. I used the &quot;bridged&quot;
+network connection mode for the virtualized XP, so I can access it
+remotely using RDP, netbios, or whatever.</p>
+<p>The exercise of bringing
+<a class="reference external" href="http://www.modelistica.com/tranus_english.htm">TRANUS</a> compilation
+up on the virtualized XP helped me debug some unknown dependencies on
+the way stuff in my old XP was configured.</p>
+</div>
+<div class="section" id="repartitioning">
+<h2>Repartitioning</h2>
+<p>I found that Linux already has stable read/write access to NTFS
+partitions through <a class="reference external" href="http://www.ntfs-3g.org/">ntfs-3g</a>, so I decided
+to keep my NTFS partitions:</p>
+<ul class="simple">
+<li>On the first disk, the old Windows partition, for &quot;just in case&quot;, and
+for copying stuff to the new virtualized XP (more on that later).</li>
+<li>On the second disk, the partition where photographs, music, videos,
+and downloaded installers are kept. It has only 32GiB of free space
+left, so I expect to fill it up by the end of the year. When it
+becomes legacy, it won't matter the format it is in.</li>
+</ul>
+<p>I upgraded the Linux partitions (the main one on the first disk, and the
+auxiliary one on the second disk) to
+<a class="reference external" href="http://en.wikipedia.org/wiki/Ext4">ext4</a>.</p>
+</div>
+<div class="section" id="printing">
+<h2>Printing</h2>
+<p>Printing works great using Ubuntu printer sharing for Ubuntu machines,
+and SAMBA for (the two remaining) Windows machines.</p>
+</div>
+<div class="section" id="scanning">
+<h2>Scanning</h2>
+<p>The <a class="reference external" href="http://www.xsane.org/">XSane</a> image scanner works great. I
+hadn't grokked it on the first try.</p>
+</div>
+<div class="section" id="email">
+<h2>Email</h2>
+<p>Since a learning curve was inevitable, and almost all my email is routed
+through GMail, I decided to try the GMail Web interface. It took some
+time to get used to it, but it works great. I enabled offline GMail in
+case my Internet connection goes down. I still log into the old XP every
+once in a while to backup my emails locally to MS Outlook PST files.</p>
+</div>
+<div class="section" id="web">
+<h2>Web</h2>
+<p>The beta version of Google Chrome for Linux is very stable. Oddly, it
+still doesn't support Google Gears well, so I have to launch Firefox to
+get my email backed up locally.</p>
+</div>
+<div class="section" id="vpn">
+<h2>VPN</h2>
+<p>I still haven't been able to connect to a Windows PPTP server from
+Ubuntu, but I can do it from the virtualized XP, so I consider this
+issue dead, at least until Ubuntu 9.10 comes out by the end of the
+month. I only need the VPNs for maintenance of Windows servers, so...</p>
+</div>
+<div class="section" id="bluetooth">
+<h2>Bluetooth</h2>
+<p>Still not working. I'll wait for Ubuntu 9.10 (Karmic Koala). I got a
+Genius wireless (USB) mouse similar to the Logitech bluetooth I had to
+deal with the mousing problem.</p>
+</div>
+<div class="section" id="remote-access">
+<h2>Remote Access</h2>
+<p>Oddly enough, remote access to my desktop using Ubuntu's Remote Desktop
+Viewer sucks big time, but RDP to the virtualized XP using Terminal
+Server Client shines. I tried xrdp, but it sucks worse than Remote
+Desktop Viewer. I may try with plain tightvnc later. Remoting single
+programs using plain XWindows works great, of course.</p>
+</div>
+<div class="section" id="office">
+<h2>Office</h2>
+<p>OpenOffice is diffrent enough from MS Office than some pain ahead is for
+sure. My MS Excel macros don't work with OO Spreadsheet, but I took care
+of the most urgent need with the
+<a class="reference external" href="http://projecthamster.wordpress.com/screenshots/">Hamster</a> time
+tracking applet. MS Office documents, including invoices, print fine
+from OpenOffice, and that takes care of the rest. As I mentioned in a
+previous post, most of my writing is nowadays done on Web applications.</p>
+</div>
+
+						</div>
+					</div>
+
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="">Neogeny</h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li class="current_page_item"><a href="">Home</a></li>
+							<li><a href="/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								 <li ><a href="/category/aisthetikos.html">aisthetikos</a></li>
+								 <li ><a href="/category/caudex.html">caudex</a></li>
+								 <li ><a href="/category/dolcevita.html">dolcevita</a></li>
+								 <li ><a href="/category/drafts.html">drafts</a></li>
+								 <li ><a href="/category/ehoy.html">ehoy</a></li>
+								 <li ><a href="/category/ethikos.html">ethikos</a></li>
+								 <li ><a href="/category/grako.html">grako</a></li>
+								 <li ><a href="/category/inpublishing.html">inpublishing</a></li>
+								 <li ><a href="/category/mens.html">mens</a></li>
+								 <li ><a href="/category/misc.html">misc</a></li>
+								 <li ><a href="/category/parole.html">parole</a></li>
+								 <li class="active"><a href="/category/penguins.html">penguins</a></li>
+								 <li ><a href="/category/politikos.html">politikos</a></li>
+								 <li ><a href="/category/snakes.html">snakes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                            <li><a href="http://python.org/">Python.org</a></li>
+                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                            <li><a href="#">You can modify those links in your config file</a></li>
+							</ul>
+						</li>
+                                                <li>
+                                                        <h2>Social</h2>
+                                                        <ul>
+                                                            <li><a href="/" rel="alternate">Flux Atom</a></li>
+                                                            <li><a href="#">You can add links in your config file</a></li>
+                                                            <li><a href="#">Another social link</a></li>
+                                                        </ul>
+                                                </li><!-- /.social -->
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+						        </ul>
+						</li>
+
+
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+
+<div id="footer">
+	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.</p>
+	<p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

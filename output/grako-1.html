@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Brown Stone
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100928
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>GRAKO</title>
+<link href="/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="grako-1.html">GRAKO</a></h2>
+						<p class="meta"><span class="date">Wed 09 January 2013 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | : <a href="/category/grako.html">grako</a></span></p>
+					<p class="meta">Tags : </p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <!-- :tags: -->
+<!-- :category: -->
+<!-- :summary: -->
+<p>After my difficulties translating SoftAG Natural using ANTLR v3, and a
+new request to do the likes with COBOL, which is a programming language
+as large and as ambiguous, I decided to explore other options.</p>
+<p>I found that most of the solutions out there are lack a maintainer,
+lack users, or lack significant projects that use them. That scenario
+maid ANTLR the only reasonable option, which meant going though the same
+problems I went through with Natural while dealing with COBOL.</p>
+<p>So, with a bit of desperation, a bit of arrogance, a bunch of ideas
+about how things should work, and unbelievable support from my boss, I
+wrote an EBNF to memoizing-PEG parser compiler in Python. It's callked
+GRAKO, and it's GPL open at:</p>
+<blockquote>
+<a class="reference external" href="https://bitbucket.org/apalala/grako/">https://bitbucket.org/apalala/grako/</a></blockquote>
+<p>The tool must be called &quot;beta&quot; because it hasn't yet seen a major
+project delivered using it, but the consistency checks I wrote are the
+nastiest I could think off: the bootstrap parser can parse a grammar for
+the GRAKO EBNF description, and generate a parsing engine that can parse
+the same input again, and generate a structured and readable Python
+program that can do the same.</p>
+<p>On the other hand, a GRAKO generated parser is parsing 1.8 million
+lines of COBOL in about seconds. It's over 500 programs, of which about
+200 fail to parse, and manual inspection says that the failures are
+about invalid COBOL, and not grammar, or generated parser errors.</p>
+<p>The reasons why I built this tool are the ones you've seen me discuss
+in the current and previous incarnations of this forum:</p>
+<ol class="arabic simple">
+<li>To deal with languages like COBOL or NATURAL, in which important
+statement words (can't call them keywords) may be used as identifiers
+in programs, the parser must be able to lead the lexer. The parser
+also must lead the lexer to parse languages like Ruby.</li>
+<li>When ambiguity is the norm in the parsed language (Natural, Cobol),
+the grammar becomes contaminated with lookaheads (just to make the
+parser greedy) in ANTLR v3, and unknowns for me in v4 (because I
+haven't tried).</li>
+<li>My opinion, after the experience with Natural, is that semantic
+actions like AST transformations or whatever DO NOT belong in the
+grammar. Semantic actions in the grammar create yet another
+programming language to deal with (the source language, ANTLR,
+ANTLR+semantics, and target language). In fewer words, it is
+impossible for me to find a programmer to whom delegate the current
+grammar for Natural, while the current COBOL grammar is approachable
+to anyone with a CS degree, and the generated code approachable by
+anyone with sound knowledge of Python.</li>
+<li>(Probably a restatement of the above) Pre-processing (like includes,
+or COBOL's fixed column format), tree construction, translation,
+interpretation, etc., belong to soundly developed program code, and
+not in the grammar.</li>
+</ol>
+<p>I have deadlines to meet using GRAKO, and, to be honest, I don't know
+if I'll succeed. I do know that ANTLR is sound and field proved (even by
+me!), so I could fall back to it eventually. But currently, I'm placing
+my bets on doing things in a simpler way:</p>
+<pre class="literal-block">
+$ python -c &quot;import this&quot;
+</pre>
+
+						</div>
+					</div>
+
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="">Neogeny</h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li class="current_page_item"><a href="">Home</a></li>
+							<li><a href="/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								 <li ><a href="/category/aisthetikos.html">aisthetikos</a></li>
+								 <li ><a href="/category/caudex.html">caudex</a></li>
+								 <li ><a href="/category/dolcevita.html">dolcevita</a></li>
+								 <li ><a href="/category/drafts.html">drafts</a></li>
+								 <li ><a href="/category/ehoy.html">ehoy</a></li>
+								 <li ><a href="/category/ethikos.html">ethikos</a></li>
+								 <li class="active"><a href="/category/grako.html">grako</a></li>
+								 <li ><a href="/category/inpublishing.html">inpublishing</a></li>
+								 <li ><a href="/category/mens.html">mens</a></li>
+								 <li ><a href="/category/misc.html">misc</a></li>
+								 <li ><a href="/category/parole.html">parole</a></li>
+								 <li ><a href="/category/penguins.html">penguins</a></li>
+								 <li ><a href="/category/politikos.html">politikos</a></li>
+								 <li ><a href="/category/snakes.html">snakes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                            <li><a href="http://python.org/">Python.org</a></li>
+                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                            <li><a href="#">You can modify those links in your config file</a></li>
+							</ul>
+						</li>
+                                                <li>
+                                                        <h2>Social</h2>
+                                                        <ul>
+                                                            <li><a href="/" rel="alternate">Flux Atom</a></li>
+                                                            <li><a href="#">You can add links in your config file</a></li>
+                                                            <li><a href="#">Another social link</a></li>
+                                                        </ul>
+                                                </li><!-- /.social -->
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+						        </ul>
+						</li>
+
+
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+
+<div id="footer">
+	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.</p>
+	<p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

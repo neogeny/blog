@@ -1,0 +1,25 @@
+18
+==
+
+:date: 2007-10-05
+:slug: 18
+:author: Apalala
+
+.. :tags:
+.. :category:
+.. :summary:
+
+
+En la imprescindible novela 1984 de George Orwell, el "Gran Hermano",
+un ícono videográfico, controla el pensar y hacer de las masas con dos
+estrategias:
+
+-  El control del lenguaje a travéz de la obligatoriedad del uso de la
+   "neolengua"
+-  El control de la historia antigua, pasada, y reciente a travéz del
+   control de los medios de información.
+
+A continuación un ejemplo bastante cercano a la realidad de cómo ese
+tipo de controles son ejercidos sobre nosotros hoy en día:
+
+`http://www.youtube.com/v/cI9e0OCUirQ <http://www.youtube.com/v/cI9e0OCUirQ>`__
