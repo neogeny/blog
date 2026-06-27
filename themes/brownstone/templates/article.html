@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block content %}    
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+						<p class="meta"><span class="date">{{ article.locale_date }} </span><span class="posted"><a href="#">{{ article.author }}</a></span><span>&nbsp; | <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span></p>
+					<p class="meta">Tags : {% for tag in article.tags %}
+<span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> / </span>
+{% endfor %}</p>	
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 {{ article.content }}	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+{% endblock %}

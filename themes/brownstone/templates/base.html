@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+<link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+{% if FEED_ALL_ATOM %}
+<link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+{% endif %}
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				{% block content %}
+                                {% endblock %}
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li {% if page_name == "index" %}class="current_page_item"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+							<li {% if page_name == "archives" %}class="current_page_item"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+							{% for cat, null in categories %}
+								<li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+							{% endfor %}
+							</ul>
+						</li>
+						{% if LINKS %}
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+							{% for name, link in LINKS %}
+                                                            <li><a href="{{ link }}">{{ name }}</a></li>
+                                                        {% endfor %}
+							</ul>
+						</li>
+						{% endif %}
+						{% if SOCIAL %}
+                                                <li>
+                                                        <h2>Social</h2>
+                                                        <ul>
+                                                            <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a></li>
+                                                        {% for name, link in SOCIAL %}
+                                                            <li><a href="{{ link }}">{{ name }}</a></li>
+                                                        {% endfor %}
+                                                        </ul>
+                                                </li>
+                                                {% endif %}
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+						        {% for tag, articles in tags %}
+                                                                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+                                                        {% endfor %}
+						        </ul>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+
+<div id="footer">
+	<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	<p>Powered by <a href="http://getpelican.com/">Pelican</a>.</p>
+</div>
+</body>
+</html>
