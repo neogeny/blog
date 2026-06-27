@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - misc</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/misc.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-12T00:00:00-04:30</updated><entry><title>Mamá Mafalda</title><link href="https://neogeny.github.io/blog/mama-mafalda.html" rel="alternate"/><published>2013-05-12T00:00:00-04:30</published><updated>2013-05-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-12:/blog/mama-mafalda.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
+posibles, parecerles tan tedioso?&lt;/p&gt;
+&lt;p&gt;Es lo que me atormentaba cuando mis hijos comenzaron a aprender a
+leer. Para ellos era otra tarea sin significado, peor que tener que
+recoger los juguetes al terminar de jugar.&lt;/p&gt;
+&lt;p&gt;Pero llegó un día …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
+posibles, parecerles tan tedioso?&lt;/p&gt;
+&lt;p&gt;Es lo que me atormentaba cuando mis hijos comenzaron a aprender a
+leer. Para ellos era otra tarea sin significado, peor que tener que
+recoger los juguetes al terminar de jugar.&lt;/p&gt;
+&lt;p&gt;Pero llegó un día de epifanía (o sincronismo&amp;nbsp;Junguiano), cuando allí,
+en medio del automercado de farmacia (el lugar menos esperado), estaba
+&amp;quot;Toda Mafalda&amp;quot;, en empastado, y a buen precio.&lt;/p&gt;
+&lt;p&gt;No lo dudé, y luego mis hijos tampoco. Compré el libro, y mis hijos lo
+leyeron ávidamente, de una cubierta a la otra, muertos de la risa, o en
+silentes reflecciones.&lt;/p&gt;
+&lt;p&gt;Y esa es la historia de como mis hijos nunca más pararon de leer, y la
+razón por la cual tengo que recordar a Mafalda en el Día de las Madres,
+a pesar de que Mafalda nunca dejó de ser niña.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/mafalda_madres.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;¡Feliz Día de las Madres, Mafalda!&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>¿IPcalipsis?</title><link href="https://neogeny.github.io/blog/ipcalipsis.html" rel="alternate"/><published>2011-02-04T00:00:00-04:30</published><updated>2011-02-04T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-02-04:/blog/ipcalipsis.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
+&lt;p&gt;Las &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Direcci%C3%B3n_IP"&gt;direcciones
+IP&lt;/a&gt; son la suerte de
+&lt;em&gt;números telefónicos&lt;/em&gt; que los dispositivos conectados a la Internet usan
+para ubicarse y comunicarse unos con otros. Hoy corre bajo el titular
+&lt;em&gt;IPcalipsis&lt;/em&gt; la voz de que &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Iana"&gt;IANA&lt;/a&gt;,
+el organismo encargado de administrar las mas de cuatro mil …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
+&lt;p&gt;Las &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Direcci%C3%B3n_IP"&gt;direcciones
+IP&lt;/a&gt; son la suerte de
+&lt;em&gt;números telefónicos&lt;/em&gt; que los dispositivos conectados a la Internet usan
+para ubicarse y comunicarse unos con otros. Hoy corre bajo el titular
+&lt;em&gt;IPcalipsis&lt;/em&gt; la voz de que &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Iana"&gt;IANA&lt;/a&gt;,
+el organismo encargado de administrar las mas de cuatro mil millones de
+direcciones IP, acaba se asignar el último bloque que tenía disponible y
+que, por tanto, &lt;em&gt;se acabaron las direcciones de Internet&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No es tan sencillo. Para comenzar, desde hace años se viene trabajando
+en reemplazar el sistema de direcciones actual
+(&lt;a class="reference external" href="http://es.wikipedia.org/wiki/IPv4"&gt;IPv4&lt;/a&gt;) por uno
+(&lt;a class="reference external" href="http://es.wikipedia.org/wiki/IPv6"&gt;IPv6&lt;/a&gt;) con tantas direcciones
+como estrellas hay en una galaxia, en un proceso que recuerda el paso de
+los números de teléfono de cinco, a seis, a siete, hasta el actual
+estándar de hasta catorce o más dígitos para una llamada a un número
+telefónico en otro país.&lt;/p&gt;
+&lt;p&gt;Además:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Las direcciones IP no se gastan. Son completamente reciclables, y
+pueden compartirse.&lt;/li&gt;
+&lt;li&gt;Lo que se agotó fue el registro de primer nivel, y&amp;nbsp;&lt;strong&gt;NADIE&lt;/strong&gt;&amp;nbsp;sabe
+cuantas direcciones IP están todavía disponibles en el resto de los
+varios niveles antes de llegar a los ususarios finales, ni cuántas
+están siendo subutilizadas.&lt;/li&gt;
+&lt;li&gt;La mayoría de los equipos conectados a Internet &amp;nbsp;(como mi router) no
+soportan IPv6, así que de nada serviría que los proveedores &amp;nbsp;lo
+soportaran.&lt;/li&gt;
+&lt;li&gt;Son muchas las direcciones IP públicas que están sin uso y pueden
+recuperarse. Mi proveedor me entrega dos direcciones IP públicas, de
+las cuales nunca he usado más que una.&lt;/li&gt;
+&lt;li&gt;No todo el que tiene asignada una dirección IP pública (que son las
+que se agotaron) la necesita. La mayoría de los usuarios de Internet
+no la requieren porque no administran sus propias redes sino que sólo
+se &amp;quot;conectan&amp;quot;. Esas direcciones también son recuperables.&lt;/li&gt;
+&lt;li&gt;Existen las &lt;em&gt;direcciones IP privadas&lt;/em&gt;, como las que asignan los
+routers, las cuales no pueden agotarse porque son reutilizables, y
+existen en bloques que van desde 256 hasta más de 4 mil millones de
+direcciones. En mi red &amp;nbsp;hay ocho dispositivos conectados a la
+Internet, todos usan la misma dirección IP pública, y todo funciona
+perfecto. Cada dispositivo tiene asignada una &lt;em&gt;dirección IP privada.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;De nada le sirve a un proveedor de Internet en particular soportar
+IPv6. Para que IPv6 funcione, &lt;strong&gt;tiene que soportarlo la Internet
+completa&lt;/strong&gt;. La Internet una estructura de &amp;quot;tela de araña&amp;quot; pero con
+organización jerárquica, por lo que un cambio tan pervasivo tiene que
+ocurrir de arriba hacia &amp;nbsp;abajo; &lt;strong&gt;el cambio&amp;nbsp;no puede hacerse de abajo
+hacia arriba&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Existen numerosos &lt;em&gt;parches y trucos&lt;/em&gt;&amp;nbsp;que los administradores de redes
+pueden usar para extender el uso de las direcciones IPv4 que
+administran. Uno sencillo, pero efectivo de aplicar, es asignar
+direcciones &lt;em&gt;sólo&lt;/em&gt; a los equipos &lt;em&gt;conectados y&lt;/em&gt; &lt;em&gt;encendidos&lt;/em&gt;(parece
+obvio, pero no siempre se aplica). Otro &lt;em&gt;truco&lt;/em&gt;&amp;nbsp;es reducir el tiempo
+de asignación (leasing) de las direcciones IP que se administran para
+que haya mayor rotación de las mismas entre los usuarios.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;La situación de las empresas de Internet en el mundo en cuanto a sporte
+de IPv6 es muy parecida, pero &lt;strong&gt;no&amp;nbsp;va a ocurrir ninguna crisis.&lt;/strong&gt;&amp;nbsp;Lo que
+va a ocurrir es una transición lenta, de al menos un par de años, de la
+cual los usuarios de Internet &amp;nbsp;van a enterarse sólo cuando les
+suspendan&amp;nbsp;por unas horas&amp;nbsp;el servicio mientras se hacen reconfiguraciones
+en los servidores de su proveedor de Internet.&lt;/p&gt;
+&lt;p&gt;¿Cuánto&amp;nbsp; tiempo va durar la transición a IPv6? Nadie lo sabe, en parte
+porque la transición no estará completa hasta que los usuarios finales
+hayan reemplazado todos los dispositivos de red que poseen por unos
+compatibles con el nuevo protocolo.&lt;/p&gt;
+&lt;p&gt;Mientras tanto las direcciones IPv4 se harán poco a poco más escasas,
+haciendo que las fuerzas económicas eleven sus precios, aparezcan las
+direcciones que están siendo desperdiciadas, y el &lt;em&gt;mercado&lt;/em&gt; se equilibre
+de manera que las direcciones estén disponibles, tal vez a un precio un
+poco más elevado. No debemos preocuparnos mucho por la posibilidad de
+acaparamiento o especulación, ya que IANA, el organismo regulador (&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority#Oversight"&gt;a
+cargo del Departamento de Comercio de
+EEUU&lt;/a&gt;),
+tiene plena autoridad sobre la asignación de direcciones IP a todo
+nivel.&lt;/p&gt;
+&lt;p&gt;Al final, lo más probable es que pocos se acuerden de cuándo se agotaron
+los números telefónicos de seis dígitos, ni de cómo el mundo siguió
+andando mientras ocurría la transición a números más largos. La
+transición de IPv4 a IPv6 va a ser algo parecido.&lt;/p&gt;
+&lt;p&gt;Un problema mucho más grave y más difícil de solucionar es que cualquier
+dispositivo conectado a cualquier red (no sólo a la Internet) debe
+poseer un identificador único conocido como Dirección MAC (&lt;a class="reference external" href="http://en.wikipedia.org/wiki/MAC_address"&gt;MAC
+address&lt;/a&gt;), y &lt;strong&gt;los MAC&amp;nbsp; no
+son compartibles ni reciclables, y se están agotando a un ritmo
+acelrado&lt;/strong&gt;. Es más complicado porque una solución requiere del concurso
+de todos los fabricantes de dispositivos con capacidad de red en el
+mundo, pero ya están en curso los planes para una transición a un número
+mayor de identificadores, y lo más probable es que pocos nos demos por
+enterado de cuando participamos en el cambio.&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>Respaldar Gmail</title><link href="https://neogeny.github.io/blog/respaldar-gmail.html" rel="alternate"/><published>2010-12-07T00:00:00-04:30</published><updated>2010-12-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-12-07:/blog/respaldar-gmail.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
+repentinamente es mucho mayor que la de que Gmail pierda nuestro correo
+electrónico. Pero tener un respaldo no sólo contribuye a nuestra
+tranquilidad, sino que también nos permite acceder a los mensajes cuando
+no disponemos de acceso a la Internet …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
+repentinamente es mucho mayor que la de que Gmail pierda nuestro correo
+electrónico. Pero tener un respaldo no sólo contribuye a nuestra
+tranquilidad, sino que también nos permite acceder a los mensajes cuando
+no disponemos de acceso a la Internet.&lt;/p&gt;
+&lt;p&gt;Una manera segura de tener una copia de nuestros mensajes en Gmail
+copiados y accesibles en nuestro disco duro es usar un programa de
+correo electrónico conectado a nuestra cuenta Gmail a través del
+protocolo
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Internet_Message_Access_Protocol"&gt;IMAP&lt;/a&gt;.
+Éstos son los pasos sencillos para lograrlos usando del programa
+&lt;a class="reference external" href="http://www.mozillamessaging.com/thunderbird/"&gt;Mozilla Thunderbird&lt;/a&gt;,
+el cual es software libre, y está disponible para los principales
+sistemas operativos:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Asegurarse de que nuestro disco duro tiene el doble de espacio del
+que nuestros mensajes ocupan, lo cual se indica en la parte inferior
+de la página principal de Gmail:
+&lt;img alt="Uso de espacio en Gmail" src="https://neogeny.github.io/blog/images/gmail_uso1.png" /&gt;
+Necesitamos el doble de espacio den el disco duro porque, desde el
+punto de vista de IMAP, Gmail normalmente almacena más de una copia
+de nuestros mensajes.&lt;/li&gt;
+&lt;li&gt;Ir a la página de configuración de Gmail, seleccionar &lt;em&gt;Reenvío y
+Correo POP/IMAP&lt;/em&gt;, y marcar la opción que dice &lt;em&gt;Habilitar IMAP&lt;/em&gt;, y
+luego el botón &lt;em&gt;Guardar cambios&lt;/em&gt;.
+&lt;img alt="Configurar IMAP en Gmail" src="https://neogeny.github.io/blog/images/gmail_imap.png" /&gt;.&lt;/li&gt;
+&lt;li&gt;Descargar e instalar
+&lt;a class="reference external" href="http://www.mozillamessaging.com/thunderbird/"&gt;Thunderbird&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Configurar nuestra cuenta de Gmail en Thunderbird siguiendo los
+&lt;a class="reference external" href="http://mail.google.com/support/bin/answer.py?hl=es&amp;amp;answer=180189"&gt;sencillos pasos&lt;/a&gt;
+descritos por Google.&lt;/li&gt;
+&lt;li&gt;Dejar Thunderbird abierto hasta que todos nuestros mensajes hayan
+sido descargados, lo cual puede tomar toda la noche.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¡Eso es todo! Podemos tener acceso a nuestros mensajes en Gmail desde
+tantos computadores queramos, aún cuando no haya conexión a Internet.&lt;/p&gt;
+&lt;p&gt;Hay otras maneras de respaldar nuestros mensajes en Gmail, pero ésta
+es, en mi opinión, la más sencilla y la más conveniente.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(No dejen de comentar sus experiencias con este consejo)&lt;/em&gt;&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>500 GiB</title><link href="https://neogeny.github.io/blog/500-gib.html" rel="alternate"/><published>2010-11-28T00:00:00-04:30</published><updated>2010-11-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-11-28:/blog/500-gib.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Los discos duros de un
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Terabyte"&gt;terabyte&lt;/a&gt; (1000
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Gigabyte"&gt;gigabytes&lt;/a&gt;) están aquí. Su
+mayor capacidad, mayor velocidad, y su relación precio/densidad de
+información hacen tentador el usarlos para resolver el perenne problema
+de falta de espacio en este universo digital cada vez más multimedios.&lt;/p&gt;
+&lt;p&gt;Pero... los discos duros son los componentes …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Los discos duros de un
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Terabyte"&gt;terabyte&lt;/a&gt; (1000
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Gigabyte"&gt;gigabytes&lt;/a&gt;) están aquí. Su
+mayor capacidad, mayor velocidad, y su relación precio/densidad de
+información hacen tentador el usarlos para resolver el perenne problema
+de falta de espacio en este universo digital cada vez más multimedios.&lt;/p&gt;
+&lt;p&gt;Pero... los discos duros son los componentes menos duraderos en un
+computador. El desgaste en sus partes mecánicas y la fatiga que la
+constante realineación magnética produce en sus sustratos metálicos
+hacen que, a diferencia de los componentes cien por ciento electrónicos,
+la vida de los discos duros esté contada en días o en número de lecturas
+y escrituras.&lt;/p&gt;
+&lt;p&gt;El riesgo de falla única al que nos exponemos con un disco duro es
+proporcional a la densidad de información que alberga, ya que a mayor
+densidad la pérdida de información ante una falla pequeña es
+potencialmente mayor.&lt;/p&gt;
+&lt;p&gt;Los discos duros de altísimas densidades son muy útiles en
+aplicaciones que requieren altos volúmenes de datos y que pueden
+asumir que los discos son descartables a corto plazo, como es el caso de
+las &lt;em&gt;granjas de servidores&lt;/em&gt; requeridas para alojar servicios como
+&lt;a class="reference external" href="http://www.youtube.com"&gt;YouTube.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para un usuario convencional, es mejor resolver el problema de fatla
+de espacio con una estrategia más convencional: &lt;strong&gt;más discos duros&lt;/strong&gt;.
+Cada disco duro que ponemos en uso aumenta la vida total de los demás
+discos al liberarlos de trabajo, y sirve de resguardo contra fallas si
+mantenemos copias de la misma información en más de un disco. Hoy en día
+es posible conseguir a muy buen precio discos internos y externos (para
+las laptos) de capacidades entre 320 y 500
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Gigabyte"&gt;GB&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="cuando-adquirir-un-nuevo-disco-duro"&gt;
+&lt;h2&gt;¿Cuándo adquirir un nuevo disco duro?&lt;/h2&gt;
+&lt;p&gt;Es hora de adquirir un nuevo disco duro cuando uno se encuentra
+moviendo carpetas entre discos lógicos (particiones) porque ninguno de
+ellos tiene suficiente espacio para lo que uno desea hacer en el
+momento. También es bueno comenzar a pensar en un nuevo disco si el
+actual está por cumplir los dos años de uso.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="como-configurar-el-disco-nuevo"&gt;
+&lt;h2&gt;¿Cómo configurar el disco nuevo?&lt;/h2&gt;
+&lt;p&gt;La estrategia que sugiero para incorporar un nuevo disco duro es una
+que ha funcionado muy bien por casi dos décadas. De partida se asume que
+el nuevo disco duro tiene mayor capacidad que el disco actual.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Instalar el nuevo disco como disco principal y pasar el disco viejo a
+secundario. En el caso de laptops, usar un adaptador para conectar el
+disco viejo de forma externa.&lt;/li&gt;
+&lt;li&gt;Instalar el sistema operativo preferido (Windows, Linux, OSX, etc.)
+en el nuevo disco permitiéndole al instalador decidir cómo
+particionarlo.&lt;/li&gt;
+&lt;li&gt;Realizar la configuración inicial e instalar los programas y
+utilidades deseados. Con frecuencia encontramos en este momento que
+no tenemos todos los instaladores necesarios. Es el momento de
+corregir esa situación asumiéndola como &lt;em&gt;limpieza general bianual&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Copiar el contenido completo del disco viejo a una carpeta
+&lt;strong&gt;/Archivo&lt;/strong&gt; en el disco nuevo. Es un respaldo total bastante rápido
+aunque no instantáneo.&lt;/li&gt;
+&lt;li&gt;Mover archivos y carpetas seleccionados desde&amp;nbsp;&lt;strong&gt;/Archivo&lt;/strong&gt; al lugar
+deseado en el disco nuevo.&lt;/li&gt;
+&lt;li&gt;Eliminar los ejecutables (sistema operativo y programas)
+de&amp;nbsp;&lt;strong&gt;/Archivo&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Con esos pasos iniciales se debe sentir que se tiene una versión
+&lt;em&gt;mejorada&lt;/em&gt; de la configuración que se tenía antes. Una vez que todo esté
+en su lugar y el disco nuevo haya tenido tiempo de demostrar su
+confiabilidad (no menos que unas cuantas semanas), se puede comenzar a
+optimizar la distribución de archivos en los discos.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Borrar todo lo reemplazable de&amp;nbsp;&lt;strong&gt;/Archivo&lt;/strong&gt;. No se consideran
+reemplazables nada que sea irrepetible, como las fotografías, ni nada
+que haya tomado tiempo seleccionar u ordenar, como la selección de
+música.&lt;/li&gt;
+&lt;li&gt;Eliminar rastros dejados por los programas como archivos de
+configuración, respaldos, y caches.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Eso debería dejar más que suficiente espacio de trabajo en el nuevo
+disco duro.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="en-adelante"&gt;
+&lt;h2&gt;En adelante&lt;/h2&gt;
+&lt;p&gt;A partir de este momento, a manera de hábito compulsivo, deben
+copiarse los nuevos proyectos de trabajo y personales desde el disco
+nuevo a un lugar razonable en el disco viejo (un buen momento para
+hacerlo es cada vez que se termina una sesión ante el computador).&lt;/p&gt;
+&lt;p&gt;Hay que siempre usar el disco nuevo como espacio de trabajo,
+experimentación, y juego. Si comienza a necesitarse más espacio en el
+disco nuevo, pueden borrarse algunas cosas de&amp;nbsp;&lt;strong&gt;/Archivo&lt;/strong&gt;, pero si
+eso se comienza a hacer recurrente lo mejor es comenzar a pensar en
+adquirir todavía otro disco duro (posiblemente pasando el disco más
+viejo de todos a otro uso no-crítico, &amp;nbsp;como experimentación).&lt;/p&gt;
+&lt;p&gt;Estos pasos &amp;nbsp;permiten obtener espacio de trabajo y conveniencia, y
+reducen la probabilidad de perder información o tiempo valioso
+escarbando en los respaldos, pero son sólo una parte de lo que se
+requiere en una estrategia de contingencia basada en mitigación de
+riesgos.&amp;nbsp;En otra oportunidad escribiré sobre qué es exactamente un &lt;em&gt;buen
+sistema de respaldos&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="misc"/></entry><entry><title>La tecnología en contra del arte</title><link href="https://neogeny.github.io/blog/la-tecnologia-en-contra-del-arte.html" rel="alternate"/><published>2009-06-20T00:00:00-04:30</published><updated>2009-06-20T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-06-20:/blog/la-tecnologia-en-contra-del-arte.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
+mitad de los '80, cuando en las competencias tenían que estar varios
+jueces para decretar justamente los toques. Comencé con florete, que ya
+era eléctrico, pero en el cual el juez todavía tenía que recitar los
+movimientos y la técnica …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
+mitad de los '80, cuando en las competencias tenían que estar varios
+jueces para decretar justamente los toques. Comencé con florete, que ya
+era eléctrico, pero en el cual el juez todavía tenía que recitar los
+movimientos y la técnica para dar el punto. Luego cambié a sable,
+para el cual no habían aparatos: solo jueces.&lt;/p&gt;
+&lt;p&gt;Viendo los juegos olímpicos y los mundiales en la tele y por Internet,
+me parece que lo que ha hecho la tecnología es desmejorar el arte. Con
+la regla de los toques dobles, que canta una máquina, los tiradores se
+dedican a hacer loqueras una vez consiguen una pequeña ventaja en la
+partida, porque de doble en doble ganan el combate. Atrás quedó el
+defensa y riposta, y el derecho del que inicia la acción a reclamar el
+toque.&lt;/p&gt;
+&lt;p&gt;El esgrima es un arte marcial, y la regla de los dobles toques
+decretados por una máquina acaba con su esencia: que la muerte espera a
+quien sólo ataca y no defiende.&lt;/p&gt;
+&lt;p&gt;Mis dos hijos son esgrimistas (y yo tecnólogo). Espero tener la
+oportunidad de contribuir a que cambien las reglas (no importa la
+tecnología), para que vuelva el arte.&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>Wikipedia en Español</title><link href="https://neogeny.github.io/blog/wikipedia-en-espanol.html" rel="alternate"/><published>2009-01-15T00:00:00-04:30</published><updated>2009-01-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-01-15:/blog/wikipedia-en-espanol.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
+en español a la que tiene la versión en inglés.&lt;/p&gt;
+&lt;p&gt;En este momento hay 2683000+ artículos en Wikipedia en inglés, y sólo
+431000+ artículos en la versión en español.&lt;/p&gt;
+&lt;p&gt;Cubrir la diferencia ya sería un trabajo monumental, pero la situación …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
+en español a la que tiene la versión en inglés.&lt;/p&gt;
+&lt;p&gt;En este momento hay 2683000+ artículos en Wikipedia en inglés, y sólo
+431000+ artículos en la versión en español.&lt;/p&gt;
+&lt;p&gt;Cubrir la diferencia ya sería un trabajo monumental, pero la situación
+es peor. La mayoría de los artículos en español distan mucho en amplitud
+y profundidad de sus contrapartes en inglés. Luego habría que atender el
+tema del proceso editorial en español, considerando que en inglés los
+lectores y editores son muchísimos, y las críticas, debates, y ediciones
+bastante severas.&lt;/p&gt;
+&lt;p&gt;Tal vez lo mejor sea aceptar la realidad del inglés como &amp;quot;lingua
+franca&amp;quot; en la actualidad, y enfocar el esfuerzo en proveer acceso al
+aprendizaje del idioma a las masas.&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>Privacidad en Internet</title><link href="https://neogeny.github.io/blog/privacidad-en-internet.html" rel="alternate"/><published>2008-07-12T00:00:00-04:30</published><updated>2008-07-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2008-07-12:/blog/privacidad-en-internet.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;No existe.&lt;/p&gt;
+&lt;p&gt;Mi intención no es fomentar la paranoia, sino promover el
+entendimiento sobre las consecuencias de participar en la Internet.&lt;/p&gt;
+&lt;p&gt;Tengo un amigo que cumple años por estos días, y con quién no he
+tenido contacto en mucho tiempo. Decidí buscarlo en la red.&lt;/p&gt;
+&lt;p&gt;No solo encontré sus direcciones …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;No existe.&lt;/p&gt;
+&lt;p&gt;Mi intención no es fomentar la paranoia, sino promover el
+entendimiento sobre las consecuencias de participar en la Internet.&lt;/p&gt;
+&lt;p&gt;Tengo un amigo que cumple años por estos días, y con quién no he
+tenido contacto en mucho tiempo. Decidí buscarlo en la red.&lt;/p&gt;
+&lt;p&gt;No solo encontré sus direcciones de correo electrónico, sino que
+también los nombres y edades de sus hijos, sus fechas de matrimonio y
+divorcio, su lugar de trabajo, y otro montón de cosas... sin ningún
+esfuerzo.&lt;/p&gt;
+&lt;p&gt;Por cierto, en el mismo fallo de divorcio del TSJ que al final dice
+&amp;quot;En cuanto a los adolescentes (Se omite su identificación según lo
+dispuesto en el Artículo 65 de la LOPNA)&amp;quot;, aparecen los nombres y
+edades de los chamos en el segundo párrafo.&lt;/p&gt;
+&lt;p&gt;Como que hoy, más que nunca, es mejor divorciarse por las buenas...&lt;/p&gt;
+&lt;p&gt;Se de personas que han sido &amp;quot;rastreadas&amp;quot; con fines legales o
+personales usando los sitios de búsqueda de empleo en la red. Así es el
+mundo de la modernidad: uno sin privacidad.&lt;/p&gt;
+&lt;p&gt;Acabo de ver que mi hija me ha invitado a cuanta vaina hay en
+Facebook. Me toca preparar un discurso parental, no para que se
+abstenga, sino para que entienda y actúe a consciencia.&lt;/p&gt;
+&lt;p&gt;Me toca preparar otro discurso para que mi primo imprima el árbol
+genealógico familiar que creó en &lt;a class="reference external" href="http://www.genoom.com"&gt;http://www.genoom.com&lt;/a&gt;, para que luego
+lo borre.&lt;/p&gt;
+&lt;p&gt;De nuevo, no es una cuestión de paranoia. En mi caso, la red ha sido
+desde el principio un medio de promoción profesional, así que estoy
+acostumbrado a ser una persona &amp;quot;interpública&amp;quot;, y a manejarme en ese
+medio:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="http://www.google.co.ve/search"&gt;http://www.google.co.ve/search&lt;/a&gt;?q=juancarlo+añez&lt;/blockquote&gt;
+&lt;p&gt;Se que no todo el mundo desearía estar así de expuesto, así que lo
+mejor es, de participar en la Internet, hacerlo a consciencia.&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>Huso Horario Venezolano en Ubuntu</title><link href="https://neogeny.github.io/blog/huso-horario-venezolano-en-ubuntu.html" rel="alternate"/><published>2007-09-22T00:00:00-04:00</published><updated>2007-09-22T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-22:/blog/huso-horario-venezolano-en-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Actualizado para el cambio de huso horario en 2007/12/09 03:00.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En otro
+&lt;a class="reference external" href="https://neogeny.github.io/blog/nuevo-huso-horario-para-venezuela.html"&gt;post&lt;/a&gt;
+expliqué como y por qué lidiar con el cambio de huso horario en
+Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.&lt;/p&gt;
+&lt;p&gt;Para lograrlo en una distribución Ubuntu 7.04 hice lo siguiente:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Respaldar el …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Actualizado para el cambio de huso horario en 2007/12/09 03:00.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En otro
+&lt;a class="reference external" href="https://neogeny.github.io/blog/nuevo-huso-horario-para-venezuela.html"&gt;post&lt;/a&gt;
+expliqué como y por qué lidiar con el cambio de huso horario en
+Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.&lt;/p&gt;
+&lt;p&gt;Para lograrlo en una distribución Ubuntu 7.04 hice lo siguiente:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Respaldar el archivo /usr/share/zoneinfo/America/Caracas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Crear un directorio de trabajo y cambiarse al mismo (mkdir work; cd
+work)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Obtener el archivo &lt;a class="reference external" href="ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz"&gt;ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Descomprimir el archivo (tar xvzf tzdata*)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Editar el archivo llamado southamerica, ir al final del archivo,
+donde dice &amp;quot;Venezuela&amp;quot;, y cambiar las últimas líneas para que
+aparezcan como las resaltadas:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# Venezuela# Zone  NAME            GMTOFF  RULES   FORMAT  [UNTIL]Zone    America/Caracas -4:27:44 -      LMT     1890                        -4:27:40 -      CMT     1912 Feb 12 # Caracas Mean Time?                        -4:30   -       VET     1965         # Venezuela Time     -4:00   -       VET     2007 Dec 9 3:00     -4:30   -       VET
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Compilar el archivo así:sudo zic southamerica&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Eso es todo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para comprobar el resultado se puede ejecutar&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;pre class="literal-block"&gt;
+zdump -v America/Caracas
+&lt;/pre&gt;
+&lt;/blockquote&gt;
+</content><category term="misc"/></entry><entry><title>Nuevo Huso Horario para Venezuela</title><link href="https://neogeny.github.io/blog/nuevo-huso-horario-para-venezuela.html" rel="alternate"/><published>2007-09-18T00:00:00-04:00</published><updated>2007-09-18T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-18:/blog/nuevo-huso-horario-para-venezuela.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;vo.2 Agregada nota sobre nueva fecha para el cambio de horario.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+NOTA: El cambio de huso horario será el 9 de diciembre de 2007 a las
+3:00 AM.
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El anunciado cambio de huso horario en Venezuela tiene una aplicación
+sencilla en la mayoría de los casos: atrasar el …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;vo.2 Agregada nota sobre nueva fecha para el cambio de horario.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+NOTA: El cambio de huso horario será el 9 de diciembre de 2007 a las
+3:00 AM.
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El anunciado cambio de huso horario en Venezuela tiene una aplicación
+sencilla en la mayoría de los casos: atrasar el reloj media hora.&lt;/p&gt;
+&lt;p&gt;En el caso de las computadoras el cambio de hora es un poco más
+complejo debido a que redes como la Internet se rigen por el Tiempo
+Universal Coordinado
+(&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Tiempo_Universal_Coordinado"&gt;UTC&lt;/a&gt;) ,
+el cual se matiene en consistencia con el Tiempo Medio de Greenwhich
+(&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Tiempo_Medio_de_Greenwich"&gt;GMT&lt;/a&gt;), y
+compensan las horas indicadas en mensajes y otras comunicaciones de
+acuerdo al huso horario indicado en la configuración. Si solo
+cambiáramos la hora en la computadora, la misma calcularía la hora GMT
+incorrectamente. En vez de calcular que un mensaje que acabamos de
+escribir a las 20:00 hora de Venezuela fue escrito a las 00:30 GMT del
+día siguiente (20:00 + 4:30 = 24:30), calcularía que el mensaje fue
+escrito media hora antes (20:00 + 4:00 = 24:00), y eso seguramente
+causará problemas.&lt;/p&gt;
+&lt;p&gt;Para el caso de los sistemas operativos Windows, Microsoft ha
+&lt;a class="reference external" href="http://support.microsoft.com/kb/914387"&gt;publicado&lt;/a&gt; instrucciones
+detalladas sobre como cambiar o definir nuevas zonas horarias. El método
+más sencillo es éste:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Descargar
+&lt;a class="reference external" href="http://download.microsoft.com/download/5/8/a/58a208b7-7dc7-4bc7-8357-28e29cdac52f/tzedit.exe"&gt;tzedit.exe&lt;/a&gt;
+de la página de Microsoft.&lt;/li&gt;
+&lt;li&gt;Ejecutar el programa para descomprimirlo (por defecto a C:\Program
+Files).&lt;/li&gt;
+&lt;li&gt;Ejecutar C:\Program Files\TZEDIT.EXE.
+&lt;img alt="image0" src="https://neogeny.github.io/blog/images/tzedit.png" /&gt;&lt;/li&gt;
+&lt;li&gt;Oprimir el botón New (Nueva) y agregar una zona horaria como
+esta:
+&lt;img alt="image1" src="https://neogeny.github.io/blog/images/vet07.png" /&gt;&lt;/li&gt;
+&lt;li&gt;Finalmente, el domingo 9 de diciembre en la mañana, escoger la nueva
+zona horaria y colocar la nueva hora (media hora menos) usando la
+aplicación de Fecha y Hora del Panel de Control (Control Panel).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Los usuarios de Linux pueden usar el programa
+&lt;a class="reference external" href="http://manpages.courier-mta.org/htmlman8/zic.8.html"&gt;zic&lt;/a&gt; para
+compilar una nueva zona horaria. Existen
+&lt;a class="reference external" href="https://secure-support.novell.com/KanisaPlatform/Publishing/51/3655154_f.SAL_Public.html"&gt;instrucciones&lt;/a&gt;
+para las distintas distribuciones en la red.&lt;/p&gt;
+&lt;p&gt;Los usuarios de celulares, agendas electrónicas, y localizadores
+geosatelitales probablemente tendrán que esperar a que una actualización
+adecuada del software para el dispositivo se haga disponible.&lt;/p&gt;
+</content><category term="misc"/></entry><entry><title>Sobre la Revisión por Pares</title><link href="https://neogeny.github.io/blog/sobre-la-revision-por-pares.html" rel="alternate"/><published>2007-06-06T00:00:00-04:00</published><updated>2007-06-06T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-06-06:/blog/sobre-la-revision-por-pares.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
+&lt;a class="reference external" href="http://pedrogtit.blogspot.com/"&gt;Pedro&lt;/a&gt;escribió sobre &amp;quot;peer
+reviews&amp;quot;.&lt;/p&gt;
+&lt;p&gt;[versión 0.1]&lt;/p&gt;
+&lt;p&gt;En el mundo del software una revisión por pares no es solo una
+oportunidad para mejorar la calidad del producto (el &amp;quot;código fuente&amp;quot;) a
+través de la detección temprana de defectos, como …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
+&lt;a class="reference external" href="http://pedrogtit.blogspot.com/"&gt;Pedro&lt;/a&gt;escribió sobre &amp;quot;peer
+reviews&amp;quot;.&lt;/p&gt;
+&lt;p&gt;[versión 0.1]&lt;/p&gt;
+&lt;p&gt;En el mundo del software una revisión por pares no es solo una
+oportunidad para mejorar la calidad del producto (el &amp;quot;código fuente&amp;quot;) a
+través de la detección temprana de defectos, como errores de
+programación, o desviaciones de la especificación, de la arquitectura, o
+de las buenas prácticas.&lt;/p&gt;
+&lt;p&gt;Es también una importante oportunidad de aprendizaje para los
+participantes, y en ello una opotrunidad de mejorar el entorno.&lt;/p&gt;
+&lt;p&gt;Una revisión por pares enfocada solo en encontrar anomalías, o &amp;quot;el
+qué&amp;quot;, pierde la valiosa oportunidad valiosa de analizar también el
+&amp;quot;cómo&amp;quot; y el &amp;quot;por qué&amp;quot;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Falta de conocimiento.&lt;/li&gt;
+&lt;li&gt;Herramientas inadecuadas.&lt;/li&gt;
+&lt;li&gt;Tareas repetitivas y proclives a equivocaciones.&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y de aplicar mejoras con efectos permanentes como:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entrenamiento.&lt;/li&gt;
+&lt;li&gt;Obtención o creación de mejores herramientas.&lt;/li&gt;
+&lt;li&gt;Automatización.&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por ejemplo, la
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Static_code_analysis"&gt;automatización&lt;/a&gt;
+de las revisiones particularment porque provee a tanto revisores como a
+autores de más tiempo para ocuparse de lo verdaderamente importante.&lt;/p&gt;
+&lt;p&gt;Al final importan el entendimiento de los conceptos y de las buenas
+prácticas, y el buen criterio. Frente a una desviación de las normas o
+la arquitectura el autor debería ser capaz de argumentar sbore por qué
+su decisión fue adecuada y no un capricho o un error. A veces ocurre que
+la arquitectura tiene defectos u omisiones, o que una norma no es
+aplicable en todas las situaciones.&lt;/p&gt;
+&lt;p&gt;Durante una revisión por pares buscamos que el código sea &amp;quot;bueno&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Un código que no es de calidad puede pasar una primera inspección ser
+todavía vulnerable a la ocurrencia de cientos de defectos en una
+siguiente iteración.&lt;/p&gt;
+&lt;p&gt;Mucho se ha discutido sobre la &amp;quot;estética&amp;quot; en software porque, en
+general, la informática se considera una cosa objetiva, mucho más
+cercana a las matemáticas que a la música (algo bien
+&lt;a class="reference external" href="http://www.amazon.com/Godel-Escher-Bach-Eternal-Golden/dp/0465026567/"&gt;discutible&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;La verdad es que la calidad estética del software puede determinarse
+con criterios bastante objetivos. Criterios que tienen que ver
+fundamentalmente con cuan entendible por otros mortales es una pieza de
+código. Lo subjetivo está en que quien adquiere experiencia en escribir
+buenos programas adquiere también un sentido intuitivo (o &amp;quot;estético&amp;quot;) .&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Modularidad&lt;/li&gt;
+&lt;li&gt;Separación de responsabilidades&lt;/li&gt;
+&lt;li&gt;Alta cohesión&lt;/li&gt;
+&lt;li&gt;Bajo acoplamiento&lt;/li&gt;
+&lt;li&gt;Minimalidad&lt;/li&gt;
+&lt;li&gt;Comprensibilidad&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hay toda una tradición en libros por autores famosos sobre estos
+temas: &lt;a class="reference external" href="http://www.amazon.com/Software-Tools-Pascal-Brian-Kernighan/dp/0201103427/"&gt;Software
+Tools&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880/"&gt;Programming
+Pearls&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.amazon.com/Complete-Microsoft-Programming-Steve-McConnell/dp/1556154844/"&gt;Code
+Complete&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional/dp/0201633612/"&gt;Design
+Patterns&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/"&gt;Pragmatic
+Programmer&lt;/a&gt;,
+y
+&lt;a class="reference external" href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/"&gt;Refactoring&lt;/a&gt;,
+entre otros.&lt;/p&gt;
+&lt;p&gt;Por ser tan importantes el aprendizaje, el entendimiento, y el
+criterio, los acercamientos
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Agile_programming"&gt;ágiles&lt;/a&gt; al
+desarrollo de software incorporan varias prácticas particularmente
+relevantes a este tema:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Programación en pares que cambian, con lo cual la práctica de
+revisión por pares se lleva a cabo constantemente.&lt;/li&gt;
+&lt;li&gt;El código es la documentación, con lo cual se afianza el concepto de
+&amp;quot;tener criterio&amp;quot; y se resuelven los conflictos con documentación de
+diseño obsoleta, incompleta, o errónea.&lt;/li&gt;
+&lt;li&gt;Automatización, no solo de las pruebas unitarias, sino de toda tarea
+que sea repetitiva y con ello proclive a errores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una revisión por pares no es solo una oportunidad para detectar y
+corregir los errores de hoy, sino para aprender, y así poder hacer del
+trabajo de manera más fácil y mejor en el futuro.&lt;/p&gt;
+</content><category term="misc"/></entry></feed>

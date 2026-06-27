@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - snakes</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/snakes.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-24T00:00:00-04:30</updated><entry><title>From PyDev to VIM, A Desktop Trick</title><link href="https://neogeny.github.io/blog/from-pydev-to-vim-a-desktop-trick.html" rel="alternate"/><published>2013-05-24T00:00:00-04:30</published><updated>2013-05-24T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-24:/blog/from-pydev-to-vim-a-desktop-trick.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I've written elsewhere about how after having procured a laptop that
+could finally run Eclipse+PyDev well, I decided to switch to VIM as my
+main editor for Python programming.&lt;/p&gt;
+&lt;p&gt;This time I won't talk about why I was so tempted to switch to a
+keyboard-friendly environment, but about one …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I've written elsewhere about how after having procured a laptop that
+could finally run Eclipse+PyDev well, I decided to switch to VIM as my
+main editor for Python programming.&lt;/p&gt;
+&lt;p&gt;This time I won't talk about why I was so tempted to switch to a
+keyboard-friendly environment, but about one feature of the operating
+system that not only enabled the switch, but also made it very easy.&lt;/p&gt;
+&lt;p&gt;It's multiple desktops.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/multiple_desktops.png" /&gt;&lt;/p&gt;
+&lt;p&gt;On the set of desktops in the image, I'm editing Python on the center
+desktop. To the left, is the IBM COBOL Reference Manual. To the right,
+is MonoDevelop with the project for the test suite of the related C#
+library.&lt;/p&gt;
+&lt;p&gt;On the top row, from left to right, is Chrome letting me type this
+post, then a SSH session to the server, and then a VCN to the
+KVM-virtualized WinXP on the same server, which is running Visual Studio
+and has just finished an MSBuild.&lt;/p&gt;
+&lt;p&gt;On the bottom-left desktop, I'm editing a related Python project with
+VIM.&lt;/p&gt;
+&lt;p&gt;At times, one of the remaining virtual desktops may hold a Google
+Hangout, and another would have yet another Python editing session on a
+related project.&lt;/p&gt;
+&lt;p&gt;As you can see, I'm using a 3x3 grid of desktops, but at times I've
+thought about going to 4x4.&lt;/p&gt;
+&lt;p&gt;Switching among the desktops is a matter of Ctrl-Alt-, and it's
+really, really fast. It sure beats click-click-click required even by
+the best IDE's.&lt;/p&gt;
+&lt;p&gt;And that is the trick!&lt;/p&gt;
+</content><category term="snakes"/></entry><entry><title>Project Euler, My Way</title><link href="https://neogeny.github.io/blog/project-euler-my-way.html" rel="alternate"/><published>2011-05-09T00:00:00-04:30</published><updated>2011-05-09T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-05-09:/blog/project-euler-my-way.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
+Euler&lt;/a&gt; to exercise my mind, augment my
+knowledge in general algorithms and maths in general, and to gain
+practice with specific programming languages, their standard libraries,
+and the many specialised libraries available out there.&lt;/p&gt;
+&lt;p&gt;Most of the problems so far have been solved …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
+Euler&lt;/a&gt; to exercise my mind, augment my
+knowledge in general algorithms and maths in general, and to gain
+practice with specific programming languages, their standard libraries,
+and the many specialised libraries available out there.&lt;/p&gt;
+&lt;p&gt;Most of the problems so far have been solved using
+&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; and &lt;a class="reference external" href="http://cython.org/"&gt;Cython&lt;/a&gt;
+even if there are analytical (paper and pencil) solutions to them.&lt;/p&gt;
+&lt;p&gt;Unlike many of the programs found on the posts readable after you
+provide the solution on the
+&lt;a class="reference external" href="https://bitbucket.org/apalala/euler_project/wiki/Project%20Euler_"&gt;project's&lt;/a&gt;
+web site, mine are written so that they would work if the specific
+conditions, like ranges, sums versus products versus single items,
+change. I also have tried to keep it simple and readable, which means
+very functional, some procedural, and no OO (there was a time when I
+thought I would never say something like that).&lt;/p&gt;
+&lt;p&gt;Unlike many of the mentioned programs, with every new problem I've
+gone back to similar or related problems and refactored the relevant
+code into libraries that are reused accross problems, and I've optimized
+the library code as harder problems have required it. The individual
+solutions are written in a way in which the code can be reused (which is
+what I did before deciding that refactoring to libraries was better).&lt;/p&gt;
+&lt;p&gt;Modesty set aside, I think that the result of my effort is a library
+that can be used for tasks from homework to my own professional work.&lt;/p&gt;
+&lt;p&gt;So far I've approached the problems this way:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Always take a look at the latest published problem, but leave it for
+later if it seems too hard. The reason for this is provided in the
+hints at &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project Euler&lt;/a&gt;: new problems
+tend to build upon knowledge gained with previous problems (and, in
+my case, previous code).&lt;/li&gt;
+&lt;li&gt;If I get bored, I browse for a problem I that I want to solve or that
+I find easy to solve and have a take at it.&lt;/li&gt;
+&lt;li&gt;I always devise a strategy in my head before coming back to the
+computer. When I sit at the keyboard, I already know what I'm going
+to write, except, perhaps, for the workings of a library I haven't
+used lately.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Since I've already broken shared code while solving new problems, I
+decided to incorporate either assertions or unit tests (some form of
+automation) to verify that all problems are solved correctly before
+publishing changes.&lt;/p&gt;
+&lt;p&gt;Finally, it makes little sense to look at my code unless you've
+already solved the problems, you're only interested in the reusable
+parts, or you have interest in reviewing &lt;a class="reference external" href="https://bitbucket.org/apalala/project_euler/"&gt;what I have
+written&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/apalala/project_euler/"&gt;https://bitbucket.org/apalala/project_euler/&lt;/a&gt;&lt;/p&gt;
+</content><category term="snakes"/></entry></feed>

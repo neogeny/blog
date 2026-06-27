@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - inpublishing</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/inpublishing.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2000-06-19T00:00:00-04:00</updated><entry><title>Snake charming</title><link href="https://neogeny.github.io/blog/snake-charming.html" rel="alternate"/><published>2000-06-19T00:00:00-04:00</published><updated>2000-06-19T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2000-06-19:/blog/snake-charming.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
+little.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today I spent the whole afternoon with a snake. I've known Python for
+several years now -- the oldest version of Python on my hard drive is v.
+1.3, dated March 1996 -- and I've studied and played with …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
+little.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today I spent the whole afternoon with a snake. I've known Python for
+several years now -- the oldest version of Python on my hard drive is v.
+1.3, dated March 1996 -- and I've studied and played with the language
+several times. But it wasn't until today that I actually tried to do
+something useful with it.&lt;/p&gt;
+&lt;p&gt;The task at hand? I wanted to lay out the articles I've written during
+the last couple of months in an HTML format that is consistent with that
+of the rest of my Web site. My site is a modest one, and producing the
+few pages of HTML in it is fairly easy, even by hand. But doing the same
+formatting for a dozen or so articles (and the many more to come), even
+with a WISIWYG editor, is the kind of task that makes us lazy
+programmers start thinking about a better way: writing a program.&lt;/p&gt;
+&lt;p&gt;Figuring out that the formatting of the articles had to be automated
+was the easy part. Deciding on how to automate the process was more
+difficult. It's not that I lacked a tool to do the job, but rather that
+I didn't know the right tool to use. One of the mantras of programming
+is &amp;quot;When in doubt, start hacking,&amp;quot; so I did. After some experimenting
+with Perl, SED, and AWK, I remembered Python, a programming language
+often touted as capable of accomplishing everything easily. I hacked my
+way out of this problem with Python, and I wasn't disappointed.&lt;/p&gt;
+&lt;div class="section" id="a-breed-apart"&gt;
+&lt;h2&gt;A breed apart&lt;/h2&gt;
+&lt;p&gt;Python is an interpreted, interactive, object-oriented programming
+language that offers advanced features like modules, exception handling,
+and classes. Python's syntax is simple, yet the native support for
+first-order functions (functions you can assign to variables or pass as
+parameters), lists, tuples, and maps (associative arrays) make it quite
+powerful. The compiler/interpreter and libraries are extensible, very
+portable, and open source. The language has been ported to the most
+diverse platforms, including several brands of Unix, Linux, MacOS,
+MS-DOS, Windows, and OS/2. Python libraries support everything from
+string handling to system calls to concurrency to Internet programming
+-- including sockets, HTTP servers and clients, and HTML and XML parsing
+and formatting.&lt;/p&gt;
+&lt;p&gt;The greatest strength of Python is that it lets you think big, yet
+start small. Using Python, you can expand a four- line procedural or
+functional program into a full- blown web of concurrently interacting
+objects. Like the snake, Python can squish a problem, little by little.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="getting-the-snake-out-of-the-basket"&gt;
+&lt;h2&gt;Getting the snake out of the basket&lt;/h2&gt;
+&lt;p&gt;The simplest automated scheme I could think of was to strip the
+original articles of everything but the basic HTML and embed them into a
+pre-formatted template, much like is done with server-side includes. I
+wrote the template and placed the tag right in the middle of it. I
+launched a browser with the Python HTML documentation, opened a console
+window, and started hacking.&lt;/p&gt;
+&lt;p&gt;To begin, I needed to open the template and target files. Python is an
+eclectic language; it borrows concepts from procedural, functional, and
+object-oriented programming languages. Whatever seems to work well,
+Python does. According to the Python documentation, to open a file I
+just needed to call the open function:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+template = open(&amp;quot;template.html&amp;quot;)
+target = open(article.html')
+&lt;/pre&gt;
+&lt;p&gt;You don't have to declare variables in Python and you can enclose
+strings in either single or double quotation marks.&lt;/p&gt;
+&lt;p&gt;Reading the files came next. Python provides an assortment of file
+reading functions, the simplest of which was precisely what I needed. In
+Python, the result from a call to open is an object of File type.
+Calling read on the object returns the complete contents of the file as
+a string:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+template_text = template.read()
+&lt;/pre&gt;
+&lt;p&gt;I finally opted for the more straightforward:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+template = open(&amp;quot;template.html&amp;quot;).read()
+target = open('article.html').read()
+&lt;/pre&gt;
+&lt;p&gt;To embed the article in the template I needed a text substitution
+function, the simplest of which was to be found in the string module. As
+in many other languages, Python modules are used to hold related stuff
+together. Module string holds a set of useful string manipulation
+functions. The one I needed was the replace method. To use a module, you
+have to import it like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+import string
+&lt;/pre&gt;
+&lt;p&gt;After importing the module, I just had to call replace to do the
+substitution:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+result = string.replace(template, &amp;quot;&amp;quot;, target)
+&lt;/pre&gt;
+&lt;p&gt;So far, the complete Python program I had written looked like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+import string
+template = open(&amp;quot;template.html&amp;quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &amp;quot;&amp;quot;, target)
+print result
+&lt;/pre&gt;
+&lt;p&gt;I saved the program to a file, then made a couple of adjustments to
+make it more generic. For example, I made the program work on any file
+passed as a command-line parameter by using the functions available in
+the sys module. Here was the program after the changes:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+import string
+template = open(&amp;quot;template.html&amp;quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &amp;quot;&amp;quot;, target)
+print result
+&lt;/pre&gt;
+&lt;p&gt;Now I could call the program up on any of my articles from the command
+line, like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+python format.py article.html &amp;gt; formatted_article.html
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="try-try-again"&gt;
+&lt;h2&gt;Try, try again&lt;/h2&gt;
+&lt;p&gt;Alas, my initial attempt at automating the formatting of the articles
+wasn't good enough. For starters, it didn't cope with important HTML
+meta-information such as the
+tag, which should be included in every HTML file. Nor did it deal with
+the specific placement and formatting I wanted to give to the article's
+abstract or the author's name (mine). But Python was still up to the
+task. First I edited the articles and added the relevant
+meta-information on the very few lines of each file. Then I told Python
+to read the files as a list of lines instead of as a string, like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+raw = open(filename).readlines()
+&lt;/pre&gt;
+&lt;p&gt;Then I retrieved the information items by indexing the already read
+list:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+title = raw[0]
+author = raw[1]
+text = string.join(raw[2:])
+&lt;/pre&gt;
+&lt;p&gt;To convert the non-field article text from a list of lines back into a
+string, I used the string module's join function, which does exactly
+what you'd expect. The expression raw[2:] retrieves the items from
+position 2 onward, as a new list.&lt;/p&gt;
+&lt;p&gt;I added a couple of special tags ( and ) as to the template to embed
+the new information at the right places. After adding the replacements
+for the new tags, the code looked like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+import string
+template = open(&amp;quot;template.html&amp;quot;).read()
+target = open(sys.argv[1]).read()
+result = string.replace(template, &amp;quot;&amp;quot;, target)
+result = string.replace(template, &amp;quot;&amp;quot;, title)
+result = string.replace(template, &amp;quot;&amp;quot;, author)
+print result
+&lt;/pre&gt;
+&lt;p&gt;That was it for version 1.0: a seven-line program. The current version
+of the program (which you can
+&lt;a class="reference external" href="http://www.suigeneris.org/%7Ejuanca/writings/format.py"&gt;download&lt;/a&gt;
+from my Web site) is 48 lines long and handles the article abstracts,
+parses the article's date and formats it in two different ways, and
+manages the hyperlink to the article's original publication URL. Had I
+been inclined to do so, I could have parsed the original HTML files to
+retrieve the chunks of information using Python's XML and HTML parsing
+libraries. I could have also used the built-in dictionary (map) type to
+make the text substitutions more generic, and the regular expressions
+library to get really fancy. I didn't, though, because my 48-line
+program already did what I needed. I'm fond of the KISS principle,
+especially in Extreme Programming. My philosophy: Do the simplest thing
+that could possibly work.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Xtreme testing for Delphi programs</title><link href="https://neogeny.github.io/blog/xtreme-testing-for-delphi-programs.html" rel="alternate"/><published>1999-11-28T00:00:00-04:00</published><updated>1999-11-28T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-28:/blog/xtreme-testing-for-delphi-programs.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
+there is one and it's even open source.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In my &lt;a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html"&gt;article&lt;/a&gt; on
+Xtreme testing, I talked about how it could improve the quality of
+programs as well as the speed and confidence with which they were
+developed. For the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
+there is one and it's even open source.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In my &lt;a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html"&gt;article&lt;/a&gt; on
+Xtreme testing, I talked about how it could improve the quality of
+programs as well as the speed and confidence with which they were
+developed. For the examples, I used Kent Beck and Erich Gamma's JUnit
+open-source testing framework and I wrote the program fragments using
+Java -- a language I'm comfortable with. But those who know me from
+previous writing gigs or my once-frequent postings in online forums know
+that I've long been a Borland Pascal programmer. My online buddies are
+probably wondering why I didn't write the examples in Object Pascal. The
+reason is that I discovered Xtreme testing only recently, and, as far as
+I know, there are no testing frameworks available for Delphi.&lt;/p&gt;
+&lt;p&gt;But we're about to change that.&lt;/p&gt;
+&lt;p&gt;I've been choosing the latest version of Borland's Pascal as the best
+solution to most of my programming needs for 15 years now. The reasons
+are varied. The tool's suitability to the kind of applications I've been
+developing is one reason. Its overall quality is another. Not to mention
+its blazing instant-feedback speed. A large reason has been the
+community of developers that has gathered around the tool.&lt;/p&gt;
+&lt;p&gt;I met that community when I joined CompuServe and the BPASCAL forum
+back in 1993. BPASCAL quickly became an invaluable asset. The forum was
+filled with excellent questions, prompt answers, expert advice, and
+loads of useful source code. Examples, workarounds, patches, libraries,
+frameworks, and even complete applications were available for download
+and free use. The forum's motto was &amp;quot;Don't pay back -- pay forward,&amp;quot; and
+these guys took it seriously. I started contributing advice and source
+code as soon as I was confident enough to do so, and eventually became
+expert enough to start writing about Delphi for trade publications --
+but that's another story.&lt;/p&gt;
+&lt;p&gt;Even after all these years I have never felt that I had managed to
+fully pay back -- er, forward -- all the help. That's the reason for
+this contribution: DUnit, a port of the JUnit Xtreme testing framework
+to Delphi.&lt;/p&gt;
+&lt;div class="section" id="porting-from-junit"&gt;
+&lt;h2&gt;Porting from JUnit&lt;/h2&gt;
+&lt;p&gt;The original JUnit framework is extremely easy to use and very
+effective. I wanted the Delphi port to be as good.&lt;/p&gt;
+&lt;p&gt;To speed up the port, I decided to translate the classes and
+interfaces in JUnit almost literally. It was a compromise that required
+heavy use of method overloading, which means that DUnit won't be usable
+with versions of Delphi prior to version 4.&lt;/p&gt;
+&lt;p&gt;I made another compromise. I could translate the methods in JUnit
+almost literally if I used the Delphi port of the Java collections
+library that I had begun implementing, so that's exactly what I did.&lt;/p&gt;
+&lt;p&gt;These two decisions let me do the port in a single afternoon and
+resulted in a framework that I find very easy to use. But the
+implementation relies heavily on interfaces and iterators -- idioms
+seldom used by Delphi programmers. Although the first idiom is fully
+supported by Delphi, most programmers reserve it for dealing with COM
+and ActiveX objects. Interfaces provide the advantage of memory
+management by reference counting, so a little work up-front with
+interfaces translates into much less code to write. You do have to be
+careful with some interface implementation issues. For example, a loop
+with references to interfaces will make it impossible for Delphi to
+reclaim the memory used.
+| The second idiom is common in Java and C++ programs, but may be
+unfamiliar to Delphi programmers. Iterators enable you to write
+implementation-independent loops that process the objects contained in a
+collection. JUnit uses iterators, so DUnit does too.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="classes-that-test-classes"&gt;
+&lt;h2&gt;Classes that test classes&lt;/h2&gt;
+&lt;p&gt;To apply DUnit to your Delphi programs, you write a descendant of the
+class TTestCase for each test case you want to apply to a unit. I
+decided to apply DUnit to the collections library used in its own
+implementation. To avoid circular unit references, I had to declare the
+test case classes in the main program (DPR) file, but I recommend that
+in general you place the test classes inside the units they test. Doing
+so will let you test protected and private methods in addition to the
+public and published ones.&lt;/p&gt;
+&lt;p&gt;This is the class declaration for a simple test case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+type
+    TListTests = class(TTestCase, ITest)
+        published
+        // published, so we get RTTI;
+        // virtual, so the compiler
+        // doesn't eliminate them;
+        procedure testEmptyArrayList; virtual;
+        procedure testEmptyLinkedList; virtual;
+        procedure doEmptyTests(list :IList);
+        procedure testFailure; virtual;
+        procedure testError; virtual;
+    end;
+&lt;/pre&gt;
+&lt;p&gt;The first two methods test several conditions on arrays and linked
+lists. The third procedure is a utility used by the preceding routines.
+The last two methods generate a test failure and an exception
+respectively, to make sure DUnit responds properly when errors are
+detected. The test methods must be declared within a published section
+so that Delphi generates runtime type information for them and DUnit has
+access to method names at runtime. Here's part of the implementation of
+doEmptyTests:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+procedure TListTests.doEmptyTests(list: IList);
+var i :IIterator;
+begin
+    assert('isEmpty', list.isEmpty);
+    assertEquals('size', 0, list.size);
+    assert('iterator at end', not list.iterator.hasNext);
+    list.add('anItem');   assertEquals('size', 1, list.size);
+    //...
+&lt;/pre&gt;
+&lt;p&gt;Yes, writing the test cases is that easy. Each line in the test method
+checks (asserts) a condition that should be true if the tested code is
+working properly. DUnit provides several different assertXXX methods to
+make writing tests easier.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pulling-it-all-together"&gt;
+&lt;h2&gt;Pulling it all together&lt;/h2&gt;
+&lt;p&gt;To assemble all the test methods into a single test suite, you write a
+function like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+function suite :ITestSuite;
+begin
+    result := TTestSuite.Create;
+    result.addTest(TListTests.Create('testEmptyArrayList'));
+    result.addTest(TListTests.Create('testEmptyLinkedList'));
+    result.addTest(TListTests.Create('testFailure'));
+    result.addTest(TListTests.Create('testError'));
+end;
+&lt;/pre&gt;
+&lt;p&gt;Finally, you run the tests in console mode with a single statement in
+the main program block:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+begin
+    DUnit.runTest(suite, true);
+end.
+&lt;/pre&gt;
+&lt;p&gt;Oops! Two bugs in the collections library surfaced while I was
+executing the tests. So the framework has already paid for the effort I
+invested in it. After fixing the bugs and running the tests again, the
+output looks exactly as expected:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+DUnit: Testing.
+...F.ETime: 0.0
+FAILURES!!!
+Test Results:Run: 4 Failures: 1 Errors: 1
+There was 1 error:
+1) TListTests.testError: EAbort: Raised exception on purpose
+There was 1 failure:
+1) TListTests.testFailure: AssertionFailedError: Failed on purposePress [return] to continue.
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="a-license-to-test"&gt;
+&lt;h2&gt;A license to test&lt;/h2&gt;
+&lt;p&gt;What are the licensing terms for DUnit? In open source development,
+when you enhance, fix or port someone else's code, it is customary to:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Give as many rights to the original software as the original authors
+did.&lt;/li&gt;
+&lt;li&gt;Give the same rights to your contributions (some licenses, such as
+the GNU GPL, require that you to do this).&lt;/li&gt;
+&lt;li&gt;Give credit to the original authors for their work.&lt;/li&gt;
+&lt;li&gt;Preserve all disclaimers made by the original authors, in particular
+those about lack of warranty and protection from their names being
+used for promotion without authorization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The license to the original JUnit is very flexible, so I made the
+license to DUnit almost an exact copy of it. The part about your rights
+reads like this:&lt;/p&gt;
+&lt;blockquote&gt;
+Permission to reproduce and create derivative works from the
+Software (&amp;quot;Software Derivative Works&amp;quot;) is hereby granted to you
+under the copyrights of [...] (THE AUTHORS). The authors also grant
+you the right to distribute the Software and Software Derivative
+Works.&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="next-steps"&gt;
+&lt;h2&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;As it stands, DUnit lacks any documentation. If you can read Java
+code, then the documentation that comes with JUnit is probably
+sufficient.&lt;/p&gt;
+&lt;p&gt;At this time the following still needs to be done:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Create a GUI interface to the framework like the one JUnit has. Given
+Delphi's GUI capabilities, this shouldn't take more than an hour or
+so.&lt;/li&gt;
+&lt;li&gt;Use Delphi's RTTI to build a test suite automatically by gathering
+all the methods with names that start with &amp;quot;test.&amp;quot; JUnit does this,
+and the feature is very useful. I'll leave this task to someone else.&lt;/li&gt;
+&lt;li&gt;Translate JUnit's excellent documentation and examples to Delphi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you'd like to contribute to the DUnit project, please do so. But
+try to refrain from sending me suggestions. What I think should be done
+in DUnit I will likely do, time permitting. As Linus Torvald says, I'd
+rather you &amp;quot;show me the source code!&amp;quot;&lt;/p&gt;
+&lt;p&gt;Oh -- the source code! You can download the source code to the latest
+version of DUnit from my always-under-construction Web site:
+&lt;a class="reference external" href="http://www.neogeny.org/dunit/index.html"&gt;http://www.suigeneris.org/dunit&lt;/a&gt;.
+I hope you find this small testing framework useful. If you do, please
+forget about expressing thanks. Pay forward.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>The monopoly monster</title><link href="https://neogeny.github.io/blog/the-monopoly-monster.html" rel="alternate"/><published>1999-11-21T00:00:00-04:00</published><updated>1999-11-21T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-21:/blog/the-monopoly-monster.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
+gather the whole village to assault the castle with hoes and pitchforks?
+Burn it down with torches? Get real.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;James Whales' 1931 movie of Mary Shelley's
+&lt;a class="reference external" href="http://www.filmsite.org/fran.html"&gt;Frankenstein&lt;/a&gt; has become an
+icon of horror cinematography. Fulfilling his personal vision …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
+gather the whole village to assault the castle with hoes and pitchforks?
+Burn it down with torches? Get real.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;James Whales' 1931 movie of Mary Shelley's
+&lt;a class="reference external" href="http://www.filmsite.org/fran.html"&gt;Frankenstein&lt;/a&gt; has become an
+icon of horror cinematography. Fulfilling his personal vision, Dr.
+Frankenstein creates a living man (or almost a man). Infusing life into
+the inanimate, the doctor feels a God-like power. &amp;quot;It's alive! Aliiive!&amp;quot;
+he screams, overwhelmed by the ecstasy that accompanies creation. But
+Frankenstein's not-quite-human being is intelligent enough to claim a
+larger space in the world than its maker imagined. The monster's power
+makes everyone uncomfortable -- even its creator. Power frightens us
+because the smallest actions of the powerful can have large
+consequences, and their mistakes can be devastating. The mistakes of
+Frankenstein's creature, though born of childlike naiveté, quickly
+become too much to bear. As the film comes to an end, torch-wielding
+villagers hunt down the monster. The mob sets fire to an old mill where
+the creature is trapped, and there it presumably dies.&lt;/p&gt;
+&lt;div class="section" id="conflicting-viewpoints"&gt;
+&lt;h2&gt;Conflicting viewpoints&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="frankestein" src="https://neogeny.github.io/blog/images/B00000JMOF.01.MZZZZZZZ.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;Frankenstein and his creation come to mind when I contemplate
+developers' reactions to Judge Jackson's findings of fact in the
+Microsoft-DOJ antitrust case. Having found Microsoft to be a monopoly (a
+kind of monster), the mob has been quick to loudly indict: &lt;em&gt;Tear it to
+pieces! Restrain it permanently! Confine it! Destroy it!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Voices of reason have also spoken. In his 11 Nov. &lt;em&gt;Developer News&lt;/em&gt;
+&lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20063,00.html"&gt;article&lt;/a&gt;,
+correspondent Jeff Russell maintains that the case brought against
+Microsoft holds little water, and that the allegations brought against
+the company would have been better dealt with in civil court, if at all.
+Long-term &lt;a class="reference external" href="http://www.byte.com/"&gt;Byte&lt;/a&gt; columnist Jerry Pournelle
+&lt;a class="reference external" href="http://www.byte.com/printableArticle?doc_id=BYT19991108S0001"&gt;explains&lt;/a&gt;
+why Microsoft's success should be credited mostly to its acting smarter
+and doing things better than its competitors, rather than to excess of
+power. &lt;a class="reference external" href="http://www.zdnet.com/pcweek/"&gt;PC Week&lt;/a&gt; columnist Peter
+Coffee
+&lt;a class="reference external" href="http://www.zdnet.com/filters/printerfriendly/0,6061,1018027-2,00.html"&gt;says&lt;/a&gt;,
+&amp;quot;The judge just didn't get it.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Judging from the results of polls like the one at
+&lt;a class="reference external" href="http://www.vote.com/vResults/index.phtml?voteID=237932"&gt;vote.com&lt;/a&gt;,
+and from most of the &amp;quot;talkback&amp;quot; messages posted in reply to the past two
+weeks' news, it would seem that Microsoft never did anything wrong -- or
+that whatever it did, government intervention isn't merited.&lt;/p&gt;
+&lt;p&gt;On the other hand, you might base your opinion on the anti-Microsoft
+sentiment that has sparked and grown in the past 10 years. How did the
+company start getting nicknames like &amp;quot;Microslop&amp;quot; and &amp;quot;M$&amp;quot; in developer
+circles?&lt;/p&gt;
+&lt;p&gt;So Microsoft is a monster. What does one do with a monster? What is
+the reasonable response? How should the company itself view its actions?
+What is the role of the development community? What does the whole issue
+seem to predict for the future? Obviously, such questions can't even be
+considered from the perspective of an angry, frightened mob.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-monster-s-blunders"&gt;
+&lt;h2&gt;The monster's blunders&lt;/h2&gt;
+&lt;p&gt;It takes no more than a quick scan of the Web to gather a list of
+allegations against Microsoft. Consumer advocates Ralph Nader and James
+Love have compiled a series of documents related to
+&lt;a class="reference external" href="http://www.essential.org/antitrust/microsoft/"&gt;Microsoft's anticompetitive conduct&lt;/a&gt;.
+The Web also provides many links to the proceedings of trials brought against
+Microsoft for anticompetitive behavior; those brought by
+&lt;a class="reference external" href="http://java.sun.com/lawsuit/82198unfair.html"&gt;Sun&lt;/a&gt; and by
+&lt;a class="reference external" href="http://www.calderathin.com/fullstory/vaporwre.html"&gt;Caldera&lt;/a&gt; are
+two. Microsoft is cited in examples of anticompetitive practices in a
+couple of university courses on &lt;a class="reference external" href="http://courses.ncsu.edu/CSC379/lectures/Lecture_15.html"&gt;ethics and
+computing&lt;/a&gt;.
+According to these and other articles, documents, Web pages, and online
+discussions, Microsoft has indulged in such nefarious practices as:
+&lt;a class="reference external" href="http://www.csn.net/%7Ebediger/nt.sekrits.html"&gt;hiding&lt;/a&gt; and using to
+its advantage the undocumented, simpler, and more efficient native
+system API in Windows NT; preannouncing nonexistent products to
+discourage consumer purchases of rival goods
+(&lt;a class="reference external" href="http://www.calderathin.com/fullstory/vaporwre.html"&gt;vaporware&lt;/a&gt;);
+avoiding or
+&lt;a class="reference external" href="http://java.sun.com/lawsuit/82198unfair.html"&gt;sabotaging&lt;/a&gt; open and
+semi-open standards; creating &lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,10468,00.html"&gt;DLL
+Hell&lt;/a&gt;;
+delivering &lt;a class="reference external" href="http://kerkis.math.aegean.gr/%7Edspin/pubs/jrnl/1997-CSI-WinApi/html/win.html"&gt;badly designed
+software&lt;/a&gt;;
+and much more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dr-frankenstein-s-dues"&gt;
+&lt;h2&gt;Dr. Frankenstein's dues&lt;/h2&gt;
+&lt;p&gt;In his article
+&amp;quot;&lt;a class="reference external" href="http://www.around.com/microsoft.html"&gt;Making Microsoft safe for capitalism&lt;/a&gt;,&amp;quot;
+journalist James Gleick interviews several industry leaders about their opinions on
+Microsoft. Among those queried is Mitchell Kapor, who was founder and
+CEO of Lotus Development Corp., the company that produced the
+best-selling Lotus 1-2-3 spreadsheet application. According to the
+article, Kapor thinks Microsoft has &amp;quot;thin ethics.&amp;quot; Kapor says:&lt;/p&gt;
+&lt;blockquote&gt;
+Anything not a direct lie or clearly illegal is OK to do and should
+be done if it advances Microsoft's tribal cause. This licenses the
+worst sorts of manipulations, lies, tortured self-justifications,
+and so on.&lt;/blockquote&gt;
+&lt;p&gt;Yet in the same article, Gleick suggests that it is not the company's
+practices that have sparked the anti-Microsoft sentiment, but the
+perpetrator itself:&lt;/p&gt;
+&lt;blockquote&gt;
+Microsoft is hardly alone, of course; plenty of its competitors
+would play as rough, if they only could. Others in the industry
+suggest that Microsoft's small-company scrappiness has kept it from
+facing the issue of corporate ethics. Behavior that people will
+forgive, or at least understand, in a start-up looks considerably
+less attractive when David grows into Goliath.&lt;/blockquote&gt;
+&lt;p&gt;It's not only what the monster does that incites us; it's what the
+monster is. But can we really expect integrity from a monster? Monster
+authority Joe Sena, Deaditor-In-Grief of &lt;a class="reference external" href="http://www.horroronline.com/"&gt;Universal's Online Horror
+Channel&lt;/a&gt;, writes in his June 1998
+&lt;a class="reference external" href="http://www.universalstudios.com/horror/june98/deaditorial.html"&gt;deaditorial&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+Just what kind of vows do [monsters] take, anyway -- &amp;quot;Until
+dissection or torch-wielding mob do we [sic] part&amp;quot;? Or do sequels
+render such finality moot?&lt;/blockquote&gt;
+&lt;p&gt;Should monsters be accountable for what monsters do? Sure. But
+shouldn't their creators accept part of the blame? &amp;quot;Let's go after Bill
+Gates!&amp;quot; Many would rally to the cry. But what about all the managers
+who've said, &amp;quot;You can't go wrong choosing Microsoft&amp;quot;? Or the programmers
+who've rationalized, &amp;quot;Clients want VB (VC++, MFC, COM), so that's what I
+give them&amp;quot;? What about the unimaginative computing companies and their
+&amp;quot;do-what-Microsoft-does&amp;quot; ways? What about the millions of users
+protesting, &amp;quot;But my friend can't read my documents if they're not from
+Microsoft Word&amp;quot;? It's a monster all right, but we have all helped create
+it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-face-in-the-mirror"&gt;
+&lt;h2&gt;The face in the mirror&lt;/h2&gt;
+&lt;p&gt;According to the script, this is the point where I declare the
+verdict. What penalty do I think the court should impose against
+Microsoft's recurrent abuses? No penalty. Nothing at all. Leave
+Microsoft alone. &lt;em&gt;Ignore it.&lt;/em&gt; Microsoft succeeded in an industry that
+has been continuously inventing itself for the past 20 years. It
+succeeded where better-established companies that had started on a
+better footing fared worse, or even failed. What good is a computer on
+every desk if people can't exchange letters and spreadsheets? In a world
+begging for data and usability standards, Microsoft provided them: its
+own. After all, as far as standards are concerned, there can be only
+one.&lt;/p&gt;
+&lt;p&gt;For the U.S. government to act against Microsoft in court would be
+like taking the guillotine to our own creation. It would be too much,
+too late. The computing world in which Microsoft was nourished (on which
+it fed?) no longer exists. Along with the ubiquitous and global Internet
+have come new ways of setting standards. These days, more than market
+power is needed to influence the Internet's evolution. The
+fastest-growing area of computing is that of interconnected, wireless
+appliances and wearable devices. Microsoft has a
+&lt;a class="reference external" href="http://www.3com.com/news/releases/pr99/oct1399a.html"&gt;long&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.allnetdevices.com/news/9911/991115palm/991115palm.html"&gt;long&lt;/a&gt;
+way to go before its presence is felt there. Then there's the open
+source movement. Microsoft has yet to demonstrate that it can negotiate
+the &lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,10550,00.html"&gt;rapid
+transition&lt;/a&gt;
+from software royalties into services. And we've yet to see how
+Microsoft and the users of its products will fare once the new year
+arrives.&lt;/p&gt;
+&lt;p&gt;One thing is certain: We shouldn't be scared of monsters anymore. If
+you're still concerned about Microsoft's power, there are things you can
+do. For your next project, why not base your choice of development
+environment on merits, rather than on market share? Why not get hold of
+a Linux distribution and learn to use it? How about learning to program
+on it? How about supporting more portable and open programming languages
+like Python, Perl, and Java? How about choosing something different from
+Windows to run the gadget you're giving yourself for Christmas? As we
+often tell our kids: just ignore the monster, and it will go away.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Java biking</title><link href="https://neogeny.github.io/blog/java-biking.html" rel="alternate"/><published>1999-11-14T00:00:00-04:00</published><updated>1999-11-14T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-14:/blog/java-biking.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
+be like driving the car to a nearby shopping mall. If you have ever
+imagined the equivalent of a Java bicycle, your fantasy may have come
+true with BeanShell v. 1.0.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I'd just moved to Davis, California, and …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
+be like driving the car to a nearby shopping mall. If you have ever
+imagined the equivalent of a Java bicycle, your fantasy may have come
+true with BeanShell v. 1.0.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I'd just moved to Davis, California, and it was the first time I'd
+gone shopping. I parked my bicycle in an empty rack, dashed in, grabbed
+the few things I needed, and found a checkout register.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Pehperohplahstig.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Sorry?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The salute was unexpected, and the tinny accent of the
+northern-California girl didn't help.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;Paper-or-plastic?&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;she repeated, more slowly this time. But it wasn't
+until the third time that I understood.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;Oh! Paper bags will be OK, Thanks!&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;The reply, &amp;quot;You bet!&amp;quot;, was another surprise, but I didn't ask for
+translation. I paid, gathered my stuff, and hurried out, glad I could
+cycle home quickly with my groceries.&lt;/p&gt;
+&lt;p&gt;As a young programmer, I was always in a hurry, and if there's a
+heaven for bikers, it is the little town of Davis. My apartment was well
+within walking distance of the shopping mall, but I preferred to ride.
+It took only a few minutes to reach the mall by bike, most of them spent
+waiting at the Russell Avenue crossing. Driving would have been overkill
+for such a short trip -- especially considering the effects on the ozone
+layer -- and probably the most time-consuming of the options.&lt;/p&gt;
+&lt;p&gt;I've often felt that launching a full-blown development environment
+for a brief &lt;a class="reference external" href="http://java.sun.com/"&gt;Java&lt;/a&gt; programming excursion is
+like taking the car out to go to the nearby mall. Yet going about with
+just a text editor and the command line compiler seems too cumbersome,
+too much like going on foot -- especially if the task at hand is not
+trivial, or if it's one of those days when one out of ten key-presses is
+a typing error. The solution I've imagined would be something equivalent
+to a Java programming bicycle.&lt;/p&gt;
+&lt;p&gt;I went Web-spelunking and found a beta version of what promised to be
+the ideal solution to my short programming excursion needs -- someday.
+Then, just a couple of weeks ago, I was notified by e-mail that
+&lt;a class="reference external" href="http://www.beanshell.org/"&gt;BeanShell 1.0&lt;/a&gt; was available. I decided
+to take the tool for a ride.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="beany" src="https://neogeny.github.io/blog/images/beany.jpg" /&gt;&lt;/p&gt;
+&lt;div class="section" id="beanshell-1-0"&gt;
+&lt;h2&gt;BeanShell 1.0&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.beanshell.org/"&gt;BeanShell&lt;/a&gt; is a small interpreter
+written in Java by &lt;a class="reference external" href="mailto:pat&amp;#64;pat.net"&gt;Pat Niemeyer&lt;/a&gt;. It executes
+standard Java statements and expressions in addition to several
+scripting commands. The tool supports scripted objects as simple method
+closures like those in &lt;a class="reference external" href="http://www.perl.org/"&gt;Perl&lt;/a&gt; and JavaScript.
+BeanShell is open source and free to use under the terms of the &lt;a class="reference external" href="http://www.gnu.org/copyleft/gpl.html"&gt;GNU
+General Public License&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;BeanShell comes with both GUI (Swing) and console mode interpreters.
+The GUI interpreter provides command history recall, command line
+editing, cut and paste, support for multiple sessions, and a simple
+editor for scripts.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot" src="https://neogeny.github.io/blog/images/beanshot.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The language
+interpreted by BeanShell is very similar to JavaScript. There's no need
+to declare variables or parameter types; the tool does type checking at
+runtime. Any class, object, or method available to the Java interpreter
+can be accessed from within BeanShell using standard Java syntax. The
+interpreter understands Java import statements, and it provides a
+convenient syntax for accessing Java Bean properties. External commands
+can be invoked from within the interpreter using the exec command, so
+you can also access other tools, like your favorite editor or the Java
+compiler, from within the shell. Several other useful commands and
+variables -- such as dir, print, and cwd -- are provided by default, and
+the built-in command set can be readily extended using either BeanShell
+scripts or Java.&lt;/p&gt;
+&lt;p&gt;BeanShell can also be embedded into your applications to provide them
+with scripting functionality. The core interpreter, with all console
+functionality removed, fits in a 135K Jar file. The tool also provides a
+&amp;quot;server mode,&amp;quot; which allows for remote access to the interpreter using
+HTTP. Upon gaining access to the specified TCP port, BeanShell will send
+back a remote console applet that can be used to query or change the
+state of the running application in which BeanShell is embedded. It's
+also possible to talk to the interpreter in terminal mode by using the
+Telnet protocol.&lt;/p&gt;
+&lt;p&gt;The documentation, which is available from the BeanShell Web site,
+includes the script language's syntax, the built-in commands, and
+instructions for installing, running, and embedding the tool. A set of
+JavaDoc pages covers the product's internal API. There is a mailing list
+for BeanShell users and developers on the site as well.&lt;/p&gt;
+&lt;p&gt;With BeanShell at hand I can easily experiment with libraries and
+classes I develop or download from the Internet without recompiling, and
+without bothering to set up a new project in the IDE. As it turns out,
+my Java bike was not just a fantasy after all.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Y2K: the beginning of the end?</title><link href="https://neogeny.github.io/blog/y2k-the-beginning-of-the-end.html" rel="alternate"/><published>1999-11-07T00:00:00-04:00</published><updated>1999-11-07T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-07:/blog/y2k-the-beginning-of-the-end.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
+avalanche or help to end it?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;Developer News&lt;/em&gt; correspondent Constance Petersen discussed in her
+&lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20002,00.html"&gt;article&lt;/a&gt;
+last week, 5 Nov. was Burn All GIFs Day. The protest was organized by a
+group of open-source developers and Webmasters opposed to the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
+avalanche or help to end it?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;Developer News&lt;/em&gt; correspondent Constance Petersen discussed in her
+&lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20002,00.html"&gt;article&lt;/a&gt;
+last week, 5 Nov. was Burn All GIFs Day. The protest was organized by a
+group of open-source developers and Webmasters opposed to the way Unisys
+has exercised the patent it holds on the LZW compression algorithm used
+in GIF files. The group proposes getting rid of all GIF files and
+substituting files in open graphic file formats such as PNG.&lt;/p&gt;
+&lt;p&gt;Creating Burn All GIFs Day is just one of the actions taken by just
+one of the groups who think that the patent system, as it applies to
+software, is being abused.&lt;/p&gt;
+&lt;p&gt;Another event brought attention to patents last week. As
+&lt;a class="reference external" href="http://news.cnet.com/category/0-1009-200-1426450.html"&gt;CNET&lt;/a&gt;
+reported, McDonnell Douglas received a patent for &amp;quot;windowing,&amp;quot; one of
+the most widely used (and intuitively obvious) Y2K problem-fixing
+techniques. The company has handed the patent over to Bruce Dickens, the
+technique's inventor. Dickens's attorney will reportedly contact Fortune
+500 companies whose programmers have employed the patented technique to
+request payment and negotiate licensing terms.&lt;/p&gt;
+&lt;p&gt;Aren't patent registration and enforcement just business as usual?
+Doesn't the owner of a patent have the &lt;em&gt;right&lt;/em&gt; to exercise it at will?
+Yes, of course. But the issues related to this news are not about the
+patent system per se. They revolve around the questionable validity of
+specific patents and their effect on software development in general --
+and especially, perhaps, the development of open source software.&lt;/p&gt;
+&lt;div class="section" id="the-patent-purpose"&gt;
+&lt;h2&gt;The patent purpose&lt;/h2&gt;
+&lt;p&gt;According to the text of most patent legislation, the main purpose of
+the patent system is not to protect inherent, abstract rights, but to
+enhance the common good by promoting the advancement of the arts and
+sciences. The system works like this: The government grants inventors
+legal monopolies over specific inventions and helps enforce the
+monopolies. In return, inventors agree to publish the details of their
+inventions and relinquish control over the inventions after a specified
+period of time.&lt;/p&gt;
+&lt;p&gt;Inventors benefit because the government-enforced monopoly gives them
+a better chance of recouping the expenses they incurred while developing
+their inventions. Society benefits because the common pool of useful
+knowledge is constantly augmented, and because everyone has free access
+to inventions after patents expire. Patents are a good idea, especially
+if you consider the consequences of the alternative -- inventors trying
+to keep their inventions as secret as possible.&lt;/p&gt;
+&lt;p&gt;Not all patents are good deals for society, and the law foresees that.
+To be awarded a patent, an invention must be novel; the inventor must
+have been the first to invent that particular thing or method. It must
+also be non-obvious, meaning the invention can't be a clear extension of
+something that is already known. Granting patents for non-novel
+inventions (prior art) would allow the imposition of royalties on
+methods and practices that have been in wide use, even for a long time.
+Patents for obvious stuff -- things that anyone with the right
+background could have invented -- are a bad idea and are therefore not
+granted.&lt;/p&gt;
+&lt;p&gt;So what's all the fuss? The problem &lt;a class="reference external" href="http://www.wired.com/wired/archive/2.07/patents_pr.html"&gt;according to
+analysts&lt;/a&gt;,
+is that patents &lt;em&gt;are&lt;/em&gt; being granted in increasingly large numbers for
+obvious and non-novel inventions, which defeats the whole purpose of the
+patent system. The problem is exacerbated because, as intellectual
+property attorney Steven Young explained in a recent &lt;a class="reference external" href="http://www.slashdot.org/features/99/10/19/1032254.shtml"&gt;Slashdot
+feature&lt;/a&gt;,
+there is no reasonable way to protect against patent liability. Becoming
+informed about the millions of patents, even just the subset that is
+relevant to your business, is not at all easy. Patents related to very
+specific areas of knowledge number in the tens of thousands. Some
+conservative estimates predict that 100,000 new software patents will be
+granted this year in the United States alone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="not-a-target-but-a-cure"&gt;
+&lt;h2&gt;Not a target, but a cure&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="http://lpf.ai.mit.edu/"&gt;League for Programming Freedom&lt;/a&gt; site
+at MIT offers a wealth of information about the patents problem and how
+it affects software development. The LPF predictably opposes software
+patents altogether, but the information on its site about the use and
+abuse of patents is interesting even if you don't share their views.&lt;/p&gt;
+&lt;p&gt;To protect themselves against the patent avalanche, large companies
+seem to be filing for patents on everything imaginable. The strategy is
+to use patents as legal weapons against the dubious patents of others,
+but this practice is only serving to make the problem worse. Patent
+portfolios are being created mainly as a means of defense, but some
+developers have begun to
+&lt;a class="reference external" href="http://www2.linuxjournal.com/cgi-bin/frames.pl/articles/currents/003.html"&gt;worry&lt;/a&gt;
+about what could happen to the open source movement if companies decide
+to try to enforce their patents -- which exist for Save As commands,
+multicolored option lists, and other code elements -- against software
+projects like Linux.&lt;/p&gt;
+&lt;p&gt;Is that likely? I don't think so. Some of the companies that hold
+large patent portfolios (most notably
+&lt;a class="reference external" href="http://www.patents.ibm.com/"&gt;IBM&lt;/a&gt;) have already positioned
+themselves strongly in support of open source software, and they're
+likely to defend open-source projects. Because of the open,
+collaborative nature of open-source efforts and the peer-recognition
+culture behind them, many open-source projects maintain detailed logs of
+who did what and when, and where further information about the
+techniques and algorithms used can be found. Those logs may be some of
+the best documented proof of previous art that can be used in court to
+challenge questionable patent claims. Open-source software would not
+become the target of the patent craze, but a good part of the cure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="curbing-the-craze"&gt;
+&lt;h2&gt;Curbing the craze&lt;/h2&gt;
+&lt;p&gt;The windowing technique patented by McDonnell Douglas interprets years
+expressed in two digits as belonging to century 2000 if the value is
+less than a specific, context-dependent threshold. For example, &amp;quot;15&amp;quot; is
+interpreted as &amp;quot;2015&amp;quot; instead of &amp;quot;1915,&amp;quot; while &amp;quot;90&amp;quot; is interpreted as
+&amp;quot;1990.&amp;quot; Windowing is a popular fix for Y2K problems because it is simple
+to understand and often easier to implement than other kinds of fixes.&lt;/p&gt;
+&lt;p&gt;Is the patent on windowing valid? That will be for the courts to
+decide. The U.S. lacks administrative procedures to challenge a patent
+after it has been granted, so the issue must be resolved in court.&lt;/p&gt;
+&lt;p&gt;Meanwhile, companies that have used the windowing technique are
+legally bound to comply with the conditions set forth by the patent
+holder. Abandoning the software or implementing a different fix so close
+to the dreaded Y2K date is out of the question. Neither the lack of
+knowledge about a filed patent nor the intention to challenge it is a
+legal basis for infringement. Analysts contacted by CNET predict that
+larger companies will just pay the fees and write them off as part of
+their Y2K compliance expenses, but smaller companies may want to fight
+the patent in court.&lt;/p&gt;
+&lt;p&gt;Even if the patent on windowing is valid, pursuing its enforcement so
+close to a global death-march deadline seems like placing the sword at
+the throat of someone who's already against the wall. It has the sour
+taste of extortion about it. It's far from clear if and how society can
+benefit from patents like this.&lt;/p&gt;
+&lt;p&gt;There's a chance that the Fortune 500 giants will join with the
+smaller companies to try to set legal precedent against dubious patents.
+Maybe Y2K will mark in more than one way the beginning of the end of the
+patent craze.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Programmers or entrepreneurs?</title><link href="https://neogeny.github.io/blog/programmers-or-entrepreneurs.html" rel="alternate"/><published>1999-10-31T00:00:00-04:00</published><updated>1999-10-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-31:/blog/programmers-or-entrepreneurs.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
+ways of earning profits, such as providing value-added services. New
+ways of making business out of open source are being invented every
+day.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Amateurs!&amp;quot; That's what critics call open-source programmers. And
+sometimes they really mean &amp;quot;hackers&amp;quot;: those who lack the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
+ways of earning profits, such as providing value-added services. New
+ways of making business out of open source are being invented every
+day.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Amateurs!&amp;quot; That's what critics call open-source programmers. And
+sometimes they really mean &amp;quot;hackers&amp;quot;: those who lack the knowledge and
+attitude required to do the job well. Well, open-source software is
+&lt;em&gt;open&lt;/em&gt; after all, and anyone, knowledgeable or not, can take a &amp;quot;hack&amp;quot; at
+it. But the quality of open-source software like
+&lt;a class="reference external" href="http://www.bind.org/"&gt;BIND&lt;/a&gt; or
+&lt;a class="reference external" href="http://www.sendmail.org/"&gt;Sendmail&lt;/a&gt; (on which the Internet lives and
+breathes), or of the many components of
+&lt;a class="reference external" href="http://www.linux.org/"&gt;Linux&lt;/a&gt; distributions, leaves no room for
+doubt: these guys know what they're doing.&lt;/p&gt;
+&lt;p&gt;More frequently, though, the term &amp;quot;amateur&amp;quot; is used in contrast to
+&amp;quot;professional&amp;quot;; it distinguishes those who work at something for fun
+from those who do the job seriously -- for a living. Last week &lt;a class="reference external" href="http://www.neogeny.org/article/images/10550/link%20to%20saint%20crispin%27s"&gt;I
+suggested&lt;/a&gt;
+that those who perceive open-source programmers to be mere hobbyists
+were in for a big surprise. Well, surprise!&lt;/p&gt;
+&lt;div class="section" id="case-studies"&gt;
+&lt;h2&gt;Case studies&lt;/h2&gt;
+&lt;p&gt;Many open-source advocates are entrepreneurs. As many of you know,
+open source has already produced its first round of &lt;a class="reference external" href="http://www.salon.com/tech/view/1999/10/04/marc_ewing/index.html"&gt;millionaire
+techies&lt;/a&gt;
+with &lt;a class="reference external" href="http://www.redherring.com/mag/issue67/news-editor.html"&gt;Red Hat's&lt;/a&gt;
+initial public offering. RedHat assembles and tests the thousands of
+parts that compose a Linux distribution, selling the CDs and
+installation support through retail channels. The company also sells
+support and consulting services to
+&lt;a class="reference external" href="http://www.redhat.com/about/1999/press_compaq2.html"&gt;corporate&lt;/a&gt;
+Linux users and distributors. The RedHat IPO is special in that
+recognized open-source developers had the opportunity to get their share
+of the deal through &lt;a class="reference external" href="http://www.etrade.com/"&gt;eTrade's&lt;/a&gt; online
+brokering service. Other companies, such as &lt;a class="reference external" href="http://www.turbolinux.com/"&gt;Turbo
+Linux&lt;/a&gt;, are working eagerly to get on the
+same train as RedHat.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.valinux.com/"&gt;VA Research&lt;/a&gt; has made it to the end of
+the rainbow by selling pre-configured hardware, as well as support and
+consulting services to help make the most of open-source software,
+especially Linux. VA Research is
+&lt;a class="reference external" href="http://www.redherring.com/mag/issue67/news-feature-du99-vares.html"&gt;reportedly&lt;/a&gt;
+one of the fastest-growing companies in the US. There are several other
+large companies and many smaller ones that provide services like those
+of RedHat and VA Research.&lt;/p&gt;
+&lt;p&gt;Companies like &lt;a class="reference external" href="http://www.ora.com/"&gt;O'Reilly&lt;/a&gt; make money selling
+printed versions of open-source documentation, and publications like
+&lt;a class="reference external" href="http://www.linuxjournal.com/"&gt;Linux Journal&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.linux-mag.com/"&gt;Linux Magazine&lt;/a&gt;, and
+&lt;a class="reference external" href="http://www.portalux.com/informations/journals/"&gt;other&lt;/a&gt; printed and
+web-based publications feature articles about Linux and other
+open-source software, profiting from the sale of ad space. Some of these
+publications become desirable acquisitions because of their large
+reading audiences. Such is the case with &lt;a class="reference external" href="http://www.linuxtoday.com/"&gt;*Linux
+Today*&lt;/a&gt;, an online publication featuring
+a collection of Linux news headlines drawn from the printed and online
+press. The business was
+&lt;a class="reference external" href="http://www.internetwire.com/technews/tn/tn984837.dsl"&gt;acquired&lt;/a&gt; last
+month by the larger &lt;a class="reference external" href="http://www.internet.com/"&gt;internet.com&lt;/a&gt;. At five
+million page views and 400,000 users per month, &lt;em&gt;Linux Today&lt;/em&gt; meant
+business.&lt;/p&gt;
+&lt;p&gt;There are many other examples of businesses profiting in various ways
+from open source. News of startups, acquisitions, and IPOs arrives at an
+almost daily rate. You can check out &lt;a class="reference external" href="http://www.linuxtoday.com/"&gt;*Linux
+Today*&lt;/a&gt; to keep informed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="in-their-own-words"&gt;
+&lt;h2&gt;In their own words&lt;/h2&gt;
+&lt;p&gt;&amp;quot;But those are entrepreneurs,&amp;quot; you might object. &amp;quot;What about the
+programmers? Are they profiting from open source?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Well, I sought a couple of them out for comment. I caught Greg Wilkins
+of &lt;a class="reference external" href="http://www.mortbay.com/"&gt;Mortbay Consulting Ltd&lt;/a&gt;. just before he
+left for a vacation trip. Greg is author of the feature-rich and very
+successful &lt;a class="reference external" href="http://www.mortbay.com/software/Jetty.html"&gt;Jetty&lt;/a&gt;, an
+open-source Web, Servlet, and JSP server written in Java. (Note: I've
+contributed both code and advice to the development of Jetty.)&lt;/p&gt;
+&lt;p&gt;I asked Greg if Jetty was contributing to his company's revenues and,
+if so, how.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;Jetty contributes very little directly to our revenues -- a few
+support contracts only. However, there is a big payback in terms of our
+consulting work,&amp;quot; he replied. &amp;quot;It is a great reference and an excellent
+introduction to our work, and that keeps our down time to a minimum. But
+the big payoff comes from our work on projects using Jetty, for which we
+receive full consulting rates -- in London and Sydney, that's 25 to 75
+percent higher than normal contracting rates.&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;I also asked Greg why he had decided to make Jetty open-source, and
+what had been the net business effects of that decision.&lt;/p&gt;
+&lt;p&gt;He told me that he had written Jetty as an entry to the original
+&lt;a class="reference external" href="http://http//infoseek.go.com/?win=_search&amp;amp;sv=M6&amp;amp;ud9=IE5&amp;amp;qt=%22java+programming+contest%22&amp;amp;oq=Java+programming+contest&amp;amp;url=http%3A//www.cse.nd.edu/contest/encoded/&amp;amp;ti=%2797+ACM+ECR+Programming+Contest%3A+Encoded+announcement⊤=17625"&gt;Java programming contest&lt;/a&gt;
+sponsored by &lt;a class="reference external" href="http://www.sun.com/"&gt;Sun&lt;/a&gt;, and that it had won the
+Australian prize. For a few years his company reserved the rights to
+commercial use. As a consulting company, though, it had neither the
+resources nor the motivation to become strongly product-oriented.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;We decided that the best way to profit from Jetty was to make it as
+widely used as possible,&amp;quot; Greg confided. He said this allowed them to
+get assistance with its maintenance and they believed its quality would
+improve through community involvement. Greg added, &amp;quot;And we were right.
+Jetty has easily paid for itself many times over.&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;I also approached Chad Hower of &lt;a class="reference external" href="http://www.pbe.com/"&gt;Phoenix Business
+Enterprises&lt;/a&gt;, with whom I had recently had an
+e-mail conversation. Chad is the author of the
+&lt;a class="reference external" href="http://www.pbe.com/SourceWorks/Winshoes/"&gt;Winshoes&lt;/a&gt; open-source set
+of Internet components for Delphi. I asked Chad the same questions I'd
+asked Greg.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;Marketing developer tools is very hard,&amp;quot; Chad told me, &amp;quot;especially
+those targeted at single-vendor development environments like Delphi.
+There is easier money to be made elsewhere. Winshoes, like other
+projects of mine, was more a product of need and love of programming
+than anything else. There were no good Internet components for Delphi
+when I wrote Winshoes.&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;Chad felt that trying to market Winshoes would have been risky. His
+time, he explained, was better spent at what he did best: software
+development. Having nothing to lose, he made Winshoes opensource as an
+experiment. What has happened since has far exceeded his initial
+expectations. Winshoes has brought the company many contract offers, as
+well as frequent requests for Internet consulting work.&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;Many developers just sit on code like this,&amp;quot; Chad observed. &amp;quot;I
+encourage them to make the sources open and see what happens. There's
+nothing to lose, and a lot to gain.&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;Greg and Chad are using open source as what some call a &amp;quot;loss-leader&amp;quot;:
+something that you give away to enable further business opportunities.
+Along similar lines is &lt;a class="reference external" href="http://www.digicool.com/"&gt;Digital Creations&lt;/a&gt;,
+a &amp;quot;web solutions&amp;quot; company which built its success on the full-featured
+applications server currently known as&lt;a class="reference external" href="http://www.zope.org/"&gt;Zope&lt;/a&gt;.
+Feeling some growing pains, Digital Creations decided to go after a
+little venture capital. Finding an
+&lt;a class="reference external" href="http://www.verticality.com/Press/DigitalCreations"&gt;investor&lt;/a&gt; was
+surprisingly easy. Even more surprisingly, the investor recommended
+making the flagship product open source. Digital Creations' value, he
+suggested, was its know-how. The company concluded that making Zope open
+source could only open new doors for them -- and it did.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="show-me-the-money"&gt;
+&lt;h2&gt;Show me the money!&lt;/h2&gt;
+&lt;p&gt;But those are all entrepreneurs. They're not programmers, are they?&lt;/p&gt;
+&lt;p&gt;Yes and no. Most of the entrepreneurs behind the companies I've
+mentioned &lt;em&gt;are&lt;/em&gt; open-source programmers, though I'd bet that they
+currently don't get the chance to hack as much as they did in the past.
+What you really want to know about is the guys actually pounding out the
+code, right?&lt;/p&gt;
+&lt;p&gt;Companies such as RedHat routinely recruit open-source programmers to
+enhance different aspects of Linux. Because these enhancements go back
+into the pool of shared open-source code, the direct advantages RedHat
+gets from them are short-lived. The indirect advantages derive from
+participation in the larger market that the enhancements help to create.
+RedHat and others seem to believe that these advantages outweigh the
+costs.&lt;/p&gt;
+&lt;p&gt;O'Reilly funds open-source software and software documentation
+efforts, and hires or contracts open-source software developers to serve
+as writers and technical editors. Writing and publishing books of their
+own is another source of income for open-source developers.&lt;/p&gt;
+&lt;p&gt;All of the companies mentioned above have technical positions staffed
+with open-source programmers.&lt;/p&gt;
+&lt;p&gt;Not that open-source developers have much trouble landing programming
+jobs. Having your name and e-mail address listed in the credits of the
+Linux kernel, a hardware driver, or a file system implementation seems
+to be a much better reference than a well prepared résumé -- you may
+even skip the cover letter. The jobs that these programmers seek and get
+are frequently compatible with their open-source work.&lt;/p&gt;
+&lt;p&gt;And don't rule out &lt;a class="reference external" href="http://www.debian.org/News/1999/19991012"&gt;private funding&lt;/a&gt; as a source of
+income. Who would &lt;a class="reference external" href="http://www.redherring.com/insider/1999/0505/vc-linuxcare.html"&gt;give money&lt;/a&gt;
+to a bunch of hackers to pound out software that will ultimately be
+available for free? The answer is companies that get more value out of
+open source than what they invest in its sponsorship. One such case is
+the &lt;a class="reference external" href="http://www.apache.org/"&gt;Apache&lt;/a&gt; project, started and still
+funded by a group of Internet Service Providers (ISPs). The group wanted
+an efficient, reliable, and cost-effective HTTP server whose development
+they could at least partially control. Universities are also among the
+institutions funding open source; it helps them reduce costs, and they
+benefit academically as well.&lt;/p&gt;
+&lt;p&gt;Last but not least are the cooperative open-source initiatives like
+&lt;a class="reference external" href="http://www.sourcexchange.com/"&gt;sourceXchange&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.cosource.com/"&gt;CoSource&lt;/a&gt;. These start-ups call themselves
+&amp;quot;open-source marketplaces.&amp;quot; They provide an online infrastructure to
+connect open-source programmers with those interested in sponsoring
+open-source projects. Any party -- company or programmer -- can either
+propose an open-source project or sponsor one by committing a certain
+amount of money. Programmers respond with proposals for the projects
+they want to take. Ideally, the process will result in cooperative
+funding for interesting projects and payment for programmers, all under
+the constant supervision of the marketplace. All software produced goes
+back to the shared pool as open source. It's a whole new way of software
+contracting; we've yet to see were it will lead.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="software-a-service-industry"&gt;
+&lt;h2&gt;Software: a service industry?&lt;/h2&gt;
+&lt;p&gt;It takes little research to discover that the question is not who's
+making money from open source, but who isn't. With royalties out of the
+question, those involved in open-source software have found innovative
+ways of profiting, either by providing some sort of value-added services
+or by making important savings based on open source. And new ways of
+making business out of open source are being invented every day.
+| Open-source evangelist &lt;a class="reference external" href="http://www.tuxedo.org/%7Eesr/"&gt;Eric Raymond&lt;/a&gt; -- who became well known for
+his disclosure of Microsoft's &lt;a class="reference external" href="http://www.opensource.org/halloween/"&gt;Halloween
+documents&lt;/a&gt;, and is now famous
+for his analysis of open-source culture in
+&lt;a class="reference external" href="http://www.tuxedo.org/%7Eesr/writings/cathedral-bazaar/"&gt;The* *Cathedral and The Bazaar&lt;/a&gt; --
+has written a &lt;a class="reference external" href="http://www.tuxedo.org/%7Eesr/writings/magic-cauldron/"&gt;new paper&lt;/a&gt;
+analyzing the economics of open-source software. In this paper Raymond
+proposes that software is &amp;quot;largely a service industry operating under
+the persistent but unfounded delusion that it is a manufacturing
+industry,&amp;quot; and that the &amp;quot;use value&amp;quot; of software far exceeds its &amp;quot;sale
+value,&amp;quot; as evidenced by the large percentage of software created for
+in-house use versus the very small percentage written to be sold as
+merchandise.&lt;/p&gt;
+&lt;p&gt;Some of you may mistrust Raymond's views because he's patently within
+the open-source
+&lt;a class="reference external" href="http://www.ora.com/catalog/cb/chapter/magic-cauldron.html"&gt;inner-circle&lt;/a&gt;.
+Perhaps you'll find Steve Ballmer, president of Microsoft, more
+convincing. &amp;quot;Literally, if you go out seven to 10 years from now, not
+only our business but every software business will have to remake itself
+into what I call a software service company,&amp;quot; Ballmer predicts in a
+recent
+&lt;a class="reference external" href="http://www.cnnfn.com/1999/10/14/technology/wires/microsoft_wg/"&gt;interview&lt;/a&gt;
+with &lt;a class="reference external" href="http://www.cnnfn.com/"&gt;CNN Financial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the same interview Ballmer also mentions that Microsoft was
+considering &amp;quot;a modified form of open sourcing&amp;quot; that would allow their
+customers access to some code. This would let the customers &amp;quot;try to
+solve their own problems.&amp;quot; (Not that Microsoft &amp;quot;customers solving their
+own problems&amp;quot; is anything new.)&lt;/p&gt;
+&lt;p&gt;Is the move away from royalties and into value-added software services
+something fueled by the open-source movement? Or does the so-called
+friction-free economy of the Internet have anything to do with it? Will
+the changes only affect programmers involved in commercial software, or
+do corporate programmers also need to re-evaluate their situation?&lt;/p&gt;
+&lt;p&gt;Drop me a line with your thoughts at
+&lt;a class="reference external" href="mailto:juanco&amp;#64;inpublishing.com"&gt;juanco&amp;#64;inpublishing.com&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>The lesson of Agincourt</title><link href="https://neogeny.github.io/blog/the-lesson-of-agincourt.html" rel="alternate"/><published>1999-10-24T00:00:00-04:00</published><updated>1999-10-24T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-24:/blog/the-lesson-of-agincourt.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
+critics imagine. But whether they win or lose in the end, it's their
+story that inspires.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Giving away software is a &amp;quot;strategy of the weak.&amp;quot; At least most
+business analysts consider it so when comparing the strategy against the
+&amp;quot;embrace …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
+critics imagine. But whether they win or lose in the end, it's their
+story that inspires.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Giving away software is a &amp;quot;strategy of the weak.&amp;quot; At least most
+business analysts consider it so when comparing the strategy against the
+&amp;quot;embrace and extend&amp;quot; strategies used by powerful software houses like
+Microsoft.&lt;/p&gt;
+&lt;p&gt;But let me tell you a story that took place 584 years ago today. A
+story about the weak and their strategies.&lt;/p&gt;
+&lt;div class="section" id="act-i"&gt;
+&lt;h2&gt;Act I&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/crispin.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;On October 25, 1415, on
+&lt;a class="reference external" href="http://www.catholic-forum.com/saints/saintc21.htm"&gt;Saint Crispin's&lt;/a&gt;
+day, a troop of tired, sick, and hungry men -- the unquestionably weak --
+defeated an enemy who not only outnumbered them four-to-one but who
+fought on their own turf. It was at the
+&lt;a class="reference external" href="http://www.optonline.com/comptons/ceo/00080_A.html"&gt;Battle of Agincourt&lt;/a&gt;,
+when
+&lt;a class="reference external" href="http://www.blockbuster.com/video/title.tin?title_id=128648"&gt;King Henry V&lt;/a&gt;
+led his troops into one of the greatest victories of military history.&lt;/p&gt;
+&lt;p&gt;Six thousand English soldiers were marching in retreat. Their
+destination was the safe port of Calais, from whence they hoped to
+escape to England. They were intercepted at Agincourt by French
+Constable Charles d'Albret and a French army 25,000 strong, including
+armored cavalry and infantry. Annihilation of the English troops was
+imminent; they had no advantages -- except for the rain. It rained, and
+rained, and rained, and the battlefield became a quagmire. Mired in mud,
+the French cavalry were easy prey for the &lt;a class="reference external" href="http://home.earthlink.net/%7Ecva/agincourt.htm"&gt;English
+archers&lt;/a&gt;. The heavily
+armored infantry men slipped and fell. Struggling to rise they were cut
+down by the hatchets, hooks, and knives of the highly mobile English
+raiders.&lt;/p&gt;
+&lt;p&gt;For every Englishman killed, 25 French were slain. Some 500 French
+noblemen died on the field. The victory paved the way for English
+domination of most of France until the middle of the century.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="act-ii"&gt;
+&lt;h2&gt;Act II&lt;/h2&gt;
+&lt;p&gt;Like the Constable d'Albret at Agincourt, most open source detractors
+misjudge the present situation.&lt;/p&gt;
+&lt;p&gt;They misjudge open source programmers, accusing them of amateurism and
+claiming that their only motivation is peer recognition. Critics also
+jump to conclusions about where and how these programmers earn their
+income, and about their knowledge and skills. The critics are in for a
+surprise.&lt;/p&gt;
+&lt;p&gt;And like d'Albret, analysts misjudge the battlefield as well. Today's
+internetworked world is fundamentally different from that on which the
+current software giants built their empires. And things are changing
+rapidly. Today, news of friends or foes, features or bugs, span the
+world in a matter of hours. Things are fundamentally different when
+anyone can post a question, and receive more than one authoritative
+answer from people across the globe. Things are fundamentally different
+when even your teenage son is among the ones posting the answers. Things
+are fundamentally different when the computer I carry in my waist pack
+is several times more powerful than the computer I learned to program
+on. It's raining folks. It's pouring!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="epilogue"&gt;
+&lt;h2&gt;Epilogue&lt;/h2&gt;
+&lt;p&gt;Business analysts comment with a sneer that it's easy to double your
+market share every year when you start from zero. They speculate about
+what will happen when the software giants feel their territory
+threatened and decide to&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.microsoft.com/ntserver/nts/news/msnw/linuxmyths.asp"&gt;charge&lt;/a&gt;.
+They predict victory for the corporations; the apparently strong. But in
+the fast-changing world of the Internet, the advantage may well go to
+those who are flexible, agile, free from corporate inertia, and brave
+enough to take the risks.&lt;/p&gt;
+&lt;p&gt;The Hundred Years War, of which Agincourt was part, was eventually won
+by the French, and the English were expelled from French territory. But
+the legend of the victory at Agincourt lives on.&lt;/p&gt;
+&lt;p&gt;Likewise, the final outcome of the battles between the open source
+advocates and traditional business may not be the most important thing.
+It's the tale of open source and of the souls that fight for it that
+inspires, and will therefore last.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This story shall the good man teach his son;&lt;/div&gt;
+&lt;div class="line"&gt;And Crispin Crispian shall ne'er go by,&lt;/div&gt;
+&lt;div class="line"&gt;From this day to the ending of the world,&lt;/div&gt;
+&lt;div class="line"&gt;But we in it shall be remembered;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;We few, we happy few, we band of hackers;&lt;/div&gt;
+&lt;div class="line"&gt;For he today that shares his code with me&lt;/div&gt;
+&lt;div class="line"&gt;Shall be my brother; be he ne'er so vile,&lt;/div&gt;
+&lt;div class="line"&gt;This day shall gentle his condition:&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;And programmers of closed source now a-bed&lt;/div&gt;
+&lt;div class="line"&gt;Shall think themselves accurs'd they didn't code,&lt;/div&gt;
+&lt;div class="line"&gt;And hold their skill sets cheap whiles any speaks&lt;/div&gt;
+&lt;div class="line"&gt;That coded with us upon Saint Crispin's day.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;By&lt;/em&gt; &lt;a class="reference external" href="mailto:juanco&amp;#64;inpublsihing.com"&gt;Juancarlo Añez&lt;/a&gt;
+&lt;em&gt;with apologies to&lt;/em&gt;
+&lt;a class="reference external" href="http://www.cc.utah.edu/%7Emp2434/541h5s.html"&gt;William Shakespeare&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;
+Copyright © 1999 Inprise Corp.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Xtreme testing</title><link href="https://neogeny.github.io/blog/xtreme-testing.html" rel="alternate"/><published>1999-10-17T00:00:00-04:00</published><updated>1999-10-17T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-17:/blog/xtreme-testing.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can't do it. You can't add the feature. It's too risky. You'd have
+to change a core part of the program, and who knows what kind of subtle
+bugs might creep in doing that! You got hold of the source code and …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can't do it. You can't add the feature. It's too risky. You'd have
+to change a core part of the program, and who knows what kind of subtle
+bugs might creep in doing that! You got hold of the source code and made
+sure that the license allows you to modify it, but it's too dangerous.
+Isn't it?&lt;/p&gt;
+&lt;p&gt;Well, the proponents of &lt;a class="reference external" href="http://www.xprogramming.com/"&gt;Extreme Programming&lt;/a&gt;
+say not only that you can,
+but that you should!&lt;/p&gt;
+&lt;p&gt;Extreme programmers aim for code that's small, lean, mean, and
+functional. To achieve the lean and mean, x-programmers always &lt;a class="reference external" href="http://www.xprogramming.com/Practices/PracSimplest.html"&gt;do the
+simplest thing that could possibly
+work&lt;/a&gt;. They
+resist the temptation to implement stuff that may be useful later,
+because they assume they're &lt;a class="reference external" href="http://www.xprogramming.com/Practices/PracNotNeed.html"&gt;not going to need
+it&lt;/a&gt;.
+X-programmers are fearless about modifying the code, so their software
+is always functional. They will edit, refactor, or reimplement even
+large sections when they need to add a new feature.&lt;/p&gt;
+&lt;p&gt;But what about the risks? What about the bugs? The extreme
+programmers' answer: extreme testing. They write a test case for every
+feature they implement, even before they start coding the feature. Need
+to add new functionality? Write a test case. Found a bug? Write a test
+case. Have doubts about how something really works? Write a test case.
+The set of test cases thus produced serves to guarantee that the system
+keeps doing what it should even after important modifications.
+X-programmers run the whole battery of tests after each change, and they
+never release the code until all the test cases run flawlessly.
+| Extreme testing produces a large number of test cases, and the process
+of running all the tests and evaluating the results could get unwieldy.
+X-programmers use automation to keep extreme testing under their
+control. They have written testing frameworks for Java, C++, and several
+different flavors of Smalltalk. The frameworks are all freely available
+from the &lt;a class="reference external" href="http://www.xprogramming.com/software.htm"&gt;XProgramming software
+page&lt;/a&gt;. The Java testing
+framework provides one example of how extreme testing can be used.&lt;/p&gt;
+&lt;div class="section" id="junit"&gt;
+&lt;h2&gt;JUnit&lt;/h2&gt;
+&lt;p&gt;JUnit is a small testing framework written in Java by Kent Beck and
+Erich Gamma. Beck and Gamma are well-known as two of the founders of the
+&lt;a class="reference external" href="http://c2.com/cgi/wiki?PatternIndex"&gt;Software Patterns&lt;/a&gt; movement,
+and this shows in the design simplicity of JUnit. Using JUnit to test
+Java programs is very easy. You start by writing a descendant of
+junit.framework.TestCase. This is an example from my Java Diff package:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;tt class="docutils literal"&gt;import &lt;span class="pre"&gt;junit.framework.*;public&lt;/span&gt; class DiffTest extends TestCase {public DiffTest(String testName) &lt;span class="pre"&gt;{super(testName);}&lt;/span&gt;&lt;/tt&gt;
+`` &lt;tt class="docutils literal"&gt;\ `` public void testDeleteAll() {Revision revision =&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Diff.diff(original, &lt;span class="pre"&gt;empty);assertEquals(revision.size(),&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span class="pre"&gt;1);assertEquals(revision.getDelta(0).getClass(),&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span class="pre"&gt;DeleteDelta.class);assert(Diff.compare(revision.patch(original),&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span class="pre"&gt;empty));}//...&lt;/span&gt;&lt;/tt&gt;&lt;/blockquote&gt;
+&lt;p&gt;Each method in a test case exercises a different aspect of the tested
+software. The aim, as is customary in software testing, is not to show
+that your program works fine, but to show that it doesn't. Interaction
+with the JUnit framework is achieved through assertions, which are
+method calls that check (assert) that given conditions hold at specified
+points in the test execution.&lt;/p&gt;
+&lt;p&gt;JUnit allows for several ways to run the different tests, either
+individually or in batches, but the simplest one by far is to let the
+TestSuite collect the tests using Java introspection:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+public TestSuite suite() {         return new TestSuite(DiffTest.class);     }     //...     TestResult result = DiffTest.suite().run();
+&lt;/pre&gt;
+&lt;p&gt;When a class is passed to the constructor of a new instance of
+TestSuite, the instance uses Java introspection to find all the methods
+in the class with names that start with &amp;quot;test.&amp;quot; A subsequent call to
+TestSuite's run method executes all the tests and returns the results as
+an instance of TestResult. TestSuite also allows the creation of, well,
+suites, which include any combination of test cases.&lt;/p&gt;
+&lt;p&gt;For maximum convenience, JUnit provides both text-based and GUI
+(Swing) user interfaces that facilitate the execution of test suites.
+Both user interfaces can be run as standalone programs by passing the
+class name of the test suite to run as the first command-line argument.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/junit_gui.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;JUnit's GUI interface reports progress and results as the tests are executed.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can also run the tests from within your favorite integrated
+development environment (IDE), and have the debugger stop as soon as a
+problem is found. Your static main method would look something like
+this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+public static void main(String args[]) {     junit.textui.TestRunner.run(DiffTest.suite()); }
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="open-tests"&gt;
+&lt;h2&gt;Open tests&lt;/h2&gt;
+&lt;p&gt;Proponents of extreme programming qualify their approach as a
+&amp;quot;&lt;a class="reference external" href="http://www.extremeprogramming.org/light1.html"&gt;lightweight methodology&lt;/a&gt;,&amp;quot; to
+contrast it with the heavyweight
+&lt;a class="reference external" href="http://c2.com/cgi/wiki?CategoryMethodology"&gt;methodologies&lt;/a&gt; that
+became popular during the 80s, and that few software projects continue
+to follow. XP establishes only a &lt;a class="reference external" href="http://www.xprogramming.com/Practices/xpractices.htm"&gt;small set of common sense rules and
+practices&lt;/a&gt;, and
+the documentation generated is no more than the minimum required to keep
+things flowing smoothly. Almost all software development projects,
+including open source ones, could benefit from some amount of XP.&lt;/p&gt;
+&lt;p&gt;Why talk about testing and methodologies in an open source column?
+Much open source discourse is devoted to the &amp;quot;freedom&amp;quot; programmers enjoy
+to modify open source code at will. The truth is that this supposed
+freedom is only partial. Most of the open source software one can get
+hold of lacks the testing infrastructure required to make sure that
+adding features to the code doesn't also break it. As things stand, open
+source programmers must devise their own ways to verify the software
+they change, resulting in an incalculable amount of duplicated -- and
+mostly wasted -- effort.&lt;/p&gt;
+&lt;p&gt;Open source projects greatly benefit when they adopt testing policies
+and a testing framework from the start. Most open source projects do
+perform formal testing. All such projects would be improved if the
+numerous test cases produced could be collected and officially
+distributed. Adopting the test frameworks provided by the XP people is
+one approach, but almost any other test framework would do.&lt;/p&gt;
+&lt;p&gt;Extreme testing needs to become an integral part of open source
+practice. Only then will we truly experience the freedom of working to
+improve a piece of code without the fear of breaking it.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>Start the revolution without me</title><link href="https://neogeny.github.io/blog/start-the-revolution-without-me.html" rel="alternate"/><published>1999-10-10T00:00:00-04:00</published><updated>1999-10-10T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-10:/blog/start-the-revolution-without-me.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
+it right: Don't worry, keep hacking.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Everybody's talking about the &amp;quot;open software revolution.&amp;quot; From geek
+forums like SlashDot to academic journals like &lt;em&gt;Communications of the
+ACM,&lt;/em&gt; from the &lt;em&gt;New York Times&lt;/em&gt; to &lt;em&gt;The Wall Street Journal,&lt;/em&gt; everyone
+is saying that …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
+it right: Don't worry, keep hacking.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Everybody's talking about the &amp;quot;open software revolution.&amp;quot; From geek
+forums like SlashDot to academic journals like &lt;em&gt;Communications of the
+ACM,&lt;/em&gt; from the &lt;em&gt;New York Times&lt;/em&gt; to &lt;em&gt;The Wall Street Journal,&lt;/em&gt; everyone
+is saying that there's something important going on.&lt;/p&gt;
+&lt;p&gt;The leaders of the open-source movement argue that their way of doing
+things will change the world of software development forever. Detractors
+question their leadership and attack their ideas on business, logical,
+economic, political, sociological, and other grounds. The hubbub is
+rising so fast I've seen good friends worry that open-source software
+may destroy their way of life by making it impossible to sell software
+or write it for hire.&lt;/p&gt;
+&lt;p&gt;I'm not at home with the rhetoric of any of the factions. I'm not a
+radical, I'm a programmer. You say you want a revolution? You can count
+me out.&lt;/p&gt;
+&lt;div class="section" id="war-of-the-words"&gt;
+&lt;h2&gt;War of the words&lt;/h2&gt;
+&lt;p&gt;Like many programmers, I have used and written open-source software
+for a long time. I'm glad that we now have a phrase -- &lt;em&gt;open source -&lt;/em&gt;-
+to describe what we've been doing. But I object to narrow definitions
+that exclude workable, time-honored, and popular practices. Now that we
+have a buzzword, people are trying to cram political and economic
+agendas into the term.&lt;/p&gt;
+&lt;p&gt;There are those, for instance, who argue that open-source development
+is the solution to all software development problems. But they do so
+based on information drawn from just a few successful projects. Most of
+the open-source projects I have tracked over the past 18 months have
+been cancelled, only to become data points that feed the well-known
+statistics about the high failure rate of software projects.
+Methodologies are a dozen for a penny; these projects failed because
+they never had a feasible business plan.&lt;/p&gt;
+&lt;p&gt;In the opposite corner are those who see the open-source movement as a
+threat to the software industry. Never mind that open-source initiatives
+are law-abiding and -- because of their open nature -- much less likely
+to fall into the anticompetitive practices that characterize a part of
+our industry. Never mind that thousands of developers are gainfully
+employed on open-source projects. Never mind that hundreds of thousands
+of users entrust their businesses to their work. They are convinced that
+the sky is falling.&lt;/p&gt;
+&lt;p&gt;Then there's the debate over &amp;quot;free&amp;quot; software.&lt;/p&gt;
+&lt;p&gt;On one side are the developers and activists who believe software
+should not be treated as intellectual property. Or that it should be
+treated like intellectual property, but developers should waive their
+property rights.&lt;/p&gt;
+&lt;p&gt;On the other side are people who oppose free software. Some because
+they think it's impractical, and some because the initiative seems
+politically suspect -- too leftish. The extreme left has become
+extremely unpopular in most circles, and all of this talk of free
+software smacks of outmoded socialist ideas. As long as those
+impressions persist, I don't see how the free software cause can make it
+to a critical mass of supporters.&lt;/p&gt;
+&lt;p&gt;Intellectual property has been a hairy issue since the invention of
+speech at least, and intense debates about it precede the Internet era
+by centuries. The debates are so intense, you have to wonder how any
+country's founding fathers were able to quiet the ruckus long enough to
+slip intellectual-property language into their constitutions.&lt;/p&gt;
+&lt;p&gt;The shouting's so loud, it's tempting to ignore the arguments. But you
+can't simply ignore the &amp;quot;free&amp;quot; versus &amp;quot;proprietary&amp;quot; software debate --
+no more than you would ignore debates between Republicans and Democrats
+in the U.S. or Greens and Social Democrats in Germany. This debate is
+truly about ideas. It's worthy of your attention.&lt;/p&gt;
+&lt;p&gt;It is difficult to write about these issues without making a
+contribution to the arguments. But I'm determined: I'm not about to take
+a side on these issues. I do think that open-source development will
+impact software development in general, and in an important way. But I
+think that the effect won't be immediate, and it won't be obvious. To
+know what this &amp;quot;revolution&amp;quot; will actually lead to...well, you have to
+wait. My take is that the factions will ultimately reconcile.&lt;/p&gt;
+&lt;p&gt;Strip away the rhetoric and it's clear: There is no revolution. The
+ideas being argued and shouted are interesting, and important, yes, but
+their effect will be evolutionary. Like always.&lt;/p&gt;
+&lt;p&gt;So don't worry. It will be all right.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>The true meaning behind open source licenses</title><link href="https://neogeny.github.io/blog/the-true-meaning-behind-open-source-licenses.html" rel="alternate"/><published>1999-10-03T00:00:00-04:00</published><updated>1999-10-03T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-03:/blog/the-true-meaning-behind-open-source-licenses.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I develop software for a living, so my position regarding third-party
+software has always been pragmatic: consider the cost and evaluate how
+well each solution meets your requirements. Most open source software is
+licensed free of charge. But does software that is …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I develop software for a living, so my position regarding third-party
+software has always been pragmatic: consider the cost and evaluate how
+well each solution meets your requirements. Most open source software is
+licensed free of charge. But does software that is licensed for free
+really have zero cost?&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://electriciti.com/1.01/property-wp.html"&gt;Property rights&lt;/a&gt; --
+who has the right to own what -- are at the ideological core of
+political systems and are one of the fundamental individual liberties in
+a capitalist society. Software is considered a form of property by law,
+so talking about software licenses -- including open source licenses --
+in that context makes sense.&lt;/p&gt;
+&lt;p&gt;I'm not a lawyer, so none of my views or interpretations of this
+matter would necessarily stand up in a court of law. Also, I'm talking
+primarily about United States copyright law because the copyright
+licenses I'll discuss were written in the US; the laws of other
+countries and of the international community might be different.&lt;/p&gt;
+&lt;p&gt;Property law establishes three basic rights: the right to use, the
+right to enjoy (profit from), and the right to dispose of the property.
+When dealing with intellectual property, and more specifically with
+copyrighted work such as software, such rights are exclusive to the
+copyright owner. Most software licenses explicitly reference the right
+to:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;perform the work -- that is, to execute the software&lt;/li&gt;
+&lt;li&gt;prepare derivative works -- that is, to debug, patch, enhance, or
+otherwise modify the software&lt;/li&gt;
+&lt;li&gt;make copies of the work&lt;/li&gt;
+&lt;li&gt;distribute copies of the work&lt;/li&gt;
+&lt;li&gt;authorize others to exercise the above rights&lt;/li&gt;
+&lt;li&gt;sublicense the software (charge for it)&lt;/li&gt;
+&lt;li&gt;prevent others from exercising the above rights&lt;/li&gt;
+&lt;li&gt;transfer or license the above rights&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I want to analyze several well-known (and some lesser-known) open
+source licenses in terms of the three basic rights property law
+establishes and the more specific rights held by copyright owners.
+Politics and philosophy aside, I want to evaluate what the different
+licenses mean to someone who develops software for a living, like me.&lt;/p&gt;
+&lt;p&gt;The licenses I'll be considering are those mentioned at the &lt;a class="reference external" href="http://www.opensource.org/"&gt;Open
+Source Initiative's&lt;/a&gt; Web site: the &lt;a class="reference external" href="http://www.us.debian.org/OpenSource/bsd-license.html"&gt;BSD
+license&lt;/a&gt;; the
+&lt;a class="reference external" href="http://geosci.uchicago.edu/paleo/csource/licenses/mit.html"&gt;MIT
+License&lt;/a&gt;;
+the &lt;a class="reference external" href="http://language.perl.com/misc/Artisitc.html"&gt;Artistic License&lt;/a&gt;;
+the &lt;a class="reference external" href="http://www.mozilla.org/MPL/MPL-1.0.html"&gt;Mozilla Public
+License&lt;/a&gt;; the &lt;a class="reference external" href="http://www.gnu.org/copyleft/gpl.html"&gt;GNU General
+Public License&lt;/a&gt; and its lesser
+form, the &lt;a class="reference external" href="http://www.gnu.org/copyleft/lesser.html"&gt;LGPL&lt;/a&gt;; as well as
+lesser-known licenses like the &lt;a class="reference external" href="http://www.sun.com/software/communitysource/index.html"&gt;Java Community Source
+License&lt;/a&gt; and
+the &lt;a class="reference external" href="http://www.alphaworks.ibm.com/formula/xml/"&gt;IBM XML4J&lt;/a&gt; (XML for
+Java) evaluation and commercial licenses.&lt;/p&gt;
+&lt;div class="section" id="in-the-public-domain"&gt;
+&lt;h2&gt;In the Public Domain&lt;/h2&gt;
+&lt;p&gt;We should first look at one of the most widely used terms in open
+source distribution that has not yet been certified by the Open Source
+Institute: placing the work &amp;quot;in the public domain.&amp;quot; A work placed in the
+public domain has the same legal status as one for which the legal
+copyright term (usually 50 years after the death of all the authors) has
+elapsed. This condition is particularly interesting because the rights
+to use and profit from the work (execute, copy, and distribute the
+software) can be exercised by anyone, yet the ultimate right of
+disposing of the work (the right to authorize or restrict other's rights
+to it) belongs to no one and, therefore, cannot be exercised.&lt;/p&gt;
+&lt;p&gt;Software placed in the public domain essentially follows the same
+copyright law as the works of long-dead literary and musical authors.
+You can perform (execute) the works of Shakespeare, copy them, and
+distribute them, but remember that derivative works, compilations, and
+specific performances can have their own lawful copyright owners. You
+can include public domain software in your own work, modify it, copy it,
+and talk about it in publications and at conferences. You can't do the
+same with someone else's work, however, just because it happens to use
+or contain public domain work. You're otherwise free to derive any
+profits from public domain software.&lt;/p&gt;
+&lt;p&gt;Public domain software is unique in that it is the only form of work
+whose disposal rights are not retained by anyone. Every form of software
+licensing reserves rights 5, 6, and 7 for some entity, including the
+right to license work under a different scheme whenever desired. From a
+business perspective, it's guaranteed that legal claims of copyright
+violation can not be brought against users of software that is in the
+public domain.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-least-restrictive-licensing"&gt;
+&lt;h2&gt;The least restrictive licensing&lt;/h2&gt;
+&lt;p&gt;Software licensing schemes always reserve the right to dispose of the
+work (grant, restrict, transfer, and license the rights). This is
+redundant because licensing can only exist if someone holds those basic
+rights, unlike work placed in the public domain. All open source
+licenses have that element in common, but differ in the other rights
+they grant or restrict.&lt;/p&gt;
+&lt;p&gt;The least restrictive form of software licensing is that which
+reserves only the right to disposition. The BSD and MIT licenses, for
+example, grant ample rights of use, creation of derivative works, and
+redistribution (as long as the right to dispose of the work is
+explicitly reserved to the original authors). Included is the right to
+make different licensing arrangements with whomever the licensee sees
+fit. The Artistic (Perl) license is somewhat less clear in its section
+3, which addresses copying and modification of the original &amp;quot;package,&amp;quot;
+but does not talk about distribution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tightening-the-reins"&gt;
+&lt;h2&gt;Tightening the reins&lt;/h2&gt;
+&lt;p&gt;Most frequently, open source licenses grant ample rights for use of
+the software and creation of derivative works, but restrict distribution
+in some important way. The four most common restrictions on distribution
+are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;You may only distribute the software and the modifications within
+your company or institution (an aspect the Artistic License).&lt;/li&gt;
+&lt;li&gt;You may only distribute the software and the modifications in object
+(compiled) form as long as some value-added is provided (the XML4J
+commercial license).&lt;/li&gt;
+&lt;li&gt;You may only distribute the software and the modifications for free
+(Artistic License).&lt;/li&gt;
+&lt;li&gt;You must provide the source to all your modifications, or otherwise
+guarantee that users of your software can get hold of the source free
+of charge (the GPL).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These restrictions mainly affect how you profit from the intellectual
+property. The only restrictions made by the controversial GPL are
+restrictions on distribution.&lt;/p&gt;
+&lt;p&gt;Normally, these kinds of licenses don't place restrictions on the work
+created with the software, which gives such licenses a broad range of
+uses. This applies to end-user applications -- such as word processors
+and spreadsheets -- and to most of the tools used in software
+development, even commercial ones like compilers, libraries, editors,
+and text manipulation and make tools.&lt;/p&gt;
+&lt;p&gt;Some other licenses place absolute restrictions on distribution in
+order to avoid so-called &amp;quot;forking.&amp;quot; As a result, most of the
+enhancements end up in the primary source base. But other licenses
+restrict distribution just to maintain control over the software. I've
+known only a few licenses that do this.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-most-restrictive-licenses"&gt;
+&lt;h2&gt;The most restrictive licenses&lt;/h2&gt;
+&lt;p&gt;Paradoxically, one of the most restrictive licenses -- the GPL -- is
+very liberal about redistribution rights. Under the GPL, you can
+distribute the original work or its derivatives to whomever you like, as
+long as you make readily available the source to the original work, the
+modifications you obtained, and any modifications you made. Any licenses
+you give must also follow the GPL restrictions.&lt;/p&gt;
+&lt;p&gt;Many source code licenses restrict the use that can be made of the
+software. Such is the case with the Java Community Source License, which
+appears to restrict free use to research. Other uses require that
+compatibility tests be made and royalties be paid. Other licenses, like
+the XML4J Evaluation License, restrict the use to that which is &amp;quot;lawful
+and non-commercial.&amp;quot; More restrictive licenses grant these rights only
+for a limited period of time.&lt;/p&gt;
+&lt;p&gt;Some would argue that source licenses that restrict the use or the
+creation of derivative works are not really open source. This, however,
+is the most common form of licensing use in academia, which is driving
+the so-called open source movement and is a main provider of useful
+source code.&lt;/p&gt;
+&lt;p&gt;Surprisingly, licenses that completely prohibit executing the software
+can still be useful. The trend is a new one, but I've seen it applied to
+the source code in books about algorithms and coding techniques. These
+books provide source code, but they restrict its use to study purposes
+only. You cannot copy the software, be it directly, by optical
+recognition, or even by typing it in, which eliminates any possibility
+of passing it through a compiler, much less executing it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="if-the-license-fits"&gt;
+&lt;h2&gt;If the license fits&lt;/h2&gt;
+&lt;p&gt;If all you want to do with a given open source package is use it as a
+tool to produce work separate from the package, then most open source
+licenses will do. Tools like compilers and text editors fall into this
+category. Libraries and interpreters might not, so pay attention.&lt;/p&gt;
+&lt;p&gt;For other purposes, choose public domain software. Or, if you want to
+distribute your software commercially but do not want to distribute the
+source to the modifications you made, go with a license like the MIT or
+the BSD. The GPL and LPGL are good choices if you don't mind
+distributing your source code.&lt;/p&gt;
+&lt;p&gt;Licenses like the Java Community Source License are so complicated
+that I'd keep away from the code unless I could count on the services of
+a good lawyer.&lt;/p&gt;
+&lt;p&gt;In all other cases, read carefully and look for the following keywords
+and phrases: use, copy, distribute, modify, derivative works,
+sublicense, and charge. Those words and phrases describe the rights that
+can be claimed on copyrighted work, and they will be specifically
+mentioned in documents that grant or restrict them. When in doubt,
+(gulp!) consult a lawyer.&lt;/p&gt;
+&lt;p&gt;If you're planning on distributing your own work as open source, then
+I suggest you adopt one of the licenses mentioned at the Open Source
+Institute's web site. I hope that my analysis will make the choice
+easier. These licenses have already been reviewed by lawyers and, just
+as important, they are free to use. Licenses can also be copyrighted,
+you know, and not all licenses are open source.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry><entry><title>A true story</title><link href="https://neogeny.github.io/blog/a-true-story.html" rel="alternate"/><published>1999-09-26T00:00:00-04:00</published><updated>1999-09-26T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-09-26:/blog/a-true-story.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
+conversion.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Source code has been available for decades, long before the so-called
+&amp;quot;open source revolution&amp;quot; started. I have found value in using and
+writing open source software since I first began experimenting with open
+source solutions to critical business problems. It's …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
+conversion.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Source code has been available for decades, long before the so-called
+&amp;quot;open source revolution&amp;quot; started. I have found value in using and
+writing open source software since I first began experimenting with open
+source solutions to critical business problems. It's easy to become
+paranoid about backups after the first important loss of work to a
+system failure. For me it happened while in college, and I flunked the
+project. The next stage of paranoia comes when one groks that the
+precious latest backups will frequently have a much lesser value than
+the backups of previous working versions. Such a revelation will
+motivate most programmers to implement some sort of version control and
+backup strategy. At the next stage, one realizes that the contents of
+the version control database are the real source, and that what any
+given source directory contains is just a partial image of the whole
+thing.&lt;/p&gt;
+&lt;p&gt;My early primitive attempts at version control (file renaming,
+directory cloning) eventually led to the installation of a commercial
+version control package: Microsoft Delta. Delta was not an ambitious
+package. It lacked many features that other packages advertised, and its
+documentation was lacking in many places. But I had received my copy for
+free by raving about Microsoft in a local newspaper, so I decided to
+give it a shot. Delta served my version control needs flawlessly for
+years until, unexpectedly, Microsoft decided to drop the software.&lt;/p&gt;
+&lt;p&gt;&amp;quot;What the heck,&amp;quot; I thought. &amp;quot;The software works fine, so why not
+continue to use it unsupported?&amp;quot; But 1995 arrived, and with it Windows
+95. Delta simply would not cooperate with the new 32-bit OS. As the
+product had been discontinued, the only support option provided was a
+free upgrade to SourceSafe, which Microsoft had recently acquired. My
+initial evaluation of SourceSafe left me wary of a version control
+system that would store my source code in an undocumented, proprietary
+binary format. I queried the Net (CompuServe at that time) and found out
+about the many problems people were having with SourceSafe. I decided to
+pass on this system and evaluate other commercial options.&lt;/p&gt;
+&lt;p&gt;Good version control comes third in a software developer's toolbox
+only because a compiler that produces correct output, and libraries that
+do what they should, are things one simply can't live without. After
+ruling out SourceSafe, I bought and evaluated the two most recognized
+and touted version control packages under US$1000. To my surprise, both
+packages were difficult to use and, worse, they failed to perform
+routine tasks on their first day of use. The advertised ability to
+import my Delta files didn't work either. Tech support acknowledged the
+problems, but the only solution offered was to wait for the next release
+&amp;quot;due out in a couple of months.&amp;quot; That was unacceptable.&lt;/p&gt;
+&lt;p&gt;At the obvious signs of hyperventilation, I decided to stop breathing
+for a while. I realized I would inevitably lose my Delta database and,
+with it, all the whys and hows of every version of my software. I
+decided that the next version control package I used would have to rely
+on a database format that was standard, well documented, and humanly
+auditable (plain text). Then I remembered RCS, &amp;quot;Revision Control
+System,&amp;quot; the version control system bundled with every version of Unix.
+I found a Windows implementation of RCS on the Net in no time, and all
+the tests I performed ran fine. RCS was open source, and I could use it
+for my needs at no charge.&lt;/p&gt;
+&lt;p&gt;RCS's only weakness was its lack of network consciousness; this
+eventually led me to CVS, the Concurrent Versioning System. CVS is open
+source software, it is licensed under the
+&lt;a class="reference external" href="http://www.gnu.org/"&gt;GNU&lt;/a&gt;&lt;a class="reference external" href="http://www.gnu.org/copyleft/gpl.html"&gt;General Public
+License&lt;/a&gt; and has &lt;a class="reference external" href="http://www.cyclic.com/"&gt;Cyclic
+Software&lt;/a&gt; as its official maintainer. CVS is
+very network conscious, it supports collaborative (no locks) check-ins
+and check-outs and branching, and is the primary version control package
+used for open source projects all over the Net. Most importantly, CVS
+uses the RCS file format, an open specification of version control
+databases held in plain text.&lt;/p&gt;
+&lt;p&gt;I've used CVS for my version control needs for years, and it has
+always performed flawlessly. The free upgrades have simplified the
+installation and made important performance improvements. More than once
+I've queried the CVS source code to see how things really work; it
+helped me implement my Java RCS library (open source), which I wrote in
+order to guarantee that I would never lose my version control
+information again.&lt;/p&gt;
+&lt;p&gt;Individual developers may have reasons of their own to resist open
+source, but sometimes it is the best solution to a business need. I'm
+still paranoid about version control, so I plan to release my RCS
+library as open source.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="inpublishing"/></entry></feed>

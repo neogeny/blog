@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - grako</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/grako.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-19T00:00:00-04:30</updated><entry><title>Grako 2.0.0</title><link href="https://neogeny.github.io/blog/grako-2-0-0.html" rel="alternate"/><published>2013-05-19T00:00:00-04:30</published><updated>2013-05-19T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-19:/blog/grako-2-0-0.html</id><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;img alt="grammar_diagram" src="https://neogeny.github.io/blog/images/grako200.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Grako 2.0.0 was just released. This new version includes many
+simplifications to the generated grammars, semantics through delegation,
+a complete&amp;nbsp;&lt;em&gt;antlr2grako&lt;/em&gt;&amp;nbsp;example, and the ability to create silly
+diagrams of the grammars through &lt;em&gt;graphviz&lt;/em&gt;. For a full list of changes,
+see:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi?:action=display&amp;amp;name=grako&amp;amp;version=2.0.0"&gt;PyPy&lt;/a&gt;&amp;nbsp;or
+the &lt;a class="reference external" href="https://bitbucket.org/apalala/grako/commits/all"&gt;Bitbucket
+changelog&lt;/a&gt;.&lt;/p&gt;
+</content><category term="grako"/></entry><entry><title>Grako 1.4.0 PEG/Packrat parser generator for Python</title><link href="https://neogeny.github.io/blog/grako-1-4-0-peg-packrat-parser-generator-for-python.html" rel="alternate"/><published>2013-05-02T00:00:00-04:30</published><updated>2013-05-02T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-02:/blog/grako-1-4-0-peg-packrat-parser-generator-for-python.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/grako.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Grako 1.4.0 has been published with this changelog:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;BUG! Sometimes the AST for a closure ({}) was not a list.&lt;/li&gt;
+&lt;li&gt;Semantic actions can now be implemented by a delegate.&lt;/li&gt;
+&lt;li&gt;Reset synthetic method count and use decorators to increase
+readability of generated parsers.&lt;/li&gt;
+&lt;li&gt;The Grako EBNF grammar and the bootstrap …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/grako.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Grako 1.4.0 has been published with this changelog:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;BUG! Sometimes the AST for a closure ({}) was not a list.&lt;/li&gt;
+&lt;li&gt;Semantic actions can now be implemented by a delegate.&lt;/li&gt;
+&lt;li&gt;Reset synthetic method count and use decorators to increase
+readability of generated parsers.&lt;/li&gt;
+&lt;li&gt;The Grako EBNF grammar and the bootstrap parser now align, so the
+grammar can be used to bootstrap Grako.&lt;/li&gt;
+&lt;li&gt;The bootstrap parser was refactored to use semantic delegates.&lt;/li&gt;
+&lt;li&gt;Proved that grammar models can be pickled, unpickled, and reused.&lt;/li&gt;
+&lt;li&gt;Added the antlr example with an ANTLR-to-Grako grammar translator.&lt;/li&gt;
+&lt;li&gt;Changed the licensing to simplified BSD.&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="grako"/></entry><entry><title>Grako 1.3.0</title><link href="https://neogeny.github.io/blog/grako-1-3-0.html" rel="alternate"/><published>2013-04-11T00:00:00-04:30</published><updated>2013-04-11T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-04-11:/blog/grako-1-3-0.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I just released a new version of Grako:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://pypi.python.org/pypi/grako/1.3.0"&gt;https://pypi.python.org/pypi/grako/1.3.0&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;The most relevant change is the the memoization cache optimization
+thanks to the advice given by &amp;nbsp;Kota Mizushima.&lt;/p&gt;
+&lt;p&gt;This time I'm requesting help on the work on
+the&amp;nbsp; &lt;em&gt;semantic_delegate&lt;/em&gt; branch of the repository …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I just released a new version of Grako:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://pypi.python.org/pypi/grako/1.3.0"&gt;https://pypi.python.org/pypi/grako/1.3.0&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;The most relevant change is the the memoization cache optimization
+thanks to the advice given by &amp;nbsp;Kota Mizushima.&lt;/p&gt;
+&lt;p&gt;This time I'm requesting help on the work on
+the&amp;nbsp; &lt;em&gt;semantic_delegate&lt;/em&gt; branch of the repository, because
+that's the way to go for amazing performance&amp;nbsp;with parsers and
+translators in Python.&lt;/p&gt;
+</content><category term="grako"/></entry><entry><title>Grako 1.2.0</title><link href="https://neogeny.github.io/blog/grako-1-2-0.html" rel="alternate"/><published>2013-03-16T00:00:00-04:30</published><updated>2013-03-16T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-03-16:/blog/grako-1-2-0.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;strong&gt;Grako 1.2.0&lt;/strong&gt; has been released with the following changelog:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grako&lt;/strong&gt; (for grammar compiler) is a tool that takes grammars in a
+variation of &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ebnf"&gt;EBNF&lt;/a&gt; as input, and
+outputs &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Memoization"&gt;memoizing&lt;/a&gt;
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Parsing_expression_grammar"&gt;PEG&lt;/a&gt;
+parsers in &lt;a class="reference external" href="http://python.org/"&gt;Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.2.0&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Lazy rendering of template fields.&lt;/li&gt;
+&lt;li&gt;Optimization of rendering engine's indent() and trim …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;strong&gt;Grako 1.2.0&lt;/strong&gt; has been released with the following changelog:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grako&lt;/strong&gt; (for grammar compiler) is a tool that takes grammars in a
+variation of &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ebnf"&gt;EBNF&lt;/a&gt; as input, and
+outputs &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Memoization"&gt;memoizing&lt;/a&gt;
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Parsing_expression_grammar"&gt;PEG&lt;/a&gt;
+parsers in &lt;a class="reference external" href="http://python.org/"&gt;Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.2.0&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Lazy rendering of template fields.&lt;/li&gt;
+&lt;li&gt;Optimization of rendering engine's indent() and trim().&lt;/li&gt;
+&lt;li&gt;Rendering of iterables using a specified separator, indent, and
+format.&lt;/li&gt;
+&lt;li&gt;Basic documentation of the rendering engine.&lt;/li&gt;
+&lt;li&gt;Added a cache of compiled regexps to Buffer.&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="grako"/></entry><entry><title>Grako 1.0.0</title><link href="https://neogeny.github.io/blog/grako-1-0-0.html" rel="alternate"/><published>2013-02-12T00:00:00-04:30</published><updated>2013-02-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-02-12:/blog/grako-1-0-0.html</id><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/apalala/grako"&gt;Grako&lt;/a&gt;&amp;nbsp;1.0.0 has been
+released to &lt;a class="reference external" href="http://pypi.python.org/pypi/grako/1.0.0"&gt;PyPi&lt;/a&gt;. It's
+feature complete, and very fast.&lt;/p&gt;
+&lt;p&gt;I'm currently using it to parse and translate millions of lines of
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/COBOL"&gt;COBOL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content><category term="grako"/></entry><entry><title>Grako</title><link href="https://neogeny.github.io/blog/grako.html" rel="alternate"/><published>2013-01-13T00:00:00-04:30</published><updated>2013-01-13T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-01-13:/blog/grako.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/apalala/grako/"&gt;Grako&lt;/a&gt;&amp;nbsp;is feature complete,
+and&amp;nbsp;I'm already using it for the project that required it.&amp;nbsp;The parser
+generated by &lt;strong&gt;Grako&lt;/strong&gt;&amp;nbsp;for
+my&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Cobol"&gt;COBOL&lt;/a&gt;&amp;nbsp;grammar is already
+parsing a couple of hundred thousand lines of code, with failures so far
+attributable to the grammar, and not the tool&lt;/p&gt;
+&lt;p&gt;I won't bless …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/apalala/grako/"&gt;Grako&lt;/a&gt;&amp;nbsp;is feature complete,
+and&amp;nbsp;I'm already using it for the project that required it.&amp;nbsp;The parser
+generated by &lt;strong&gt;Grako&lt;/strong&gt;&amp;nbsp;for
+my&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Cobol"&gt;COBOL&lt;/a&gt;&amp;nbsp;grammar is already
+parsing a couple of hundred thousand lines of code, with failures so far
+attributable to the grammar, and not the tool&lt;/p&gt;
+&lt;p&gt;I won't bless &lt;strong&gt;Grako&lt;/strong&gt; with a 1.0rc1 tag until someone (different
+from me) has tried it, but I'm confident about how the tool is working
+now.&lt;/p&gt;
+&lt;p&gt;The motivations for this&amp;nbsp;endeavour are explained on &lt;a class="reference external" href="https://neogeny.github.io/blog/grako-1.html"&gt;my previous
+post&lt;/a&gt;&amp;nbsp;and on project's
+&lt;a class="reference external" href="https://bitbucket.org/apalala/grako/"&gt;README&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I took exactly 29 days to complete the project.&lt;/p&gt;
+&lt;p&gt;Thank's to Tom Bragg for trusting, and funding!&lt;/p&gt;
+</content><category term="grako"/></entry><entry><title>GRAKO</title><link href="https://neogeny.github.io/blog/grako-1.html" rel="alternate"/><published>2013-01-09T00:00:00-04:30</published><updated>2013-01-09T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-01-09:/blog/grako-1.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;After my difficulties translating SoftAG Natural using ANTLR v3, and a
+new request to do the likes with COBOL, which is a programming language
+as large and as ambiguous, I decided to explore other options.&lt;/p&gt;
+&lt;p&gt;I found that most of the solutions out there are lack a maintainer,
+lack users …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;After my difficulties translating SoftAG Natural using ANTLR v3, and a
+new request to do the likes with COBOL, which is a programming language
+as large and as ambiguous, I decided to explore other options.&lt;/p&gt;
+&lt;p&gt;I found that most of the solutions out there are lack a maintainer,
+lack users, or lack significant projects that use them. That scenario
+maid ANTLR the only reasonable option, which meant going though the same
+problems I went through with Natural while dealing with COBOL.&lt;/p&gt;
+&lt;p&gt;So, with a bit of desperation, a bit of arrogance, a bunch of ideas
+about how things should work, and unbelievable support from my boss, I
+wrote an EBNF to memoizing-PEG parser compiler in Python. It's callked
+GRAKO, and it's GPL open at:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://bitbucket.org/apalala/grako/"&gt;https://bitbucket.org/apalala/grako/&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;The tool must be called &amp;quot;beta&amp;quot; because it hasn't yet seen a major
+project delivered using it, but the consistency checks I wrote are the
+nastiest I could think off: the bootstrap parser can parse a grammar for
+the GRAKO EBNF description, and generate a parsing engine that can parse
+the same input again, and generate a structured and readable Python
+program that can do the same.&lt;/p&gt;
+&lt;p&gt;On the other hand, a GRAKO generated parser is parsing 1.8 million
+lines of COBOL in about seconds. It's over 500 programs, of which about
+200 fail to parse, and manual inspection says that the failures are
+about invalid COBOL, and not grammar, or generated parser errors.&lt;/p&gt;
+&lt;p&gt;The reasons why I built this tool are the ones you've seen me discuss
+in the current and previous incarnations of this forum:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;To deal with languages like COBOL or NATURAL, in which important
+statement words (can't call them keywords) may be used as identifiers
+in programs, the parser must be able to lead the lexer. The parser
+also must lead the lexer to parse languages like Ruby.&lt;/li&gt;
+&lt;li&gt;When ambiguity is the norm in the parsed language (Natural, Cobol),
+the grammar becomes contaminated with lookaheads (just to make the
+parser greedy) in ANTLR v3, and unknowns for me in v4 (because I
+haven't tried).&lt;/li&gt;
+&lt;li&gt;My opinion, after the experience with Natural, is that semantic
+actions like AST transformations or whatever DO NOT belong in the
+grammar. Semantic actions in the grammar create yet another
+programming language to deal with (the source language, ANTLR,
+ANTLR+semantics, and target language). In fewer words, it is
+impossible for me to find a programmer to whom delegate the current
+grammar for Natural, while the current COBOL grammar is approachable
+to anyone with a CS degree, and the generated code approachable by
+anyone with sound knowledge of Python.&lt;/li&gt;
+&lt;li&gt;(Probably a restatement of the above) Pre-processing (like includes,
+or COBOL's fixed column format), tree construction, translation,
+interpretation, etc., belong to soundly developed program code, and
+not in the grammar.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have deadlines to meet using GRAKO, and, to be honest, I don't know
+if I'll succeed. I do know that ANTLR is sound and field proved (even by
+me!), so I could fall back to it eventually. But currently, I'm placing
+my bets on doing things in a simpler way:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ python -c &amp;quot;import this&amp;quot;
+&lt;/pre&gt;
+</content><category term="grako"/></entry></feed>

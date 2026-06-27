@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - penguins</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/penguins.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2010-04-07T00:00:00-04:30</updated><entry><title>Pulseaudio Sucks!</title><link href="https://neogeny.github.io/blog/pulseaudio-p-sucks.html" rel="alternate"/><published>2010-04-07T00:00:00-04:30</published><updated>2010-04-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-04-07:/blog/pulseaudio-p-sucks.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
+it well either on Karmic or Lucid. Many people complain all over the Web
+about problems like the ones I've experienced:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Skips, skips, skips. Launch an apllication, skip; open a new page on
+the browser, skip; switch worskpaces, skip; do almost anything but
+stay …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
+it well either on Karmic or Lucid. Many people complain all over the Web
+about problems like the ones I've experienced:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Skips, skips, skips. Launch an apllication, skip; open a new page on
+the browser, skip; switch worskpaces, skip; do almost anything but
+stay still, skip.&lt;/li&gt;
+&lt;li&gt;Moving the balance control changed the volume, and made the balance
+jump to wherever it wanted.&lt;/li&gt;
+&lt;li&gt;The audio options in Skype were all &lt;em&gt;Pulse Audio Server&lt;/em&gt;, which had
+me jump through hoops every time I wanted to set up an audio
+conference using my headset.&lt;/li&gt;
+&lt;li&gt;Volume and equalizer settings got lost after logout.&lt;/li&gt;
+&lt;li&gt;The equalizer worked or didn't at its own discresion.&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The almost unanimous advice about how to solve to the above problems
+according to the Web is to get rid of
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/PulseAudio"&gt;Pulseaudio&lt;/a&gt;and make
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture"&gt;ALSA&lt;/a&gt;
+and &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Enlightened_Sound_Daemon"&gt;ESound&lt;/a&gt;
+take over, so that's what I did... not without problems, because Ubuntu
+has been embedding Pulseaudio into the desktop the hard way:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The volume control on the toolbar disappears, and
+System/Preferences/Sound stops working. To work around that I
+installed the GNome Alsa Mixer, and docked it to the toolbar. I
+haven't been able (haven't known how) to make the GNome Volume
+Control work again.&lt;/li&gt;
+&lt;li&gt;No more equalizer. To fix that I ditched the &lt;a class="reference external" href="http://projects.gnome.org/rhythmbox/"&gt;Rhythmbox Music
+Player&lt;/a&gt; that Ubuntu
+installs, and started using &lt;a class="reference external" href="http://banshee-project.org/"&gt;Banshee&lt;/a&gt;
+instead. That not only gave me an equalizer, but also inter-song gain
+control, and randomization that works, all with an interface very
+similar to that of Rhythmbox, and with all the goodies.&lt;/li&gt;
+&lt;li&gt;The sound is great.&lt;/li&gt;
+&lt;li&gt;Skype keeps the correct settings for teleconferencing between
+sessions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm running the first beta of the &lt;a class="reference external" href="https://wiki.ubuntu.com/LucidLynx"&gt;Lucid Lynx&lt;/a&gt; now, but the issues were the
+same with Karmic. The feeling I get after having had to work hard to get
+my audio the way I wanted it is that having distributions couple to one
+specific option when there are many is very much agains the freedom to
+choose that has always characterized Linux.&lt;/p&gt;
+</content><category term="penguins"/></entry><entry><title>Update to Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/update-to-off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-14T00:00:00-04:30</published><updated>2009-10-14T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-14:/blog/update-to-off-xp-and-into-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
+the machine due to my impatience. After a reinstall of 9.04, the upgrade
+to 9.10 went well. It took only a few hours (a similar attempt with
+Windows would have taken days).&lt;/p&gt;
+&lt;p&gt;Now the update …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
+the machine due to my impatience. After a reinstall of 9.04, the upgrade
+to 9.10 went well. It took only a few hours (a similar attempt with
+Windows would have taken days).&lt;/p&gt;
+&lt;p&gt;Now the update:&lt;/p&gt;
+&lt;div class="section" id="bluetooth"&gt;
+&lt;h2&gt;Bluetooth&lt;/h2&gt;
+&lt;p&gt;It works, both with my favorite mouse (what will I do with the new one I
+bought?), and with my cell phone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vpn"&gt;
+&lt;h2&gt;VPN&lt;/h2&gt;
+&lt;p&gt;PPTP to Windows servers works if the configuration is set up right, both
+in Ubuntu Jaunty and in Karmic (I should write a post about how I got it
+working).&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="penguins"/></entry><entry><title>Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-11T00:00:00-04:30</published><updated>2009-10-11T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-11:/blog/off-xp-and-into-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;This weekend I managed to take care of the
+problems that
+have kept me from transitioning my main workstation from XP to Ubuntu.&lt;/p&gt;
+&lt;p&gt;The details follow.&lt;/p&gt;
+&lt;div class="section" id="os-version"&gt;
+&lt;h2&gt;OS Version&lt;/h2&gt;
+&lt;p&gt;I downgraded to the 32-bit version of Ubuntu 9.04 (Jaunty). I found no
+advantages in running at 64bit, and plenty of …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;This weekend I managed to take care of the
+problems that
+have kept me from transitioning my main workstation from XP to Ubuntu.&lt;/p&gt;
+&lt;p&gt;The details follow.&lt;/p&gt;
+&lt;div class="section" id="os-version"&gt;
+&lt;h2&gt;OS Version&lt;/h2&gt;
+&lt;p&gt;I downgraded to the 32-bit version of Ubuntu 9.04 (Jaunty). I found no
+advantages in running at 64bit, and plenty of hoops to jump through to
+to get some stuff to run. My opinion is that 64bit Linux is not yet
+mature enough for a desktop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;I still have projects that require Windows, and WinXP virtualized with
+&lt;a class="reference external" href="http://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt; runs great,
+indistinguishable from native (of course, the virtualized XP is
+pristine, and doesn't have all the crap of the original, three-year-old
+installation). VirtualBox complains that I assigned too much memory to
+XP, but Ubuntu keeps running well when the virtual machine is up, which
+only happens when I need to be in Windows mode. I used the &amp;quot;bridged&amp;quot;
+network connection mode for the virtualized XP, so I can access it
+remotely using RDP, netbios, or whatever.&lt;/p&gt;
+&lt;p&gt;The exercise of bringing
+&lt;a class="reference external" href="http://www.modelistica.com/tranus_english.htm"&gt;TRANUS&lt;/a&gt; compilation
+up on the virtualized XP helped me debug some unknown dependencies on
+the way stuff in my old XP was configured.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="repartitioning"&gt;
+&lt;h2&gt;Repartitioning&lt;/h2&gt;
+&lt;p&gt;I found that Linux already has stable read/write access to NTFS
+partitions through &lt;a class="reference external" href="http://www.ntfs-3g.org/"&gt;ntfs-3g&lt;/a&gt;, so I decided
+to keep my NTFS partitions:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;On the first disk, the old Windows partition, for &amp;quot;just in case&amp;quot;, and
+for copying stuff to the new virtualized XP (more on that later).&lt;/li&gt;
+&lt;li&gt;On the second disk, the partition where photographs, music, videos,
+and downloaded installers are kept. It has only 32GiB of free space
+left, so I expect to fill it up by the end of the year. When it
+becomes legacy, it won't matter the format it is in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I upgraded the Linux partitions (the main one on the first disk, and the
+auxiliary one on the second disk) to
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ext4"&gt;ext4&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="printing"&gt;
+&lt;h2&gt;Printing&lt;/h2&gt;
+&lt;p&gt;Printing works great using Ubuntu printer sharing for Ubuntu machines,
+and SAMBA for (the two remaining) Windows machines.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="scanning"&gt;
+&lt;h2&gt;Scanning&lt;/h2&gt;
+&lt;p&gt;The &lt;a class="reference external" href="http://www.xsane.org/"&gt;XSane&lt;/a&gt; image scanner works great. I
+hadn't grokked it on the first try.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="email"&gt;
+&lt;h2&gt;Email&lt;/h2&gt;
+&lt;p&gt;Since a learning curve was inevitable, and almost all my email is routed
+through GMail, I decided to try the GMail Web interface. It took some
+time to get used to it, but it works great. I enabled offline GMail in
+case my Internet connection goes down. I still log into the old XP every
+once in a while to backup my emails locally to MS Outlook PST files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="web"&gt;
+&lt;h2&gt;Web&lt;/h2&gt;
+&lt;p&gt;The beta version of Google Chrome for Linux is very stable. Oddly, it
+still doesn't support Google Gears well, so I have to launch Firefox to
+get my email backed up locally.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vpn"&gt;
+&lt;h2&gt;VPN&lt;/h2&gt;
+&lt;p&gt;I still haven't been able to connect to a Windows PPTP server from
+Ubuntu, but I can do it from the virtualized XP, so I consider this
+issue dead, at least until Ubuntu 9.10 comes out by the end of the
+month. I only need the VPNs for maintenance of Windows servers, so...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bluetooth"&gt;
+&lt;h2&gt;Bluetooth&lt;/h2&gt;
+&lt;p&gt;Still not working. I'll wait for Ubuntu 9.10 (Karmic Koala). I got a
+Genius wireless (USB) mouse similar to the Logitech bluetooth I had to
+deal with the mousing problem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="remote-access"&gt;
+&lt;h2&gt;Remote Access&lt;/h2&gt;
+&lt;p&gt;Oddly enough, remote access to my desktop using Ubuntu's Remote Desktop
+Viewer sucks big time, but RDP to the virtualized XP using Terminal
+Server Client shines. I tried xrdp, but it sucks worse than Remote
+Desktop Viewer. I may try with plain tightvnc later. Remoting single
+programs using plain XWindows works great, of course.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="office"&gt;
+&lt;h2&gt;Office&lt;/h2&gt;
+&lt;p&gt;OpenOffice is diffrent enough from MS Office than some pain ahead is for
+sure. My MS Excel macros don't work with OO Spreadsheet, but I took care
+of the most urgent need with the
+&lt;a class="reference external" href="http://projecthamster.wordpress.com/screenshots/"&gt;Hamster&lt;/a&gt; time
+tracking applet. MS Office documents, including invoices, print fine
+from OpenOffice, and that takes care of the rest. As I mentioned in a
+previous post, most of my writing is nowadays done on Web applications.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="penguins"/></entry><entry><title>Still on XP</title><link href="https://neogeny.github.io/blog/still-on-xp.html" rel="alternate"/><published>2009-07-19T00:00:00-04:30</published><updated>2009-07-19T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-07-19:/blog/still-on-xp.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
+plan&lt;/a&gt; to migrate
+from Windows XP to Ubuntu Linux. The plan needed refining, and I needed
+the time to proceed with the migration. What follows is the transcript
+from my chalkboard with the current plan.&lt;/p&gt;
+&lt;div class="section" id="repartitioning"&gt;
+&lt;h2&gt;Repartitioning&lt;/h2&gt;
+&lt;p&gt;The backups and repartitioning …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
+plan&lt;/a&gt; to migrate
+from Windows XP to Ubuntu Linux. The plan needed refining, and I needed
+the time to proceed with the migration. What follows is the transcript
+from my chalkboard with the current plan.&lt;/p&gt;
+&lt;div class="section" id="repartitioning"&gt;
+&lt;h2&gt;Repartitioning&lt;/h2&gt;
+&lt;p&gt;The backups and repartitioning were successfully done, and I have
+read-only access to the remaining Windows partitions.&lt;/p&gt;
+&lt;p&gt;All of my files are still on the NTFS partitions, but they are well
+backed up. I'll move them to the Ext3 partitions on a need basis.&lt;/p&gt;
+&lt;p&gt;I'm reminded that I need to write a Python script to catalogue my
+backups. I didn't like any of the software out there.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="printing"&gt;
+&lt;h2&gt;Printing&lt;/h2&gt;
+&lt;p&gt;It works, but the plan is to move the Epson three-in-one to a Windows
+computer. I'll probably get a new printer that has Linux drivers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="scanning"&gt;
+&lt;h2&gt;Scanning&lt;/h2&gt;
+&lt;p&gt;I haven't made it work, , but the plan is to move the Epson
+three-in-one to a Windows computer. Scanning is not a priority for me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="email"&gt;
+&lt;h2&gt;Email&lt;/h2&gt;
+&lt;p&gt;Old email is well backed up. Recent email is also backed up by Google
+Apps/Gmail. Two of the 12 accounts are not on Google Apps, but one of
+them is switching, and the other one is well backed up by its
+administrators.&lt;/p&gt;
+&lt;p&gt;As to clients, I'll have to learn to live with the GMail interface,
+and handle the rest with Evolution. I still use my inbox as a task list
+(even issues from the issue base land there), and&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contacts"&gt;
+&lt;h2&gt;Contacts&lt;/h2&gt;
+&lt;p&gt;They were imported to GMail, and they can be exported from there to
+VCard format, which almost any contacts software imports.&lt;/p&gt;
+&lt;p&gt;Just now I needed to find the license and code for Delphi 7, and it
+was in my GMail contacts, as it was in MS Outlook.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="calendar"&gt;
+&lt;h2&gt;Calendar&lt;/h2&gt;
+&lt;p&gt;It was exported to Google Calendar, with which I can live with. I love
+the email and SMS notifications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="web"&gt;
+&lt;h2&gt;Web&lt;/h2&gt;
+&lt;p&gt;Firefox works great with every page I visit, thank you, and the
+Chrome-like skins are fine. The fall-back to a Windows session is still
+available in case of emergency.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Assume the learning curve with Open Office. Any way, most of what I
+write these days goes to the Web, a Wiki, or to a PDF.&lt;/p&gt;
+&lt;p&gt;For graphics, Inkscape seems to be all I need. I've never used
+Photoshop, and there's Gimp in case I need to do manipulation of
+graphics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="photography"&gt;
+&lt;h2&gt;Photography&lt;/h2&gt;
+&lt;p&gt;Picasa3 runs fine in Ubuntu 9.04/64. I don't need anything else
+because I don't do much postprocessing these days.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="music"&gt;
+&lt;h2&gt;Music&lt;/h2&gt;
+&lt;p&gt;Rythmbox Music Player plays my music fine (I don't care about the
+files in Windows formats). There have been interruptions in the sound
+every once in a while, but they may be bacause the music is still on one
+of the NTFS partitions. The album artwork gets downloaded from I don't
+know where. Searching works fine.&lt;/p&gt;
+&lt;p&gt;I still have to test burning a CD to listen to in the car.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="skype"&gt;
+&lt;h2&gt;Skype&lt;/h2&gt;
+&lt;p&gt;It works.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="teleconferencing"&gt;
+&lt;h2&gt;Teleconferencing&lt;/h2&gt;
+&lt;p&gt;Ekiga works great since the admins opened up the SIP protocol route to
+my moday telemeetings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vpn"&gt;
+&lt;h2&gt;VPN&lt;/h2&gt;
+&lt;p&gt;I haven't been able to make VPN to Windows servers work, but I do very
+little work in those, and can fall back to a WinXP boot when I need to.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="programming"&gt;
+&lt;h2&gt;Programming&lt;/h2&gt;
+&lt;p&gt;Python, Java, C++, etc. are solved business with native installations
+and Eclipse.&lt;/p&gt;
+&lt;p&gt;The only project that is tied to Windows is TRANUS. I'm testing how
+things work over the virtualized XP today. Delphi7 works fine, and it
+does so fast enough. I still need to test the Intel Fortran compiler.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hardware"&gt;
+&lt;h2&gt;Hardware&lt;/h2&gt;
+&lt;p&gt;Bluetooth is not working, which means that my favorite mouse isn't
+working either. I'll either have to get a new mouse, or a new bluetooth
+card/dongle.&lt;/p&gt;
+&lt;p&gt;My keyboard works fine, but it will get some time to get used to the
+new US-International layout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other"&gt;
+&lt;h2&gt;Other&lt;/h2&gt;
+&lt;p&gt;I expected Ubuntu 9.04/64 to be faster, but, by today's standards, my
+Pentium D is an old machine with too little RAM.&lt;/p&gt;
+&lt;p&gt;Did I miss anything?&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="penguins"/></entry><entry><title>Back to XP</title><link href="https://neogeny.github.io/blog/back-to-xp.html" rel="alternate"/><published>2009-05-02T00:00:00-04:30</published><updated>2009-05-02T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-05-02:/blog/back-to-xp.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
+run Windows. My first personal computer run HP Basic, the second CP/M,
+the third MS/DOS, and after a short and unsuccessful stint with a Mac,
+my professional work started with MS Windows 2.0, and stayed on Windows …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
+run Windows. My first personal computer run HP Basic, the second CP/M,
+the third MS/DOS, and after a short and unsuccessful stint with a Mac,
+my professional work started with MS Windows 2.0, and stayed on Windows
+for two decades or so.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;But things have changed. These days I have to support only one Windows
+application,and that's something that can be done over a virtual
+machine. I have administrative access to several Windows servers for the
+rest. It's true I am a Windows junky in being an expert in Excel, Word,
+and Outlook, but that can be remediated.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As anyone who has run Windows for a few years knows, there comes a time
+in which the operating system becomes so unjustifiably screwed-up that
+the only solution is to reinstall everything. Reinstalations are not
+easy, and they are full of data-loss risks. Faced with the decision to
+reinstall Windows XP, or give Windows 7 a test ride, I decided that the
+time seemed right to switch away from WinXP. Ubuntu 8.10, which runs in
+two of my computers, seemed a good choice.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Requirements&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Preserve my e-mail. Ten out of my 12 e-mail accounts go through
+gmail, and the other two through POP3 services that keep a week's
+worth of messages, so that seemed doable.&lt;/li&gt;
+&lt;li&gt;Preserve my data, mostly my projects and my photographs, but music
+and videos are in the list. Writing from Linux to NTFS partitions is
+still discouraged, but the available disk space (about 200Gbit) could
+be managed to deal with that.&lt;/li&gt;
+&lt;li&gt;I need a WinXP virtual machine to be able to run Intel Fortran and
+Borland (now Code Gear or something) Delphi 7. I already know that
+VirtualBox (&lt;a class="reference external" href="http://www.virtualbox.org/"&gt;http://www.virtualbox.org/&lt;/a&gt;) can do that.&lt;/li&gt;
+&lt;li&gt;Printing and scanning must work. Either a soft learning curve for
+other users, or moving the devices to one of the remaining Windows
+machines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Outcome&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Yes. Why not let you know about the outcome first?&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I was not able to make the switch this time because of some unforseen
+issues with Bluetooth, remote desktops, display configurations, and
+learning curves, all of them things I could not deal with within the
+weekend I had set for the switch.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ubuntu 9.04 came out during the effort, and several issues got fixed
+with the upgrade. The details are below.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Process&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Backup, backup, backup.&lt;/li&gt;
+&lt;li&gt;Remove all the software that's not needed or that hasn't been used in
+a while.&lt;/li&gt;
+&lt;li&gt;Use &lt;a class="reference external" href="http://www.kessels.com/Jkdefrag/"&gt;JkDefrag&lt;/a&gt; to force files
+together at the begining of each disk.&lt;/li&gt;
+&lt;li&gt;Use &lt;a class="reference external" href="http://www.symantec.com/norton/partitionmagic"&gt;Partition
+Magic&lt;/a&gt; to resize
+partitions and leave lots of space for the new install.&lt;/li&gt;
+&lt;li&gt;Leave the existing Windows XP partitions alive, just in case, with
+enough free space (a couple of Gibits) to let them operate.&lt;/li&gt;
+&lt;li&gt;Install Ubuntu 8.10 AMD64 with default options using the Live CD.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Details abut the failed switch&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;The Ubuntu resolution had to be fixed manyally for my 19&amp;quot;, 1440x900
+LCD display. Fixing the login screen was too difficult. The 9.04
+Ubuntu upgrade fixed all that nicely. SOLVED.&lt;/li&gt;
+&lt;li&gt;My Motorola/Widcom BLuetooth dongle get's recognized, but no devices
+are available. That leaves out my favorite mouse, a Logitech
+Bluetooth portable. ANOYING, but can be dealt with.&lt;/li&gt;
+&lt;li&gt;VPN connections to Windows servers are not working. ANOYING, probably
+a matter of a large learning curve.&lt;/li&gt;
+&lt;li&gt;Remote Desktop Connections suck because they are too slow compared to
+Windows RDP. VNC doesn't cut it. WORKAROUND, connect through a
+console (SSH) and launch graphic applications through X-Windows,
+which works fine.&lt;/li&gt;
+&lt;li&gt;RDP connections to Windows machines works much better in 9.04. The
+sound, wich was broken in 8.10 is back, and Ctrl-Enter for a windowed
+remote desktop works again. NICE. A WiFi RDP is still not good enough
+for things like YouTube: unexplainable and ANNOYING.&lt;/li&gt;
+&lt;li&gt;Chat works fine using Pidgin.&lt;/li&gt;
+&lt;li&gt;Skype did not work on AMD64. Maybe a SHOW-STOPPER.&lt;/li&gt;
+&lt;li&gt;The procedure for moving e-mail from Outlook to Thunderstorm and then
+to Evolution did not recover all emails. ANNOYING. I can get recent
+e-mail from GMail/POP3, and the history can ve recovered from (very
+backed up) Outlook .PST files. The trick for making these experiments
+with GMail is to prepend &amp;quot;recent:&amp;quot; to your login, whichever e-mail
+client you are using.&lt;/li&gt;
+&lt;li&gt;Office. I know that OpenOffice works, but there are enough
+differences with MS Office to make for a steep learning curve.
+ANNOYING, but expected.&lt;/li&gt;
+&lt;li&gt;Audio and video conferencing. Steep learning curve to know how to
+make Ekiga connect to the servers I use. ANNOYING to SHOW-STOPPER.&lt;/li&gt;
+&lt;li&gt;Ubuntu (aptitude) certified software is not always to the latest
+version. UNKNOWN.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Conclusion&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After Ubuntu 9.04, it is definitely worth it to spend another weekend
+trying to make the switch.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This report may be updated or corrected later.&lt;/p&gt;
+</content><category term="penguins"/></entry><entry><title>Quién va arriba?</title><link href="https://neogeny.github.io/blog/quien-va-arriba.html" rel="alternate"/><published>2007-07-31T00:00:00-04:00</published><updated>2007-07-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-07-31:/blog/quien-va-arriba.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
+hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
+GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&amp;quot; a
+1990x1400.&lt;/p&gt;
+&lt;p&gt;Una de las razones por las cuales compre desktop es …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
+hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
+GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&amp;quot; a
+1990x1400.&lt;/p&gt;
+&lt;p&gt;Una de las razones por las cuales compre desktop es porque estoy harto
+de las laptops, las cuales se han convertido en artículos desechables al
+cabo de año y medio de uso; pero eso es tema para otro post.&lt;/p&gt;
+&lt;p&gt;Mi otra intención (ya que estoy decidido a mantenerme alejado de
+Windows Vista el mayor tiempo posible) era la de correr Windows XP
+(todavía necesario) sobre Linux en la nueva compu. Esto es lo que
+aprendí:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;KVM, el sistema de virtualización imbuido en el kernel de Linux solo
+corre en compus cuyo chipset y bios tienen soporte para
+virtualización asistida por hardware. Descubrí tarde que no todos los
+motherboards se prestan para eso.&lt;/li&gt;
+&lt;li&gt;Otras opciones de virtualización sobre Linux, como
+&lt;a class="reference external" href="http://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt;, funcionan en forma
+excelente. Con el doble CPU, Windows XP corrió sobre Linux con el
+mismo o mayor rendimiento que en mi laptop con un Centrino de 1.8
+Ghz.&lt;/li&gt;
+&lt;li&gt;Hacer que Linux reconozca el hardware que uno tiene a la mano sigue
+siendo un reto inmenso no tanto de hackeo sino de tiempo disponible
+para investigar, jurungar, y luego documentar el cambio de
+configuración que funcionó. Como no tengo motivación para esas cosas,
+instalé Windows XP, que tiene drivers para todo, para luego
+virtualizar Linux sobre XP (lógico, no?).&lt;/li&gt;
+&lt;li&gt;No he probado VMWare en la nueva compu, pero tanto VirtualBox como
+&lt;a class="reference external" href="http://www.microsoft.com/windows/products/winfamily/virtualpc/default.mspx"&gt;VirtualPC&lt;/a&gt;
+funcionan bastante bien virtualizando Linux sobre XP, pero con un
+rendimiento considerablemente inferior al de correr XP sobre Linux.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusión&lt;/h2&gt;
+&lt;p&gt;Hay que adquirir harware pre-certificado para Linux (al menos mientras
+los fabricantes terminan de montarse en la onda) para evitar el tipo de
+regresiones que yo tuve que hacer. Linux es el SO que toma mejor
+provecho del hardware base, y es la elección obvia por muchas razones,
+incluso cuando es necesario seguir corriendo Windows. Pero hay que
+emplear el tiempo de investigación necesario para asegurarse de que el
+hardware disponible va a subir en Linux en unas pocas horas de
+configuración en vez de en semanas hacking.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="penguins"/></entry><entry><title>Setting up a CVS repository on Linux</title><link href="https://neogeny.github.io/blog/setting-up-a-cvs-repository-on-linux.html" rel="alternate"/><published>2006-09-05T00:00:00-04:00</published><updated>2006-09-05T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-05:/blog/setting-up-a-cvs-repository-on-linux.html</id><summary type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+It takes more than you'd think to bootstrap a team&lt;/blockquote&gt;
+&lt;p&gt;One might think that it is enough to create a directory under
+&lt;strong&gt;/var/lib/cvs&lt;/strong&gt; to get a new CVS repository working for a project. My
+experience is that it takes much more to set up a CVS repository that …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
+&lt;!-- :category: --&gt;
+&lt;!-- :summary: --&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+It takes more than you'd think to bootstrap a team&lt;/blockquote&gt;
+&lt;p&gt;One might think that it is enough to create a directory under
+&lt;strong&gt;/var/lib/cvs&lt;/strong&gt; to get a new CVS repository working for a project. My
+experience is that it takes much more to set up a CVS repository that
+can be securely and seamlessly shared among members of a project group.&lt;/p&gt;
+&lt;p&gt;What follows is based on Fedora (RedHat) distributions of Linux, but it
+will work with any other distribution with very few changes.&lt;/p&gt;
+&lt;div class="section" id="work-as-root"&gt;
+&lt;h2&gt;Work as &lt;strong&gt;root&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Most of the commands that need to be executed for this setup are
+privileged, so it is much easier to work as root. So do:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ su
+&lt;/pre&gt;
+&lt;p&gt;or try:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ sudo su
+&lt;/pre&gt;
+&lt;p&gt;If the first doesn't work (it doesn't on most Debian-based systems).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="install-cvs"&gt;
+&lt;h2&gt;Install CVS&lt;/h2&gt;
+&lt;p&gt;Update to the latest version of CVS:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ up2date cvs
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="create-a-user-for-your-project"&gt;
+&lt;h2&gt;Create a user for your project&lt;/h2&gt;
+&lt;p&gt;There are many way to set up directories for CVS. Many just create
+directories (modules in CVS parlance) under &lt;strong&gt;/var/lib/cvs&lt;/strong&gt;. In my
+experience it is best to create a user/group pair for each project with
+the corresponding directory under &lt;strong&gt;/home&lt;/strong&gt;. That makes permission
+management much easier and provides an obvious place to store
+project-related files, create &lt;em&gt;cron&lt;/em&gt; tasks, etc.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ adduser myproject
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="create-a-directory-for-the-cvs-repository"&gt;
+&lt;h2&gt;Create a directory for the CVS repository&lt;/h2&gt;
+&lt;p&gt;This needs little explanation:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ mkdir /home/myproject/cvs
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="set-directory-permissions"&gt;
+&lt;h2&gt;Set directory permissions&lt;/h2&gt;
+&lt;p&gt;The basic permissions must give read, write, and navigation abilities to
+members of the project group, and to no one else.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ chmod ug+rwX /home/myproject$ chmod ug+rwx /home/myproject/cvs$ chmod o-rwx --recursive /home/myproject
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="set-the-sguid-bit-on-the-cvs-repository-directory"&gt;
+&lt;h2&gt;Set the SGUID bit on the CVS repository directory&lt;/h2&gt;
+&lt;p&gt;It's a little known fact that setting the SGID (Set Group Id) bit on a
+directory makes files and directories created under it inherit the
+permissions of the parent. Setting the bit for a CVS repository is
+indispensable because otherwise users will be able to create archive
+files which only they can change.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ chmod g+s /home/myproject/cvs
+&lt;/pre&gt;
+&lt;p&gt;More information on the SGID bit over directories can be found
+&lt;a class="reference external" href="http://www.library.yale.edu/~lso/workstation/docs/permissions/sgid.htm"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="initialize-the-cvs-repository"&gt;
+&lt;h2&gt;Initialize the CVS repository&lt;/h2&gt;
+&lt;p&gt;$ cvs -d /home/myproject/cvs init&lt;/p&gt;
+&lt;p&gt;If you execute:&lt;/p&gt;
+&lt;p&gt;$ ls -l /home/myproject/cvs&lt;/p&gt;
+&lt;p&gt;You should see this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+drwxrws--- 3 myproject myproject 4096 2006-09-05 11:26 CVSROOT
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="create-the-root-cvs-module"&gt;
+&lt;h2&gt;Create the root CVS module&lt;/h2&gt;
+&lt;p&gt;CVS has this somewhat confusing concept of &lt;em&gt;modules&lt;/em&gt;. To make a
+potentially long explanation short, it is best if you create a directory
+under the CVS repository to serve as root for all project files under
+version control.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ mkdir /home/myproject/cvs/myproject
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="add-the-users-to-the-project-s-group"&gt;
+&lt;h2&gt;Add the users to the project's group&lt;/h2&gt;
+&lt;p&gt;If you haven't created the users on the system, create them now:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ adduser john$ adduser mary
+&lt;/pre&gt;
+&lt;p&gt;Because we're going to use SSH (Secure Shell) access to the cvs
+repository, it is important that each user has their own Linux login.
+Otherwise CVS won't be able to capture who changed what.&lt;/p&gt;
+&lt;p&gt;Now add the users to the project's group:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ usermod john -G myproject$ usermod mary -G myproject
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="install-and-configure-ssh"&gt;
+&lt;h2&gt;Install and configure SSH&lt;/h2&gt;
+&lt;p&gt;$ up2date ssh&lt;/p&gt;
+&lt;p&gt;You might want to tighten up security by restricting which users have
+SSH access to the server, and you might have to tweak your firewall to
+let traffic go through the SSH port (port 22).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="test"&gt;
+&lt;h2&gt;Test&lt;/h2&gt;
+&lt;p&gt;You can try checking out the (for now empty) root module from CVS using
+a remote desktop or server. The first step is to tell CVS that you want
+to use SSH for remote repository access (something you might to set up
+permanently in your &lt;strong&gt;~/.bashrc&lt;/strong&gt; file or the likes):&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ export CVS_RSH=ssh
+&lt;/pre&gt;
+&lt;p&gt;Next we extract the repository root:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ cd ~ # switch to our home directory$ cvs -d :ext:myserver.com:/home/myproject/cvs co myproject
+&lt;/pre&gt;
+&lt;p&gt;If you execute:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ ls -l myproject
+&lt;/pre&gt;
+&lt;p&gt;You should see something like:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+drwxr-x--- 2 myname myname 4096 2006-09-05 11:39 CVS
+&lt;/pre&gt;
+&lt;p&gt;If that works, you're almost a 100% set. &amp;quot;Almost&amp;quot;, because on some
+systems you might need to set each project group member's UMASK to 007
+in their &lt;strong&gt;~/.bashrc&lt;/strong&gt; to avoid creation of archive files in the CVS
+repository which are not group writable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That's it!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As you many have noted, most of the steps in this process can be easily
+automated using a shell script that is invoked as:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ addproject myproject
+&lt;/pre&gt;
+&lt;p&gt;That is exactly what I've done for gigs in which projects are created
+frequently. In this case, writing the script is left as homework =)&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="penguins"/></entry></feed>
