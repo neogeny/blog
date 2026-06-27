@@ -9,8 +9,8 @@ body {
 	margin: 30px 0px 0px 0px;
 	padding: 0;
 	background: #7E776F url('../images/img01.jpg') repeat left top;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 18px;
 	color: #3E3B36;
 }
 .summary h2{font-size:1.6em; color:black;}
@@ -84,7 +84,7 @@ a:hover {
 	padding: 0;
 	letter-spacing: -2px;
 	text-align: center;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 #logo h1 {
@@ -137,7 +137,7 @@ a:hover {
 	border: none;
 	background: none;
 	text-transform: lowercase;
-	font: normal 11px Arial, Helvetica, sans-serif;
+	font: normal 11px "Comic Sans MS", "Comic Sans", cursive;
 	color: #34312C;
 }
 
@@ -178,7 +178,7 @@ a:hover {
 	padding: 8px 0px 0px 20px;
 	text-decoration: none;
 	text-transform: capitalize;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 14px;
 	font-weight: normal;
 	color: #FFF;
@@ -224,7 +224,7 @@ a:hover {
 
 .post .title {
 	padding: 0px 0px 0px 0px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	letter-spacing: -.5px;
 }
 
@@ -237,7 +237,7 @@ a:hover {
 	margin-bottom: 0px;
 	padding: 10px 0px 0px 0px;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 13px;
 	font-weight: bold;
 }
@@ -290,6 +290,7 @@ h2.title {
 
 .highlight pre{
         color:white;
+        font-family: "Comic Mono", "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .highlight{
@@ -396,7 +397,7 @@ h2.title {
 	height: 80px;
 	margin: 0 auto;
 	padding: 0px 0 15px 310px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 #footer p {
