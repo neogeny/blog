@@ -1,0 +1,11 @@
+[project]
+name = "neogeny_blog"
+version = "0.1.0"
+description = "Neogeny, a Blog"
+#readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ghp-import>=2.1.0",
+    "invoke>=3.0.3",
+    "pelican>=4.12.0",
+]
