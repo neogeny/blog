@@ -10,7 +10,7 @@ BsF2
 .. :summary:
 
 
-En una `nota <http://blog.neogeny.org/2007/09/bsf.html>`__ anterior
+En una `nota <{filename}/politikos/bsf.rst>`__ anterior
 expliqué las razones por las cuales es conveniente considerar una
 reconversión monetaria como la introducción de una nueva moneda, y
 adaptar los sistemas informáticos para el manejo de múltiples monedas.

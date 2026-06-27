@@ -16,7 +16,7 @@ bolas de cristal fueron incapaces de predecir el colapso del sistema
 financiero del primer mundo, y la actual recesión global).
 
 En
-`otro artículo <http://blog.neogeny.org/2008/02/devaluacion.html>`__
+`otro artículo <{filename}/politikos/devaluacion.rst>`__
 expliqué
 que, al estar anclado al dólar, el bolívar ya se ha devaluado más de un
 50% respecto a las monedas de nuestros principales socios comerciales.

@@ -14,7 +14,7 @@ Scanning 35mm film
 
 Yesterday I gave a shot at trying to scan some of the 35mm negatives
 of my old
-`Black&White <http://www.neogeny.org/blog/2006/06/22/black_and_white.html%5D>`__
+`Black&White <{filename}/aisthetikos/black-and-white.rst>`__
 photos using a 1200 DPI flat-bed scanner. It failed misserably:
 
 -  The scan showed severe `Moiré <http://en.wikipedia.org/wiki/Moire>`__

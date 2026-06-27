@@ -53,6 +53,6 @@ es, en mi opinión, la más sencilla y la más conveniente.
 
 *(No dejen de comentar sus experiencias con este consejo)*
 
-.. |Uso de espacio en Gmail| image:: /images/gmail_uso1.png
+.. |Uso de espacio en Gmail| image:: {static}/images/gmail_uso1.png
 
-.. |Configurar IMAP en Gmail| image:: /images/gmail_imap.png
+.. |Configurar IMAP en Gmail| image:: {static}/images/gmail_imap.png

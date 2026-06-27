@@ -23,7 +23,7 @@ from me) has tried it, but I'm confident about how the tool is working
 now.
 
 The motivations for this endeavour are explained on `my previous
-post <http://blog.neogeny.org/2013/01/grako_9.html>`__ and on project's
+post <{filename}/grako/grako-1.rst>`__ and on project's
 `README <https://bitbucket.org/apalala/grako/>`__.
 
 I took exactly 29 days to complete the project.

@@ -41,6 +41,6 @@ Venezuela, ante la Asamblea General de la ONU disparó el más reciente
 libro de Chomsky al cuarto lugar de la lista de más leidos del New York
 Times (!?). El libro es hoy el número uno en ventas en `Amazon.com`_.
 
-.. |image0| image:: /images/chomsky_no_1.jpg
+.. |image0| image:: {static}/images/chomsky_no_1.jpg
 
 .. _`Amazon.com`: http://www.amazon.com

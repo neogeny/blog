@@ -42,4 +42,4 @@ Dicho eso, `Marcelo <http://www.howisee.com/>`__ dice:
     como hacer las cosas. Depende del artista, de como usa las
     herramientas que tiene disponibles.
 
-.. |image0| image:: /images/simon_bw.jpg
+.. |image0| image:: {static}/images/simon_bw.jpg

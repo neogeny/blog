@@ -18,4 +18,4 @@ Waterstone
 | Love shapes a soul
 | Like water carves a stone
 
-.. |waterstone| image:: /images/waterstone.jpg
+.. |waterstone| image:: {static}/images/waterstone.jpg

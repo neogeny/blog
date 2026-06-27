@@ -52,4 +52,4 @@ the best IDE's.
 
 And that is the trick!
 
-.. |image0| image:: /images/multiple_desktops.png
+.. |image0| image:: {static}/images/multiple_desktops.png

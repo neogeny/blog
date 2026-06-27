@@ -14,4 +14,4 @@ Dead Fish
 
 | 
 
-.. |image0| image:: /images/dead_fish.jpg
+.. |image0| image:: {static}/images/dead_fish.jpg

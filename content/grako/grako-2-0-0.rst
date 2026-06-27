@@ -22,4 +22,4 @@ see:
 the `Bitbucket
 changelog <https://bitbucket.org/apalala/grako/commits/all>`__.
 
-.. |grammar_diagram| image:: /images/grako200.png
+.. |grammar_diagram| image:: {static}/images/grako200.png

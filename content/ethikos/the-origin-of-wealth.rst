@@ -32,4 +32,4 @@ and reality indicate the new approach should be.
 
 Highly recommended.
 
-.. |image0| image:: /images/51YE34TXrvL._SL160_.jpg
+.. |image0| image:: {static}/images/51YE34TXrvL._SL160_.jpg

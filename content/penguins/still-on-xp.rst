@@ -11,7 +11,7 @@ Still on XP
 
 
 It's been a while since I last `wrote about my
-plan <http://blog.neogeny.org/2009/05/back-to-xp.html>`__ to migrate
+plan <{filename}/penguins/back-to-xp.rst>`__ to migrate
 from Windows XP to Ubuntu Linux. The plan needed refining, and I needed
 the time to proceed with the migration. What follows is the transcript
 from my chalkboard with the current plan.

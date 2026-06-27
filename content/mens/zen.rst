@@ -21,4 +21,4 @@ en el solitario bunker.
 
 ¿Qué música sonó durante tu ausencia?
 
-.. |Zen| image:: /images/zen_sm1.jpg
+.. |Zen| image:: {static}/images/zen_sm1.jpg

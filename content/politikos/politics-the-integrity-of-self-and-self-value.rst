@@ -171,4 +171,4 @@ yourself-interest will make you an honorable rich man.
 
 \*--Rev. Jeff
 
-.. |image0| image:: /images/sg_biojeffr.jpg
+.. |image0| image:: {static}/images/sg_biojeffr.jpg

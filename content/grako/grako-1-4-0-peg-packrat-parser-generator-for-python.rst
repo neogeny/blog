@@ -27,4 +27,4 @@ Grako 1.4.0 has been published with this changelog:
 -  Changed the licensing to simplified BSD.
 
 
-.. |image0| image:: /images/grako.png
+.. |image0| image:: {static}/images/grako.png

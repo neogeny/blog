@@ -41,6 +41,6 @@ y el oro, y los bonos del tesoro de EEUU
 abruptamente.
 
 En Venezuela todavía estamos a tiempo para comenzar a
-`revaluar <http://blog.neogeny.org/2008/02/devaluacion.html>`__ nuestra
+`revaluar <{filename}/politikos/devaluacion.rst>`__ nuestra
 moneda y así evitar que la recesión inminente en EEUU nos arrastre a una
 serie de problemas económicos que no nos son propios.

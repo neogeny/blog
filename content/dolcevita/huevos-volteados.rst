@@ -31,5 +31,5 @@ Variación
 
 Usar aceite de tocineta y colocar una capa de queso parmiggiano rallado antes de colocar las claras. Agregar las amarillas junto con unos trocitos de queso de cabra maduro (estilo brie).
 
-.. |huevos_volteados| image:: /images/huevos_volteados.jpg
+.. |huevos_volteados| image:: {static}/images/huevos_volteados.jpg
     :width: 400 px

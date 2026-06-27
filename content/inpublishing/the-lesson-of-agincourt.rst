@@ -132,4 +132,4 @@ inspires, and will therefore last.
 Originally written for *In Publishing LLC*
 Copyright © 1999 Inprise Corp.
 
-.. |image0| image:: /images/crispin.jpg
+.. |image0| image:: {static}/images/crispin.jpg

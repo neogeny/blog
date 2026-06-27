@@ -119,5 +119,5 @@ my Java bike was not just a fantasy after all.
 | Originally written for *In Publishing LLC*
 | Copyright © 1999 Inprise Corp.
 
-.. |beany| image:: /images/beany.jpg
-.. |screenshot| image:: /images/beanshot.jpg
+.. |beany| image:: {static}/images/beany.jpg
+.. |screenshot| image:: {static}/images/beanshot.jpg

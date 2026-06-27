@@ -64,6 +64,6 @@ Los usuarios de celulares, agendas electrónicas, y localizadores
 geosatelitales probablemente tendrán que esperar a que una actualización
 adecuada del software para el dispositivo se haga disponible.
 
-.. |image0| image:: /images/tzedit.png
+.. |image0| image:: {static}/images/tzedit.png
 
-.. |image1| image:: /images/vet07.png
+.. |image1| image:: {static}/images/vet07.png

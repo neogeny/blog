@@ -195,4 +195,4 @@ often tell our kids: just ignore the monster, and it will go away.
 | Originally written for *In Publishing LLC*
 | Copyright © 1999 Inprise Corp.
 
-.. |frankestein| image:: /images/B00000JMOF.01.MZZZZZZZ.gif
+.. |frankestein| image:: {static}/images/B00000JMOF.01.MZZZZZZZ.gif

@@ -22,9 +22,9 @@ According to
     bitmap graphics editor, printed, or displayed by a typical web
     browser. The image must be processed and converted to an RGB format
     such as
-    `TIFF <http://www.neogeny.org/blog/addStaticPage.secureaction?name=TIFF>`__\ :sup:`?`
+    TIFF\ :sup:`?`
     or
-    `JPEG <http://www.neogeny.org/blog/addStaticPage.secureaction?name=JPEG>`__\ :sup:`?`
+    JPEG\ :sup:`?`
     before it can be manipulated.
 
 Actually, today many image browsers and editors are able to process the
@@ -42,8 +42,7 @@ Actually, today many image browsers and editors are able to process the
    images in *RAW* format.
 -  The latest versions of the software that comes bundled with digital
    cameras allows for basic editing of *RAW* images. Such is the case
-   with `my
-   camera <http://www.neogeny.org/blog/addStaticPage.secureaction?name=my%20camera>`__\ :sup:`?`.
+   with my camera\ :sup:`?`.
 
 As I see it, the digital *RAW* is the equivalent of the film negative,
 and there's no way to go if you're serious about your photography than

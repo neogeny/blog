@@ -17,4 +17,4 @@ Gata Muerta
 | 
 | Será que ando en una nota necrofílica?
 
-.. |image0| image:: /images/gata_muerta.jpg
+.. |image0| image:: {static}/images/gata_muerta.jpg

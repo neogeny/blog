@@ -143,4 +143,4 @@ improve a piece of code without the fear of breaking it.
 | Originally written for *In Publishing LLC*
 | Copyright © 1999 Inprise Corp.
 
-.. |image0| image:: /images/junit_gui.gif
+.. |image0| image:: {static}/images/junit_gui.gif

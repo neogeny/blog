@@ -37,4 +37,4 @@ cumplían con los requerimientos de asistencia y nivel académico.
 
 No... Los desadaptados no inscribieron una plancha, ni fueron a votar.
 
-.. |cookie monster| image:: /images/cookie_monster.jpg
+.. |cookie monster| image:: {static}/images/cookie_monster.jpg

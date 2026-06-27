@@ -14,7 +14,7 @@ Huso Horario Venezolano en Ubuntu
 
 
 En otro
-`post <http://blog.neogeny.org/2007/09/nuevo-huso-horario-para-venezuela.html>`__
+`post <{filename}/misc/nuevo-huso-horario-para-venezuela.rst>`__
 expliqué como y por qué lidiar con el cambio de huso horario en
 Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.
 

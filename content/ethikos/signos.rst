@@ -46,12 +46,12 @@ a través de gestos, a veces sin darnos cuenta.
 
 |image4|
 
-.. |image0| image:: /images/1.jpg
+.. |image0| image:: {static}/images/1.jpg
 
-.. |image1| image:: /images/2.jpg
+.. |image1| image:: {static}/images/2.jpg
 
-.. |image2| image:: /images/3.jpg
+.. |image2| image:: {static}/images/3.jpg
 
-.. |image3| image:: /images/4.jpg
+.. |image3| image:: {static}/images/4.jpg
 
-.. |image4| image:: /images/5.jpg
+.. |image4| image:: {static}/images/5.jpg

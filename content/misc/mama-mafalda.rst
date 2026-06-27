@@ -34,4 +34,4 @@ a pesar de que Mafalda nunca dejó de ser niña.
 
 ¡Feliz Día de las Madres, Mafalda!
 
-.. |image0| image:: /images/mafalda_madres.jpg
+.. |image0| image:: {static}/images/mafalda_madres.jpg

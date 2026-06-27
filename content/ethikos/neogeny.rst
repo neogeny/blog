@@ -16,4 +16,4 @@ the time.
 |aikido|
 
 
-.. |aikido| image:: /images/aikido1.jpg
+.. |aikido| image:: {static}/images/aikido1.jpg

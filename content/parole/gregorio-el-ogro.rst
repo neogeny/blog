@@ -48,4 +48,4 @@ practicara.
 | Le supo sabroso
 | y otra vez se alegró.
 
-.. |image0| image:: /images/gregorio_el_ogro_peq.png
+.. |image0| image:: {static}/images/gregorio_el_ogro_peq.png
