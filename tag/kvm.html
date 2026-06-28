@@ -14,69 +14,6 @@
 	<div id="page">
 		<div id="page-bgtop">
 			<div id="page-bgbtm">
- 
-        
-				<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="../quien-va-arriba.html">Quién va arriba?</a></h2>
-						<p class="meta"><span class="date">Tue 31 July 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/penguins.html">penguins</a></span></p>
-					<p class="meta">Tags : <span><a href="../tag/linux.html">linux</a> / </span>
-<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
-<span><a href="../tag/windows-xp.html">windows-xp</a> / </span>
-<span><a href="../tag/virtualization.html">virtualization</a> / </span>
-<span><a href="../tag/kvm.html">kvm</a> / </span>
-<span><a href="../tag/open-source.html">open-source</a> / </span>
-</p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <p>Hace unas semanas compré un computador de escritorio con todos los
-hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
-GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&quot; a
-1990x1400.</p>
-<p>Una de las razones por las cuales compre desktop es porque estoy harto
-de las laptops, las cuales se han convertido en artículos desechables al
-cabo de año y medio de uso; pero eso es tema para otro post.</p>
-<p>Mi otra intención (ya que estoy decidido a mantenerme alejado de
-Windows Vista el mayor tiempo posible) era la de correr Windows XP
-(todavía necesario) sobre Linux en la nueva compu. Esto es lo que
-aprendí:</p>
-<ol class="arabic simple">
-<li>KVM, el sistema de virtualización imbuido en el kernel de Linux solo
-corre en compus cuyo chipset y bios tienen soporte para
-virtualización asistida por hardware. Descubrí tarde que no todos los
-motherboards se prestan para eso.</li>
-<li>Otras opciones de virtualización sobre Linux, como
-<a class="reference external" href="http://www.virtualbox.org/">VirtualBox</a>, funcionan en forma
-excelente. Con el doble CPU, Windows XP corrió sobre Linux con el
-mismo o mayor rendimiento que en mi laptop con un Centrino de 1.8
-Ghz.</li>
-<li>Hacer que Linux reconozca el hardware que uno tiene a la mano sigue
-siendo un reto inmenso no tanto de hackeo sino de tiempo disponible
-para investigar, jurungar, y luego documentar el cambio de
-configuración que funcionó. Como no tengo motivación para esas cosas,
-instalé Windows XP, que tiene drivers para todo, para luego
-virtualizar Linux sobre XP (lógico, no?).</li>
-<li>No he probado VMWare en la nueva compu, pero tanto VirtualBox como
-<a class="reference external" href="http://www.microsoft.com/windows/products/winfamily/virtualpc/default.mspx">VirtualPC</a>
-funcionan bastante bien virtualizando Linux sobre XP, pero con un
-rendimiento considerablemente inferior al de correr XP sobre Linux.</li>
-</ol>
-<div class="section" id="conclusion">
-<h2>Conclusión</h2>
-<p>Hay que adquirir harware pre-certificado para Linux (al menos mientras
-los fabricantes terminan de montarse en la onda) para evitar el tipo de
-regresiones que yo tuve que hacer. Linux es el SO que toma mejor
-provecho del hardware base, y es la elección obvia por muchas razones,
-incluso cuando es necesario seguir corriendo Windows. Pero hay que
-emplear el tiempo de investigación necesario para asegurarse de que el
-hardware disponible va a subir en Linux en unas pocas horas de
-configuración en vez de en semanas hacking.</p>
-</div>
-	
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
-				</div>
 				<div id="sidebar">
 					<div id="logo">
 						<h1><a href="..">Neogeny</a></h1>
@@ -325,6 +262,69 @@ configuración en vez de en semanas hacking.</p>
 						        </ul>
 						</li>
 					</ul>
+				</div>
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="../quien-va-arriba.html">Quién va arriba?</a></h2>
+						<p class="meta"><span class="date">Tue 31 July 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/penguins.html">penguins</a></span></p>
+					<p class="meta">Tags : <span><a href="../tag/linux.html">linux</a> / </span>
+<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
+<span><a href="../tag/windows-xp.html">windows-xp</a> / </span>
+<span><a href="../tag/virtualization.html">virtualization</a> / </span>
+<span><a href="../tag/kvm.html">kvm</a> / </span>
+<span><a href="../tag/open-source.html">open-source</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p>Hace unas semanas compré un computador de escritorio con todos los
+hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
+GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&quot; a
+1990x1400.</p>
+<p>Una de las razones por las cuales compre desktop es porque estoy harto
+de las laptops, las cuales se han convertido en artículos desechables al
+cabo de año y medio de uso; pero eso es tema para otro post.</p>
+<p>Mi otra intención (ya que estoy decidido a mantenerme alejado de
+Windows Vista el mayor tiempo posible) era la de correr Windows XP
+(todavía necesario) sobre Linux en la nueva compu. Esto es lo que
+aprendí:</p>
+<ol class="arabic simple">
+<li>KVM, el sistema de virtualización imbuido en el kernel de Linux solo
+corre en compus cuyo chipset y bios tienen soporte para
+virtualización asistida por hardware. Descubrí tarde que no todos los
+motherboards se prestan para eso.</li>
+<li>Otras opciones de virtualización sobre Linux, como
+<a class="reference external" href="http://www.virtualbox.org/">VirtualBox</a>, funcionan en forma
+excelente. Con el doble CPU, Windows XP corrió sobre Linux con el
+mismo o mayor rendimiento que en mi laptop con un Centrino de 1.8
+Ghz.</li>
+<li>Hacer que Linux reconozca el hardware que uno tiene a la mano sigue
+siendo un reto inmenso no tanto de hackeo sino de tiempo disponible
+para investigar, jurungar, y luego documentar el cambio de
+configuración que funcionó. Como no tengo motivación para esas cosas,
+instalé Windows XP, que tiene drivers para todo, para luego
+virtualizar Linux sobre XP (lógico, no?).</li>
+<li>No he probado VMWare en la nueva compu, pero tanto VirtualBox como
+<a class="reference external" href="http://www.microsoft.com/windows/products/winfamily/virtualpc/default.mspx">VirtualPC</a>
+funcionan bastante bien virtualizando Linux sobre XP, pero con un
+rendimiento considerablemente inferior al de correr XP sobre Linux.</li>
+</ol>
+<div class="section" id="conclusion">
+<h2>Conclusión</h2>
+<p>Hay que adquirir harware pre-certificado para Linux (al menos mientras
+los fabricantes terminan de montarse en la onda) para evitar el tipo de
+regresiones que yo tuve que hacer. Linux es el SO que toma mejor
+provecho del hardware base, y es la elección obvia por muchas razones,
+incluso cuando es necesario seguir corriendo Windows. Pero hay que
+emplear el tiempo de investigación necesario para asegurarse de que el
+hardware disponible va a subir en Linux en unas pocas horas de
+configuración en vez de en semanas hacking.</p>
+</div>
+	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>

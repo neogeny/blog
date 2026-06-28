@@ -200,17 +200,17 @@ a {
 #page {
     max-width: 62.5rem;
     margin: 0 auto;
-    background: #fcf9eb url("../images/img04.jpg") repeat-y left top;
+    background: #efe6d5 url("../images/img04.jpg") repeat-y left top;
 }
 
 #page-bgtop {
-    background: #fcf9eb url("../images/img02.jpg") no-repeat left top;
+    background: #efe6d5 url("../images/img02.jpg") no-repeat left top;
 }
 
 #page-bgbtm {
     overflow: hidden;
     padding: 1.25rem 2.5rem;
-    background: #fcf9eb url("../images/img03.jpg") no-repeat left bottom;
+    background: #efe6d5 url("../images/img03.jpg") no-repeat left bottom;
 }
 
 /* Content */

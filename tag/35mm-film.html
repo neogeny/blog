@@ -14,81 +14,6 @@
 	<div id="page">
 		<div id="page-bgtop">
 			<div id="page-bgbtm">
- 
-        
-				<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="../scanning-35mm-film.html">Scanning 35mm film</a></h2>
-						<p class="meta"><span class="date">Sun 20 August 2006 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/aisthetikos.html">aisthetikos</a></span></p>
-					<p class="meta">Tags : <span><a href="../tag/photography.html">photography</a> / </span>
-<span><a href="../tag/film-scanning.html">film-scanning</a> / </span>
-<span><a href="../tag/35mm-film.html">35mm-film</a> / </span>
-<span><a href="../tag/resolution.html">resolution</a> / </span>
-<span><a href="../tag/digital-conversion.html">digital-conversion</a> / </span>
-</p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <p><em>About why to design before implementing</em></p>
-<p>Yesterday I gave a shot at trying to scan some of the 35mm negatives
-of my old
-<a class="reference external" href="../black-and-white.html">Black&amp;White</a>
-photos using a 1200 DPI flat-bed scanner. It failed misserably:</p>
-<ul class="simple">
-<li>The scan showed severe <a class="reference external" href="http://en.wikipedia.org/wiki/Moire">Moiré</a>
-and other kinds of noise in the pictures.</li>
-<li>The sizes of the TIFF files were enormous.</li>
-<li>At 1200 DPI the flat-bed scanner picked up dust and stains from the
-glass.</li>
-</ul>
-<p>Although it was just an experiment, the terrible results led me to do
-some research. Unless otherwise stated, the following numbers come from
-the article about <a class="reference external" href="http://en.wikipedia.org/wiki/Digital_photography">Digital Photography at
-Wikipedia</a>.</p>
-<div class="section" id="resoluiton-of-35mm-film">
-<h2>Resoluiton of 35mm film</h2>
-<p>The <a class="reference external" href="http://en.wikipedia.org/wiki/Digital_photography">Wikipedia</a>
-article says that a <a class="reference external" href="http://en.wikipedia.org/wiki/Dslr">DSLR</a>
-resoluiton of 6 to 14
-<a class="reference external" href="http://en.wikipedia.org/wiki/Megapixel#Megapixel">megapixels</a>
-aproximates that of 35mm film, and that one of 16 megapixels exceeds it,
-so lets asume that the resolution of 35mm film is 14 megapixels.</p>
-<p>To compare with the scanner resolution we need to translate that to
-<a class="reference external" href="http://en.wikipedia.org/wiki/Dpi">DPI</a>. Megapixels are calculated as
-the product of the vertical and horizontal resolutions:</p>
-<pre class="literal-block">
-M=x*y
-</pre>
-<p>The <a class="reference external" href="http://en.wikipedia.org/wiki/Aspect_ratio">Aspect Ratio</a> of 35mm
-and DSLRs is known to be (3:2), or 1.5. Thus:</p>
-<pre class="literal-block">
-x=1.5*yy=x/1.5
-</pre>
-<p>and</p>
-<pre class="literal-block">
-M=x*(x/1.5)
-M=x^2/1.5x=sqrt(1.5*M)
-</pre>
-<p>So, at 14 (actually 14.7) megapixels, the number of horizontal pixels in
-35mm film is about 4693. If we divide that by 1.38&quot; (35mm translated to
-inches), we obtain 3405 DPI for 35mm film.</p>
-</div>
-<div class="section" id="required-resolution">
-<h2>Required resolution</h2>
-<p>With that result it is not surprising why scanning 35mm with a 1200 DPI
-scanner produces terrible results: 65% of the information in the
-negative is not captured. Even more, according to <a class="reference external" href="http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem">Information
-Theory</a>,
-the sampling density must be the double of the information density,
-which means that the scanner should have a resolution of at least 6810
-DPI to sample a 35mm negative without bias.</p>
-<p>Guess what? The resoluiton of specialized 35mm film scanners is of above
-7000 DPI…</p>
-</div>
-	
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
-				</div>
 				<div id="sidebar">
 					<div id="logo">
 						<h1><a href="..">Neogeny</a></h1>
@@ -337,6 +262,81 @@ DPI to sample a 35mm negative without bias.</p>
 						        </ul>
 						</li>
 					</ul>
+				</div>
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="../scanning-35mm-film.html">Scanning 35mm film</a></h2>
+						<p class="meta"><span class="date">Sun 20 August 2006 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/aisthetikos.html">aisthetikos</a></span></p>
+					<p class="meta">Tags : <span><a href="../tag/photography.html">photography</a> / </span>
+<span><a href="../tag/film-scanning.html">film-scanning</a> / </span>
+<span><a href="../tag/35mm-film.html">35mm-film</a> / </span>
+<span><a href="../tag/resolution.html">resolution</a> / </span>
+<span><a href="../tag/digital-conversion.html">digital-conversion</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p><em>About why to design before implementing</em></p>
+<p>Yesterday I gave a shot at trying to scan some of the 35mm negatives
+of my old
+<a class="reference external" href="../black-and-white.html">Black&amp;White</a>
+photos using a 1200 DPI flat-bed scanner. It failed misserably:</p>
+<ul class="simple">
+<li>The scan showed severe <a class="reference external" href="http://en.wikipedia.org/wiki/Moire">Moiré</a>
+and other kinds of noise in the pictures.</li>
+<li>The sizes of the TIFF files were enormous.</li>
+<li>At 1200 DPI the flat-bed scanner picked up dust and stains from the
+glass.</li>
+</ul>
+<p>Although it was just an experiment, the terrible results led me to do
+some research. Unless otherwise stated, the following numbers come from
+the article about <a class="reference external" href="http://en.wikipedia.org/wiki/Digital_photography">Digital Photography at
+Wikipedia</a>.</p>
+<div class="section" id="resoluiton-of-35mm-film">
+<h2>Resoluiton of 35mm film</h2>
+<p>The <a class="reference external" href="http://en.wikipedia.org/wiki/Digital_photography">Wikipedia</a>
+article says that a <a class="reference external" href="http://en.wikipedia.org/wiki/Dslr">DSLR</a>
+resoluiton of 6 to 14
+<a class="reference external" href="http://en.wikipedia.org/wiki/Megapixel#Megapixel">megapixels</a>
+aproximates that of 35mm film, and that one of 16 megapixels exceeds it,
+so lets asume that the resolution of 35mm film is 14 megapixels.</p>
+<p>To compare with the scanner resolution we need to translate that to
+<a class="reference external" href="http://en.wikipedia.org/wiki/Dpi">DPI</a>. Megapixels are calculated as
+the product of the vertical and horizontal resolutions:</p>
+<pre class="literal-block">
+M=x*y
+</pre>
+<p>The <a class="reference external" href="http://en.wikipedia.org/wiki/Aspect_ratio">Aspect Ratio</a> of 35mm
+and DSLRs is known to be (3:2), or 1.5. Thus:</p>
+<pre class="literal-block">
+x=1.5*yy=x/1.5
+</pre>
+<p>and</p>
+<pre class="literal-block">
+M=x*(x/1.5)
+M=x^2/1.5x=sqrt(1.5*M)
+</pre>
+<p>So, at 14 (actually 14.7) megapixels, the number of horizontal pixels in
+35mm film is about 4693. If we divide that by 1.38&quot; (35mm translated to
+inches), we obtain 3405 DPI for 35mm film.</p>
+</div>
+<div class="section" id="required-resolution">
+<h2>Required resolution</h2>
+<p>With that result it is not surprising why scanning 35mm with a 1200 DPI
+scanner produces terrible results: 65% of the information in the
+negative is not captured. Even more, according to <a class="reference external" href="http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem">Information
+Theory</a>,
+the sampling density must be the double of the information density,
+which means that the scanner should have a resolution of at least 6810
+DPI to sample a 35mm negative without bias.</p>
+<p>Guess what? The resoluiton of specialized 35mm film scanners is of above
+7000 DPI…</p>
+</div>
+	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>
