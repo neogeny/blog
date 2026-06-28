@@ -6,6 +6,5 @@ description = "Neogeny, a Blog"
 requires-python = ">=3.14"
 dependencies = [
     "ghp-import>=2.1.0",
-    "invoke>=3.0.3",
     "pelican>=4.12.0",
 ]

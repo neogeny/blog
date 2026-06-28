@@ -36,8 +36,8 @@ preview:
     uv run pelican -s {{publish_config}}
 
 # Publish to GitHub Pages via ghp-import
-ghp: preview
-    ghp-import -n -p -f {{output}}
+ghp: build preview
+    uv run ghp-import -n -p -f {{output}}
 
 # Show available targets
 default:

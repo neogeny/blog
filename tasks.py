@@ -8,10 +8,9 @@ from invoke.tasks import task
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 
 CONFIG = {
-    "deploy_path": "output",
+    "deploy_path": "build/html",
     "production": "root@localhost:22",
     "dest_path": "/var/www",
-    # Port for `serve`
     "port": 8000,
 }
 
@@ -72,7 +71,7 @@ def preview(c):
 
 @task
 def publish(c):
-    """Publish to production via rsync"""
+    """Build and publish with production settings (rsync)"""
     c.run("pelican -s publishconf.py")
     c.run(
         'rsync --delete --exclude ".DS_Store" -pthrvz -c '
@@ -80,3 +79,10 @@ def publish(c):
             CONFIG["deploy_path"].rstrip("/") + "/", **CONFIG
         )
     )
+
+
+@task
+def ghp(c):
+    """Publish build/html to GitHub Pages via ghp-import"""
+    c.run("pelican -s publishconf.py")
+    c.run("ghp-import -n -p -f build/html")
