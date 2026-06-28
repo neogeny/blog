@@ -173,7 +173,7 @@ a {
 }
 
 #menu li {
-    border-bottom: 1px dashed #191918;
+    border-bottom: 1px dashed #6b605a;
 }
 
 #menu a {
@@ -311,6 +311,7 @@ h2.title {
     margin: 0;
     padding: 0 0 5rem 0.625rem;
     color: #ccc;
+    background: #3c3230;
 }
 
 #sidebar ul {
@@ -370,6 +371,7 @@ h2.title {
     width: 33%;
     padding: 0 0 5rem 0.625rem;
     color: #ccc;
+    background: #3c3230;
 }
 
 #sidebar-extras ul {
