@@ -4,10 +4,8 @@ Monstruosa Unidad
 :date: 2010-11-14
 :slug: monstruosa-unidad
 :author: Apalala
+:tags: venezuela, politics, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |cookie monster|

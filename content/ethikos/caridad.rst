@@ -4,10 +4,8 @@ Caridad
 :date: 2009-05-16
 :slug: caridad
 :author: Apalala
+:tags: ethics, religion, morality, reflection, faith, values
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Me bautizaron en la iglesita del Barrio El Aeropuerto, allí, cerca del

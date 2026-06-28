@@ -4,10 +4,8 @@ Caraotas Dominó
 :date: 2016-01-26
 :slug: caraotas-domino-con-mojito
 :author: Apalala
+:tags: food, cooking, recipes, venezuelan-cuisine, black-beans, beans, breakfast
 
-.. :tags:
-.. :category:
-.. :summary:
 
 El trajín del trabajo me ha tenido desayunando con frecuencia en la taguara de empanadas de la intersección de la Intercomunal con Cumbres de Curumo. Son desayunos deliciosos, balanceados, y sanos, por la manera de prepararlos.
 

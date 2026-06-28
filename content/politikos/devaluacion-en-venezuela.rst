@@ -4,10 +4,8 @@
 :date: 2008-10-23
 :slug: devaluacion-en-venezuela
 :author: Apalala
+:tags: venezuela, economics, currency, devaluation, oil, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Los "expertos" en economía están ya, como samuros, dando vueltas por

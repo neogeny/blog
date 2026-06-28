@@ -4,10 +4,8 @@ Programa
 :date: 1992-05-31
 :slug: programa
 :author: Apalala
+:tags: technology, programming-languages, philosophy, language, orwell
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 La concepción clásica de un programa de ordenador, es la de una

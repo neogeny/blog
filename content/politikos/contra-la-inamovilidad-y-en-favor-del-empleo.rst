@@ -4,10 +4,8 @@ Contra la inamovilidad y en favor del empleo
 :date: 2010-01-14
 :slug: contra-la-inamovilidad-y-en-favor-del-empleo
 :author: Apalala
+:tags: venezuela, economics, politics, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Todo empresario, o quien por la razón que sea debe tener empleados,

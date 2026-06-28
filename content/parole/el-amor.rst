@@ -4,10 +4,8 @@ El amor
 :date: 2010-09-28
 :slug: el-amor
 :author: Apalala
+:tags: poetry, love, spanish, philosophy
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | El amor no es un credo,

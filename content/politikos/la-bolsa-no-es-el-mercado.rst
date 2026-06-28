@@ -4,10 +4,8 @@ La Bolsa no es El Mercado
 :date: 2009-01-22
 :slug: la-bolsa-no-es-el-mercado
 :author: Apalala
+:tags: economics, analysis, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Eso.

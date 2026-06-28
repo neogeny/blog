@@ -4,10 +4,8 @@ Carta a Emeterio (El Mercado)
 :date: 2008-11-02
 :slug: carta-a-emeterio-el-mercado
 :author: Apalala
+:tags: economics, analysis, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hola Emeterio,

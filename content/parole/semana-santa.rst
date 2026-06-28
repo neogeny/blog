@@ -4,10 +4,8 @@ Semana Santa
 :date: 2013-03-30
 :slug: semana-santa
 :author: Apalala
+:tags: poetry, easter, religion, politics, spanish
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | Hay quienes no fueron

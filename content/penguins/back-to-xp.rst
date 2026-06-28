@@ -4,10 +4,8 @@ Back to XP
 :date: 2009-05-02
 :slug: back-to-xp
 :author: Apalala
+:tags: linux, ubuntu, windows-xp, migration, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 There are historical and circumnstantial reasons for my continuing to

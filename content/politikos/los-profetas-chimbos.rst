@@ -4,10 +4,8 @@ Los Profetas Chimbos
 :date: 2007-08-02
 :slug: los-profetas-chimbos
 :author: Apalala
+:tags: venezuela, economics, inflation, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 El Banco Central de Venezuela (BCV) reportó ayer que la inflación del

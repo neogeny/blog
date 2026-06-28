@@ -4,10 +4,8 @@ Setting up a CVS repository on Linux
 :date: 2006-09-05
 :slug: setting-up-a-cvs-repository-on-linux
 :author: Apalala
+:tags: linux, cvs, version-control, sysadmin, tutorial, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | 

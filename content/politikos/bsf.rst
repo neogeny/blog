@@ -4,10 +4,8 @@ BsF
 :date: 2007-09-01
 :slug: bsf
 :author: Apalala
+:tags: venezuela, economics, currency, bolivar, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Al revisar la literatura producida en torno a la adopción del Euro en

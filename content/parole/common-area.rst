@@ -4,10 +4,8 @@ Common Area
 :date: 2013-05-21
 :slug: common-area
 :author: Apalala
+:tags: poetry, original-poetry, english, reflection
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | 

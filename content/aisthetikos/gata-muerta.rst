@@ -4,10 +4,8 @@ Gata Muerta
 :date: 2006-09-24
 :slug: gata-muerta
 :author: Apalala
+:tags: photography, street-photography, death, urban, art
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | |image0|

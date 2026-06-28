@@ -4,10 +4,8 @@ Still on XP
 :date: 2009-07-19
 :slug: still-on-xp
 :author: Apalala
+:tags: linux, ubuntu, windows-xp, migration, planning, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 It's been a while since I last `wrote about my

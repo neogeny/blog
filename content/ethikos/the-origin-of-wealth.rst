@@ -4,10 +4,8 @@ The Origin of Wealth
 :date: 2008-10-27
 :slug: the-origin-of-wealth
 :author: Apalala
+:tags: philosophy, society, values, reflection, economics
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 The `wonderful book`_ by Eric D. Beinhocker reccounts how classic

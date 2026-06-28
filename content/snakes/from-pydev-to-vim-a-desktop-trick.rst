@@ -4,10 +4,8 @@ From PyDev to VIM, A Desktop Trick
 :date: 2013-05-24
 :slug: from-pydev-to-vim-a-desktop-trick
 :author: Apalala
+:tags: python, vim, eclipse, ide, productivity, workflow
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

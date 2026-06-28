@@ -4,10 +4,8 @@ Los 7500
 :date: 2009-02-20
 :slug: los-7500
 :author: Apalala
+:tags: economics, analysis, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Mi reputación como economista está en juego, porque dije desde el

@@ -4,10 +4,8 @@ Risotto Beba
 :date: 2016-01-26
 :slug: risotto-beba
 :author: Apalala
+:tags: food, cooking, recipes, italian-cuisine, risotto, rice
 
-.. :tags:
-.. :category:
-.. :summary:
 
 Con el tiempo se le va tomando cariño a las recetas que, sin complejidad ni complicaciones, evocan las emociones de momentos que fueron gratos en la vida. Esta es una que diseñé para Corina.
 

@@ -4,10 +4,8 @@ The true meaning behind open source licenses
 :date: 1999-10-03
 :slug: the-true-meaning-behind-open-source-licenses
 :author: Apalala
+:tags: licensing, open-source, programming, software, development
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *What does all this licensing stuff really mean?*

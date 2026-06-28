@@ -4,10 +4,8 @@ Tiene que acabar
 :date: 2013-03-31
 :slug: tiene-que-acabar
 :author: Apalala
+:tags: poetry, personal, relationships, spanish
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

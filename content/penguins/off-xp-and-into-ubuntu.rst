@@ -4,10 +4,8 @@ Off XP and into Ubuntu
 :date: 2009-10-11
 :slug: off-xp-and-into-ubuntu
 :author: Apalala
+:tags: linux, ubuntu, windows-xp, migration, virtualization, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 This weekend I managed to take care of the

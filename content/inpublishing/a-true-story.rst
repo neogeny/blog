@@ -4,10 +4,8 @@ A true story
 :date: 1999-09-26
 :slug: a-true-story
 :author: Apalala
+:tags: open-source, programming, version-control, development, history
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *What "revolution"? A long-term open source enthusiast describes his

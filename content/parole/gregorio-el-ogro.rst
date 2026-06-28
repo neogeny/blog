@@ -4,10 +4,8 @@ Gregorio el Ogro
 :date: 2008-05-23
 :slug: gregorio-el-ogro
 :author: Apalala
+:tags: poetry, children, spanish, humor, family
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |image0|

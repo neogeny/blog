@@ -4,10 +4,8 @@ Rumores de Devaluación
 :date: 2009-02-26
 :slug: rumores-de-devaluacion
 :author: Apalala
+:tags: venezuela, economics, currency, devaluation, inflation, oil, bolivar, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Vuelven los rumores sobre una inminente devaluación del bolívar,

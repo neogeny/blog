@@ -4,10 +4,8 @@ Comida Privativa
 :date: 2007-07-26
 :slug: comida-privativa
 :author: Apalala
+:tags: food, cooking, venezuelan-cuisine, intellectual-property
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 El excelente chef venezolano Sumito Estevez bloguea sobre los horrores

@@ -4,10 +4,8 @@ Permuta
 :date: 2007-09-25
 :slug: permuta
 :author: Apalala
+:tags: venezuela, economics, currency, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Pienso que el Banco Central de Venezuela (BCV) debería intervenir en

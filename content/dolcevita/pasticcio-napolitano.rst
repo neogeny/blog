@@ -4,10 +4,8 @@ Pasticcio Napolitano
 :date: 2006-06-09
 :slug: pasticcio-napolitano
 :author: Apalala
+:tags: food, cooking, recipes, italian-cuisine, pasta, baking, casserole
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 **Esta receta fue originalmente escrita para la primera edición del

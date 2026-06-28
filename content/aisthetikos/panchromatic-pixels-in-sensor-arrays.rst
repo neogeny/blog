@@ -4,10 +4,8 @@ Panchromatic pixels in sensor arrays
 :date: 2007-06-16
 :slug: panchromatic-pixels-in-sensor-arrays
 :author: Apalala
+:tags: photography, sensor-technology, digital-photography, imaging, kodak, innovation
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 A friend pointed me to a

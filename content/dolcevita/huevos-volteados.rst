@@ -4,10 +4,8 @@ Huevos Volteados
 :date: 2019-03-02
 :slug: huevos-volteados
 :author: Apalala
+:tags: food, cooking, recipes, eggs, breakfast
 
-.. :tags:
-.. :category:
-.. :summary:
 
 A la chica le encantan los huevos fritos, pero no las amarillas blandas. Diseñé esta receta para ella. El sabor está entre huevos fritos, hervidos/pochados, y tortilla. Hay que leer al final para una versión más elaborada.
 

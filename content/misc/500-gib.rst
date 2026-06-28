@@ -4,10 +4,8 @@
 :date: 2010-11-28
 :slug: 500-gib
 :author: Apalala
+:tags: technology, hard-drives, backup, storage, data, tutorial
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Los discos duros de un

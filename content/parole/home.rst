@@ -4,10 +4,8 @@ Home
 :date: 2013-05-15
 :slug: home
 :author: Apalala
+:tags: poetry, home, courage, english
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | When in doubt, seek Honey

@@ -4,10 +4,8 @@ La tecnología en contra del arte
 :date: 2009-06-20
 :slug: la-tecnologia-en-contra-del-arte
 :author: Apalala
+:tags: technology, art, fencing, sports, martial-arts
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Practiqué esgrima mientras estuve en la universidad, en la primera

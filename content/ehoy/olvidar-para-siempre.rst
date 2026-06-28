@@ -4,10 +4,8 @@ Olvidar para Siempre
 :date: 1992-07-31
 :slug: olvidar-para-siempre
 :author: Apalala
+:tags: technology, computer-memory, history, storage, philosophy
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 ¿Qué es memoria?

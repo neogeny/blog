@@ -4,10 +4,8 @@ Nuevo Huso Horario para Venezuela
 :date: 2007-09-18
 :slug: nuevo-huso-horario-para-venezuela
 :author: Apalala
+:tags: technology, venezuela, timezone, configuration, tutorial
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 - vo.2 Agregada nota sobre nueva fecha para el cambio de horario.

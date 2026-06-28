@@ -4,10 +4,8 @@
 :date: 2007-10-05
 :slug: 18
 :author: Apalala
+:tags: mind, politics, orwell, language-control, media, propaganda
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 En la imprescindible novela 1984 de George Orwell, el "Gran Hermano",

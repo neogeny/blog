@@ -4,10 +4,8 @@ Programmers or entrepreneurs?
 :date: 1999-10-31
 :slug: programmers-or-entrepreneurs
 :author: Apalala
+:tags: open-source, programming, software, development, business
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *When royalties are out of the question, programmers find innovative

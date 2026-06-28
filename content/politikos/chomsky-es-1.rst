@@ -4,10 +4,8 @@ Chomsky es #1
 :date: 2006-09-23
 :slug: chomsky-es-1
 :author: Apalala
+:tags: venezuela, politics, chavismo, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |image0|

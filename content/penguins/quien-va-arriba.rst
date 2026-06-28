@@ -4,10 +4,8 @@ Quién va arriba?
 :date: 2007-07-31
 :slug: quien-va-arriba
 :author: Apalala
+:tags: linux, ubuntu, windows-xp, virtualization, kvm, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hace unas semanas compré un computador de escritorio con todos los

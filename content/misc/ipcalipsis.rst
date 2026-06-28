@@ -4,10 +4,8 @@
 :date: 2011-02-04
 :slug: ipcalipsis
 :author: Apalala
+:tags: technology, internet, ipv4, ipv6, networking, iana
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 ¿Se acabaron las direcciones IP?

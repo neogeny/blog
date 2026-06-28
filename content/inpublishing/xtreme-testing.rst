@@ -4,10 +4,8 @@ Xtreme testing
 :date: 1999-10-17
 :slug: xtreme-testing
 :author: Apalala
+:tags: testing, programming, open-source, development, java
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Extreme programmers brave the open source slopes.*

@@ -4,10 +4,8 @@ Razón, Fe, y Religión
 :date: 2009-08-20
 :slug: razon-fe-y-religion
 :author: Apalala
+:tags: religion, philosophy, faith, spirituality, ethics, morality, reflection
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Pienso que es buen momento para salir de este tema.

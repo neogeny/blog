@@ -4,10 +4,8 @@ La Mente
 :date: 2012-12-07
 :slug: la-mente
 :author: Apalala
+:tags: mind, aging, philosophy, consciousness, mortality
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

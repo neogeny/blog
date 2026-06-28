@@ -4,10 +4,8 @@ Grako 2.0.0
 :date: 2013-05-19
 :slug: grako-2-0-0
 :author: Apalala
+:tags: grako, peg, parser-generator, python, release, graphviz
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |grammar_diagram|

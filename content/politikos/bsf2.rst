@@ -4,10 +4,8 @@ BsF2
 :date: 2007-09-22
 :slug: bsf2
 :author: Apalala
+:tags: venezuela, economics, currency, bolivar, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 En una `nota <{filename}/politikos/bsf.rst>`__ anterior

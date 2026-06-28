@@ -4,10 +4,8 @@ Disculpas
 :date: 2009-01-04
 :slug: disculpas
 :author: Apalala
+:tags: ethics, morality, reflection, values, society, philosophy
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hoy estuve pensando sobre esta cosa de disculparse, y me pareció que

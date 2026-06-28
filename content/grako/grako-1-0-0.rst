@@ -4,10 +4,8 @@ Grako 1.0.0
 :date: 2013-02-12
 :slug: grako-1-0-0
 :author: Apalala
+:tags: grako, peg, parser-generator, python, release
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

@@ -4,10 +4,8 @@ La Fauna
 :date: 2013-08-17
 :slug: la-fauna
 :author: Apalala
+:tags: mind, mental-health, storytelling, daily-life
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Jorge, quien no para de hablar con sus fantasmas.

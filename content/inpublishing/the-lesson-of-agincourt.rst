@@ -4,10 +4,8 @@ The lesson of Agincourt
 :date: 1999-10-24
 :slug: the-lesson-of-agincourt
 :author: Apalala
+:tags: open-source, programming, software, technology, strategy
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Open source programming underdogs may have more advantages than their

@@ -4,10 +4,8 @@ Sopa de Cebollas
 :date: 2009-05-01
 :slug: sopa-de-cebollas
 :author: Apalala
+:tags: food, cooking, recipes, soup, french-cuisine, onions, baking
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | 

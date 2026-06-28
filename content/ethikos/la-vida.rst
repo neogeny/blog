@@ -4,10 +4,8 @@ La Vida
 :date: 2007-06-13
 :slug: la-vida
 :author: Apalala
+:tags: philosophy, reflection, ethics, spirituality, values, morality
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Para los hermanos Mazzei y Jetty mamá*

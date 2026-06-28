@@ -4,10 +4,8 @@ Mamá Mafalda
 :date: 2013-05-12
 :slug: mama-mafalda
 :author: Apalala
+:tags: books, reading, childhood, mafalda, reflection
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

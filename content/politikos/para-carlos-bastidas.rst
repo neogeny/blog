@@ -4,10 +4,8 @@ Para Carlos Bastidas
 :date: 2006-12-29
 :slug: para-carlos-bastidas
 :author: Apalala
+:tags: venezuela, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Esta madrugada falleció el abogado venezolano Carlos Bastidas.

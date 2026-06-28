@@ -4,10 +4,8 @@ La Raya
 :date: 2006-10-15
 :slug: la-raya
 :author: Apalala
+:tags: venezuela, politics, oil, analysis, opinion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hace unos días tuve la oportunidad de escuchar a José Toro Hardy en el

@@ -4,10 +4,8 @@ Recíbeme
 :date: 2013-12-05
 :slug: recibeme
 :author: Apalala
+:tags: poetry, song-lyrics, love, spanish
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *por Ilan Chester*

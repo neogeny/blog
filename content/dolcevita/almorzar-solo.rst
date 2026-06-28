@@ -4,10 +4,8 @@ Almorzar Sólo
 :date: 2013-07-05
 :slug: almorzar-solo
 :author: Apalala
+:tags: food, cooking, dining, personal-essay, travel
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

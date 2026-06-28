@@ -4,10 +4,8 @@ Y2K: the beginning of the end?
 :date: 1999-11-07
 :slug: y2k-the-beginning-of-the-end
 :author: Apalala
+:tags: open-source, licensing, software, technology, history, patents
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Will open source software development be smothered by the patents

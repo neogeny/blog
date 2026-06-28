@@ -4,10 +4,8 @@ Black Beans
 :date: 2003-08-06
 :slug: black-beans
 :author: Apalala
+:tags: food, cooking, recipes, venezuelan-cuisine, black-beans, beans
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Black beans are a typical dish in all countries in and around the

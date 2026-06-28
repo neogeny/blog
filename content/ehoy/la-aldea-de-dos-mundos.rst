@@ -4,10 +4,8 @@ La Aldea de dos Mundos
 :date: 1992-10-14
 :slug: la-aldea-de-dos-mundos
 :author: Apalala
+:tags: technology, future, information-age, globalization, venezuela
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 A quinientos años del descubrimiento de América, el encuentro de dos

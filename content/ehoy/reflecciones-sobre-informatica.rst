@@ -4,10 +4,8 @@ Reflecciones sobre Informática
 :date: 1992-04-30
 :slug: reflecciones-sobre-informatica
 :author: Apalala
+:tags: technology, computing, history, automation, philosophy, venezuela
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 **COMPUTACION**: f. Cómputo, cálculo (Sinón. V. Cuenta).

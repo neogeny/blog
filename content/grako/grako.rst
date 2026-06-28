@@ -4,10 +4,8 @@ Grako
 :date: 2013-01-13
 :slug: grako
 :author: Apalala
+:tags: grako, peg, parser-generator, python, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

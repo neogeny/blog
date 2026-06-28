@@ -4,10 +4,8 @@ Update to Off XP and into Ubuntu
 :date: 2009-10-14
 :slug: update-to-off-xp-and-into-ubuntu
 :author: Apalala
+:tags: linux, ubuntu, migration, bluetooth, vpn, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed

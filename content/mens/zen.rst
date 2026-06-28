@@ -4,10 +4,8 @@ Zen
 :date: 2010-11-13
 :slug: zen
 :author: Apalala
+:tags: mind, zen, meditation, reflection, music, awareness
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |Zen|

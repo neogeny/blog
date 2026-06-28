@@ -4,10 +4,8 @@ Para Amanda Nicole Beatriz Selene Valentina Alejandra Pamela
 :date: 2006-11-06
 :slug: para-amanda-nicole-beatriz-selene-valentina-alejandra-pamela
 :author: Apalala
+:tags: poetry, song-lyrics, bilingual, translation, love
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | 

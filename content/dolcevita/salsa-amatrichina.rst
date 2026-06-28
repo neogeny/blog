@@ -4,10 +4,8 @@ Salsa Amatrichina
 :date: 2012-11-04
 :slug: salsa-amatrichina
 :author: Apalala
+:tags: food, cooking, recipes, italian-cuisine, pasta, sauce
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Esta salsa es una clásica "amatriciana", pero orientalizada al

@@ -4,10 +4,8 @@ Sobre la Revisión por Pares
 :date: 2007-06-06
 :slug: sobre-la-revision-por-pares
 :author: Apalala
+:tags: software-engineering, peer-review, code-quality, best-practices
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Van algunos comentarios en torno al artículo que mi amigo

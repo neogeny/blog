@@ -4,10 +4,8 @@ Scanning 35mm film
 :date: 2006-08-20
 :slug: scanning-35mm-film
 :author: Apalala
+:tags: photography, film-scanning, 35mm-film, resolution, digital-conversion
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *About why to design before implementing*

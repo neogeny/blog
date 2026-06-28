@@ -4,10 +4,8 @@ Ser mejor
 :date: 2007-07-31
 :slug: ser-mejor
 :author: Apalala
+:tags: ethics, reflection, morality, values, philosophy
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Es difícil de por sí, y más difícil aún por las actitudes que a veces

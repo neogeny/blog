@@ -4,10 +4,8 @@ Enmienda y abstensión
 :date: 2009-02-05
 :slug: enmienda-y-abstension
 :author: Apalala
+:tags: venezuela, politics, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Las encuestas, que solo pueden ser publicadas hasta el 7 de febrero,

@@ -4,10 +4,8 @@ Por Favor Sr. Cartero
 :date: 1992-06-30
 :slug: por-favor-sr-cartero
 :author: Apalala
+:tags: technology, email, communication, history, internet, venezuela
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 La leyenda cuenta que en el año 490 A.C., el soldado Filípides,

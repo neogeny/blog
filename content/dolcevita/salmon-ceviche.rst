@@ -4,10 +4,8 @@ Salmon Ceviche
 :date: 2006-06-16
 :slug: salmon-ceviche
 :author: Apalala
+:tags: food, cooking, recipes, seafood, salmon, ceviche
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 This is a delicious way to prepare fresh salmon. The recipe has

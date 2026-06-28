@@ -4,10 +4,8 @@ Privacidad en Internet
 :date: 2008-07-12
 :slug: privacidad-en-internet
 :author: Apalala
+:tags: technology, privacy, internet, social-media, venezuela
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 No existe.

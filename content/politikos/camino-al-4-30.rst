@@ -4,10 +4,8 @@ Camino al 4,30
 :date: 2010-01-14
 :slug: camino-al-4-30
 :author: Apalala
+:tags: venezuela, economics, currency, bolivar, devaluation, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hoy el BCV hizo una segunda oferta de bonos por US$50 millones. Los

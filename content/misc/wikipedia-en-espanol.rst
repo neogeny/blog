@@ -4,10 +4,8 @@ Wikipedia en Español
 :date: 2009-01-15
 :slug: wikipedia-en-espanol
 :author: Apalala
+:tags: wikipedia, spanish, language, knowledge, quality
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia

@@ -4,10 +4,8 @@ Destiny
 :date: 2010-09-26
 :slug: destiny
 :author: Apalala
+:tags: philosophy, reflection, ethics, morality, values, spirituality
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | Watch your thoughts, for they become words.

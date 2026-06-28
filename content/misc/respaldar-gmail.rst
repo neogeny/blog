@@ -4,10 +4,8 @@ Respaldar Gmail
 :date: 2010-12-07
 :slug: respaldar-gmail
 :author: Apalala
+:tags: technology, gmail, backup, thunderbird, imap, tutorial
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Es verdad. La probabilidad de que nuestro disco duro muera

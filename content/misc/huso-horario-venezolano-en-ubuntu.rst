@@ -4,10 +4,8 @@ Huso Horario Venezolano en Ubuntu
 :date: 2007-09-22
 :slug: huso-horario-venezolano-en-ubuntu
 :author: Apalala
+:tags: technology, ubuntu, linux, venezuela, timezone, sysadmin
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 -  Actualizado para el cambio de huso horario en 2007/12/09 03:00.

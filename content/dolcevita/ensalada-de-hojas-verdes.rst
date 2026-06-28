@@ -4,10 +4,8 @@ Ensalada de Hojas Verdes
 :date: 2013-07-13
 :slug: ensalada-de-hojas-verdes
 :author: Apalala
+:tags: food, cooking, recipes, salad, vinaigrette
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

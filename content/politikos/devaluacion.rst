@@ -4,17 +4,12 @@ Devaluación
 :date: 2008-02-16
 :slug: devaluacion
 :author: Apalala
+:tags: venezuela, economics, currency, devaluation, bolivar, inflation, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
-
-
-
-    Les pido disculpas, porque las gráficas no fueron capturadas de
-    manera adecuada en su momento, por lo que ya no dan soporte al
-    artículo.
-    --JA
+Les pido disculpas, porque las gráficas no fueron capturadas de
+manera adecuada en su momento, por lo que ya no dan soporte al
+artículo.
+--JA
 
 Ante comentarios de algunos economistas mediáticos muchos han llegado
 a creer que una devaluación del bolívar respecto al dólar es inminente,

@@ -4,10 +4,8 @@ Neogeny
 :date: 2010-08-27
 :slug: neogeny
 :author: Apalala
+:tags: reflection, philosophy, values, change
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Thinking things over means that most of the original stuff changes all

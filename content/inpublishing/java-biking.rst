@@ -4,10 +4,8 @@ Java biking
 :date: 1999-11-14
 :slug: java-biking
 :author: Apalala
+:tags: java, programming, open-source, development, beanshell
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Launching a full-blown IDE for a brief Java programming excursion can

@@ -4,10 +4,8 @@ Why not Python
 :date: 2007-05-15
 :slug: why-not-python
 :author: Apalala
+:tags: programming, python, java, ide, tooling, productivity
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *2010-03-12 Amendment: After doing the research right, my conclusion

@@ -4,10 +4,8 @@ Snake charming
 :date: 2000-06-19
 :slug: snake-charming
 :author: Apalala
+:tags: programming, python, open-source, development, text-processing
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Like the reptile it's named after, Python squishes problems little by

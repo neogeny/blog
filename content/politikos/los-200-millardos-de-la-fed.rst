@@ -4,10 +4,8 @@ Los 200 millardos de la Fed
 :date: 2008-03-12
 :slug: los-200-millardos-de-la-fed
 :author: Apalala
+:tags: venezuela, economics, currency, devaluation, oil, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 La Reserva Federal (La "Fed", el Banco Central) de EEUU anunció que,

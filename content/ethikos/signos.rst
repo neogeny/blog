@@ -4,10 +4,8 @@ Signos
 :date: 2008-03-08
 :slug: signos
 :author: Apalala
+:tags: reflection, society, values, philosophy, communication
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Hoy vi unas fotos de una fiesta juvenil en las cuales los chamos

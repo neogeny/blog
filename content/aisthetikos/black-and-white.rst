@@ -4,10 +4,8 @@ Black and White
 :date: 2006-06-22
 :slug: black-and-white
 :author: Apalala
+:tags: photography, black-and-white, digital-photography, film-photography, art, technique
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *The lost beauty*

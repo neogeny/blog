@@ -4,10 +4,8 @@ El Enemigo
 :date: 2006-11-03
 :slug: el-enemigo
 :author: Apalala
+:tags: venezuela, politics, oil, chavismo, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 En diciembre de 2002 la gerencia alta y media de PDVSA decidió sumar a

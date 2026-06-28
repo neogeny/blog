@@ -4,10 +4,8 @@ GRAKO
 :date: 2013-01-09
 :slug: grako-1
 :author: Apalala
+:tags: grako, peg, parser-generator, python, compiler
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

@@ -4,10 +4,8 @@ Dead Fish
 :date: 2006-09-11
 :slug: dead-fish
 :author: Apalala
+:tags: photography, still-life, urban-art
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 | |image0|

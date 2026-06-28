@@ -4,10 +4,8 @@ La Historia de Won Ton Mein
 :date: 1993-08-14
 :slug: la-historia-de-won-ton-mein
 :author: Apalala
+:tags: technology, automation, business, storytelling, venezuela
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Won Ton Mein era un viejo carpintero, célebre en toda China por la

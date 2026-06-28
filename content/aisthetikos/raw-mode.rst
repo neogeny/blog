@@ -4,10 +4,8 @@ RAW Mode
 :date: 2006-06-23
 :slug: raw-mode
 :author: Apalala
+:tags: photography, raw-format, digital-photography, image-processing, technique
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

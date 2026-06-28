@@ -4,10 +4,8 @@ The Exagon
 :date: 2009-07-28
 :slug: the-exagon
 :author: Apalala
+:tags: software-engineering, project-management, agile, software-design, quality
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Since the early days of software development we learned that there

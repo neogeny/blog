@@ -4,10 +4,8 @@ Xtreme testing for Delphi programs
 :date: 1999-11-28
 :slug: xtreme-testing-for-delphi-programs
 :author: Apalala
+:tags: testing, programming, open-source, development, delphi
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *A standard testing framework for Delphi has been long overdue. Now

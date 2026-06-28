@@ -4,10 +4,8 @@ Pulseaudio Sucks!
 :date: 2010-04-07
 :slug: pulseaudio-p-sucks
 :author: Apalala
+:tags: linux, ubuntu, pulseaudio, audio, troubleshooting, open-source
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Either that, or `Ubuntu <http://www.ubuntu.com/>`__ hasn't implemented

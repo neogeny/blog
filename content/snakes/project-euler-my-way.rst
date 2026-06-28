@@ -4,10 +4,8 @@ Project Euler, My Way
 :date: 2011-05-09
 :slug: project-euler-my-way
 :author: Apalala
+:tags: python, project-euler, algorithms, mathematics, programming
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 I started solving the problems in `Project

@@ -4,10 +4,8 @@ Start the revolution without me
 :date: 1999-10-10
 :slug: start-the-revolution-without-me
 :author: Apalala
+:tags: open-source, programming, software, technology, publishing, development
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *Confused by the ruckus over open-source software? Bobby McFerrin had

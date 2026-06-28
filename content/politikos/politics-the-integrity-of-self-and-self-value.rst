@@ -4,10 +4,8 @@ Politics: The Integrity of Self and Self Value
 :date: 2012-11-06
 :slug: politics-the-integrity-of-self-and-self-value
 :author: Apalala
+:tags: politics, opinion, analysis
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

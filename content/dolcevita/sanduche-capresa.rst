@@ -4,10 +4,8 @@ Sanduche Capresa
 :date: 2007-09-27
 :slug: sanduche-capresa
 :author: Apalala
+:tags: food, cooking, recipes, sandwich, caprese, italian-cuisine
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 Como estoy de papá solo, me ha tocado preparar comida por lo menos dos

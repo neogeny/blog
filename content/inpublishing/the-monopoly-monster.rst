@@ -4,10 +4,8 @@ The monopoly monster
 :date: 1999-11-21
 :slug: the-monopoly-monster
 :author: Apalala
+:tags: microsoft, programming, software, technology, history, licensing
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *So Microsoft is a monopolistic monster. What are you going to do,

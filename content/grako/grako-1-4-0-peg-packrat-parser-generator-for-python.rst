@@ -4,10 +4,8 @@ Grako 1.4.0 PEG/Packrat parser generator for Python
 :date: 2013-05-02
 :slug: grako-1-4-0-peg-packrat-parser-generator-for-python
 :author: Apalala
+:tags: grako, peg, parser-generator, python, release, packrat-parsing
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 

@@ -4,10 +4,8 @@ Tequeños en Wok
 :date: 2006-08-20
 :slug: tequenos-en-wok
 :author: Apalala
+:tags: food, cooking, recipes, venezuelan-cuisine, tequenos, cheese, appetizers
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 *La necesidad es la madre de todas las ideas*

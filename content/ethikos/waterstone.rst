@@ -4,10 +4,8 @@ Waterstone
 :date: 2011-08-21
 :slug: waterstone
 :author: Apalala
+:tags: reflection, spirituality, values, philosophy, poetry
 
-.. :tags:
-.. :category:
-.. :summary:
 
 
 |waterstone|
