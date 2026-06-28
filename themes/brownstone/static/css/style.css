@@ -4,12 +4,21 @@ http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
 @import url("pygment.css");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
 body {
-    margin: 30px 0px 0px 0px;
+    margin: 1.875rem 0 0 0;
     padding: 0;
     background: #7e776f url("../images/img01.jpg") repeat left top;
     font-family: "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #3e3b36;
 }
 .summary h2 {
@@ -44,16 +53,9 @@ ol {
     line-height: 180%;
 }
 
-ul,
-ol {
-}
-
 a {
     text-decoration: none;
     color: #4d8d99;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -64,22 +66,20 @@ a:hover {
 /* Header */
 
 #header-wrapper {
-    height: 100px;
     background: #3c3230;
-    border-bottom: 10px solid #4f4440;
+    border-bottom: 0.625rem solid #4f4440;
 }
 
 #header {
-    width: 950px;
+    max-width: 59.375rem;
     margin: 0 auto;
-    padding: 0px 0px 0px 30px;
+    padding: 0 0 0 1.875rem;
 }
 
 /* Logo */
 
 #logo {
-    width: 280px;
-    height: 140px;
+    max-width: 17.5rem;
     margin: 0;
     padding: 0;
     background: url("../images/img07.jpg") no-repeat left top;
@@ -90,15 +90,15 @@ a:hover {
 #logo p {
     margin: 0;
     padding: 0;
-    letter-spacing: -2px;
+    letter-spacing: -0.125rem;
     text-align: center;
     font-family: "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 #logo h1 {
-    margin: 0px 0px -20px 0px;
-    padding: 20px 0px 0px 0px;
-    font-size: 50px;
+    margin: 0 0 -1.25rem 0;
+    padding: 1.25rem 0 0 0;
+    font-size: 3.125rem;
     color: #4d8d99;
 }
 
@@ -107,9 +107,9 @@ a:hover {
 }
 
 #logo p {
-    margin: 0px;
-    padding: 0px;
-    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.625rem;
 }
 
 #logo a {
@@ -122,15 +122,14 @@ a:hover {
 /* Search */
 
 #search {
-    width: 280px;
-    height: 50px;
-    padding: 20px 0px 0px 0px;
-    background: url("../images/img05.jpg") no-repeat left 15px;
+    max-width: 17.5rem;
+    padding: 1.25rem 0 0 0;
+    background: url("../images/img05.jpg") no-repeat left 0.9375rem;
 }
 
 #search form {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
 }
 
 #search fieldset {
@@ -140,23 +139,18 @@ a:hover {
 }
 
 #search-text {
-    width: 190px;
-    padding: 0px 5px 2px 10px;
+    width: 12rem;
+    padding: 0 0.3125rem 0.125rem 0.625rem;
     border: none;
     background: none;
     text-transform: lowercase;
-    font:
-        normal 14px "Liga Comic",
-        "Comic Sans MS",
-        "Comic Sans",
-        cursive;
+    font: normal 0.875rem "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
     color: #34312c;
 }
 
 #search-submit {
-    width: 70px;
-    height: 22px;
-    border: none;
+    width: 4.375rem;
+    height: 1.375rem;
     border: none;
     background: none;
     text-indent: -99999px;
@@ -166,14 +160,14 @@ a:hover {
 /* Menu */
 
 #menu {
-    width: 280px;
-    margin: 20px auto 20px auto;
+    max-width: 17.5rem;
+    margin: 1.25rem auto;
     padding: 0;
 }
 
 #menu ul {
     margin: 0;
-    padding: 50px 0px 0px 0px;
+    padding: 3.125rem 0 0 0;
     list-style: none;
     line-height: normal;
 }
@@ -184,14 +178,13 @@ a:hover {
 
 #menu a {
     display: block;
-    width: 260px;
-    height: 27px;
-    margin: 4px 0px;
-    padding: 8px 0px 0px 20px;
+    max-width: 16.25rem;
+    margin: 0.25rem 0;
+    padding: 0.5rem 0 0 1.25rem;
     text-decoration: none;
     text-transform: capitalize;
     font-family: "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     color: #fff;
 }
@@ -202,13 +195,10 @@ a:hover {
     text-decoration: none;
 }
 
-#menu .current_page_item a {
-}
-
 /* Page */
 
 #page {
-    width: 1000px;
+    max-width: 62.5rem;
     margin: 0 auto;
     background: url("../images/img04.jpg") repeat-y left top;
 }
@@ -219,26 +209,26 @@ a:hover {
 
 #page-bgbtm {
     overflow: hidden;
-    width: 920px;
-    padding: 20px 40px 20px 40px;
+    padding: 1.25rem 2.5rem;
     background: url(images/img03.jpg) no-repeat left bottom;
 }
+
 /* Content */
 
 #content {
     float: right;
-    width: 520px;
-    padding: 70px 30px 0px 60px;
+    width: 62%;
+    padding: 4.375rem 1.875rem 0 3.75rem;
 }
 
 .post {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .post .title {
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     font-family: "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.03125rem;
 }
 
 .post .title a {
@@ -247,11 +237,11 @@ a:hover {
 }
 
 .post .meta {
-    margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
+    margin-bottom: 0;
+    padding: 0.625rem 0 0 0;
     text-align: left;
     font-family: "Liga Comic", "Comic Sans MS", "Comic Sans", sans-serif;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: bold;
 }
 
@@ -263,11 +253,8 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
-    padding: 0px 0px 20px 0px;
+    padding: 0 0 1.25rem 0;
     border-bottom: 1px dotted #99938b;
     text-align: justify;
 }
@@ -276,8 +263,10 @@ a:hover {
 }
 
 .post img {
-    margin: 10px;
+    margin: 0.625rem;
     border: black;
+    max-width: 100%;
+    height: auto;
 }
 .summary img {
     display: none;
@@ -299,6 +288,7 @@ h2.title {
 .highlight {
     background: black;
     padding: 2px;
+    overflow: auto;
 }
 
 .highlight pre {
@@ -306,13 +296,9 @@ h2.title {
     font-family: "Comic Mono", "Adale Mono", "Courier New", Courier, monospace;
 }
 
-.highlight {
-    overflow: auto;
-}
-
 .links {
-    padding-top: 20px;
-    font-size: 12px;
+    padding-top: 1.25rem;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
@@ -320,9 +306,9 @@ h2.title {
 
 #sidebar {
     float: left;
-    width: 280px;
-    margin: 0px;
-    padding: 0px 0px 80px 10px;
+    width: 33%;
+    margin: 0;
+    padding: 0 0 5rem 0.625rem;
     color: #787878;
 }
 
@@ -338,21 +324,21 @@ h2.title {
 }
 
 #sidebar li ul {
-    margin: 0px 0px 0px 20px;
-    padding-bottom: 30px;
+    margin: 0 0 0 1.25rem;
+    padding-bottom: 1.875rem;
 }
 
 #sidebar li li {
-    line-height: 35px;
+    line-height: 2.2rem;
     border-bottom: 1px dashed #191918;
     border-left: none;
 }
 
 #sidebar li li span {
     display: block;
-    margin-top: -20px;
+    margin-top: -1.25rem;
     padding: 0;
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-style: italic;
 }
 
@@ -365,30 +351,23 @@ h2.title {
 }
 
 #sidebar h2 {
-    height: 38px;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.03125rem;
     font-size: 1.8em;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 20px 20px 20px;
+    margin: 0;
+    padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
 #sidebar a {
     border: none;
 }
 
-#sidebar a:hover {
-}
-
 /* Calendar */
 
-#calendar {
-}
-
 #calendar_wrap {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 #calendar table {
@@ -406,18 +385,17 @@ h2.title {
 /* Footer */
 
 #footer {
-    width: 920px;
-    height: 80px;
+    max-width: 57.5rem;
     margin: 0 auto;
-    padding: 0px 0 15px 310px;
+    padding: 0 0 0.9375rem;
     font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 #footer p {
     margin: 0;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     line-height: normal;
-    font-size: 9px;
+    font-size: 0.5625rem;
     text-transform: uppercase;
     text-align: center;
     color: #69635e;
@@ -427,12 +405,17 @@ h2.title {
     color: #474440;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
+    html { font-size: 90%; }
+
     #page { width: 100%; }
-    #page-bgbtm { width: auto; padding: 15px; }
-    #header { width: auto; }
-    #content { float: none; width: auto; padding: 20px; }
-    #sidebar { float: none; width: auto; padding: 20px; }
-    #footer { width: auto; padding: 15px; }
+    #page-bgbtm { padding: 0.9375rem; }
+    #header { padding: 0 0.9375rem; }
+    #content { float: none; width: 100%; padding: 1.25rem; }
+    #sidebar { float: none; width: 100%; padding: 1.25rem; }
+    #footer { padding: 0.9375rem; }
+    #logo, #menu, #search { max-width: 100%; }
+    #menu a { max-width: 100%; }
+    #search-text { width: 100%; }
     .post img { max-width: 100%; height: auto; }
 }
