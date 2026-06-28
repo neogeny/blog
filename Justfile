@@ -4,7 +4,7 @@ alias s := serve
 
 output := "build/html"
 config := "pelicanconf.py"
-publish_config := "publishconf.py"
+
 port := "8000"
 
 # Build site (development)
@@ -31,12 +31,11 @@ serve:
 # Build then serve
 reserve: build serve
 
-# Build with production settings
-preview:
-    uv run pelican -s {{publish_config}}
+# Build with production settings (same as build, both use pelicanconf.py)
+preview: build
 
 # Publish to GitHub Pages via ghp-import
-ghp: build preview
+ghp: build
     uv run ghp-import -n -p -f {{output}}
 
 # Show available targets
