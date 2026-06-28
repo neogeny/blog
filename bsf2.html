@@ -24,6 +24,73 @@
 							<li ><a href="./archives.html">Archives</a></li>
 						</ul>
 					</div>
+				</div>
+    
+                        	<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="bsf2.html">BsF2</a></h2>
+						<p class="meta"><span class="date">Sat 22 September 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="./category/politikos.html">politikos</a></span></p>
+					<p class="meta">Tags : <span><a href="./tag/venezuela.html">venezuela</a> / </span>
+<span><a href="./tag/economics.html">economics</a> / </span>
+<span><a href="./tag/currency.html">currency</a> / </span>
+<span><a href="./tag/bolivar.html">bolivar</a> / </span>
+<span><a href="./tag/analysis.html">analysis</a> / </span>
+</p>	
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p>En una <a class="reference external" href="./bsf.html">nota</a> anterior
+expliqué las razones por las cuales es conveniente considerar una
+reconversión monetaria como la introducción de una nueva moneda, y
+adaptar los sistemas informáticos para el manejo de múltiples monedas.</p>
+<p>¿Cómo se hace eso?</p>
+<p>En un sistema que maneja múltiples monedas, un monto aislado carece de
+significado mientras no se sepa en qué moneda está expresado. Por eso
+los montos deben pasar de ser solo cifras a pares ordenados:</p>
+<blockquote>
+[monto, moneda]</blockquote>
+<p>Con eso las capas superiores de una aplicación pueden solicitar
+valores en una moneda en particular, delegando en librerías
+especializadas el llevar cuenta de los tipos de cambio, su conversión,
+su aritmética, y su presentación.</p>
+<p>Usando orientación a objetos la interfaz para dichas librerías resulta
+bastante simple. Las librerías para manejo de <a class="reference external" href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">fechas localizadas en
+Java</a>
+son un buen ejemplo de como lograr ese tipo de abstracción. Uno de los
+primeros tutoriales para la librería de pruebas
+<a class="reference external" href="http://www.junit.org/">JUnit</a> trata precisamente sobre un programa
+que <a class="reference external" href="http://junit.sourceforge.net/doc/testinfected/testing.htm">maneja múltiples
+monedas</a>.
+Otra ventaja es que una librería de manejo de múltiples monedas puede
+escribirse una vez, y se reutilizada indefinidamente, más si la misma es
+expuesta como servicio Web.</p>
+<p>Manejando los montos como pares, las bases de datos antiguas y de
+solo-lectura pueden quedarse como están, ya que la transformación a
+pares puede llevarse a cabo solo en las interfases que lo requieran. Así
+muchas de las interfases entre sistemas &quot;legacy&quot; pueden permanecer
+inalteradas.</p>
+<p>Para bases de datos activas es necesario agregar una columna paralela
+que indique la moneda para cada columna que contenga un monto; una tarea
+fácil, rápida, e inocua si es realizada antes de la fecha de la
+reconversión, y la cual evita los riesgos de discrepancia con
+contrapartes en físico (en papel) y las inconsistencias con sistemas que
+no deben ser modificados. Para los sistemas sujetos a actualización, las
+consultas a bases de datos específicas en las capas de persistencia de
+una aplicación deben extraer el par completo (ambos valores), y dejar lo
+demás a las librerías correspondientes.</p>
+<p>Manejar los montos en las transacciones como pares [monto, moneda] es
+suficiente para atender los requerimientos de la introducción del
+Bolívar Fuerte inmediatos y para siempre, ya que la tasa de conversión
+de Bs. 1000/Bs.F. jamás va a cambiar.</p>
+<p>Para hacer que un sistema maneje múltiples monedas internacionales
+hace falta agregar una dimensión temporal a los montos debido a que las
+tasas de cambio varían constantemente. Ese será el tema de otro
+artículo.</p>
+	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<div id="sidebar-extras">
 					<ul>
 						<li>
 							<h2>Categories</h2>
@@ -46,9 +113,9 @@
 						<li>
 							<h2>Blogroll</h2>
 							<ul>
-                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                                                            <li><a href="http://python.org/">Python.org</a></li>
-                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                             <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                             <li><a href="http://python.org/">Python.org</a></li>
+                                                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
 							</ul>
 						</li>
 						<li>
@@ -262,71 +329,6 @@
 						        </ul>
 						</li>
 					</ul>
-				</div>
-    
-                        	<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="bsf2.html">BsF2</a></h2>
-						<p class="meta"><span class="date">Sat 22 September 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="./category/politikos.html">politikos</a></span></p>
-					<p class="meta">Tags : <span><a href="./tag/venezuela.html">venezuela</a> / </span>
-<span><a href="./tag/economics.html">economics</a> / </span>
-<span><a href="./tag/currency.html">currency</a> / </span>
-<span><a href="./tag/bolivar.html">bolivar</a> / </span>
-<span><a href="./tag/analysis.html">analysis</a> / </span>
-</p>	
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <p>En una <a class="reference external" href="./bsf.html">nota</a> anterior
-expliqué las razones por las cuales es conveniente considerar una
-reconversión monetaria como la introducción de una nueva moneda, y
-adaptar los sistemas informáticos para el manejo de múltiples monedas.</p>
-<p>¿Cómo se hace eso?</p>
-<p>En un sistema que maneja múltiples monedas, un monto aislado carece de
-significado mientras no se sepa en qué moneda está expresado. Por eso
-los montos deben pasar de ser solo cifras a pares ordenados:</p>
-<blockquote>
-[monto, moneda]</blockquote>
-<p>Con eso las capas superiores de una aplicación pueden solicitar
-valores en una moneda en particular, delegando en librerías
-especializadas el llevar cuenta de los tipos de cambio, su conversión,
-su aritmética, y su presentación.</p>
-<p>Usando orientación a objetos la interfaz para dichas librerías resulta
-bastante simple. Las librerías para manejo de <a class="reference external" href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">fechas localizadas en
-Java</a>
-son un buen ejemplo de como lograr ese tipo de abstracción. Uno de los
-primeros tutoriales para la librería de pruebas
-<a class="reference external" href="http://www.junit.org/">JUnit</a> trata precisamente sobre un programa
-que <a class="reference external" href="http://junit.sourceforge.net/doc/testinfected/testing.htm">maneja múltiples
-monedas</a>.
-Otra ventaja es que una librería de manejo de múltiples monedas puede
-escribirse una vez, y se reutilizada indefinidamente, más si la misma es
-expuesta como servicio Web.</p>
-<p>Manejando los montos como pares, las bases de datos antiguas y de
-solo-lectura pueden quedarse como están, ya que la transformación a
-pares puede llevarse a cabo solo en las interfases que lo requieran. Así
-muchas de las interfases entre sistemas &quot;legacy&quot; pueden permanecer
-inalteradas.</p>
-<p>Para bases de datos activas es necesario agregar una columna paralela
-que indique la moneda para cada columna que contenga un monto; una tarea
-fácil, rápida, e inocua si es realizada antes de la fecha de la
-reconversión, y la cual evita los riesgos de discrepancia con
-contrapartes en físico (en papel) y las inconsistencias con sistemas que
-no deben ser modificados. Para los sistemas sujetos a actualización, las
-consultas a bases de datos específicas en las capas de persistencia de
-una aplicación deben extraer el par completo (ambos valores), y dejar lo
-demás a las librerías correspondientes.</p>
-<p>Manejar los montos en las transacciones como pares [monto, moneda] es
-suficiente para atender los requerimientos de la introducción del
-Bolívar Fuerte inmediatos y para siempre, ya que la tasa de conversión
-de Bs. 1000/Bs.F. jamás va a cambiar.</p>
-<p>Para hacer que un sistema maneje múltiples monedas internacionales
-hace falta agregar una dimensión temporal a los montos debido a que las
-tasas de cambio varían constantemente. Ese será el tema de otro
-artículo.</p>
-	
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>

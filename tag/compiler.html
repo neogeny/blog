@@ -24,6 +24,82 @@
 							<li ><a href="../archives.html">Archives</a></li>
 						</ul>
 					</div>
+				</div>
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="../grako-1.html">GRAKO</a></h2>
+						<p class="meta"><span class="date">Wed 09 January 2013 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/grako.html">grako</a></span></p>
+					<p class="meta">Tags : <span><a href="../tag/grako.html">grako</a> / </span>
+<span><a href="../tag/peg.html">peg</a> / </span>
+<span><a href="../tag/parser-generator.html">parser-generator</a> / </span>
+<span><a href="../tag/python.html">python</a> / </span>
+<span><a href="../tag/compiler.html">compiler</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p>After my difficulties translating SoftAG Natural using ANTLR v3, and a
+new request to do the likes with COBOL, which is a programming language
+as large and as ambiguous, I decided to explore other options.</p>
+<p>I found that most of the solutions out there are lack a maintainer,
+lack users, or lack significant projects that use them. That scenario
+maid ANTLR the only reasonable option, which meant going though the same
+problems I went through with Natural while dealing with COBOL.</p>
+<p>So, with a bit of desperation, a bit of arrogance, a bunch of ideas
+about how things should work, and unbelievable support from my boss, I
+wrote an EBNF to memoizing-PEG parser compiler in Python. It's callked
+GRAKO, and it's GPL open at:</p>
+<blockquote>
+<a class="reference external" href="https://bitbucket.org/apalala/grako/">https://bitbucket.org/apalala/grako/</a></blockquote>
+<p>The tool must be called &quot;beta&quot; because it hasn't yet seen a major
+project delivered using it, but the consistency checks I wrote are the
+nastiest I could think off: the bootstrap parser can parse a grammar for
+the GRAKO EBNF description, and generate a parsing engine that can parse
+the same input again, and generate a structured and readable Python
+program that can do the same.</p>
+<p>On the other hand, a GRAKO generated parser is parsing 1.8 million
+lines of COBOL in about seconds. It's over 500 programs, of which about
+200 fail to parse, and manual inspection says that the failures are
+about invalid COBOL, and not grammar, or generated parser errors.</p>
+<p>The reasons why I built this tool are the ones you've seen me discuss
+in the current and previous incarnations of this forum:</p>
+<ol class="arabic simple">
+<li>To deal with languages like COBOL or NATURAL, in which important
+statement words (can't call them keywords) may be used as identifiers
+in programs, the parser must be able to lead the lexer. The parser
+also must lead the lexer to parse languages like Ruby.</li>
+<li>When ambiguity is the norm in the parsed language (Natural, Cobol),
+the grammar becomes contaminated with lookaheads (just to make the
+parser greedy) in ANTLR v3, and unknowns for me in v4 (because I
+haven't tried).</li>
+<li>My opinion, after the experience with Natural, is that semantic
+actions like AST transformations or whatever DO NOT belong in the
+grammar. Semantic actions in the grammar create yet another
+programming language to deal with (the source language, ANTLR,
+ANTLR+semantics, and target language). In fewer words, it is
+impossible for me to find a programmer to whom delegate the current
+grammar for Natural, while the current COBOL grammar is approachable
+to anyone with a CS degree, and the generated code approachable by
+anyone with sound knowledge of Python.</li>
+<li>(Probably a restatement of the above) Pre-processing (like includes,
+or COBOL's fixed column format), tree construction, translation,
+interpretation, etc., belong to soundly developed program code, and
+not in the grammar.</li>
+</ol>
+<p>I have deadlines to meet using GRAKO, and, to be honest, I don't know
+if I'll succeed. I do know that ANTLR is sound and field proved (even by
+me!), so I could fall back to it eventually. But currently, I'm placing
+my bets on doing things in a simpler way:</p>
+<pre class="literal-block">
+$ python -c &quot;import this&quot;
+</pre>
+	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<div id="sidebar-extras">
 					<ul>
 						<li>
 							<h2>Categories</h2>
@@ -46,9 +122,9 @@
 						<li>
 							<h2>Blogroll</h2>
 							<ul>
-                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                                                            <li><a href="http://python.org/">Python.org</a></li>
-                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                             <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                             <li><a href="http://python.org/">Python.org</a></li>
+                                                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
 							</ul>
 						</li>
 						<li>
@@ -262,80 +338,6 @@
 						        </ul>
 						</li>
 					</ul>
-				</div>
- 
-        
-				<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="../grako-1.html">GRAKO</a></h2>
-						<p class="meta"><span class="date">Wed 09 January 2013 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/grako.html">grako</a></span></p>
-					<p class="meta">Tags : <span><a href="../tag/grako.html">grako</a> / </span>
-<span><a href="../tag/peg.html">peg</a> / </span>
-<span><a href="../tag/parser-generator.html">parser-generator</a> / </span>
-<span><a href="../tag/python.html">python</a> / </span>
-<span><a href="../tag/compiler.html">compiler</a> / </span>
-</p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <p>After my difficulties translating SoftAG Natural using ANTLR v3, and a
-new request to do the likes with COBOL, which is a programming language
-as large and as ambiguous, I decided to explore other options.</p>
-<p>I found that most of the solutions out there are lack a maintainer,
-lack users, or lack significant projects that use them. That scenario
-maid ANTLR the only reasonable option, which meant going though the same
-problems I went through with Natural while dealing with COBOL.</p>
-<p>So, with a bit of desperation, a bit of arrogance, a bunch of ideas
-about how things should work, and unbelievable support from my boss, I
-wrote an EBNF to memoizing-PEG parser compiler in Python. It's callked
-GRAKO, and it's GPL open at:</p>
-<blockquote>
-<a class="reference external" href="https://bitbucket.org/apalala/grako/">https://bitbucket.org/apalala/grako/</a></blockquote>
-<p>The tool must be called &quot;beta&quot; because it hasn't yet seen a major
-project delivered using it, but the consistency checks I wrote are the
-nastiest I could think off: the bootstrap parser can parse a grammar for
-the GRAKO EBNF description, and generate a parsing engine that can parse
-the same input again, and generate a structured and readable Python
-program that can do the same.</p>
-<p>On the other hand, a GRAKO generated parser is parsing 1.8 million
-lines of COBOL in about seconds. It's over 500 programs, of which about
-200 fail to parse, and manual inspection says that the failures are
-about invalid COBOL, and not grammar, or generated parser errors.</p>
-<p>The reasons why I built this tool are the ones you've seen me discuss
-in the current and previous incarnations of this forum:</p>
-<ol class="arabic simple">
-<li>To deal with languages like COBOL or NATURAL, in which important
-statement words (can't call them keywords) may be used as identifiers
-in programs, the parser must be able to lead the lexer. The parser
-also must lead the lexer to parse languages like Ruby.</li>
-<li>When ambiguity is the norm in the parsed language (Natural, Cobol),
-the grammar becomes contaminated with lookaheads (just to make the
-parser greedy) in ANTLR v3, and unknowns for me in v4 (because I
-haven't tried).</li>
-<li>My opinion, after the experience with Natural, is that semantic
-actions like AST transformations or whatever DO NOT belong in the
-grammar. Semantic actions in the grammar create yet another
-programming language to deal with (the source language, ANTLR,
-ANTLR+semantics, and target language). In fewer words, it is
-impossible for me to find a programmer to whom delegate the current
-grammar for Natural, while the current COBOL grammar is approachable
-to anyone with a CS degree, and the generated code approachable by
-anyone with sound knowledge of Python.</li>
-<li>(Probably a restatement of the above) Pre-processing (like includes,
-or COBOL's fixed column format), tree construction, translation,
-interpretation, etc., belong to soundly developed program code, and
-not in the grammar.</li>
-</ol>
-<p>I have deadlines to meet using GRAKO, and, to be honest, I don't know
-if I'll succeed. I do know that ANTLR is sound and field proved (even by
-me!), so I could fall back to it eventually. But currently, I'm placing
-my bets on doing things in a simpler way:</p>
-<pre class="literal-block">
-$ python -c &quot;import this&quot;
-</pre>
-	
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>

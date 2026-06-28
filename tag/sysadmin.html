@@ -24,6 +24,86 @@
 							<li ><a href="../archives.html">Archives</a></li>
 						</ul>
 					</div>
+				</div>
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="../huso-horario-venezolano-en-ubuntu.html">Huso Horario Venezolano en Ubuntu</a></h2>
+						<p class="meta"><span class="date">Sat 22 September 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/misc.html">misc</a></span></p>
+					<p class="meta">Tags : <span><a href="../tag/technology.html">technology</a> / </span>
+<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
+<span><a href="../tag/linux.html">linux</a> / </span>
+<span><a href="../tag/venezuela.html">venezuela</a> / </span>
+<span><a href="../tag/timezone.html">timezone</a> / </span>
+<span><a href="../tag/sysadmin.html">sysadmin</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <ul class="simple">
+<li>Actualizado para el cambio de huso horario en 2007/12/09 03:00.</li>
+</ul>
+<p>En otro
+<a class="reference external" href="../nuevo-huso-horario-para-venezuela.html">post</a>
+expliqué como y por qué lidiar con el cambio de huso horario en
+Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.</p>
+<p>Para lograrlo en una distribución Ubuntu 7.04 hice lo siguiente:</p>
+<ol class="arabic">
+<li><p class="first">Respaldar el archivo /usr/share/zoneinfo/America/Caracas</p>
+</li>
+<li><p class="first">Crear un directorio de trabajo y cambiarse al mismo (mkdir work; cd
+work)</p>
+</li>
+<li><p class="first">Obtener el archivo <a class="reference external" href="ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz">ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz</a></p>
+</li>
+<li><p class="first">Descomprimir el archivo (tar xvzf tzdata*)</p>
+</li>
+<li><p class="first">Editar el archivo llamado southamerica, ir al final del archivo,
+donde dice &quot;Venezuela&quot;, y cambiar las últimas líneas para que
+aparezcan como las resaltadas:</p>
+<pre class="literal-block">
+# Venezuela# Zone  NAME            GMTOFF  RULES   FORMAT  [UNTIL]Zone    America/Caracas -4:27:44 -      LMT     1890                        -4:27:40 -      CMT     1912 Feb 12 # Caracas Mean Time?                        -4:30   -       VET     1965         # Venezuela Time     -4:00   -       VET     2007 Dec 9 3:00     -4:30   -       VET
+</pre>
+</li>
+<li><p class="first">Compilar el archivo así:sudo zic southamerica</p>
+</li>
+<li><p class="first">Eso es todo.</p>
+</li>
+</ol>
+<p>Para comprobar el resultado se puede ejecutar</p>
+<blockquote>
+<pre class="literal-block">
+zdump -v America/Caracas
+</pre>
+</blockquote>
+	
+						</div>
+					</div>
+	
+			                <div class="post">
+			                        <h2 class="title">Other articles</h2>
+			                </div>
+        
+ 
+			                <div class="post summary">
+						<h2 class="title"><a href="../setting-up-a-cvs-repository-on-linux.html">Setting up a CVS repository on Linux</a></h2>
+						<p class="meta"><span class="date">Tue 05 September 2006</span><span class="posted"><a href="#">Apalala</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+It takes more than you'd think to bootstrap a team</blockquote>
+<p>One might think that it is enough to create a directory under
+<strong>/var/lib/cvs</strong> to get a new CVS repository working for a project. My
+experience is that it takes much more to set up a CVS repository that …</p>	
+						 <a class="readmore" href="../setting-up-a-cvs-repository-on-linux.html">Read more …</a>
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<div id="sidebar-extras">
 					<ul>
 						<li>
 							<h2>Categories</h2>
@@ -46,9 +126,9 @@
 						<li>
 							<h2>Blogroll</h2>
 							<ul>
-                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                                                            <li><a href="http://python.org/">Python.org</a></li>
-                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                             <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                             <li><a href="http://python.org/">Python.org</a></li>
+                                                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
 							</ul>
 						</li>
 						<li>
@@ -262,84 +342,6 @@
 						        </ul>
 						</li>
 					</ul>
-				</div>
- 
-        
-				<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="../huso-horario-venezolano-en-ubuntu.html">Huso Horario Venezolano en Ubuntu</a></h2>
-						<p class="meta"><span class="date">Sat 22 September 2007 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/misc.html">misc</a></span></p>
-					<p class="meta">Tags : <span><a href="../tag/technology.html">technology</a> / </span>
-<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
-<span><a href="../tag/linux.html">linux</a> / </span>
-<span><a href="../tag/venezuela.html">venezuela</a> / </span>
-<span><a href="../tag/timezone.html">timezone</a> / </span>
-<span><a href="../tag/sysadmin.html">sysadmin</a> / </span>
-</p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <ul class="simple">
-<li>Actualizado para el cambio de huso horario en 2007/12/09 03:00.</li>
-</ul>
-<p>En otro
-<a class="reference external" href="../nuevo-huso-horario-para-venezuela.html">post</a>
-expliqué como y por qué lidiar con el cambio de huso horario en
-Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.</p>
-<p>Para lograrlo en una distribución Ubuntu 7.04 hice lo siguiente:</p>
-<ol class="arabic">
-<li><p class="first">Respaldar el archivo /usr/share/zoneinfo/America/Caracas</p>
-</li>
-<li><p class="first">Crear un directorio de trabajo y cambiarse al mismo (mkdir work; cd
-work)</p>
-</li>
-<li><p class="first">Obtener el archivo <a class="reference external" href="ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz">ftp://elsie.nci.nih.gov/pub/tzdata2007*.tar.gz</a></p>
-</li>
-<li><p class="first">Descomprimir el archivo (tar xvzf tzdata*)</p>
-</li>
-<li><p class="first">Editar el archivo llamado southamerica, ir al final del archivo,
-donde dice &quot;Venezuela&quot;, y cambiar las últimas líneas para que
-aparezcan como las resaltadas:</p>
-<pre class="literal-block">
-# Venezuela# Zone  NAME            GMTOFF  RULES   FORMAT  [UNTIL]Zone    America/Caracas -4:27:44 -      LMT     1890                        -4:27:40 -      CMT     1912 Feb 12 # Caracas Mean Time?                        -4:30   -       VET     1965         # Venezuela Time     -4:00   -       VET     2007 Dec 9 3:00     -4:30   -       VET
-</pre>
-</li>
-<li><p class="first">Compilar el archivo así:sudo zic southamerica</p>
-</li>
-<li><p class="first">Eso es todo.</p>
-</li>
-</ol>
-<p>Para comprobar el resultado se puede ejecutar</p>
-<blockquote>
-<pre class="literal-block">
-zdump -v America/Caracas
-</pre>
-</blockquote>
-	
-						</div>
-					</div>
-	
-			                <div class="post">
-			                        <h2 class="title">Other articles</h2>
-			                </div>
-        
- 
-			                <div class="post summary">
-						<h2 class="title"><a href="../setting-up-a-cvs-repository-on-linux.html">Setting up a CVS repository on Linux</a></h2>
-						<p class="meta"><span class="date">Tue 05 September 2006</span><span class="posted"><a href="#">Apalala</a></span></p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <div class="line-block">
-<div class="line"><br /></div>
-</div>
-<blockquote>
-It takes more than you'd think to bootstrap a team</blockquote>
-<p>One might think that it is enough to create a directory under
-<strong>/var/lib/cvs</strong> to get a new CVS repository working for a project. My
-experience is that it takes much more to set up a CVS repository that …</p>	
-						 <a class="readmore" href="../setting-up-a-cvs-repository-on-linux.html">Read more …</a>
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>

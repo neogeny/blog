@@ -24,6 +24,72 @@
 							<li ><a href="../archives.html">Archives</a></li>
 						</ul>
 					</div>
+				</div>
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="../pulseaudio-p-sucks.html">Pulseaudio Sucks!</a></h2>
+						<p class="meta"><span class="date">Wed 07 April 2010 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/penguins.html">penguins</a></span></p>
+					<p class="meta">Tags : <span><a href="../tag/linux.html">linux</a> / </span>
+<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
+<span><a href="../tag/pulseaudio.html">pulseaudio</a> / </span>
+<span><a href="../tag/audio.html">audio</a> / </span>
+<span><a href="../tag/troubleshooting.html">troubleshooting</a> / </span>
+<span><a href="../tag/open-source.html">open-source</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p>Either that, or <a class="reference external" href="http://www.ubuntu.com/">Ubuntu</a> hasn't implemented
+it well either on Karmic or Lucid. Many people complain all over the Web
+about problems like the ones I've experienced:</p>
+<ul class="simple">
+<li>Skips, skips, skips. Launch an apllication, skip; open a new page on
+the browser, skip; switch worskpaces, skip; do almost anything but
+stay still, skip.</li>
+<li>Moving the balance control changed the volume, and made the balance
+jump to wherever it wanted.</li>
+<li>The audio options in Skype were all <em>Pulse Audio Server</em>, which had
+me jump through hoops every time I wanted to set up an audio
+conference using my headset.</li>
+<li>Volume and equalizer settings got lost after logout.</li>
+<li>The equalizer worked or didn't at its own discresion.</li>
+<li>Etc.</li>
+</ul>
+<p>The almost unanimous advice about how to solve to the above problems
+according to the Web is to get rid of
+<a class="reference external" href="http://en.wikipedia.org/wiki/PulseAudio">Pulseaudio</a>and make
+<a class="reference external" href="http://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a>
+and <a class="reference external" href="http://en.wikipedia.org/wiki/Enlightened_Sound_Daemon">ESound</a>
+take over, so that's what I did... not without problems, because Ubuntu
+has been embedding Pulseaudio into the desktop the hard way:</p>
+<ul class="simple">
+<li>The volume control on the toolbar disappears, and
+System/Preferences/Sound stops working. To work around that I
+installed the GNome Alsa Mixer, and docked it to the toolbar. I
+haven't been able (haven't known how) to make the GNome Volume
+Control work again.</li>
+<li>No more equalizer. To fix that I ditched the <a class="reference external" href="http://projects.gnome.org/rhythmbox/">Rhythmbox Music
+Player</a> that Ubuntu
+installs, and started using <a class="reference external" href="http://banshee-project.org/">Banshee</a>
+instead. That not only gave me an equalizer, but also inter-song gain
+control, and randomization that works, all with an interface very
+similar to that of Rhythmbox, and with all the goodies.</li>
+<li>The sound is great.</li>
+<li>Skype keeps the correct settings for teleconferencing between
+sessions.</li>
+</ul>
+<p>I'm running the first beta of the <a class="reference external" href="https://wiki.ubuntu.com/LucidLynx">Lucid Lynx</a> now, but the issues were the
+same with Karmic. The feeling I get after having had to work hard to get
+my audio the way I wanted it is that having distributions couple to one
+specific option when there are many is very much agains the freedom to
+choose that has always characterized Linux.</p>
+	
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<div id="sidebar-extras">
 					<ul>
 						<li>
 							<h2>Categories</h2>
@@ -46,9 +112,9 @@
 						<li>
 							<h2>Blogroll</h2>
 							<ul>
-                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                                                            <li><a href="http://python.org/">Python.org</a></li>
-                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                             <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                             <li><a href="http://python.org/">Python.org</a></li>
+                                                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
 							</ul>
 						</li>
 						<li>
@@ -262,70 +328,6 @@
 						        </ul>
 						</li>
 					</ul>
-				</div>
- 
-        
-				<div id="content">
-					<div class="post">
-						<h2 class="title"><a href="../pulseaudio-p-sucks.html">Pulseaudio Sucks!</a></h2>
-						<p class="meta"><span class="date">Wed 07 April 2010 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="../category/penguins.html">penguins</a></span></p>
-					<p class="meta">Tags : <span><a href="../tag/linux.html">linux</a> / </span>
-<span><a href="../tag/ubuntu.html">ubuntu</a> / </span>
-<span><a href="../tag/pulseaudio.html">pulseaudio</a> / </span>
-<span><a href="../tag/audio.html">audio</a> / </span>
-<span><a href="../tag/troubleshooting.html">troubleshooting</a> / </span>
-<span><a href="../tag/open-source.html">open-source</a> / </span>
-</p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-						 <p>Either that, or <a class="reference external" href="http://www.ubuntu.com/">Ubuntu</a> hasn't implemented
-it well either on Karmic or Lucid. Many people complain all over the Web
-about problems like the ones I've experienced:</p>
-<ul class="simple">
-<li>Skips, skips, skips. Launch an apllication, skip; open a new page on
-the browser, skip; switch worskpaces, skip; do almost anything but
-stay still, skip.</li>
-<li>Moving the balance control changed the volume, and made the balance
-jump to wherever it wanted.</li>
-<li>The audio options in Skype were all <em>Pulse Audio Server</em>, which had
-me jump through hoops every time I wanted to set up an audio
-conference using my headset.</li>
-<li>Volume and equalizer settings got lost after logout.</li>
-<li>The equalizer worked or didn't at its own discresion.</li>
-<li>Etc.</li>
-</ul>
-<p>The almost unanimous advice about how to solve to the above problems
-according to the Web is to get rid of
-<a class="reference external" href="http://en.wikipedia.org/wiki/PulseAudio">Pulseaudio</a>and make
-<a class="reference external" href="http://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a>
-and <a class="reference external" href="http://en.wikipedia.org/wiki/Enlightened_Sound_Daemon">ESound</a>
-take over, so that's what I did... not without problems, because Ubuntu
-has been embedding Pulseaudio into the desktop the hard way:</p>
-<ul class="simple">
-<li>The volume control on the toolbar disappears, and
-System/Preferences/Sound stops working. To work around that I
-installed the GNome Alsa Mixer, and docked it to the toolbar. I
-haven't been able (haven't known how) to make the GNome Volume
-Control work again.</li>
-<li>No more equalizer. To fix that I ditched the <a class="reference external" href="http://projects.gnome.org/rhythmbox/">Rhythmbox Music
-Player</a> that Ubuntu
-installs, and started using <a class="reference external" href="http://banshee-project.org/">Banshee</a>
-instead. That not only gave me an equalizer, but also inter-song gain
-control, and randomization that works, all with an interface very
-similar to that of Rhythmbox, and with all the goodies.</li>
-<li>The sound is great.</li>
-<li>Skype keeps the correct settings for teleconferencing between
-sessions.</li>
-</ul>
-<p>I'm running the first beta of the <a class="reference external" href="https://wiki.ubuntu.com/LucidLynx">Lucid Lynx</a> now, but the issues were the
-same with Karmic. The feeling I get after having had to work hard to get
-my audio the way I wanted it is that having distributions couple to one
-specific option when there are many is very much agains the freedom to
-choose that has always characterized Linux.</p>
-	
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<div style="clear: both;">&nbsp;</div>
 			</div>
