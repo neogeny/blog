@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Neogeny - testing</title>
+<link href="https://neogeny.github.io/blog/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://neogeny.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Neogeny ATOM Feed" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+ 
+        
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="https://neogeny.github.io/blog/xtreme-testing-for-delphi-programs.html">Xtreme testing for Delphi programs</a></h2>
+						<p class="meta"><span class="date">Sun 28 November 1999 </span><span class="posted"><a href="#">Apalala</a></span><span>&nbsp; | <a href="https://neogeny.github.io/blog/category/inpublishing.html">inpublishing</a></span></p>
+					<p class="meta">Tags : <span><a href="https://neogeny.github.io/blog/tag/testing.html">testing</a> / </span>
+<span><a href="https://neogeny.github.io/blog/tag/programming.html">programming</a> / </span>
+<span><a href="https://neogeny.github.io/blog/tag/open-source.html">open-source</a> / </span>
+<span><a href="https://neogeny.github.io/blog/tag/development.html">development</a> / </span>
+<span><a href="https://neogeny.github.io/blog/tag/delphi.html">delphi</a> / </span>
+</p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p><em>A standard testing framework for Delphi has been long overdue. Now
+there is one and it's even open source.</em></p>
+<p>In my <a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html">article</a> on
+Xtreme testing, I talked about how it could improve the quality of
+programs as well as the speed and confidence with which they were
+developed. For the examples, I used Kent Beck and Erich Gamma's JUnit
+open-source testing framework and I wrote the program fragments using
+Java -- a language I'm comfortable with. But those who know me from
+previous writing gigs or my once-frequent postings in online forums know
+that I've long been a Borland Pascal programmer. My online buddies are
+probably wondering why I didn't write the examples in Object Pascal. The
+reason is that I discovered Xtreme testing only recently, and, as far as
+I know, there are no testing frameworks available for Delphi.</p>
+<p>But we're about to change that.</p>
+<p>I've been choosing the latest version of Borland's Pascal as the best
+solution to most of my programming needs for 15 years now. The reasons
+are varied. The tool's suitability to the kind of applications I've been
+developing is one reason. Its overall quality is another. Not to mention
+its blazing instant-feedback speed. A large reason has been the
+community of developers that has gathered around the tool.</p>
+<p>I met that community when I joined CompuServe and the BPASCAL forum
+back in 1993. BPASCAL quickly became an invaluable asset. The forum was
+filled with excellent questions, prompt answers, expert advice, and
+loads of useful source code. Examples, workarounds, patches, libraries,
+frameworks, and even complete applications were available for download
+and free use. The forum's motto was &quot;Don't pay back -- pay forward,&quot; and
+these guys took it seriously. I started contributing advice and source
+code as soon as I was confident enough to do so, and eventually became
+expert enough to start writing about Delphi for trade publications --
+but that's another story.</p>
+<p>Even after all these years I have never felt that I had managed to
+fully pay back -- er, forward -- all the help. That's the reason for
+this contribution: DUnit, a port of the JUnit Xtreme testing framework
+to Delphi.</p>
+<div class="section" id="porting-from-junit">
+<h2>Porting from JUnit</h2>
+<p>The original JUnit framework is extremely easy to use and very
+effective. I wanted the Delphi port to be as good.</p>
+<p>To speed up the port, I decided to translate the classes and
+interfaces in JUnit almost literally. It was a compromise that required
+heavy use of method overloading, which means that DUnit won't be usable
+with versions of Delphi prior to version 4.</p>
+<p>I made another compromise. I could translate the methods in JUnit
+almost literally if I used the Delphi port of the Java collections
+library that I had begun implementing, so that's exactly what I did.</p>
+<p>These two decisions let me do the port in a single afternoon and
+resulted in a framework that I find very easy to use. But the
+implementation relies heavily on interfaces and iterators -- idioms
+seldom used by Delphi programmers. Although the first idiom is fully
+supported by Delphi, most programmers reserve it for dealing with COM
+and ActiveX objects. Interfaces provide the advantage of memory
+management by reference counting, so a little work up-front with
+interfaces translates into much less code to write. You do have to be
+careful with some interface implementation issues. For example, a loop
+with references to interfaces will make it impossible for Delphi to
+reclaim the memory used.
+| The second idiom is common in Java and C++ programs, but may be
+unfamiliar to Delphi programmers. Iterators enable you to write
+implementation-independent loops that process the objects contained in a
+collection. JUnit uses iterators, so DUnit does too.</p>
+</div>
+<div class="section" id="classes-that-test-classes">
+<h2>Classes that test classes</h2>
+<p>To apply DUnit to your Delphi programs, you write a descendant of the
+class TTestCase for each test case you want to apply to a unit. I
+decided to apply DUnit to the collections library used in its own
+implementation. To avoid circular unit references, I had to declare the
+test case classes in the main program (DPR) file, but I recommend that
+in general you place the test classes inside the units they test. Doing
+so will let you test protected and private methods in addition to the
+public and published ones.</p>
+<p>This is the class declaration for a simple test case:</p>
+<pre class="literal-block">
+type
+    TListTests = class(TTestCase, ITest)
+        published
+        // published, so we get RTTI;
+        // virtual, so the compiler
+        // doesn't eliminate them;
+        procedure testEmptyArrayList; virtual;
+        procedure testEmptyLinkedList; virtual;
+        procedure doEmptyTests(list :IList);
+        procedure testFailure; virtual;
+        procedure testError; virtual;
+    end;
+</pre>
+<p>The first two methods test several conditions on arrays and linked
+lists. The third procedure is a utility used by the preceding routines.
+The last two methods generate a test failure and an exception
+respectively, to make sure DUnit responds properly when errors are
+detected. The test methods must be declared within a published section
+so that Delphi generates runtime type information for them and DUnit has
+access to method names at runtime. Here's part of the implementation of
+doEmptyTests:</p>
+<pre class="literal-block">
+procedure TListTests.doEmptyTests(list: IList);
+var i :IIterator;
+begin
+    assert('isEmpty', list.isEmpty);
+    assertEquals('size', 0, list.size);
+    assert('iterator at end', not list.iterator.hasNext);
+    list.add('anItem');   assertEquals('size', 1, list.size);
+    //...
+</pre>
+<p>Yes, writing the test cases is that easy. Each line in the test method
+checks (asserts) a condition that should be true if the tested code is
+working properly. DUnit provides several different assertXXX methods to
+make writing tests easier.</p>
+</div>
+<div class="section" id="pulling-it-all-together">
+<h2>Pulling it all together</h2>
+<p>To assemble all the test methods into a single test suite, you write a
+function like this:</p>
+<pre class="literal-block">
+function suite :ITestSuite;
+begin
+    result := TTestSuite.Create;
+    result.addTest(TListTests.Create('testEmptyArrayList'));
+    result.addTest(TListTests.Create('testEmptyLinkedList'));
+    result.addTest(TListTests.Create('testFailure'));
+    result.addTest(TListTests.Create('testError'));
+end;
+</pre>
+<p>Finally, you run the tests in console mode with a single statement in
+the main program block:</p>
+<pre class="literal-block">
+begin
+    DUnit.runTest(suite, true);
+end.
+</pre>
+<p>Oops! Two bugs in the collections library surfaced while I was
+executing the tests. So the framework has already paid for the effort I
+invested in it. After fixing the bugs and running the tests again, the
+output looks exactly as expected:</p>
+<pre class="literal-block">
+DUnit: Testing.
+...F.ETime: 0.0
+FAILURES!!!
+Test Results:Run: 4 Failures: 1 Errors: 1
+There was 1 error:
+1) TListTests.testError: EAbort: Raised exception on purpose
+There was 1 failure:
+1) TListTests.testFailure: AssertionFailedError: Failed on purposePress [return] to continue.
+</pre>
+</div>
+<div class="section" id="a-license-to-test">
+<h2>A license to test</h2>
+<p>What are the licensing terms for DUnit? In open source development,
+when you enhance, fix or port someone else's code, it is customary to:</p>
+<ul class="simple">
+<li>Give as many rights to the original software as the original authors
+did.</li>
+<li>Give the same rights to your contributions (some licenses, such as
+the GNU GPL, require that you to do this).</li>
+<li>Give credit to the original authors for their work.</li>
+<li>Preserve all disclaimers made by the original authors, in particular
+those about lack of warranty and protection from their names being
+used for promotion without authorization.</li>
+</ul>
+<p>The license to the original JUnit is very flexible, so I made the
+license to DUnit almost an exact copy of it. The part about your rights
+reads like this:</p>
+<blockquote>
+Permission to reproduce and create derivative works from the
+Software (&quot;Software Derivative Works&quot;) is hereby granted to you
+under the copyrights of [...] (THE AUTHORS). The authors also grant
+you the right to distribute the Software and Software Derivative
+Works.</blockquote>
+</div>
+<div class="section" id="next-steps">
+<h2>Next steps</h2>
+<p>As it stands, DUnit lacks any documentation. If you can read Java
+code, then the documentation that comes with JUnit is probably
+sufficient.</p>
+<p>At this time the following still needs to be done:</p>
+<ul class="simple">
+<li>Create a GUI interface to the framework like the one JUnit has. Given
+Delphi's GUI capabilities, this shouldn't take more than an hour or
+so.</li>
+<li>Use Delphi's RTTI to build a test suite automatically by gathering
+all the methods with names that start with &quot;test.&quot; JUnit does this,
+and the feature is very useful. I'll leave this task to someone else.</li>
+<li>Translate JUnit's excellent documentation and examples to Delphi.</li>
+</ul>
+<p>If you'd like to contribute to the DUnit project, please do so. But
+try to refrain from sending me suggestions. What I think should be done
+in DUnit I will likely do, time permitting. As Linus Torvald says, I'd
+rather you &quot;show me the source code!&quot;</p>
+<p>Oh -- the source code! You can download the source code to the latest
+version of DUnit from my always-under-construction Web site:
+<a class="reference external" href="http://www.neogeny.org/dunit/index.html">http://www.suigeneris.org/dunit</a>.
+I hope you find this small testing framework useful. If you do, please
+forget about expressing thanks. Pay forward.</p>
+<div class="line-block">
+<div class="line">Originally written for <em>In Publishing LLC</em></div>
+<div class="line">Copyright © 1999 Inprise Corp.</div>
+</div>
+</div>
+	
+						</div>
+					</div>
+	
+			                <div class="post">
+			                        <h2 class="title">Other articles</h2>
+			                </div>
+        
+ 
+			                <div class="post summary">
+						<h2 class="title"><a href="https://neogeny.github.io/blog/xtreme-testing.html">Xtreme testing</a></h2>
+						<p class="meta"><span class="date">Sun 17 October 1999</span><span class="posted"><a href="#">Apalala</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						 <p><em>Extreme programmers brave the open source slopes.</em></p>
+<p>You can't do it. You can't add the feature. It's too risky. You'd have
+to change a core part of the program, and who knows what kind of subtle
+bugs might creep in doing that! You got hold of the source code and …</p>	
+						 <a class="readmore" href="https://neogeny.github.io/blog/xtreme-testing.html">Read more …</a>
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<div id="sidebar">
+					<div id="logo">
+						<h1><a href="https://neogeny.github.io/blog">Neogeny</a></h1>
+					</div>
+					<div id="menu">
+						<ul>
+							<li ><a href="https://neogeny.github.io/blog">Home</a></li>
+							<li ><a href="https://neogeny.github.io/blog/archives.html">Archives</a></li>
+						</ul>
+					</div>
+					<ul>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								<li ><a href="https://neogeny.github.io/blog/category/aisthetikos.html">aisthetikos</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/caudex.html">caudex</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/dolcevita.html">dolcevita</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/ehoy.html">ehoy</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/ethikos.html">ethikos</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/grako.html">grako</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/inpublishing.html">inpublishing</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/mens.html">mens</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/misc.html">misc</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/parole.html">parole</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/penguins.html">penguins</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/politikos.html">politikos</a></li>
+								<li ><a href="https://neogeny.github.io/blog/category/snakes.html">snakes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+                                                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                            <li><a href="http://python.org/">Python.org</a></li>
+                                                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+							</ul>
+						</li>
+						<li>
+						        <h2>Tags</h2>
+						        <ul>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/food.html">food</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/cooking.html">cooking</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/recipes.html">recipes</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/eggs.html">eggs</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/breakfast.html">breakfast</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/venezuelan-cuisine.html">venezuelan-cuisine</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/black-beans.html">black-beans</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/beans.html">beans</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/italian-cuisine.html">italian-cuisine</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/risotto.html">risotto</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/rice.html">rice</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/poetry.html">poetry</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/song-lyrics.html">song-lyrics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/love.html">love</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/spanish.html">spanish</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mind.html">mind</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mental-health.html">mental-health</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/storytelling.html">storytelling</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/daily-life.html">daily-life</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/salad.html">salad</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/vinaigrette.html">vinaigrette</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/dining.html">dining</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/personal-essay.html">personal-essay</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/travel.html">travel</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/python.html">python</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/vim.html">vim</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/eclipse.html">eclipse</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ide.html">ide</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/productivity.html">productivity</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/workflow.html">workflow</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/original-poetry.html">original-poetry</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/english.html">english</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/reflection.html">reflection</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/grako.html">grako</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/peg.html">peg</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/parser-generator.html">parser-generator</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/release.html">release</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/graphviz.html">graphviz</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/home.html">home</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/courage.html">courage</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/books.html">books</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/reading.html">reading</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/childhood.html">childhood</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mafalda.html">mafalda</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/packrat-parsing.html">packrat-parsing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/optimization.html">optimization</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/personal.html">personal</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/relationships.html">relationships</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/easter.html">easter</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/religion.html">religion</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/politics.html">politics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/open-source.html">open-source</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/compiler.html">compiler</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/aging.html">aging</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/philosophy.html">philosophy</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/consciousness.html">consciousness</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mortality.html">mortality</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/opinion.html">opinion</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/analysis.html">analysis</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/pasta.html">pasta</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/sauce.html">sauce</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/spirituality.html">spirituality</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/values.html">values</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/project-euler.html">project-euler</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/algorithms.html">algorithms</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mathematics.html">mathematics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/programming.html">programming</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/technology.html">technology</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/internet.html">internet</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ipv4.html">ipv4</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ipv6.html">ipv6</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/networking.html">networking</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/iana.html">iana</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/gmail.html">gmail</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/backup.html">backup</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/thunderbird.html">thunderbird</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/imap.html">imap</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/tutorial.html">tutorial</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/hard-drives.html">hard-drives</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/storage.html">storage</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/data.html">data</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/baking.html">baking</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/venezuela.html">venezuela</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/zen.html">zen</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/meditation.html">meditation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/music.html">music</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/awareness.html">awareness</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/mindfulness.html">mindfulness</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/body-mind.html">body-mind</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/balance.html">balance</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ethics.html">ethics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/morality.html">morality</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/change.html">change</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/linux.html">linux</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ubuntu.html">ubuntu</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/pulseaudio.html">pulseaudio</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/audio.html">audio</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/troubleshooting.html">troubleshooting</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/economics.html">economics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/currency.html">currency</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/bolivar.html">bolivar</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/devaluation.html">devaluation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/migration.html">migration</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/bluetooth.html">bluetooth</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/vpn.html">vpn</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/windows-xp.html">windows-xp</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/virtualization.html">virtualization</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/faith.html">faith</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/software-engineering.html">software-engineering</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/project-management.html">project-management</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/agile.html">agile</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/software-design.html">software-design</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/quality.html">quality</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/planning.html">planning</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/art.html">art</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/fencing.html">fencing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/sports.html">sports</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/martial-arts.html">martial-arts</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/children.html">children</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/creativity.html">creativity</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/education.html">education</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/aesthetics.html">aesthetics</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/casserole.html">casserole</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/soup.html">soup</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/french-cuisine.html">french-cuisine</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/onions.html">onions</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/inflation.html">inflation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/oil.html">oil</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/wikipedia.html">wikipedia</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/language.html">language</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/knowledge.html">knowledge</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/society.html">society</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/privacy.html">privacy</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/social-media.html">social-media</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/humor.html">humor</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/family.html">family</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/communication.html">communication</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/orwell.html">orwell</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/language-control.html">language-control</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/media.html">media</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/propaganda.html">propaganda</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/sandwich.html">sandwich</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/caprese.html">caprese</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/timezone.html">timezone</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/sysadmin.html">sysadmin</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/configuration.html">configuration</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/kvm.html">kvm</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/intellectual-property.html">intellectual-property</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/photography.html">photography</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/sensor-technology.html">sensor-technology</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/digital-photography.html">digital-photography</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/imaging.html">imaging</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/kodak.html">kodak</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/innovation.html">innovation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/peer-review.html">peer-review</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/code-quality.html">code-quality</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/best-practices.html">best-practices</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/java.html">java</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/tooling.html">tooling</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/bilingual.html">bilingual</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/translation.html">translation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/chavismo.html">chavismo</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/street-photography.html">street-photography</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/death.html">death</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/urban.html">urban</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/still-life.html">still-life</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/urban-art.html">urban-art</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/cvs.html">cvs</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/version-control.html">version-control</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/film-scanning.html">film-scanning</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/35mm-film.html">35mm-film</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/resolution.html">resolution</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/digital-conversion.html">digital-conversion</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/tequenos.html">tequenos</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/cheese.html">cheese</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/appetizers.html">appetizers</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/raw-format.html">raw-format</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/image-processing.html">image-processing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/technique.html">technique</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/black-and-white.html">black-and-white</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/film-photography.html">film-photography</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/seafood.html">seafood</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/salmon.html">salmon</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/ceviche.html">ceviche</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/development.html">development</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/text-processing.html">text-processing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/testing.html">testing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/delphi.html">delphi</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/microsoft.html">microsoft</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/software.html">software</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/history.html">history</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/licensing.html">licensing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/beanshell.html">beanshell</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/patents.html">patents</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/business.html">business</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/strategy.html">strategy</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/publishing.html">publishing</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/automation.html">automation</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/future.html">future</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/information-age.html">information-age</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/globalization.html">globalization</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/computer-memory.html">computer-memory</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/email.html">email</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/programming-languages.html">programming-languages</a></li>
+                                                                <li><a href="https://neogeny.github.io/blog/tag/computing.html">computing</a></li>
+						        </ul>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+
+<div id="footer">
+	<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	<p>Powered by <a href="http://getpelican.com/">Pelican</a>.</p>
+</div>
+</body>
+</html>

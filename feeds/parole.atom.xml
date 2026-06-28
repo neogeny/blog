@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - parole</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/parole.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-12-05T00:00:00-04:30</updated><entry><title>Recíbeme</title><link href="https://neogeny.github.io/blog/recibeme.html" rel="alternate"/><published>2013-12-05T00:00:00-04:30</published><updated>2013-12-05T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-12-05:/blog/recibeme.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;por Ilan Chester&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - parole</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/parole.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-12-05T00:00:00-04:30</updated><entry><title>Recíbeme</title><link href="https://neogeny.github.io/blog/recibeme.html" rel="alternate"/><published>2013-12-05T00:00:00-04:30</published><updated>2013-12-05T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-12-05:/blog/recibeme.html</id><summary type="html">&lt;p&gt;&lt;em&gt;por Ilan Chester&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
@@ -26,10 +23,7 @@
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Será la edad?&lt;/div&gt;
 &lt;div class="line"&gt;Serán los tiempos tan difíciles de hoy día?&lt;/div&gt;
-&lt;div class="line"&gt;Será la sed de independencia tuya y …&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;por Ilan Chester&lt;/em&gt;&lt;/p&gt;
+&lt;div class="line"&gt;Será la sed de independencia tuya y …&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;por Ilan Chester&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
@@ -116,10 +110,7 @@
 &lt;div class="line"&gt;Recíbeme...&lt;/div&gt;
 &lt;/div&gt;
 &lt;/blockquote&gt;
-</content><category term="parole"/></entry><entry><title>Common Area</title><link href="https://neogeny.github.io/blog/common-area.html" rel="alternate"/><published>2013-05-21T00:00:00-04:30</published><updated>2013-05-21T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-21:/blog/common-area.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="parole"/><category term="poetry"/><category term="song-lyrics"/><category term="love"/><category term="spanish"/></entry><entry><title>Common Area</title><link href="https://neogeny.github.io/blog/common-area.html" rel="alternate"/><published>2013-05-21T00:00:00-04:30</published><updated>2013-05-21T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-21:/blog/common-area.html</id><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Don't tease, I won't stray, to&lt;/div&gt;
 &lt;div class="line"&gt;Follow this walk, The Way&lt;/div&gt;
@@ -130,10 +121,7 @@
 &lt;div class="line"&gt;Lo, behold, in all his might! The&lt;/div&gt;
 &lt;div class="line"&gt;King wears no clothes&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="parole"/></entry><entry><title>Home</title><link href="https://neogeny.github.io/blog/home.html" rel="alternate"/><published>2013-05-15T00:00:00-04:30</published><updated>2013-05-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-15:/blog/home.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="parole"/><category term="poetry"/><category term="original-poetry"/><category term="english"/><category term="reflection"/></entry><entry><title>Home</title><link href="https://neogeny.github.io/blog/home.html" rel="alternate"/><published>2013-05-15T00:00:00-04:30</published><updated>2013-05-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-15:/blog/home.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;When in doubt, seek Honey&lt;/div&gt;
 &lt;div class="line"&gt;Honey's always home&lt;/div&gt;
 &lt;div class="line"&gt;If you meet The Wicked Witch of West&lt;/div&gt;
@@ -142,10 +130,7 @@
 &lt;div class="line"&gt;'Cause home ain't where you are&lt;/div&gt;
 &lt;div class="line"&gt;It's where you want to be&lt;/div&gt;
 &lt;div class="line"&gt;When The Red Queen of Hearts is near&lt;/div&gt;
-&lt;div class="line"&gt;Paint a …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Paint a …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;When in doubt, seek Honey&lt;/div&gt;
 &lt;div class="line"&gt;Honey's always home&lt;/div&gt;
 &lt;div class="line"&gt;If you meet The Wicked Witch of West&lt;/div&gt;
@@ -165,17 +150,11 @@
 &lt;/div&gt;
 &lt;blockquote&gt;
 &lt;em&gt;for Tom, who sometimes forgets where his Honey is.&lt;/em&gt;&lt;/blockquote&gt;
-</content><category term="parole"/></entry><entry><title>Tiene que acabar</title><link href="https://neogeny.github.io/blog/tiene-que-acabar.html" rel="alternate"/><published>2013-03-31T00:00:00-04:30</published><updated>2013-03-31T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-03-31:/blog/tiene-que-acabar.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Mira,&lt;/p&gt;
+</content><category term="parole"/><category term="poetry"/><category term="home"/><category term="courage"/><category term="english"/></entry><entry><title>Tiene que acabar</title><link href="https://neogeny.github.io/blog/tiene-que-acabar.html" rel="alternate"/><published>2013-03-31T00:00:00-04:30</published><updated>2013-03-31T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-03-31:/blog/tiene-que-acabar.html</id><summary type="html">&lt;p&gt;Mira,&lt;/p&gt;
 &lt;p&gt;Hace tiempo que quiero hablar contigo, pero en serio, no así, de vez
 en cuando, &amp;nbsp;y sobre pendejadas, como si no pasara nada.&lt;/p&gt;
 &lt;p&gt;Esta vaina tiene que acabar. Me refiero a esta conexión maldita que
-transgrede el tiempo y el espacio, y que hace que yo me sienta mal …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Mira,&lt;/p&gt;
+transgrede el tiempo y el espacio, y que hace que yo me sienta mal …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Mira,&lt;/p&gt;
 &lt;p&gt;Hace tiempo que quiero hablar contigo, pero en serio, no así, de vez
 en cuando, &amp;nbsp;y sobre pendejadas, como si no pasara nada.&lt;/p&gt;
 &lt;p&gt;Esta vaina tiene que acabar. Me refiero a esta conexión maldita que
@@ -189,10 +168,7 @@ puedo tolerar, y por eso te reclamo.&lt;/p&gt;
 &lt;p&gt;Esto tiene que acabar...&lt;/p&gt;
 &lt;p&gt;Mejor me despido&lt;/p&gt;
 &lt;p&gt;Adiós&lt;/p&gt;
-</content><category term="parole"/></entry><entry><title>Semana Santa</title><link href="https://neogeny.github.io/blog/semana-santa.html" rel="alternate"/><published>2013-03-30T00:00:00-04:30</published><updated>2013-03-30T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-03-30:/blog/semana-santa.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="parole"/><category term="poetry"/><category term="personal"/><category term="relationships"/><category term="spanish"/></entry><entry><title>Semana Santa</title><link href="https://neogeny.github.io/blog/semana-santa.html" rel="alternate"/><published>2013-03-30T00:00:00-04:30</published><updated>2013-03-30T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-03-30:/blog/semana-santa.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Hay quienes no fueron&lt;/div&gt;
 &lt;div class="line"&gt;bautizados con agua&lt;/div&gt;
 &lt;div class="line"&gt;sino con saber&lt;/div&gt;
@@ -209,10 +185,7 @@ puedo tolerar, y por eso te reclamo.&lt;/p&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Que quien odia es capaz&lt;/div&gt;
 &lt;div class="line"&gt;de entablar&lt;/div&gt;
-&lt;div class="line"&gt;a quien habla de justicia y paz …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;a quien habla de justicia y paz …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Hay quienes no fueron&lt;/div&gt;
 &lt;div class="line"&gt;bautizados con agua&lt;/div&gt;
 &lt;div class="line"&gt;sino con saber&lt;/div&gt;
@@ -242,15 +215,9 @@ puedo tolerar, y por eso te reclamo.&lt;/p&gt;
 &lt;div class="line"&gt;es de rebelión!&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;(Anónimo)&lt;/p&gt;
-</content><category term="parole"/></entry><entry><title>Body and mind</title><link href="https://neogeny.github.io/blog/body-and-mind.html" rel="alternate"/><published>2010-10-29T00:00:00-04:30</published><updated>2010-10-29T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-10-29:/blog/body-and-mind.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;In the union between the body and the mind, the body vowed to pay more
+</content><category term="parole"/><category term="poetry"/><category term="easter"/><category term="religion"/><category term="politics"/><category term="spanish"/></entry><entry><title>Body and mind</title><link href="https://neogeny.github.io/blog/body-and-mind.html" rel="alternate"/><published>2010-10-29T00:00:00-04:30</published><updated>2010-10-29T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-10-29:/blog/body-and-mind.html</id><content type="html">&lt;p&gt;In the union between the body and the mind, the body vowed to pay more
 attention, and the mind vowed to sleep more.&lt;/p&gt;
-</content><category term="parole"/></entry><entry><title>El amor</title><link href="https://neogeny.github.io/blog/el-amor.html" rel="alternate"/><published>2010-09-28T00:00:00-04:30</published><updated>2010-09-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-09-28:/blog/el-amor.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="parole"/><category term="poetry"/><category term="mindfulness"/><category term="body-mind"/><category term="balance"/></entry><entry><title>El amor</title><link href="https://neogeny.github.io/blog/el-amor.html" rel="alternate"/><published>2010-09-28T00:00:00-04:30</published><updated>2010-09-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-09-28:/blog/el-amor.html</id><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;El amor no es un credo,&lt;/div&gt;
 &lt;div class="line"&gt;ni un compromiso,&lt;/div&gt;
 &lt;div class="line"&gt;ni un acuerdo,&lt;/div&gt;
@@ -260,10 +227,7 @@ attention, and the mind vowed to sleep more.&lt;/p&gt;
 &lt;div class="line"&gt;y la palabra &amp;quot;desamor&amp;quot;&lt;/div&gt;
 &lt;div class="line"&gt;un oxímoron.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="parole"/></entry><entry><title>Gregorio el Ogro</title><link href="https://neogeny.github.io/blog/gregorio-el-ogro.html" rel="alternate"/><published>2008-05-23T00:00:00-04:30</published><updated>2008-05-23T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2008-05-23:/blog/gregorio-el-ogro.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/gregorio_el_ogro_peq.png" /&gt;&lt;/p&gt;
+</content><category term="parole"/><category term="poetry"/><category term="love"/><category term="spanish"/><category term="philosophy"/></entry><entry><title>Gregorio el Ogro</title><link href="https://neogeny.github.io/blog/gregorio-el-ogro.html" rel="alternate"/><published>2008-05-23T00:00:00-04:30</published><updated>2008-05-23T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2008-05-23:/blog/gregorio-el-ogro.html</id><summary type="html">&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/gregorio_el_ogro_peq.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Cuando mi hija estaba comenzando a hablar corrido, estaba
 medio peleada con las erres, así que le escribimos este poema para que
 practicara.&lt;/p&gt;
@@ -277,10 +241,7 @@ practicara.&lt;/p&gt;
 &lt;div class="line"&gt;pero tenía hambre.&lt;/div&gt;
 &lt;div class="line"&gt;Soñaba con leche agria&lt;/div&gt;
 &lt;div class="line"&gt;y un suculento bagre.&lt;/div&gt;
-&lt;div class="line"&gt;La tripa le …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/gregorio_el_ogro_peq.png" /&gt;&lt;/p&gt;
+&lt;div class="line"&gt;La tripa le …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/gregorio_el_ogro_peq.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Cuando mi hija estaba comenzando a hablar corrido, estaba
 medio peleada con las erres, así que le escribimos este poema para que
 practicara.&lt;/p&gt;
@@ -317,4 +278,4 @@ practicara.&lt;/p&gt;
 &lt;div class="line"&gt;Le supo sabroso&lt;/div&gt;
 &lt;div class="line"&gt;y otra vez se alegró.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="parole"/></entry></feed>
+</content><category term="parole"/><category term="poetry"/><category term="children"/><category term="spanish"/><category term="humor"/><category term="family"/></entry></feed>

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - mens</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/mens.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-08-17T00:00:00-04:30</updated><entry><title>La Fauna</title><link href="https://neogeny.github.io/blog/la-fauna.html" rel="alternate"/><published>2013-08-17T00:00:00-04:30</published><updated>2013-08-17T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-08-17:/blog/la-fauna.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Jorge, quien no para de hablar con sus fantasmas.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - mens</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/mens.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-08-17T00:00:00-04:30</updated><entry><title>La Fauna</title><link href="https://neogeny.github.io/blog/la-fauna.html" rel="alternate"/><published>2013-08-17T00:00:00-04:30</published><updated>2013-08-17T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-08-17:/blog/la-fauna.html</id><summary type="html">&lt;p&gt;Jorge, quien no para de hablar con sus fantasmas.&lt;/p&gt;
 &lt;p&gt;Alberto, financista, abogado, programador, y quién sabe cuántas cosas
 más, escribió un programa en PL/I para IBM, no para diseñar máquinas de
 escribir, sino Jets de combate.&lt;/p&gt;
 &lt;p&gt;Virginia (por ponerle un nombre) llevaba un fajo de papeles
-desvencijados en la …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Jorge, quien no para de hablar con sus fantasmas.&lt;/p&gt;
+desvencijados en la …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Jorge, quien no para de hablar con sus fantasmas.&lt;/p&gt;
 &lt;p&gt;Alberto, financista, abogado, programador, y quién sabe cuántas cosas
 más, escribió un programa en PL/I para IBM, no para diseñar máquinas de
 escribir, sino Jets de combate.&lt;/p&gt;
@@ -113,17 +107,11 @@ comer, repetir. Él no juega dominó.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="mens"/></entry><entry><title>La Mente</title><link href="https://neogeny.github.io/blog/la-mente.html" rel="alternate"/><published>2012-12-07T00:00:00-04:30</published><updated>2012-12-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2012-12-07:/blog/la-mente.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Me resulta perturbantemente paradójico que una mente genial y una
+</content><category term="mens"/><category term="mind"/><category term="mental-health"/><category term="storytelling"/><category term="daily-life"/></entry><entry><title>La Mente</title><link href="https://neogeny.github.io/blog/la-mente.html" rel="alternate"/><published>2012-12-07T00:00:00-04:30</published><updated>2012-12-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2012-12-07:/blog/la-mente.html</id><summary type="html">&lt;p&gt;Me resulta perturbantemente paradójico que una mente genial y una
 personalidad sin par como las de Simón Díaz pase sus última época en la
 disminución mental de la senilidad.&lt;/p&gt;
 &lt;p&gt;Quiero buscarle significado a esto, pero no lo consigo.&lt;/p&gt;
-&lt;p&gt;¿No debería a alguien así fallarle primero el corazón, o el paso …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Me resulta perturbantemente paradójico que una mente genial y una
+&lt;p&gt;¿No debería a alguien así fallarle primero el corazón, o el paso …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Me resulta perturbantemente paradójico que una mente genial y una
 personalidad sin par como las de Simón Díaz pase sus última época en la
 disminución mental de la senilidad.&lt;/p&gt;
 &lt;p&gt;Quiero buscarle significado a esto, pero no lo consigo.&lt;/p&gt;
@@ -139,29 +127,20 @@ efecto se dedica por el resto de la eternidad a buscar la manera de
 acabar con la existencia de El Creador... para así poder acabar con la
 suya.&lt;/p&gt;
 &lt;p&gt;Inquiring minds want to know...&lt;/p&gt;
-</content><category term="mens"/></entry><entry><title>Zen</title><link href="https://neogeny.github.io/blog/zen.html" rel="alternate"/><published>2010-11-13T00:00:00-04:30</published><updated>2010-11-13T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-11-13:/blog/zen.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;img alt="Zen" src="https://neogeny.github.io/blog/images/zen_sm1.jpg" /&gt;&lt;/p&gt;
+</content><category term="mens"/><category term="mind"/><category term="aging"/><category term="philosophy"/><category term="consciousness"/><category term="mortality"/></entry><entry><title>Zen</title><link href="https://neogeny.github.io/blog/zen.html" rel="alternate"/><published>2010-11-13T00:00:00-04:30</published><updated>2010-11-13T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-11-13:/blog/zen.html</id><content type="html">&lt;p&gt;&lt;img alt="Zen" src="https://neogeny.github.io/blog/images/zen_sm1.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Estás trabajando en el bunker con la computadora puesta a tocar
 las 6782 canciones en forma aleatoria, Eminem, Beatles, Dimensión
 Latina, Chopin, ...&lt;/p&gt;
 &lt;p&gt;Vas a hacer pipí y a reponer la hidratación y dejas la música sonando
 en el solitario bunker.&lt;/p&gt;
 &lt;p&gt;¿Qué música sonó durante tu ausencia?&lt;/p&gt;
-</content><category term="mens"/></entry><entry><title>18</title><link href="https://neogeny.github.io/blog/18.html" rel="alternate"/><published>2007-10-05T00:00:00-04:00</published><updated>2007-10-05T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-10-05:/blog/18.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;En la imprescindible novela 1984 de George Orwell, el &amp;quot;Gran Hermano&amp;quot;,
+</content><category term="mens"/><category term="mind"/><category term="zen"/><category term="meditation"/><category term="reflection"/><category term="music"/><category term="awareness"/></entry><entry><title>18</title><link href="https://neogeny.github.io/blog/18.html" rel="alternate"/><published>2007-10-05T00:00:00-04:00</published><updated>2007-10-05T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-10-05:/blog/18.html</id><summary type="html">&lt;p&gt;En la imprescindible novela 1984 de George Orwell, el &amp;quot;Gran Hermano&amp;quot;,
 un ícono videográfico, controla el pensar y hacer de las masas con dos
 estrategias:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;El control del lenguaje a travéz de la obligatoriedad del uso de la
 &amp;quot;neolengua&amp;quot;&lt;/li&gt;
-&lt;li&gt;El control de la historia antigua, pasada, y reciente a travéz …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;En la imprescindible novela 1984 de George Orwell, el &amp;quot;Gran Hermano&amp;quot;,
+&lt;li&gt;El control de la historia antigua, pasada, y reciente a travéz …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;En la imprescindible novela 1984 de George Orwell, el &amp;quot;Gran Hermano&amp;quot;,
 un ícono videográfico, controla el pensar y hacer de las masas con dos
 estrategias:&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -173,4 +152,4 @@ control de los medios de información.&lt;/li&gt;
 &lt;p&gt;A continuación un ejemplo bastante cercano a la realidad de cómo ese
 tipo de controles son ejercidos sobre nosotros hoy en día:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.youtube.com/v/cI9e0OCUirQ"&gt;http://www.youtube.com/v/cI9e0OCUirQ&lt;/a&gt;&lt;/p&gt;
-</content><category term="mens"/></entry></feed>
+</content><category term="mens"/><category term="mind"/><category term="politics"/><category term="orwell"/><category term="language-control"/><category term="media"/><category term="propaganda"/></entry></feed>

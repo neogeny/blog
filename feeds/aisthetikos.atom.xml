@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - aisthetikos</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/aisthetikos.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2009-06-15T00:00:00-04:30</updated><entry><title>Arte en los niños</title><link href="https://neogeny.github.io/blog/arte-en-los-ninos.html" rel="alternate"/><published>2009-06-15T00:00:00-04:30</published><updated>2009-06-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-06-15:/blog/arte-en-los-ninos.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Cora escribe sobre arte en los niños.&lt;/p&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Panchromatic pixels in sensor arrays</title><link href="https://neogeny.github.io/blog/panchromatic-pixels-in-sensor-arrays.html" rel="alternate"/><published>2007-06-16T00:00:00-04:00</published><updated>2007-06-16T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-06-16:/blog/panchromatic-pixels-in-sensor-arrays.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;A friend pointed me to a
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - aisthetikos</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/aisthetikos.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2009-06-15T00:00:00-04:30</updated><entry><title>Arte en los niños</title><link href="https://neogeny.github.io/blog/arte-en-los-ninos.html" rel="alternate"/><published>2009-06-15T00:00:00-04:30</published><updated>2009-06-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-06-15:/blog/arte-en-los-ninos.html</id><content type="html">&lt;p&gt;Cora escribe sobre arte en los niños.&lt;/p&gt;
+</content><category term="aisthetikos"/><category term="art"/><category term="children"/><category term="creativity"/><category term="education"/><category term="aesthetics"/></entry><entry><title>Panchromatic pixels in sensor arrays</title><link href="https://neogeny.github.io/blog/panchromatic-pixels-in-sensor-arrays.html" rel="alternate"/><published>2007-06-16T00:00:00-04:00</published><updated>2007-06-16T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-06-16:/blog/panchromatic-pixels-in-sensor-arrays.html</id><summary type="html">&lt;p&gt;A friend pointed me to a
 &lt;a class="reference external" href="http://johncompton.1000nerds.kodak.com/default.asp?item=624876"&gt;Kodak announcement&lt;/a&gt;
 about new filter-array patterns for digital camera sensors. In short,
 what they do is to add
@@ -14,10 +8,7 @@ what they do is to add
 pixels to
 the filter array patterns.&lt;/p&gt;
 &lt;p&gt;I don't see a breakthrough because adding specialized pixels (for
-luminosity in this case) is an obvious evolution when …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;A friend pointed me to a
+luminosity in this case) is an obvious evolution when …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A friend pointed me to a
 &lt;a class="reference external" href="http://johncompton.1000nerds.kodak.com/default.asp?item=624876"&gt;Kodak announcement&lt;/a&gt;
 about new filter-array patterns for digital camera sensors. In short,
 what they do is to add
@@ -34,10 +25,7 @@ resolution of 35mm film. Each additional mega pixel can be used to
 capture more and more specific information, and nothing prevents
 manufacturers from using sensors lager than 35mm.&lt;/p&gt;
 &lt;p&gt;The days of film as the paradigm of captured image quality are over.&lt;/p&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Para Amanda Nicole Beatriz Selene Valentina Alejandra Pamela</title><link href="https://neogeny.github.io/blog/para-amanda-nicole-beatriz-selene-valentina-alejandra-pamela.html" rel="alternate"/><published>2006-11-06T00:00:00-04:00</published><updated>2006-11-06T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-11-06:/blog/para-amanda-nicole-beatriz-selene-valentina-alejandra-pamela.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="aisthetikos"/><category term="photography"/><category term="sensor-technology"/><category term="digital-photography"/><category term="imaging"/><category term="kodak"/><category term="innovation"/></entry><entry><title>Para Amanda Nicole Beatriz Selene Valentina Alejandra Pamela</title><link href="https://neogeny.github.io/blog/para-amanda-nicole-beatriz-selene-valentina-alejandra-pamela.html" rel="alternate"/><published>2006-11-06T00:00:00-04:00</published><updated>2006-11-06T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-11-06:/blog/para-amanda-nicole-beatriz-selene-valentina-alejandra-pamela.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="line-block"&gt;
@@ -111,10 +99,7 @@ manufacturers from using sensors lager than 35mm.&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;I don't care no I wouldn't …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+&lt;p&gt;I don't care no I wouldn't …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="line-block"&gt;
@@ -979,10 +964,7 @@ manufacturers from using sensors lager than 35mm.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;nota:&lt;/strong&gt; &lt;em&gt;Los abrazos por este lado siempre han sido, y siguen siendo
 gratis.&lt;/em&gt;&lt;/p&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Gata Muerta</title><link href="https://neogeny.github.io/blog/gata-muerta.html" rel="alternate"/><published>2006-09-24T00:00:00-04:00</published><updated>2006-09-24T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-24:/blog/gata-muerta.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="aisthetikos"/><category term="poetry"/><category term="song-lyrics"/><category term="bilingual"/><category term="translation"/><category term="love"/></entry><entry><title>Gata Muerta</title><link href="https://neogeny.github.io/blog/gata-muerta.html" rel="alternate"/><published>2006-09-24T00:00:00-04:00</published><updated>2006-09-24T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-24:/blog/gata-muerta.html</id><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/gata_muerta.jpg" /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
@@ -991,19 +973,13 @@ O la falta de pudor...&lt;/blockquote&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Será que ando en una nota necrofílica?&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Dead Fish</title><link href="https://neogeny.github.io/blog/dead-fish.html" rel="alternate"/><published>2006-09-11T00:00:00-04:00</published><updated>2006-09-11T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-11:/blog/dead-fish.html</id><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="aisthetikos"/><category term="photography"/><category term="street-photography"/><category term="death"/><category term="urban"/><category term="art"/></entry><entry><title>Dead Fish</title><link href="https://neogeny.github.io/blog/dead-fish.html" rel="alternate"/><published>2006-09-11T00:00:00-04:00</published><updated>2006-09-11T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-11:/blog/dead-fish.html</id><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/dead_fish.jpg" /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Scanning 35mm film</title><link href="https://neogeny.github.io/blog/scanning-35mm-film.html" rel="alternate"/><published>2006-08-20T00:00:00-04:00</published><updated>2006-08-20T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-08-20:/blog/scanning-35mm-film.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;About why to design before implementing&lt;/em&gt;&lt;/p&gt;
+</content><category term="aisthetikos"/><category term="photography"/><category term="still-life"/><category term="urban-art"/></entry><entry><title>Scanning 35mm film</title><link href="https://neogeny.github.io/blog/scanning-35mm-film.html" rel="alternate"/><published>2006-08-20T00:00:00-04:00</published><updated>2006-08-20T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-08-20:/blog/scanning-35mm-film.html</id><summary type="html">&lt;p&gt;&lt;em&gt;About why to design before implementing&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Yesterday I gave a shot at trying to scan some of the 35mm negatives
 of my old
 &lt;a class="reference external" href="https://neogeny.github.io/blog/black-and-white.html"&gt;Black&amp;amp;White&lt;/a&gt;
@@ -1011,10 +987,7 @@ photos using a 1200 DPI flat-bed scanner. It failed misserably:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;The scan showed severe &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Moire"&gt;Moiré&lt;/a&gt;
 and other kinds of noise in the pictures.&lt;/li&gt;
-&lt;li&gt;The sizes …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;About why to design before implementing&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;The sizes …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;About why to design before implementing&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Yesterday I gave a shot at trying to scan some of the 35mm negatives
 of my old
 &lt;a class="reference external" href="https://neogeny.github.io/blog/black-and-white.html"&gt;Black&amp;amp;White&lt;/a&gt;
@@ -1070,20 +1043,14 @@ DPI to sample a 35mm negative without bias.&lt;/p&gt;
 &lt;p&gt;Guess what? The resoluiton of specialized 35mm film scanners is of above
 7000 DPI…&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="aisthetikos"/></entry><entry><title>RAW Mode</title><link href="https://neogeny.github.io/blog/raw-mode.html" rel="alternate"/><published>2006-06-23T00:00:00-04:00</published><updated>2006-06-23T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-06-23:/blog/raw-mode.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;The less, the better&lt;/em&gt;&lt;/p&gt;
+</content><category term="aisthetikos"/><category term="photography"/><category term="film-scanning"/><category term="35mm-film"/><category term="resolution"/><category term="digital-conversion"/></entry><entry><title>RAW Mode</title><link href="https://neogeny.github.io/blog/raw-mode.html" rel="alternate"/><published>2006-06-23T00:00:00-04:00</published><updated>2006-06-23T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-06-23:/blog/raw-mode.html</id><summary type="html">&lt;p&gt;&lt;em&gt;The less, the better&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;According to
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/RAW_image_format"&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 A &lt;strong&gt;raw image file&lt;/strong&gt; contains minimally processed data from the
 image sensor of a digital camera or image scanner. Raw files are so
 named because they are not yet processed and ready to use by a
-bitmap graphics editor, printed, or displayed by …&lt;/blockquote&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;The less, the better&lt;/em&gt;&lt;/p&gt;
+bitmap graphics editor, printed, or displayed by …&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;The less, the better&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;According to
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/RAW_image_format"&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1120,17 +1087,11 @@ to shoot and transfer your pictures in &lt;em&gt;RAW&lt;/em&gt; format.&lt;/p&gt
 &lt;p&gt;For a nice explanation of the whys and the trade-offs, read the
 &lt;a class="reference external" href="http://www.luminous-landscape.com/tutorials/understanding-series/u-raw-files.shtml"&gt;Understanding Raw Files&lt;/a&gt;
 article by photographer &lt;a class="reference external" href="http://www.luminous-landscape.com/"&gt;Michael Reichmann&lt;/a&gt;.&lt;/p&gt;
-</content><category term="aisthetikos"/></entry><entry><title>Black and White</title><link href="https://neogeny.github.io/blog/black-and-white.html" rel="alternate"/><published>2006-06-22T00:00:00-04:00</published><updated>2006-06-22T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-06-22:/blog/black-and-white.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;The lost beauty&lt;/em&gt;&lt;/p&gt;
+</content><category term="aisthetikos"/><category term="photography"/><category term="raw-format"/><category term="digital-photography"/><category term="image-processing"/><category term="technique"/></entry><entry><title>Black and White</title><link href="https://neogeny.github.io/blog/black-and-white.html" rel="alternate"/><published>2006-06-22T00:00:00-04:00</published><updated>2006-06-22T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-06-22:/blog/black-and-white.html</id><summary type="html">&lt;p&gt;&lt;em&gt;The lost beauty&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/simon_bw.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;My first serious attempts at good fotography where with black and white.  I cannot tell now if it was the artistic nature of B&amp;amp;W of photography or it's easiness over budget which dominated, but I'm sure both were
 involved.&lt;/p&gt;
-&lt;p&gt;Today, I'm getting my self ready to …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;The lost beauty&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today, I'm getting my self ready to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;The lost beauty&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/simon_bw.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;My first serious attempts at good fotography where with black and white.  I cannot tell now if it was the artistic nature of B&amp;amp;W of photography or it's easiness over budget which dominated, but I'm sure both were
 involved.&lt;/p&gt;
@@ -1155,4 +1116,4 @@ unos tonos grises bellos.&lt;/p&gt;
 como hacer las cosas. Depende del artista, de como usa las
 herramientas que tiene disponibles.&lt;/p&gt;
 &lt;/blockquote&gt;
-</content><category term="aisthetikos"/></entry></feed>
+</content><category term="aisthetikos"/><category term="photography"/><category term="black-and-white"/><category term="digital-photography"/><category term="film-photography"/><category term="art"/><category term="technique"/></entry></feed>

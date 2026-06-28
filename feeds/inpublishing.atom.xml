@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - inpublishing</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/inpublishing.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2000-06-19T00:00:00-04:00</updated><entry><title>Snake charming</title><link href="https://neogeny.github.io/blog/snake-charming.html" rel="alternate"/><published>2000-06-19T00:00:00-04:00</published><updated>2000-06-19T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2000-06-19:/blog/snake-charming.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - inpublishing</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/inpublishing.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2000-06-19T00:00:00-04:00</updated><entry><title>Snake charming</title><link href="https://neogeny.github.io/blog/snake-charming.html" rel="alternate"/><published>2000-06-19T00:00:00-04:00</published><updated>2000-06-19T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2000-06-19:/blog/snake-charming.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
 little.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today I spent the whole afternoon with a snake. I've known Python for
 several years now -- the oldest version of Python on my hard drive is v.
-1.3, dated March 1996 -- and I've studied and played with …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
+1.3, dated March 1996 -- and I've studied and played with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Like the reptile it's named after, Python squishes problems little by
 little.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today I spent the whole afternoon with a snake. I've known Python for
 several years now -- the oldest version of Python on my hard drive is v.
@@ -177,18 +171,12 @@ that could possibly work.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Xtreme testing for Delphi programs</title><link href="https://neogeny.github.io/blog/xtreme-testing-for-delphi-programs.html" rel="alternate"/><published>1999-11-28T00:00:00-04:00</published><updated>1999-11-28T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-28:/blog/xtreme-testing-for-delphi-programs.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
+</content><category term="inpublishing"/><category term="programming"/><category term="python"/><category term="open-source"/><category term="development"/><category term="text-processing"/></entry><entry><title>Xtreme testing for Delphi programs</title><link href="https://neogeny.github.io/blog/xtreme-testing-for-delphi-programs.html" rel="alternate"/><published>1999-11-28T00:00:00-04:00</published><updated>1999-11-28T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-28:/blog/xtreme-testing-for-delphi-programs.html</id><summary type="html">&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
 there is one and it's even open source.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In my &lt;a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html"&gt;article&lt;/a&gt; on
 Xtreme testing, I talked about how it could improve the quality of
 programs as well as the speed and confidence with which they were
-developed. For the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
+developed. For the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;A standard testing framework for Delphi has been long overdue. Now
 there is one and it's even open source.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In my &lt;a class="reference external" href="http://www.neogeny.org/writings/1999-10-18.html"&gt;article&lt;/a&gt; on
 Xtreme testing, I talked about how it could improve the quality of
@@ -386,18 +374,12 @@ forget about expressing thanks. Pay forward.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>The monopoly monster</title><link href="https://neogeny.github.io/blog/the-monopoly-monster.html" rel="alternate"/><published>1999-11-21T00:00:00-04:00</published><updated>1999-11-21T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-21:/blog/the-monopoly-monster.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
+</content><category term="inpublishing"/><category term="testing"/><category term="programming"/><category term="open-source"/><category term="development"/><category term="delphi"/></entry><entry><title>The monopoly monster</title><link href="https://neogeny.github.io/blog/the-monopoly-monster.html" rel="alternate"/><published>1999-11-21T00:00:00-04:00</published><updated>1999-11-21T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-21:/blog/the-monopoly-monster.html</id><summary type="html">&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
 gather the whole village to assault the castle with hoes and pitchforks?
 Burn it down with torches? Get real.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;James Whales' 1931 movie of Mary Shelley's
 &lt;a class="reference external" href="http://www.filmsite.org/fran.html"&gt;Frankenstein&lt;/a&gt; has become an
-icon of horror cinematography. Fulfilling his personal vision …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
+icon of horror cinematography. Fulfilling his personal vision …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;So Microsoft is a monopolistic monster. What are you going to do,
 gather the whole village to assault the castle with hoes and pitchforks?
 Burn it down with torches? Get real.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;James Whales' 1931 movie of Mary Shelley's
@@ -567,17 +549,11 @@ often tell our kids: just ignore the monster, and it will go away.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Java biking</title><link href="https://neogeny.github.io/blog/java-biking.html" rel="alternate"/><published>1999-11-14T00:00:00-04:00</published><updated>1999-11-14T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-14:/blog/java-biking.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
+</content><category term="inpublishing"/><category term="microsoft"/><category term="programming"/><category term="software"/><category term="technology"/><category term="history"/><category term="licensing"/></entry><entry><title>Java biking</title><link href="https://neogeny.github.io/blog/java-biking.html" rel="alternate"/><published>1999-11-14T00:00:00-04:00</published><updated>1999-11-14T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-14:/blog/java-biking.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
 be like driving the car to a nearby shopping mall. If you have ever
 imagined the equivalent of a Java bicycle, your fantasy may have come
 true with BeanShell v. 1.0.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I'd just moved to Davis, California, and …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
+&lt;p&gt;I'd just moved to Davis, California, and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Launching a full-blown IDE for a brief Java programming excursion can
 be like driving the car to a nearby shopping mall. If you have ever
 imagined the equivalent of a Java bicycle, your fantasy may have come
 true with BeanShell v. 1.0.&lt;/em&gt;&lt;/p&gt;
@@ -670,18 +646,12 @@ my Java bike was not just a fantasy after all.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Y2K: the beginning of the end?</title><link href="https://neogeny.github.io/blog/y2k-the-beginning-of-the-end.html" rel="alternate"/><published>1999-11-07T00:00:00-04:00</published><updated>1999-11-07T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-07:/blog/y2k-the-beginning-of-the-end.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
+</content><category term="inpublishing"/><category term="java"/><category term="programming"/><category term="open-source"/><category term="development"/><category term="beanshell"/></entry><entry><title>Y2K: the beginning of the end?</title><link href="https://neogeny.github.io/blog/y2k-the-beginning-of-the-end.html" rel="alternate"/><published>1999-11-07T00:00:00-04:00</published><updated>1999-11-07T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-11-07:/blog/y2k-the-beginning-of-the-end.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
 avalanche or help to end it?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As &lt;em&gt;Developer News&lt;/em&gt; correspondent Constance Petersen discussed in her
 &lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20002,00.html"&gt;article&lt;/a&gt;
 last week, 5 Nov. was Burn All GIFs Day. The protest was organized by a
-group of open-source developers and Webmasters opposed to the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
+group of open-source developers and Webmasters opposed to the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Will open source software development be smothered by the patents
 avalanche or help to end it?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As &lt;em&gt;Developer News&lt;/em&gt; correspondent Constance Petersen discussed in her
 &lt;a class="reference external" href="http://community.borland.com/devnews/article/1,1714,20002,00.html"&gt;article&lt;/a&gt;
@@ -813,18 +783,12 @@ patent craze.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Programmers or entrepreneurs?</title><link href="https://neogeny.github.io/blog/programmers-or-entrepreneurs.html" rel="alternate"/><published>1999-10-31T00:00:00-04:00</published><updated>1999-10-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-31:/blog/programmers-or-entrepreneurs.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
+</content><category term="inpublishing"/><category term="open-source"/><category term="licensing"/><category term="software"/><category term="technology"/><category term="history"/><category term="patents"/></entry><entry><title>Programmers or entrepreneurs?</title><link href="https://neogeny.github.io/blog/programmers-or-entrepreneurs.html" rel="alternate"/><published>1999-10-31T00:00:00-04:00</published><updated>1999-10-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-31:/blog/programmers-or-entrepreneurs.html</id><summary type="html">&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
 ways of earning profits, such as providing value-added services. New
 ways of making business out of open source are being invented every
 day.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&amp;quot;Amateurs!&amp;quot; That's what critics call open-source programmers. And
-sometimes they really mean &amp;quot;hackers&amp;quot;: those who lack the …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
+sometimes they really mean &amp;quot;hackers&amp;quot;: those who lack the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;When royalties are out of the question, programmers find innovative
 ways of earning profits, such as providing value-added services. New
 ways of making business out of open source are being invented every
 day.&lt;/em&gt;&lt;/p&gt;
@@ -1060,18 +1024,12 @@ do corporate programmers also need to re-evaluate their situation?&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>The lesson of Agincourt</title><link href="https://neogeny.github.io/blog/the-lesson-of-agincourt.html" rel="alternate"/><published>1999-10-24T00:00:00-04:00</published><updated>1999-10-24T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-24:/blog/the-lesson-of-agincourt.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
+</content><category term="inpublishing"/><category term="open-source"/><category term="programming"/><category term="software"/><category term="development"/><category term="business"/></entry><entry><title>The lesson of Agincourt</title><link href="https://neogeny.github.io/blog/the-lesson-of-agincourt.html" rel="alternate"/><published>1999-10-24T00:00:00-04:00</published><updated>1999-10-24T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-24:/blog/the-lesson-of-agincourt.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
 critics imagine. But whether they win or lose in the end, it's their
 story that inspires.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Giving away software is a &amp;quot;strategy of the weak.&amp;quot; At least most
 business analysts consider it so when comparing the strategy against the
-&amp;quot;embrace …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
+&amp;quot;embrace …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Open source programming underdogs may have more advantages than their
 critics imagine. But whether they win or lose in the end, it's their
 story that inspires.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Giving away software is a &amp;quot;strategy of the weak.&amp;quot; At least most
@@ -1185,16 +1143,10 @@ inspires, and will therefore last.&lt;/p&gt;
 &lt;p&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;
 Copyright © 1999 Inprise Corp.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Xtreme testing</title><link href="https://neogeny.github.io/blog/xtreme-testing.html" rel="alternate"/><published>1999-10-17T00:00:00-04:00</published><updated>1999-10-17T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-17:/blog/xtreme-testing.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
+</content><category term="inpublishing"/><category term="open-source"/><category term="programming"/><category term="software"/><category term="technology"/><category term="strategy"/></entry><entry><title>Xtreme testing</title><link href="https://neogeny.github.io/blog/xtreme-testing.html" rel="alternate"/><published>1999-10-17T00:00:00-04:00</published><updated>1999-10-17T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-17:/blog/xtreme-testing.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;You can't do it. You can't add the feature. It's too risky. You'd have
 to change a core part of the program, and who knows what kind of subtle
-bugs might creep in doing that! You got hold of the source code and …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
+bugs might creep in doing that! You got hold of the source code and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Extreme programmers brave the open source slopes.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;You can't do it. You can't add the feature. It's too risky. You'd have
 to change a core part of the program, and who knows what kind of subtle
 bugs might creep in doing that! You got hold of the source code and made
@@ -1308,18 +1260,12 @@ improve a piece of code without the fear of breaking it.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>Start the revolution without me</title><link href="https://neogeny.github.io/blog/start-the-revolution-without-me.html" rel="alternate"/><published>1999-10-10T00:00:00-04:00</published><updated>1999-10-10T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-10:/blog/start-the-revolution-without-me.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
+</content><category term="inpublishing"/><category term="testing"/><category term="programming"/><category term="open-source"/><category term="development"/><category term="java"/></entry><entry><title>Start the revolution without me</title><link href="https://neogeny.github.io/blog/start-the-revolution-without-me.html" rel="alternate"/><published>1999-10-10T00:00:00-04:00</published><updated>1999-10-10T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-10:/blog/start-the-revolution-without-me.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
 it right: Don't worry, keep hacking.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Everybody's talking about the &amp;quot;open software revolution.&amp;quot; From geek
 forums like SlashDot to academic journals like &lt;em&gt;Communications of the
 ACM,&lt;/em&gt; from the &lt;em&gt;New York Times&lt;/em&gt; to &lt;em&gt;The Wall Street Journal,&lt;/em&gt; everyone
-is saying that …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
+is saying that …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Confused by the ruckus over open-source software? Bobby McFerrin had
 it right: Don't worry, keep hacking.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Everybody's talking about the &amp;quot;open software revolution.&amp;quot; From geek
 forums like SlashDot to academic journals like &lt;em&gt;Communications of the
@@ -1397,17 +1343,11 @@ their effect will be evolutionary. Like always.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>The true meaning behind open source licenses</title><link href="https://neogeny.github.io/blog/the-true-meaning-behind-open-source-licenses.html" rel="alternate"/><published>1999-10-03T00:00:00-04:00</published><updated>1999-10-03T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-03:/blog/the-true-meaning-behind-open-source-licenses.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
+</content><category term="inpublishing"/><category term="open-source"/><category term="programming"/><category term="software"/><category term="technology"/><category term="publishing"/><category term="development"/></entry><entry><title>The true meaning behind open source licenses</title><link href="https://neogeny.github.io/blog/the-true-meaning-behind-open-source-licenses.html" rel="alternate"/><published>1999-10-03T00:00:00-04:00</published><updated>1999-10-03T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-10-03:/blog/the-true-meaning-behind-open-source-licenses.html</id><summary type="html">&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I develop software for a living, so my position regarding third-party
 software has always been pragmatic: consider the cost and evaluate how
 well each solution meets your requirements. Most open source software is
-licensed free of charge. But does software that is …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
+licensed free of charge. But does software that is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;What does all this licensing stuff really mean?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I develop software for a living, so my position regarding third-party
 software has always been pragmatic: consider the cost and evaluate how
 well each solution meets your requirements. Most open source software is
@@ -1600,18 +1540,12 @@ you know, and not all licenses are open source.&lt;/p&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry><entry><title>A true story</title><link href="https://neogeny.github.io/blog/a-true-story.html" rel="alternate"/><published>1999-09-26T00:00:00-04:00</published><updated>1999-09-26T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-09-26:/blog/a-true-story.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
+</content><category term="inpublishing"/><category term="licensing"/><category term="open-source"/><category term="programming"/><category term="software"/><category term="development"/></entry><entry><title>A true story</title><link href="https://neogeny.github.io/blog/a-true-story.html" rel="alternate"/><published>1999-09-26T00:00:00-04:00</published><updated>1999-09-26T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,1999-09-26:/blog/a-true-story.html</id><summary type="html">&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
 conversion.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Source code has been available for decades, long before the so-called
 &amp;quot;open source revolution&amp;quot; started. I have found value in using and
 writing open source software since I first began experimenting with open
-source solutions to critical business problems. It's …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
+source solutions to critical business problems. It's …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;What &amp;quot;revolution&amp;quot;? A long-term open source enthusiast describes his
 conversion.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Source code has been available for decades, long before the so-called
 &amp;quot;open source revolution&amp;quot; started. I have found value in using and
@@ -1691,4 +1625,4 @@ library as open source.&lt;/p&gt;
 &lt;div class="line"&gt;Originally written for &lt;em&gt;In Publishing LLC&lt;/em&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Copyright © 1999 Inprise Corp.&lt;/div&gt;
 &lt;/div&gt;
-</content><category term="inpublishing"/></entry></feed>
+</content><category term="inpublishing"/><category term="open-source"/><category term="programming"/><category term="version-control"/><category term="development"/><category term="history"/></entry></feed>

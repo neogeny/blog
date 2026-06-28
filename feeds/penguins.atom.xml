@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - penguins</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/penguins.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2010-04-07T00:00:00-04:30</updated><entry><title>Pulseaudio Sucks!</title><link href="https://neogeny.github.io/blog/pulseaudio-p-sucks.html" rel="alternate"/><published>2010-04-07T00:00:00-04:30</published><updated>2010-04-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-04-07:/blog/pulseaudio-p-sucks.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - penguins</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/penguins.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2010-04-07T00:00:00-04:30</updated><entry><title>Pulseaudio Sucks!</title><link href="https://neogeny.github.io/blog/pulseaudio-p-sucks.html" rel="alternate"/><published>2010-04-07T00:00:00-04:30</published><updated>2010-04-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-04-07:/blog/pulseaudio-p-sucks.html</id><summary type="html">&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
 it well either on Karmic or Lucid. Many people complain all over the Web
 about problems like the ones I've experienced:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Skips, skips, skips. Launch an apllication, skip; open a new page on
 the browser, skip; switch worskpaces, skip; do almost anything but
-stay …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
+stay …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Either that, or &lt;a class="reference external" href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; hasn't implemented
 it well either on Karmic or Lucid. Many people complain all over the Web
 about problems like the ones I've experienced:&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -55,17 +49,11 @@ same with Karmic. The feeling I get after having had to work hard to get
 my audio the way I wanted it is that having distributions couple to one
 specific option when there are many is very much agains the freedom to
 choose that has always characterized Linux.&lt;/p&gt;
-</content><category term="penguins"/></entry><entry><title>Update to Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/update-to-off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-14T00:00:00-04:30</published><updated>2009-10-14T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-14:/blog/update-to-off-xp-and-into-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="pulseaudio"/><category term="audio"/><category term="troubleshooting"/><category term="open-source"/></entry><entry><title>Update to Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/update-to-off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-14T00:00:00-04:30</published><updated>2009-10-14T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-14:/blog/update-to-off-xp-and-into-ubuntu.html</id><summary type="html">&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
 the machine due to my impatience. After a reinstall of 9.04, the upgrade
 to 9.10 went well. It took only a few hours (a similar attempt with
 Windows would have taken days).&lt;/p&gt;
-&lt;p&gt;Now the update …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
+&lt;p&gt;Now the update …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I decided to install the Ubuntu 9.10 (Karmic Koala) beta, and crashed
 the machine due to my impatience. After a reinstall of 9.04, the upgrade
 to 9.10 went well. It took only a few hours (a similar attempt with
 Windows would have taken days).&lt;/p&gt;
@@ -81,20 +69,14 @@ bought?), and with my cell phone.&lt;/p&gt;
 in Ubuntu Jaunty and in Karmic (I should write a post about how I got it
 working).&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="penguins"/></entry><entry><title>Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-11T00:00:00-04:30</published><updated>2009-10-11T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-11:/blog/off-xp-and-into-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;This weekend I managed to take care of the
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="migration"/><category term="bluetooth"/><category term="vpn"/><category term="open-source"/></entry><entry><title>Off XP and into Ubuntu</title><link href="https://neogeny.github.io/blog/off-xp-and-into-ubuntu.html" rel="alternate"/><published>2009-10-11T00:00:00-04:30</published><updated>2009-10-11T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-10-11:/blog/off-xp-and-into-ubuntu.html</id><summary type="html">&lt;p&gt;This weekend I managed to take care of the
 problems that
 have kept me from transitioning my main workstation from XP to Ubuntu.&lt;/p&gt;
 &lt;p&gt;The details follow.&lt;/p&gt;
 &lt;div class="section" id="os-version"&gt;
 &lt;h2&gt;OS Version&lt;/h2&gt;
 &lt;p&gt;I downgraded to the 32-bit version of Ubuntu 9.04 (Jaunty). I found no
-advantages in running at 64bit, and plenty of …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;This weekend I managed to take care of the
+advantages in running at 64bit, and plenty of …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This weekend I managed to take care of the
 problems that
 have kept me from transitioning my main workstation from XP to Ubuntu.&lt;/p&gt;
 &lt;p&gt;The details follow.&lt;/p&gt;
@@ -193,20 +175,14 @@ tracking applet. MS Office documents, including invoices, print fine
 from OpenOffice, and that takes care of the rest. As I mentioned in a
 previous post, most of my writing is nowadays done on Web applications.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="penguins"/></entry><entry><title>Still on XP</title><link href="https://neogeny.github.io/blog/still-on-xp.html" rel="alternate"/><published>2009-07-19T00:00:00-04:30</published><updated>2009-07-19T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-07-19:/blog/still-on-xp.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="windows-xp"/><category term="migration"/><category term="virtualization"/><category term="open-source"/></entry><entry><title>Still on XP</title><link href="https://neogeny.github.io/blog/still-on-xp.html" rel="alternate"/><published>2009-07-19T00:00:00-04:30</published><updated>2009-07-19T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-07-19:/blog/still-on-xp.html</id><summary type="html">&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
 plan&lt;/a&gt; to migrate
 from Windows XP to Ubuntu Linux. The plan needed refining, and I needed
 the time to proceed with the migration. What follows is the transcript
 from my chalkboard with the current plan.&lt;/p&gt;
 &lt;div class="section" id="repartitioning"&gt;
 &lt;h2&gt;Repartitioning&lt;/h2&gt;
-&lt;p&gt;The backups and repartitioning …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
+&lt;p&gt;The backups and repartitioning …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;It's been a while since I last &lt;a class="reference external" href="https://neogeny.github.io/blog/back-to-xp.html"&gt;wrote about my
 plan&lt;/a&gt; to migrate
 from Windows XP to Ubuntu Linux. The plan needed refining, and I needed
 the time to proceed with the migration. What follows is the transcript
@@ -316,16 +292,10 @@ new US-International layout.&lt;/p&gt;
 Pentium D is an old machine with too little RAM.&lt;/p&gt;
 &lt;p&gt;Did I miss anything?&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="penguins"/></entry><entry><title>Back to XP</title><link href="https://neogeny.github.io/blog/back-to-xp.html" rel="alternate"/><published>2009-05-02T00:00:00-04:30</published><updated>2009-05-02T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-05-02:/blog/back-to-xp.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="windows-xp"/><category term="migration"/><category term="planning"/><category term="open-source"/></entry><entry><title>Back to XP</title><link href="https://neogeny.github.io/blog/back-to-xp.html" rel="alternate"/><published>2009-05-02T00:00:00-04:30</published><updated>2009-05-02T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-05-02:/blog/back-to-xp.html</id><summary type="html">&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
 run Windows. My first personal computer run HP Basic, the second CP/M,
 the third MS/DOS, and after a short and unsuccessful stint with a Mac,
-my professional work started with MS Windows 2.0, and stayed on Windows …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
+my professional work started with MS Windows 2.0, and stayed on Windows …&lt;/p&gt;</summary><content type="html">&lt;p&gt;There are historical and circumnstantial reasons for my continuing to
 run Windows. My first personal computer run HP Basic, the second CP/M,
 the third MS/DOS, and after a short and unsuccessful stint with a Mac,
 my professional work started with MS Windows 2.0, and stayed on Windows
@@ -481,17 +451,11 @@ trying to make the switch.&lt;/p&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;This report may be updated or corrected later.&lt;/p&gt;
-</content><category term="penguins"/></entry><entry><title>Quién va arriba?</title><link href="https://neogeny.github.io/blog/quien-va-arriba.html" rel="alternate"/><published>2007-07-31T00:00:00-04:00</published><updated>2007-07-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-07-31:/blog/quien-va-arriba.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="windows-xp"/><category term="migration"/><category term="open-source"/></entry><entry><title>Quién va arriba?</title><link href="https://neogeny.github.io/blog/quien-va-arriba.html" rel="alternate"/><published>2007-07-31T00:00:00-04:00</published><updated>2007-07-31T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-07-31:/blog/quien-va-arriba.html</id><summary type="html">&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
 hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
 GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&amp;quot; a
 1990x1400.&lt;/p&gt;
-&lt;p&gt;Una de las razones por las cuales compre desktop es …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
+&lt;p&gt;Una de las razones por las cuales compre desktop es …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hace unas semanas compré un computador de escritorio con todos los
 hierros que el presupuesto predeterminado podía lograr: Pentium D a 3.0
 GHz, 1 Gb de RAM, 160 Gb en disco, etc., más un monitor de 19&amp;quot; a
 1990x1400.&lt;/p&gt;
@@ -534,20 +498,14 @@ emplear el tiempo de investigación necesario para asegurarse de que el
 hardware disponible va a subir en Linux en unas pocas horas de
 configuración en vez de en semanas hacking.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="penguins"/></entry><entry><title>Setting up a CVS repository on Linux</title><link href="https://neogeny.github.io/blog/setting-up-a-cvs-repository-on-linux.html" rel="alternate"/><published>2006-09-05T00:00:00-04:00</published><updated>2006-09-05T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-05:/blog/setting-up-a-cvs-repository-on-linux.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+</content><category term="penguins"/><category term="linux"/><category term="ubuntu"/><category term="windows-xp"/><category term="virtualization"/><category term="kvm"/><category term="open-source"/></entry><entry><title>Setting up a CVS repository on Linux</title><link href="https://neogeny.github.io/blog/setting-up-a-cvs-repository-on-linux.html" rel="alternate"/><published>2006-09-05T00:00:00-04:00</published><updated>2006-09-05T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2006-09-05:/blog/setting-up-a-cvs-repository-on-linux.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
 It takes more than you'd think to bootstrap a team&lt;/blockquote&gt;
 &lt;p&gt;One might think that it is enough to create a directory under
 &lt;strong&gt;/var/lib/cvs&lt;/strong&gt; to get a new CVS repository working for a project. My
-experience is that it takes much more to set up a CVS repository that …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;div class="line-block"&gt;
+experience is that it takes much more to set up a CVS repository that …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
@@ -693,4 +651,4 @@ $ addproject myproject
 &lt;p&gt;That is exactly what I've done for gigs in which projects are created
 frequently. In this case, writing the script is left as homework =)&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="penguins"/></entry></feed>
+</content><category term="penguins"/><category term="linux"/><category term="cvs"/><category term="version-control"/><category term="sysadmin"/><category term="tutorial"/><category term="open-source"/></entry></feed>

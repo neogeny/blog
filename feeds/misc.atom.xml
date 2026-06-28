@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - misc</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/misc.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-12T00:00:00-04:30</updated><entry><title>Mamá Mafalda</title><link href="https://neogeny.github.io/blog/mama-mafalda.html" rel="alternate"/><published>2013-05-12T00:00:00-04:30</published><updated>2013-05-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-12:/blog/mama-mafalda.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - misc</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/misc.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-12T00:00:00-04:30</updated><entry><title>Mamá Mafalda</title><link href="https://neogeny.github.io/blog/mama-mafalda.html" rel="alternate"/><published>2013-05-12T00:00:00-04:30</published><updated>2013-05-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-12:/blog/mama-mafalda.html</id><summary type="html">&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
 posibles, parecerles tan tedioso?&lt;/p&gt;
 &lt;p&gt;Es lo que me atormentaba cuando mis hijos comenzaron a aprender a
 leer. Para ellos era otra tarea sin significado, peor que tener que
 recoger los juguetes al terminar de jugar.&lt;/p&gt;
-&lt;p&gt;Pero llegó un día …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
+&lt;p&gt;Pero llegó un día …&lt;/p&gt;</summary><content type="html">&lt;p&gt;¿Cómo podía algo tan maravilloso, la puerta a todas las vidas
 posibles, parecerles tan tedioso?&lt;/p&gt;
 &lt;p&gt;Es lo que me atormentaba cuando mis hijos comenzaron a aprender a
 leer. Para ellos era otra tarea sin significado, peor que tener que
@@ -26,19 +20,13 @@ razón por la cual tengo que recordar a Mafalda en el Día de las Madres,
 a pesar de que Mafalda nunca dejó de ser niña.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image0" src="https://neogeny.github.io/blog/images/mafalda_madres.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;¡Feliz Día de las Madres, Mafalda!&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>¿IPcalipsis?</title><link href="https://neogeny.github.io/blog/ipcalipsis.html" rel="alternate"/><published>2011-02-04T00:00:00-04:30</published><updated>2011-02-04T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-02-04:/blog/ipcalipsis.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
+</content><category term="misc"/><category term="books"/><category term="reading"/><category term="childhood"/><category term="mafalda"/><category term="reflection"/></entry><entry><title>¿IPcalipsis?</title><link href="https://neogeny.github.io/blog/ipcalipsis.html" rel="alternate"/><published>2011-02-04T00:00:00-04:30</published><updated>2011-02-04T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-02-04:/blog/ipcalipsis.html</id><summary type="html">&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
 &lt;p&gt;Las &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Direcci%C3%B3n_IP"&gt;direcciones
 IP&lt;/a&gt; son la suerte de
 &lt;em&gt;números telefónicos&lt;/em&gt; que los dispositivos conectados a la Internet usan
 para ubicarse y comunicarse unos con otros. Hoy corre bajo el titular
 &lt;em&gt;IPcalipsis&lt;/em&gt; la voz de que &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Iana"&gt;IANA&lt;/a&gt;,
-el organismo encargado de administrar las mas de cuatro mil …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
+el organismo encargado de administrar las mas de cuatro mil …&lt;/p&gt;</summary><content type="html">&lt;p&gt;¿Se acabaron las direcciones IP?&lt;/p&gt;
 &lt;p&gt;Las &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Direcci%C3%B3n_IP"&gt;direcciones
 IP&lt;/a&gt; son la suerte de
 &lt;em&gt;números telefónicos&lt;/em&gt; que los dispositivos conectados a la Internet usan
@@ -127,17 +115,11 @@ de todos los fabricantes de dispositivos con capacidad de red en el
 mundo, pero ya están en curso los planes para una transición a un número
 mayor de identificadores, y lo más probable es que pocos nos demos por
 enterado de cuando participamos en el cambio.&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>Respaldar Gmail</title><link href="https://neogeny.github.io/blog/respaldar-gmail.html" rel="alternate"/><published>2010-12-07T00:00:00-04:30</published><updated>2010-12-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-12-07:/blog/respaldar-gmail.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
+</content><category term="misc"/><category term="technology"/><category term="internet"/><category term="ipv4"/><category term="ipv6"/><category term="networking"/><category term="iana"/></entry><entry><title>Respaldar Gmail</title><link href="https://neogeny.github.io/blog/respaldar-gmail.html" rel="alternate"/><published>2010-12-07T00:00:00-04:30</published><updated>2010-12-07T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-12-07:/blog/respaldar-gmail.html</id><summary type="html">&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
 repentinamente es mucho mayor que la de que Gmail pierda nuestro correo
 electrónico. Pero tener un respaldo no sólo contribuye a nuestra
 tranquilidad, sino que también nos permite acceder a los mensajes cuando
-no disponemos de acceso a la Internet …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
+no disponemos de acceso a la Internet …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Es verdad. La probabilidad de que nuestro disco duro muera
 repentinamente es mucho mayor que la de que Gmail pierda nuestro correo
 electrónico. Pero tener un respaldo no sólo contribuye a nuestra
 tranquilidad, sino que también nos permite acceder a los mensajes cuando
@@ -176,19 +158,13 @@ tantos computadores queramos, aún cuando no haya conexión a Internet.&lt;/p&gt
 &lt;p&gt;Hay otras maneras de respaldar nuestros mensajes en Gmail, pero ésta
 es, en mi opinión, la más sencilla y la más conveniente.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(No dejen de comentar sus experiencias con este consejo)&lt;/em&gt;&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>500 GiB</title><link href="https://neogeny.github.io/blog/500-gib.html" rel="alternate"/><published>2010-11-28T00:00:00-04:30</published><updated>2010-11-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-11-28:/blog/500-gib.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Los discos duros de un
+</content><category term="misc"/><category term="technology"/><category term="gmail"/><category term="backup"/><category term="thunderbird"/><category term="imap"/><category term="tutorial"/></entry><entry><title>500 GiB</title><link href="https://neogeny.github.io/blog/500-gib.html" rel="alternate"/><published>2010-11-28T00:00:00-04:30</published><updated>2010-11-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2010-11-28:/blog/500-gib.html</id><summary type="html">&lt;p&gt;Los discos duros de un
 &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Terabyte"&gt;terabyte&lt;/a&gt; (1000
 &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Gigabyte"&gt;gigabytes&lt;/a&gt;) están aquí. Su
 mayor capacidad, mayor velocidad, y su relación precio/densidad de
 información hacen tentador el usarlos para resolver el perenne problema
 de falta de espacio en este universo digital cada vez más multimedios.&lt;/p&gt;
-&lt;p&gt;Pero... los discos duros son los componentes …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Los discos duros de un
+&lt;p&gt;Pero... los discos duros son los componentes …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Los discos duros de un
 &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Terabyte"&gt;terabyte&lt;/a&gt; (1000
 &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Gigabyte"&gt;gigabytes&lt;/a&gt;) están aquí. Su
 mayor capacidad, mayor velocidad, y su relación precio/densidad de
@@ -284,17 +260,11 @@ requiere en una estrategia de contingencia basada en mitigación de
 riesgos.&amp;nbsp;En otra oportunidad escribiré sobre qué es exactamente un &lt;em&gt;buen
 sistema de respaldos&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="misc"/></entry><entry><title>La tecnología en contra del arte</title><link href="https://neogeny.github.io/blog/la-tecnologia-en-contra-del-arte.html" rel="alternate"/><published>2009-06-20T00:00:00-04:30</published><updated>2009-06-20T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-06-20:/blog/la-tecnologia-en-contra-del-arte.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
+</content><category term="misc"/><category term="technology"/><category term="hard-drives"/><category term="backup"/><category term="storage"/><category term="data"/><category term="tutorial"/></entry><entry><title>La tecnología en contra del arte</title><link href="https://neogeny.github.io/blog/la-tecnologia-en-contra-del-arte.html" rel="alternate"/><published>2009-06-20T00:00:00-04:30</published><updated>2009-06-20T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-06-20:/blog/la-tecnologia-en-contra-del-arte.html</id><summary type="html">&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
 mitad de los '80, cuando en las competencias tenían que estar varios
 jueces para decretar justamente los toques. Comencé con florete, que ya
 era eléctrico, pero en el cual el juez todavía tenía que recitar los
-movimientos y la técnica …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
+movimientos y la técnica …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Practiqué esgrima mientras estuve en la universidad, en la primera
 mitad de los '80, cuando en las competencias tenían que estar varios
 jueces para decretar justamente los toques. Comencé con florete, que ya
 era eléctrico, pero en el cual el juez todavía tenía que recitar los
@@ -313,17 +283,11 @@ quien sólo ataca y no defiende.&lt;/p&gt;
 &lt;p&gt;Mis dos hijos son esgrimistas (y yo tecnólogo). Espero tener la
 oportunidad de contribuir a que cambien las reglas (no importa la
 tecnología), para que vuelva el arte.&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>Wikipedia en Español</title><link href="https://neogeny.github.io/blog/wikipedia-en-espanol.html" rel="alternate"/><published>2009-01-15T00:00:00-04:30</published><updated>2009-01-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-01-15:/blog/wikipedia-en-espanol.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
+</content><category term="misc"/><category term="technology"/><category term="art"/><category term="fencing"/><category term="sports"/><category term="martial-arts"/></entry><entry><title>Wikipedia en Español</title><link href="https://neogeny.github.io/blog/wikipedia-en-espanol.html" rel="alternate"/><published>2009-01-15T00:00:00-04:30</published><updated>2009-01-15T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-01-15:/blog/wikipedia-en-espanol.html</id><summary type="html">&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
 en español a la que tiene la versión en inglés.&lt;/p&gt;
 &lt;p&gt;En este momento hay 2683000+ artículos en Wikipedia en inglés, y sólo
 431000+ artículos en la versión en español.&lt;/p&gt;
-&lt;p&gt;Cubrir la diferencia ya sería un trabajo monumental, pero la situación …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
+&lt;p&gt;Cubrir la diferencia ya sería un trabajo monumental, pero la situación …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hay frecuentes discusiones sobre cómo elevar la calidad de Wikipedia
 en español a la que tiene la versión en inglés.&lt;/p&gt;
 &lt;p&gt;En este momento hay 2683000+ artículos en Wikipedia en inglés, y sólo
 431000+ artículos en la versión en español.&lt;/p&gt;
@@ -336,18 +300,12 @@ bastante severas.&lt;/p&gt;
 &lt;p&gt;Tal vez lo mejor sea aceptar la realidad del inglés como &amp;quot;lingua
 franca&amp;quot; en la actualidad, y enfocar el esfuerzo en proveer acceso al
 aprendizaje del idioma a las masas.&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>Privacidad en Internet</title><link href="https://neogeny.github.io/blog/privacidad-en-internet.html" rel="alternate"/><published>2008-07-12T00:00:00-04:30</published><updated>2008-07-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2008-07-12:/blog/privacidad-en-internet.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;No existe.&lt;/p&gt;
+</content><category term="misc"/><category term="wikipedia"/><category term="spanish"/><category term="language"/><category term="knowledge"/><category term="quality"/></entry><entry><title>Privacidad en Internet</title><link href="https://neogeny.github.io/blog/privacidad-en-internet.html" rel="alternate"/><published>2008-07-12T00:00:00-04:30</published><updated>2008-07-12T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2008-07-12:/blog/privacidad-en-internet.html</id><summary type="html">&lt;p&gt;No existe.&lt;/p&gt;
 &lt;p&gt;Mi intención no es fomentar la paranoia, sino promover el
 entendimiento sobre las consecuencias de participar en la Internet.&lt;/p&gt;
 &lt;p&gt;Tengo un amigo que cumple años por estos días, y con quién no he
 tenido contacto en mucho tiempo. Decidí buscarlo en la red.&lt;/p&gt;
-&lt;p&gt;No solo encontré sus direcciones …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;No existe.&lt;/p&gt;
+&lt;p&gt;No solo encontré sus direcciones …&lt;/p&gt;</summary><content type="html">&lt;p&gt;No existe.&lt;/p&gt;
 &lt;p&gt;Mi intención no es fomentar la paranoia, sino promover el
 entendimiento sobre las consecuencias de participar en la Internet.&lt;/p&gt;
 &lt;p&gt;Tengo un amigo que cumple años por estos días, y con quién no he
@@ -378,10 +336,7 @@ medio:&lt;/p&gt;
 &lt;a class="reference external" href="http://www.google.co.ve/search"&gt;http://www.google.co.ve/search&lt;/a&gt;?q=juancarlo+añez&lt;/blockquote&gt;
 &lt;p&gt;Se que no todo el mundo desearía estar así de expuesto, así que lo
 mejor es, de participar en la Internet, hacerlo a consciencia.&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>Huso Horario Venezolano en Ubuntu</title><link href="https://neogeny.github.io/blog/huso-horario-venezolano-en-ubuntu.html" rel="alternate"/><published>2007-09-22T00:00:00-04:00</published><updated>2007-09-22T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-22:/blog/huso-horario-venezolano-en-ubuntu.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;ul class="simple"&gt;
+</content><category term="misc"/><category term="technology"/><category term="privacy"/><category term="internet"/><category term="social-media"/><category term="venezuela"/></entry><entry><title>Huso Horario Venezolano en Ubuntu</title><link href="https://neogeny.github.io/blog/huso-horario-venezolano-en-ubuntu.html" rel="alternate"/><published>2007-09-22T00:00:00-04:00</published><updated>2007-09-22T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-22:/blog/huso-horario-venezolano-en-ubuntu.html</id><summary type="html">&lt;ul class="simple"&gt;
 &lt;li&gt;Actualizado para el cambio de huso horario en 2007/12/09 03:00.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;En otro
@@ -390,10 +345,7 @@ expliqué como y por qué lidiar con el cambio de huso horario en
 Venezuela. Aquí explico cómo hacerlo sobre Ubuntu Linux.&lt;/p&gt;
 &lt;p&gt;Para lograrlo en una distribución Ubuntu 7.04 hice lo siguiente:&lt;/p&gt;
 &lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p class="first"&gt;Respaldar el …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Respaldar el …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;ul class="simple"&gt;
 &lt;li&gt;Actualizado para el cambio de huso horario en 2007/12/09 03:00.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;En otro
@@ -429,10 +381,7 @@ aparezcan como las resaltadas:&lt;/p&gt;
 zdump -v America/Caracas
 &lt;/pre&gt;
 &lt;/blockquote&gt;
-</content><category term="misc"/></entry><entry><title>Nuevo Huso Horario para Venezuela</title><link href="https://neogeny.github.io/blog/nuevo-huso-horario-para-venezuela.html" rel="alternate"/><published>2007-09-18T00:00:00-04:00</published><updated>2007-09-18T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-18:/blog/nuevo-huso-horario-para-venezuela.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;ul&gt;
+</content><category term="misc"/><category term="technology"/><category term="ubuntu"/><category term="linux"/><category term="venezuela"/><category term="timezone"/><category term="sysadmin"/></entry><entry><title>Nuevo Huso Horario para Venezuela</title><link href="https://neogeny.github.io/blog/nuevo-huso-horario-para-venezuela.html" rel="alternate"/><published>2007-09-18T00:00:00-04:00</published><updated>2007-09-18T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-09-18:/blog/nuevo-huso-horario-para-venezuela.html</id><summary type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;vo.2 Agregada nota sobre nueva fecha para el cambio de horario.&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 NOTA: El cambio de huso horario será el 9 de diciembre de 2007 a las
@@ -441,10 +390,7 @@ NOTA: El cambio de huso horario será el 9 de diciembre de 2007 a las
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;El anunciado cambio de huso horario en Venezuela tiene una aplicación
-sencilla en la mayoría de los casos: atrasar el …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;ul&gt;
+sencilla en la mayoría de los casos: atrasar el …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;vo.2 Agregada nota sobre nueva fecha para el cambio de horario.&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 NOTA: El cambio de huso horario será el 9 de diciembre de 2007 a las
@@ -495,19 +441,13 @@ para las distintas distribuciones en la red.&lt;/p&gt;
 &lt;p&gt;Los usuarios de celulares, agendas electrónicas, y localizadores
 geosatelitales probablemente tendrán que esperar a que una actualización
 adecuada del software para el dispositivo se haga disponible.&lt;/p&gt;
-</content><category term="misc"/></entry><entry><title>Sobre la Revisión por Pares</title><link href="https://neogeny.github.io/blog/sobre-la-revision-por-pares.html" rel="alternate"/><published>2007-06-06T00:00:00-04:00</published><updated>2007-06-06T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-06-06:/blog/sobre-la-revision-por-pares.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
+</content><category term="misc"/><category term="technology"/><category term="venezuela"/><category term="timezone"/><category term="configuration"/><category term="tutorial"/></entry><entry><title>Sobre la Revisión por Pares</title><link href="https://neogeny.github.io/blog/sobre-la-revision-por-pares.html" rel="alternate"/><published>2007-06-06T00:00:00-04:00</published><updated>2007-06-06T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-06-06:/blog/sobre-la-revision-por-pares.html</id><summary type="html">&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
 &lt;a class="reference external" href="http://pedrogtit.blogspot.com/"&gt;Pedro&lt;/a&gt;escribió sobre &amp;quot;peer
 reviews&amp;quot;.&lt;/p&gt;
 &lt;p&gt;[versión 0.1]&lt;/p&gt;
 &lt;p&gt;En el mundo del software una revisión por pares no es solo una
 oportunidad para mejorar la calidad del producto (el &amp;quot;código fuente&amp;quot;) a
-través de la detección temprana de defectos, como …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
+través de la detección temprana de defectos, como …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Van algunos comentarios en torno al artículo que mi amigo
 &lt;a class="reference external" href="http://pedrogtit.blogspot.com/"&gt;Pedro&lt;/a&gt;escribió sobre &amp;quot;peer
 reviews&amp;quot;.&lt;/p&gt;
 &lt;p&gt;[versión 0.1]&lt;/p&gt;
@@ -597,4 +537,4 @@ que sea repetitiva y con ello proclive a errores.&lt;/li&gt;
 &lt;p&gt;Una revisión por pares no es solo una oportunidad para detectar y
 corregir los errores de hoy, sino para aprender, y así poder hacer del
 trabajo de manera más fácil y mejor en el futuro.&lt;/p&gt;
-</content><category term="misc"/></entry></feed>
+</content><category term="misc"/><category term="software-engineering"/><category term="peer-review"/><category term="code-quality"/><category term="best-practices"/></entry></feed>

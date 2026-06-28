@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - caudex</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/caudex.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2009-07-28T00:00:00-04:30</updated><entry><title>The Exagon</title><link href="https://neogeny.github.io/blog/the-exagon.html" rel="alternate"/><published>2009-07-28T00:00:00-04:30</published><updated>2009-07-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-07-28:/blog/the-exagon.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Since the early days of software development we learned that there
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - caudex</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/caudex.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2009-07-28T00:00:00-04:30</updated><entry><title>The Exagon</title><link href="https://neogeny.github.io/blog/the-exagon.html" rel="alternate"/><published>2009-07-28T00:00:00-04:30</published><updated>2009-07-28T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2009-07-28:/blog/the-exagon.html</id><summary type="html">&lt;p&gt;Since the early days of software development we learned that there
 were some forces that were determinant for a project's success. We
 identified the triangle of scope, time, and resources (effort), and used
 to say to our users: &amp;quot;pick two&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Soon afterwards we understood that those three dimensions were not …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;Since the early days of software development we learned that there
+&lt;p&gt;Soon afterwards we understood that those three dimensions were not …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since the early days of software development we learned that there
 were some forces that were determinant for a project's success. We
 identified the triangle of scope, time, and resources (effort), and used
 to say to our users: &amp;quot;pick two&amp;quot;.&lt;/p&gt;
@@ -47,18 +41,12 @@ Only some of them will be sucessful.&lt;/p&gt;
 to have a succesful software project. They are now: scope, time,
 resources, architecture, and process. A fully connected exagonical
 graph.&lt;/p&gt;
-</content><category term="caudex"/></entry><entry><title>Why not Python</title><link href="https://neogeny.github.io/blog/why-not-python.html" rel="alternate"/><published>2007-05-15T00:00:00-04:00</published><updated>2007-05-15T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-05-15:/blog/why-not-python.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;2010-03-12 Amendment: After doing the research right, my conclusion
+</content><category term="caudex"/><category term="software-engineering"/><category term="project-management"/><category term="agile"/><category term="software-design"/><category term="quality"/></entry><entry><title>Why not Python</title><link href="https://neogeny.github.io/blog/why-not-python.html" rel="alternate"/><published>2007-05-15T00:00:00-04:00</published><updated>2007-05-15T00:00:00-04:00</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2007-05-15:/blog/why-not-python.html</id><summary type="html">&lt;p&gt;&lt;em&gt;2010-03-12 Amendment: After doing the research right, my conclusion
 is that the tools&lt;/em&gt;&lt;strong&gt;*are*&lt;/strong&gt;&lt;em&gt;available for Python, that Python is an
 excellent software development platform, and one that allows more
 productivity than, say, Java.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This article is about programming languages in the context of
-professional software work. While considering several …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;&lt;em&gt;2010-03-12 Amendment: After doing the research right, my conclusion
+professional software work. While considering several …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;2010-03-12 Amendment: After doing the research right, my conclusion
 is that the tools&lt;/em&gt;&lt;strong&gt;*are*&lt;/strong&gt;&lt;em&gt;available for Python, that Python is an
 excellent software development platform, and one that allows more
 productivity than, say, Java.&lt;/em&gt;&lt;/p&gt;
@@ -183,4 +171,4 @@ features, &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ty
 and &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Duck_Typing"&gt;duck typing&lt;/a&gt;.
 You name it. None of then offset the pragmatic need for a complete
 development environment that makes us competitive at what we do.&lt;/p&gt;
-</content><category term="caudex"/></entry></feed>
+</content><category term="caudex"/><category term="programming"/><category term="python"/><category term="java"/><category term="ide"/><category term="tooling"/><category term="productivity"/></entry></feed>

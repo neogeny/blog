@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - snakes</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/snakes.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-24T00:00:00-04:30</updated><entry><title>From PyDev to VIM, A Desktop Trick</title><link href="https://neogeny.github.io/blog/from-pydev-to-vim-a-desktop-trick.html" rel="alternate"/><published>2013-05-24T00:00:00-04:30</published><updated>2013-05-24T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-24:/blog/from-pydev-to-vim-a-desktop-trick.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I've written elsewhere about how after having procured a laptop that
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Neogeny - snakes</title><link href="https://neogeny.github.io/blog/" rel="alternate"/><link href="https://neogeny.github.io/blog/feeds/snakes.atom.xml" rel="self"/><id>https://neogeny.github.io/blog/</id><updated>2013-05-24T00:00:00-04:30</updated><entry><title>From PyDev to VIM, A Desktop Trick</title><link href="https://neogeny.github.io/blog/from-pydev-to-vim-a-desktop-trick.html" rel="alternate"/><published>2013-05-24T00:00:00-04:30</published><updated>2013-05-24T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2013-05-24:/blog/from-pydev-to-vim-a-desktop-trick.html</id><summary type="html">&lt;p&gt;I've written elsewhere about how after having procured a laptop that
 could finally run Eclipse+PyDev well, I decided to switch to VIM as my
 main editor for Python programming.&lt;/p&gt;
 &lt;p&gt;This time I won't talk about why I was so tempted to switch to a
-keyboard-friendly environment, but about one …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I've written elsewhere about how after having procured a laptop that
+keyboard-friendly environment, but about one …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've written elsewhere about how after having procured a laptop that
 could finally run Eclipse+PyDev well, I decided to switch to VIM as my
 main editor for Python programming.&lt;/p&gt;
 &lt;p&gt;This time I won't talk about why I was so tempted to switch to a
@@ -36,18 +30,12 @@ thought about going to 4x4.&lt;/p&gt;
 really, really fast. It sure beats click-click-click required even by
 the best IDE's.&lt;/p&gt;
 &lt;p&gt;And that is the trick!&lt;/p&gt;
-</content><category term="snakes"/></entry><entry><title>Project Euler, My Way</title><link href="https://neogeny.github.io/blog/project-euler-my-way.html" rel="alternate"/><published>2011-05-09T00:00:00-04:30</published><updated>2011-05-09T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-05-09:/blog/project-euler-my-way.html</id><summary type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
+</content><category term="snakes"/><category term="python"/><category term="vim"/><category term="eclipse"/><category term="ide"/><category term="productivity"/><category term="workflow"/></entry><entry><title>Project Euler, My Way</title><link href="https://neogeny.github.io/blog/project-euler-my-way.html" rel="alternate"/><published>2011-05-09T00:00:00-04:30</published><updated>2011-05-09T00:00:00-04:30</updated><author><name>Apalala</name></author><id>tag:neogeny.github.io,2011-05-09:/blog/project-euler-my-way.html</id><summary type="html">&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
 Euler&lt;/a&gt; to exercise my mind, augment my
 knowledge in general algorithms and maths in general, and to gain
 practice with specific programming languages, their standard libraries,
 and the many specialised libraries available out there.&lt;/p&gt;
-&lt;p&gt;Most of the problems so far have been solved …&lt;/p&gt;</summary><content type="html">&lt;!-- :tags: --&gt;
-&lt;!-- :category: --&gt;
-&lt;!-- :summary: --&gt;
-&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
+&lt;p&gt;Most of the problems so far have been solved …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I started solving the problems in &lt;a class="reference external" href="http://projecteuler.net/"&gt;Project
 Euler&lt;/a&gt; to exercise my mind, augment my
 knowledge in general algorithms and maths in general, and to gain
 practice with specific programming languages, their standard libraries,
@@ -94,4 +82,4 @@ already solved the problems, you're only interested in the reusable
 parts, or you have interest in reviewing &lt;a class="reference external" href="https://bitbucket.org/apalala/project_euler/"&gt;what I have
 written&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/apalala/project_euler/"&gt;https://bitbucket.org/apalala/project_euler/&lt;/a&gt;&lt;/p&gt;
-</content><category term="snakes"/></entry></feed>
+</content><category term="snakes"/><category term="python"/><category term="project-euler"/><category term="algorithms"/><category term="mathematics"/><category term="programming"/></entry></feed>
